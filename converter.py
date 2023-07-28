@@ -20,7 +20,6 @@ try:
         md_file = re.sub(r'\.html$', '.md', html_file)
         markdown = io.open(md_file, "w")
         markdown.writelines(text)
-
 except Exception as e:
     print("\n==========================\n")
     print(html_file)
