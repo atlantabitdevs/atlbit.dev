@@ -1,3 +1,9 @@
+---
+date: '2023-03-22.md'
+title: 'Bitcoin Socratic Seminar #5: We're Back!'
+type: Doc
+---
+
 # Bitcoin Socratic Seminar #5
 
 ![Poster for Bitcoin Socratic Seminar
