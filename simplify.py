@@ -35,7 +35,7 @@ dates = {
 dir = f'{os.path.abspath(".")}'
 markdowns = os.listdir(f'{dir}/markdowns')
 
-def build_header(split_text, markdown):
+def build_header(split_text):
     header_title = split_text[1]
     header_date = dates[header_title]
     if header_title.find('Socratic') != -1:
@@ -60,7 +60,7 @@ def simplify(markdowns):
             text = f.read()
             split_text = re.split(r"(#{1}\s)(.*)", text)
             split_text = split_text[1:-15]
-            header, date, title = build_header(split_text, markdown)
+            header, date, title = build_header(split_text)
             split_text.insert(0, header)
             joined_text = "".join(split_text)
 
