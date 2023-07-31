@@ -93,4 +93,3 @@ No comments to show.
 SizeCondensed.png)](index.html)
 
 Proudly powered by [WordPress](https://wordpress.org/).
-
