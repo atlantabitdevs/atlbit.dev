@@ -71,38 +71,4 @@ Lightning network in 0.65 seconds.
   * [Tweet](https://twitter.com/renepickhardt/status/1501898812620685318?s=12)
   * [Mailing List Post](https://lists.linuxfoundation.org/pipermail/lightning-dev/2022-March/003510.html)
 
-### Fiat Swaps - Lightning based stablecoin 💰
-
-Joko publishes a technique for constructing stablecoins over Lightning and
-Liquid.
-
-  * [Tweet](https://twitter.com/jokoono/status/1501213103714971666)
-  * [Code](https://github.com/sputn1ck/betterchivo)
-
-### Extras 🎉
-
-Last minute additions if there's time.
-
-#### First Tether stablecoin TX in a Lightning channel - Synonym
-
-[https://twitter.com/Synonym_to/status/1506388477268660238?s=20&t=n4IL3_H-kd-
-YMsFcN0VNIg](https://twitter.com/Synonym_to/status/1506388477268660238?s=20&t=n4IL3_H-
-kd-YMsFcN0VNIg)
-
-#### Add support for BIP47 reusable payment codes to BDK
-
-<https://github.com/bitcoindevkit/bdk/pull/574>
-
-#### Automate Lightning Node Management with CLBOSS
-
-<https://medium.com/blockstream/automate-lightning-node-management-with-
-clboss-84be2e8a7555>
-
-Published March 16, 2022By [Stephen DeLorme](author/stephen/index.html)
-
-Categorized as [Socratic Seminars](category/socratic-seminars/index.html)
-Tagged [bitcoin](tag/bitcoin/index.html),
-[lightning](tag/lightning/index.html), [liquid](tag/liquid/index.html),
-[privacy](tag/privacy/index.html), [sidechains](tag/sidechains/index.html)
-
-#
+##

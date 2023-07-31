@@ -67,7 +67,7 @@ def simplify(markdowns):
         title = re.sub(r'[^A-Za-z0-9\s]+', '', title)
         title = title.replace(' ', '_').lower()
 
-        new_file = f'{dir}/simple-md/{date}-{title}'
+        new_file = f'{dir}/simple-md/{date}-{title}.md'
         with open(new_file, 'w') as new_file:
             new_file.write(joined_text)
             new_file.close
