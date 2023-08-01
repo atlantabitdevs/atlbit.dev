@@ -3,10 +3,9 @@ date: "2022-03-23"
 title: "Bitcoin Socratic Seminar #5"
 type: Doc
 ---
-# Bitcoin Socratic Seminar #5
 
 ![Poster for Bitcoin Socratic Seminar
-#5](content/uploads/2022/03/ATLBitDevs_2022-03-23_socratic-
+#5](https://atlantabitdevs.org/content/uploads/2022/03/ATLBitDevs_2022-03-23_socratic-
 seminar-1568x882.png)
 
 It's time for the [first Atlanta BitDevs Socratic Seminar of
@@ -26,7 +25,7 @@ are formatted to foster debate, information sharing and lively discussion.
 
 ## Special Presentation
 
-![](content/uploads/2022/03/pleb-fm-leaderboard-1024x576.jpg)
+![](https://atlantabitdevs.org/content/uploads/2022/03/pleb-fm-leaderboard-1024x576.jpg)
 
 This past weekend, members of Atlanta BitDevs participated in the SatsX
 hackathon and took the Overall Best Prize for **PlebFM** , an auction-style
@@ -69,5 +68,3 @@ Lightning network in 0.65 seconds.
 
   * [Tweet](https://twitter.com/renepickhardt/status/1501898812620685318?s=12)
   * [Mailing List Post](https://lists.linuxfoundation.org/pipermail/lightning-dev/2022-March/003510.html)
-
-##

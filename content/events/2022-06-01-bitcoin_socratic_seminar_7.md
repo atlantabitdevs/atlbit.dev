@@ -3,9 +3,8 @@ date: "2022-06-01"
 title: "Bitcoin Socratic Seminar #7"
 type: Doc
 ---
-# Bitcoin Socratic Seminar #7
 
-![](content/uploads/2022/05/ATLBitDevs_2022-06-01_socratic-
+![](https://atlantabitdevs.org/content/uploads/2022/05/ATLBitDevs_2022-06-01_socratic-
 seminar-1568x882.jpg)
 
 It’s almost time for [Bitcoin Socratic Seminar
@@ -27,7 +26,7 @@ We'll start off with special announcement for the Atlanta community.
 
 ## Discussion Topics
 
-![Harsha Goli](content/uploads/2022/05/ATLBitDevs_2022-06-01_socratic-
+![Harsha Goli](https://atlantabitdevs.org/content/uploads/2022/05/ATLBitDevs_2022-06-01_socratic-
 seminar_harsha_simplified-1024x576.jpg)
 
 Then, we'll have an open discussion about the bitcoin lightning network with
@@ -130,12 +129,3 @@ Watch this video if you'd like to hear
   * [Upcoming LND v0.15.0 will create and spend from Taproot addresses](https://github.com/lightningnetwork/lnd/blob/master/docs/release-notes/release-notes-0.15.0.md)
   * [Tauros adds lightning support](https://tauros.io/)
   * [Blocktank LSP launches](https://twitter.com/Synonym_to/status/1519282079007223808)
-
-Published May 31, 2022By [Stephen DeLorme](author/stephen/index.html)
-
-Categorized as [Socratic Seminars](category/socratic-seminars/index.html)
-Tagged [bitcoin](tag/bitcoin/index.html),
-[lightning](tag/lightning/index.html), [taproot](tag/taproot/index.html),
-[taro](tag/taro/index.html)
-
-#

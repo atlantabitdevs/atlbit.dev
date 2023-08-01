@@ -3,9 +3,8 @@ date: "2022-11-30"
 title: "Bitcoin Socratic Seminar #13"
 type: Doc
 ---
-# Bitcoin Socratic Seminar #13
 
-![](content/uploads/2022/11/ATLBitDevs_2022-11-30_socratic-
+![](https://atlantabitdevs.org/content/uploads/2022/11/ATLBitDevs_2022-11-30_socratic-
 seminar-1-1568x882.jpg)
 
 It’s almost time for [Bitcoin Socratic Seminar
@@ -86,11 +85,3 @@ Ongoing debate over Full RBF and Bitcoin Core 24.
 
   * [Clara's mailing list post](https://lists.linuxfoundation.org/pipermail/lightning-dev/2022-November/003740.html)
   * [Unjamming Lightning: A Systematic Approach](https://github.com/s-tikhomirov/ln-jamming-simulator/blob/master/unjamming-lightning.pdf)
-
-Published November 28, 2022By [Stephen DeLorme](author/stephen/index.html)
-
-Categorized as [Socratic Seminars](category/socratic-seminars/index.html)
-Tagged [bitcoin](tag/bitcoin/index.html),
-[lightning](tag/lightning/index.html), [taproot](tag/taproot/index.html)
-
-#

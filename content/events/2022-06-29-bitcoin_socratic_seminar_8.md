@@ -3,9 +3,8 @@ date: "2022-06-29"
 title: "Bitcoin Socratic Seminar #8"
 type: Doc
 ---
-# Bitcoin Socratic Seminar #8
 
-![](content/uploads/2022/06/ATLBitDevs_2022-06-29_socratic-
+![](https://atlantabitdevs.org/content/uploads/2022/06/ATLBitDevs_2022-06-29_socratic-
 seminar-1568x882.jpg)
 
 It’s almost time for [Bitcoin Socratic Seminar
@@ -23,7 +22,7 @@ are formatted to foster debate, information sharing and lively discussion.
 
 ## Opening Presentation
 
-![](content/uploads/2022/06/ATLBitDevs_2022-06-29_jordan-1024x576.jpg)
+![](https://atlantabitdevs.org/content/uploads/2022/06/ATLBitDevs_2022-06-29_jordan-1024x576.jpg)
 
 Everyday, our privacy and control over personal data is slipping away. What
 can you do about it? Jordan Bravo will kick off the evening by sharing what
@@ -31,7 +30,7 @@ he's learned from his own journey to reclaim digital sovereignty: this
 includes things like encryption, privacy tools, self-hosted email, being your
 own cloud, and of course, bitcoin.
 
-EDIT: Here's [Jordan's presentation deck](content/uploads/2022/06/Seminar-
+EDIT: Here's [Jordan's presentation deck](https://atlantabitdevs.org/content/uploads/2022/06/Seminar-
 Digital-Self-Sovereignty-and-Privacy-2022-06-29.pptx) if you need a reminder
 about some of the tools he discussed.
 
@@ -75,12 +74,3 @@ and its importance for cryptography.
     * [Source code](https://github.com/dylanbathurst/lunch-money)
   * SimpiMint - simplicity for FediMint
   * [Terminus Pay](https://github.com/atlantabitdevs/terminus-pay-ui)
-
-Published June 28, 2022By [Stephen DeLorme](author/stephen/index.html)
-
-Categorized as [Socratic Seminars](category/socratic-seminars/index.html)
-Tagged [bitcoin](tag/bitcoin/index.html), [fedimint](tag/fedimint/index.html),
-[infosec](tag/infosec/index.html), [lightning](tag/lightning/index.html),
-[privacy](tag/privacy/index.html)
-
-#

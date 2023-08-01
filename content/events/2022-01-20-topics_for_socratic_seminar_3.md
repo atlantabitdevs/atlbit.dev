@@ -3,10 +3,9 @@ date: "2022-01-20"
 title: "Topics for Socratic Seminar #3"
 type: Doc
 ---
-# Topics for Socratic Seminar #3
 
 ![Atlanta BitDevs Socratic Seminar #3
-poster](content/uploads/2021/10/AtlantaBitDevs_Event-
+poster](https://atlantabitdevs.org/content/uploads/2021/10/AtlantaBitDevs_Event-
 Picture_Socratic3-1568x886.png)
 
 Here are the topics we'll be covering at [Socratic Seminar
@@ -65,13 +64,3 @@ borrowing several of those topics.
   * [TAPLEAF_UPDATE_VERIFY covenant opcode](https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2021-September/019419.html)
   * [BIP extensions](https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2021-September/019457.html)
   * [Proposal: Package Mempool Accept and Package RBF](https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2021-September/019464.html)
-
-Published October 12, 2021By [Stephen DeLorme](author/stephen/index.html)
-
-Categorized as [Socratic Seminars](category/socratic-seminars/index.html)
-Tagged [bitcoin](tag/bitcoin/index.html), [infosec](tag/infosec/index.html),
-[lightning](tag/lightning/index.html),
-[regulation](tag/regulation/index.html),
-[whitepaper](tag/whitepaper/index.html)
-
-#

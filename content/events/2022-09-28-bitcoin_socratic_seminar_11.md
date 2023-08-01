@@ -3,9 +3,8 @@ date: "2022-09-28"
 title: "Bitcoin Socratic Seminar #11"
 type: Doc
 ---
-# Bitcoin Socratic Seminar #11
 
-![](content/uploads/2022/09/ATLBitDevs_2022-09-28_socratic-
+![](https://atlantabitdevs.org/content/uploads/2022/09/ATLBitDevs_2022-09-28_socratic-
 seminar-1568x882.jpg)
 
 It’s almost time for [Bitcoin Socratic Seminar
@@ -97,14 +96,3 @@ A new implementation of chaumian eCash
   * [Cashu intro thread](https://twitter.com/CashuBTC/status/1573926052950335488)
   * [Github repo](https://github.com/callebtc/cashu)
   * [Calle's thread](https://twitter.com/callebtc/status/1569986110272540674)
-
-Published September 27, 2022By [Stephen DeLorme](author/stephen/index.html)
-
-Categorized as [Socratic Seminars](category/socratic-seminars/index.html)
-Tagged [bips](tag/bips/index.html), [bitcoin](tag/bitcoin/index.html),
-[design](tag/design/index.html), [ecash](tag/ecash/index.html),
-[fedimint](tag/fedimint/index.html), [infosec](tag/infosec/index.html),
-[lightning](tag/lightning/index.html), [taproot](tag/taproot/index.html),
-[ux](tag/ux/index.html)
-
-#

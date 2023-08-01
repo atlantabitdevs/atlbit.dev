@@ -3,9 +3,8 @@ date: "2023-03-29"
 title: "Bitcoin Socratic Seminar #16"
 type: Doc
 ---
-# Bitcoin Socratic Seminar #16
 
-![](content/uploads/2023/03/ATLBitDevs_2023-03-29_socratic-1568x882.jpg)
+![](https://atlantabitdevs.org/content/uploads/2023/03/ATLBitDevs_2023-03-29_socratic-1568x882.jpg)
 
 It’s almost time for [Bitcoin Socratic Seminar
 #16](https://www.meetup.com/atlantabitdevs/events/292080080/)!
@@ -95,12 +94,3 @@ TBD launches an LSP called c=
 [Blockchain startup Tari Labs wins restraining order against Lightning Labs
 over Taro protocol](https://www.theblock.co/post/219992/blockchain-startup-
 tari-labs-wins-restraining-order-against-lightning-labs-over-taro-protocol)
-
-Published March 29, 2023By [Stephen DeLorme](author/stephen/index.html)
-
-Categorized as [Socratic Seminars](category/socratic-seminars/index.html)
-Tagged [bitcoin](tag/bitcoin/index.html),
-[lightning](tag/lightning/index.html), [nostr](tag/nostr/index.html),
-[privacy](tag/privacy/index.html)
-
-#

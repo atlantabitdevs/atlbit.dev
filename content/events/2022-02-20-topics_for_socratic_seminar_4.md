@@ -3,10 +3,9 @@ date: "2022-02-20"
 title: "Topics for Socratic Seminar #4"
 type: Doc
 ---
-# Topics for Socratic Seminar #4
 
 ![Poster for Atlanta BitDevs Socratic Seminar #4 and Pre-TABConf
-Jam](content/uploads/2021/11/AtlantaBitDevs_Event-
+Jam](https://atlantabitdevs.org/content/uploads/2021/11/AtlantaBitDevs_Event-
 Picture_Socratic4-1568x886.png)
 
 Here are the topics for Socratic Seminar #4. 🍂
@@ -122,13 +121,3 @@ bull/)
 
 ["Square is considering building a Bitcoin mining
 system…"](https://twitter.com/jack/status/1449110239442345995)
-
-Published November 2, 2021By [Stephen DeLorme](author/stephen/index.html)
-
-Categorized as [Socratic Seminars](category/socratic-seminars/index.html)
-Tagged [bitcoin](tag/bitcoin/index.html), [infosec](tag/infosec/index.html),
-[lightning](tag/lightning/index.html), [merged mining](tag/merged-
-mining/index.html), [privacy](tag/privacy/index.html),
-[sidechains](tag/sidechains/index.html), [ux](tag/ux/index.html)
-
-#

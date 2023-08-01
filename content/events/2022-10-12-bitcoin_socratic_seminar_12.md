@@ -3,9 +3,8 @@ date: "2022-10-12"
 title: "Bitcoin Socratic Seminar #12"
 type: Doc
 ---
-# Bitcoin Socratic Seminar #12
 
-![](content/uploads/2022/10/ATLBitDevs_2022-10-12_socratic-
+![](https://atlantabitdevs.org/content/uploads/2022/10/ATLBitDevs_2022-10-12_socratic-
 seminar-1568x882.jpg)
 
 It’s almost time for [Bitcoin Socratic Seminar
@@ -23,7 +22,7 @@ are formatted to foster debate, information sharing and lively discussion.
 
 ## Opening Presentation
 
-![](content/uploads/2022/10/Screen-Shot-2022-10-12-at-9.45.57-AM-1024x523.png)
+![](https://atlantabitdevs.org/content/uploads/2022/10/Screen-Shot-2022-10-12-at-9.45.57-AM-1024x523.png)
 
 We'll start out talking about the [Summer of
 Bitcoin](https://www.summerofbitcoin.org/), which is a global internship
@@ -76,11 +75,3 @@ USD wallet that uses LNmarkets as a backend
 
   * [Video](https://drive.google.com/file/d/1l0msplKLgV8yT2YMXa_w4NcoGbd4AmwW/view)
   * [GitHub repo](https://github.com/nickfarrow/minimint/tree/frost)
-
-Published October 12, 2022By [Stephen DeLorme](author/stephen/index.html)
-
-Categorized as [Socratic Seminars](category/socratic-seminars/index.html)
-Tagged [bitcoin](tag/bitcoin/index.html), [fedimint](tag/fedimint/index.html),
-[lightning](tag/lightning/index.html), [taproot](tag/taproot/index.html)
-
-#

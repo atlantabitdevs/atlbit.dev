@@ -3,9 +3,8 @@ date: "2023-02-22"
 title: "Bitcoin Socratic Seminar #15"
 type: Doc
 ---
-# Bitcoin Socratic Seminar #15
 
-![](content/uploads/2023/02/ATLBitDevs_2023-02-22_socratic-1568x882.jpg)
+![](https://atlantabitdevs.org/content/uploads/2023/02/ATLBitDevs_2023-02-22_socratic-1568x882.jpg)
 
 It’s almost time for [Bitcoin Socratic Seminar
 #15](https://www.meetup.com/atlantabitdevs/events/290912849/)!
@@ -68,14 +67,3 @@ protocol/nips/commit/17ffd3ee4efa33c3f6abb4304d1c4dd998efc523) on the Nostr
 NIPs repo, which describes "zaps". Basically, sending lightning payments to
 other Nostr users. Nostr client projects have been busy implementing NIP57
 over the past few weeks.
-
-Published February 21, 2023By [Stephen DeLorme](author/stephen/index.html)
-
-Categorized as [Socratic Seminars](category/socratic-seminars/index.html)
-Tagged [bitcoin](tag/bitcoin/index.html), [fedimint](tag/fedimint/index.html),
-[lightning](tag/lightning/index.html), [mining](tag/mining/index.html),
-[nostr](tag/nostr/index.html), [ordinals](tag/ordinals/index.html),
-[payjoins](tag/payjoins/index.html), [privacy](tag/privacy/index.html),
-[taproot](tag/taproot/index.html)
-
-#

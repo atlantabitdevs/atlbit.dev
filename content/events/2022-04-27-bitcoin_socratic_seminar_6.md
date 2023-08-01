@@ -3,10 +3,9 @@ date: "2022-04-27"
 title: "Bitcoin Socratic Seminar #6"
 type: Doc
 ---
-# Bitcoin Socratic Seminar #6
 
 ![Topics for Socratic Seminar
-#6](content/uploads/2022/04/ATLBitDevs_2022-04-27_socratic-
+#6](https://atlantabitdevs.org/content/uploads/2022/04/ATLBitDevs_2022-04-27_socratic-
 seminar-1568x882.jpg)
 
 It's almost time for [Bitcoin Socratic Seminar
@@ -24,7 +23,7 @@ are formatted to foster debate, information sharing and lively discussion.
 
 ## Opening Presentation
 
-![Bryan Nonni](content/uploads/2022/04/ATLBitDevs_2022-04-27_socratic-
+![Bryan Nonni](https://atlantabitdevs.org/content/uploads/2022/04/ATLBitDevs_2022-04-27_socratic-
 seminar_bryan-1024x576.jpg)
 
 First, [Bryan Nonni](https://twitter.com/btcbry) will go over some of the news
@@ -33,7 +32,7 @@ conference](https://b.tc/conference) in Miami Beach.
 
 ## Discussion Topics
 
-![](content/uploads/2022/04/ATLBitDevs_2022-04-27_socratic-
+![](https://atlantabitdevs.org/content/uploads/2022/04/ATLBitDevs_2022-04-27_socratic-
 seminar_margot-1024x576.jpg)
 
 Next, we'll have a discussion about bitcoin mining, energy, and the
@@ -113,12 +112,3 @@ mining water heater.
 {'>'}
 {'>'} -- Russ (@GregsOlderBro) [April 17,
 {'>'} 2022](https://twitter.com/GregsOlderBro/status/1515737447937843203?ref_src=twsrc%5Etfw)
-
-Published April 20, 2022By [Stephen DeLorme](author/stephen/index.html)
-
-Categorized as [Socratic Seminars](category/socratic-seminars/index.html)
-Tagged [bitcoin](tag/bitcoin/index.html), [energy](tag/energy/index.html),
-[environment](tag/environment/index.html), [mining](tag/mining/index.html),
-[policy](tag/policy/index.html)
-
-#

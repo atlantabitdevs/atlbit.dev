@@ -3,9 +3,8 @@ date: "2022-07-27"
 title: "Bitcoin Socratic Seminar #9"
 type: Doc
 ---
-# Bitcoin Socratic Seminar #9
 
-![](content/uploads/2022/07/ATLBitDevs_2022-07-27_socratic-
+![](https://atlantabitdevs.org/content/uploads/2022/07/ATLBitDevs_2022-07-27_socratic-
 seminar-1568x882.jpg)
 
 It’s almost time for [Bitcoin Socratic Seminar
@@ -102,11 +101,3 @@ raises-35-million-for-bitcoin-gaming)
   * [Anthony Towns: No reason to believe perpetual issuance is sufficient](https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2022-July/020693.html)
   * [Greg Maxwell: Red herring](https://bitcointalk.org/index.php?topic=5405755.msg60542558#msg60542558)
   * [ZmnSCPxj: censorship resistance](https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2022-July/020678.html)
-
-Published July 26, 2022By [Stephen DeLorme](author/stephen/index.html)
-
-Categorized as [Socratic Seminars](category/socratic-seminars/index.html)
-Tagged [bitcoin](tag/bitcoin/index.html), [design](tag/design/index.html),
-[lightning](tag/lightning/index.html), [taproot](tag/taproot/index.html)
-
-#

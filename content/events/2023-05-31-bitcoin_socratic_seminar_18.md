@@ -3,9 +3,8 @@ date: "2023-05-31"
 title: "Bitcoin Socratic Seminar #18"
 type: Doc
 ---
-# Bitcoin Socratic Seminar #18
 
-![](content/uploads/2023/05/ATLBitDevs_2023-05-31_socratic-1568x882.jpg)
+![](https://atlantabitdevs.org/content/uploads/2023/05/ATLBitDevs_2023-05-31_socratic-1568x882.jpg)
 
 It’s almost time for [Bitcoin Socratic Seminar
 #18](https://www.meetup.com/atlantabitdevs/events/293790513/)!
@@ -49,14 +48,3 @@ are formatted to foster debate, information sharing and lively discussion.
   * [Munstr (MuSig + Nostr) - using nostr to coordinate multisig transactions](https://snort.social/e/nevent1qqs0zgk6qgg47adm9g4eyy3p8fakeyunk2lq7lrz5zr5daddgzj8uxqm0yfj6)
   * [TBD launches Web5 toolkit](https://www.coindesk.com/tech/2023/05/19/jack-dorsey-backed-tbd-launches-new-web5-toolkit-to-decentralize-the-internet/)
   * [LNBits Nostr market](https://darthcoin.substack.com/p/lnbits-nostr-market)
-
-Published May 30, 2023By [Stephen DeLorme](author/stephen/index.html)
-
-Categorized as [Socratic Seminars](category/socratic-seminars/index.html)
-Tagged [bitcoin](tag/bitcoin/index.html),
-[lightning](tag/lightning/index.html), [local wins](tag/local-
-wins/index.html), [lsp](tag/lsp/index.html),
-[mempool](tag/mempool/index.html), [nostr](tag/nostr/index.html),
-[payjoins](tag/payjoins/index.html), [web5](tag/web5/index.html)
-
-#

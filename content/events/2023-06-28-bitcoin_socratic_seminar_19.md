@@ -3,9 +3,8 @@ date: "2023-06-28"
 title: "Bitcoin Socratic Seminar #19"
 type: Doc
 ---
-# Bitcoin Socratic Seminar #19
 
-![](content/uploads/2023/06/ATLBitDevs_2023-06-28_socratic-1568x882.jpg)
+![](https://atlantabitdevs.org/content/uploads/2023/06/ATLBitDevs_2023-06-28_socratic-1568x882.jpg)
 
 It’s almost time for [Bitcoin Socratic Seminar
 #19](https://www.meetup.com/atlantabitdevs/events/293790580/)!
@@ -53,11 +52,3 @@ are formatted to foster debate, information sharing and lively discussion.
   * [Kieran deploys a gossip model for Snort](https://snort.social/e/nevent1qqs27uj7gn3870xy6dcgvttclw8z3uftdavwkp9wqs4qne6jjfdj0pqppemhxue69uhkummn9ekx7mp0qy2hwumn8ghj7un9d3shjtnyv9kh2uewd9hj7d5mdfj)
   * [Apple prepares to ban Damus for zaps](https://twitter.com/damusapp/status/1668529709867495424)
   * [Arcade nostr chat beta released](https://twitter.com/TheArcadeApp/status/1668309059601149989)
-
-Published June 27, 2023By [Stephen DeLorme](author/stephen/index.html)
-
-Categorized as [Socratic Seminars](category/socratic-seminars/index.html)
-Tagged [bitcoin](tag/bitcoin/index.html), [l402](tag/l402/index.html),
-[lightning](tag/lightning/index.html), [nostr](tag/nostr/index.html)
-
-#

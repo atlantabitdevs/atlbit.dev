@@ -3,9 +3,8 @@ date: "2023-01-25"
 title: "Bitcoin Socratic Seminar #14"
 type: Doc
 ---
-# Bitcoin Socratic Seminar #14
 
-![](content/uploads/2023/01/ATLBitDevs_2023-01-25_socratic-
+![](https://atlantabitdevs.org/content/uploads/2023/01/ATLBitDevs_2023-01-25_socratic-
 seminar-1568x882.jpg)
 
 It’s almost time for [Bitcoin Socratic Seminar
@@ -105,13 +104,3 @@ Car talks with Casey Rodarmor about Ordinals, a technique for making NFTs
 
 [Pleb Talk with Casey](https://www.thrillerbitcoin.com/pleb-talk-with-
 casey-2/)
-
-Published January 24, 2023By [Stephen DeLorme](author/stephen/index.html)
-
-Categorized as [Socratic Seminars](category/socratic-seminars/index.html)
-Tagged [bitcoin](tag/bitcoin/index.html), [ecash](tag/ecash/index.html),
-[hardware wallets](tag/hardware-wallets/index.html),
-[infosec](tag/infosec/index.html), [lightning](tag/lightning/index.html),
-[nfts](tag/nfts/index.html), [sidechains](tag/sidechains/index.html)
-
-#

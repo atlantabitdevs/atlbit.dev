@@ -3,9 +3,8 @@ date: "2023-04-19"
 title: "Bitcoin Socratic Seminar #17"
 type: Doc
 ---
-# Bitcoin Socratic Seminar #17
 
-![](content/uploads/2023/04/ATLBitDevs_2023-04-26_socratic-1568x882.jpg)
+![](https://atlantabitdevs.org/content/uploads/2023/04/ATLBitDevs_2023-04-26_socratic-1568x882.jpg)
 
 It’s almost time for [Bitcoin Socratic Seminar
 #17](https://www.meetup.com/atlantabitdevs/events/292584775/)!
@@ -60,13 +59,3 @@ wallet](https://blixtwallet.github.io/).
   * 💰 [NCR attacked by Ransomware](https://www.bleepingcomputer.com/news/security/ncr-suffers-aloha-pos-outage-after-blackcat-ransomware-attack/)
     * 📃 [Press release from NCR](https://www.businesswire.com/news/home/20230417005506/en/NCR-Reports-Cybersecurity-Incident)
     * 🐈‍⬛ [Analysis of BlackCat/ALPHV gang](https://www.varonis.com/blog/blackcat-ransomware)
-
-Published April 18, 2023By [Stephen DeLorme](author/stephen/index.html)
-
-Categorized as [Socratic Seminars](category/socratic-seminars/index.html)
-Tagged [bitcoin](tag/bitcoin/index.html), [infosec](tag/infosec/index.html),
-[lightning](tag/lightning/index.html), [mining](tag/mining/index.html),
-[nostr](tag/nostr/index.html), [ordinals](tag/ordinals/index.html),
-[privacy](tag/privacy/index.html), [stratumv2](tag/stratumv2/index.html)
-
-#
