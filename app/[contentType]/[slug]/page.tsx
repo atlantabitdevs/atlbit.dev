@@ -90,7 +90,7 @@ const page = async ({ params }: PageProps) => {
             )}
 
             {params.contentType === contentType && data === undefined ? (
-              <div>{`No summary generated for ${params.slug}`}</div>
+              <></>
             ) : null}
 
             <Mdx
