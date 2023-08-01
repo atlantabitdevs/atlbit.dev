@@ -1,5 +1,5 @@
 ---
-date: 2022-01-25
+date: "2022-01-25"
 title: "Notes for the BIP-119 Reading Group"
 type: Doc
 ---

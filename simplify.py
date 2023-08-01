@@ -44,7 +44,7 @@ def build_header(split_text):
     #     header_type = 'Post'
 
     header = f'''---
-date: {header_date}
+date: "{header_date}"
 title: "{header_title}"
 type: {header_type}
 ---
@@ -70,6 +70,7 @@ def simplify(markdowns):
         title = title.replace(' ', '_').lower()
 
         new_file = f'{dir}/simple-md/{date}-{title}.md'
+        # new_file = f'{dir}/simple-md/{date}.md'
         with open(new_file, 'w') as new_file:
             new_file.write(joined_text)
             new_file.close

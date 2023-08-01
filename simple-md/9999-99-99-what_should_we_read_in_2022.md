@@ -1,5 +1,5 @@
 ---
-date: 9999-99-99
+date: "9999-99-99"
 title: "What should we read in 2022?"
 type: Doc
 ---

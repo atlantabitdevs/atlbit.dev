@@ -1,5 +1,5 @@
 ---
-date: 2023-07-05
+date: "2023-07-05"
 title: "Are open source AI models the future?"
 type: Doc
 ---

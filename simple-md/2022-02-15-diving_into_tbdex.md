@@ -1,5 +1,5 @@
 ---
-date: 2022-02-15
+date: "2022-02-15"
 title: "Diving into tbDEX"
 type: Doc
 ---

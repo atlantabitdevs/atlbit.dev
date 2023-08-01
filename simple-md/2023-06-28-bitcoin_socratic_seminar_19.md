@@ -1,5 +1,5 @@
 ---
-date: 2023-06-28
+date: "2023-06-28"
 title: "Bitcoin Socratic Seminar #19"
 type: Doc
 ---

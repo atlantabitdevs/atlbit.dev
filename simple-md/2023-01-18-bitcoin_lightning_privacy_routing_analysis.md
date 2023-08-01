@@ -1,5 +1,5 @@
 ---
-date: 2023-01-18
+date: "2023-01-18"
 title: "Bitcoin Lightning Privacy: Routing Analysis"
 type: Doc
 ---

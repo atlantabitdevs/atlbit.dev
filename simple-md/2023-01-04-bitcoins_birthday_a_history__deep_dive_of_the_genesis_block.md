@@ -1,5 +1,5 @@
 ---
-date: 2023-01-04
+date: "2023-01-04"
 title: "Bitcoin’s Birthday: a History & Deep Dive of the Genesis Block"
 type: Doc
 ---

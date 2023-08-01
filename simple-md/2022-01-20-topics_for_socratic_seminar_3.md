@@ -1,5 +1,5 @@
 ---
-date: 2022-01-20
+date: "2022-01-20"
 title: "Topics for Socratic Seminar #3"
 type: Doc
 ---
