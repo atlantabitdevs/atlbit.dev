@@ -2,9 +2,9 @@
 title: 'About'
 ---
 
-## What is BitDevs?
+## What is Atlanta BitDevs?
 
-BitDevs is a community for those interested in discussing and participating in the research and development of Bitcoin and related protocols. You can be well versed with or new to the topics; all are welcome!
+The Atlanta BitDevs is a place for free and open Bitcoin education in Atlanta. Discussions will be technical but are open to people of all skill levels. Join the community and #LearnBitcoinTogether!
 
 ## What is a Socratic Seminar?
 

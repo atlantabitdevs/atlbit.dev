@@ -2,11 +2,11 @@ import { Metaupdata } from './types/Metaupdata'
 
 export const metaupdata: Metaupdata = {
   city: {
-    name: 'New',
+    name: 'Atlanta',
     position: 'left',
   },
   description:
-    'BitDevs is a community for those interested in discussing and participating in the research and development of Bitcoin and related protocols',
+    'The Atlanta BitDevs is a place for free and open Bitcoin education in Atlanta. Discussions will be technical but are open to people of all skill levels. Join the community and #LearnBitcoinTogether!',
   colors: {
     primary: {
       hex: '#FFFFFF',
@@ -32,8 +32,12 @@ export const metaupdata: Metaupdata = {
     },
     {
       text: 'Meetup',
-      link: 'https://www.meetup.com/BitDevsNYC/',
+      link: 'https://www.meetup.com/atlantabitdevs/',
+    },
+    {
+      text: 'Contact',
+      link: '/page/contact',
     },
   ],
-  image: '/new-bitdevs-default.jpg',
+  image: '/atlanta-bitdevs-poster.jpg',
 }
