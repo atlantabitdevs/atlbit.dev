@@ -1,8 +1,7 @@
-
 ---
 date: 2023-01-25
-title: Bitcoin Socratic Seminar #14
-type: event
+title: "Bitcoin Socratic Seminar #14"
+type: Doc
 ---
 # Bitcoin Socratic Seminar #14
 
@@ -29,13 +28,13 @@ are formatted to foster debate, information sharing and lively discussion.
 A suspect's seed phrase enters the public record when it is recorded by a
 police officer's bodycam.
 
-> This video of cops in Nevada searching a suspect and finding a seed phrase
-> is pretty wild. Imagine having your seed phrase become part of public record
-> due to it being captured by an officer's body camera!
-> [pic.twitter.com/vS2vm0xh7N](https://t.co/vS2vm0xh7N)
->
-> -- Jameson Lopp (@lopp) [December 18,
-> 2022](https://twitter.com/lopp/status/1604599964713328640?ref_src=twsrc%5Etfw)
+{'>'} This video of cops in Nevada searching a suspect and finding a seed phrase
+{'>'} is pretty wild. Imagine having your seed phrase become part of public record
+{'>'} due to it being captured by an officer's body camera!
+{'>'} [pic.twitter.com/vS2vm0xh7N](https://t.co/vS2vm0xh7N)
+{'>'}
+{'>'} -- Jameson Lopp (@lopp) [December 18,
+{'>'} 2022](https://twitter.com/lopp/status/1604599964713328640?ref_src=twsrc%5Etfw)
 
 ### ⚡️ Swap-in-Potentiam
 

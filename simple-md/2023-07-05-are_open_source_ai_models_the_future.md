@@ -1,8 +1,7 @@
-
 ---
 date: 2023-07-05
-title: Are open source AI models the future?
-type: post
+title: "Are open source AI models the future?"
+type: Doc
 ---
 # Are open source AI models the future?
 

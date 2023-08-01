@@ -1,8 +1,7 @@
-
 ---
 date: 2022-10-12
-title: Bitcoin Socratic Seminar #12
-type: event
+title: "Bitcoin Socratic Seminar #12"
+type: Doc
 ---
 # Bitcoin Socratic Seminar #12
 
@@ -42,7 +41,7 @@ Next, we'll go over the latest in bitcoin and lightning development.
 
 ### Onion messages
 
-<https://lightningdevkit.org/blog/onion-messages-demystified/>
+{'<'}https://lightningdevkit.org/blog/onion-messages-demystified/{'>'}
 
 ### LND/BTCD bug
 
@@ -60,7 +59,7 @@ network](https://stacker.news/items/80134)
 
 ### Add BIP324: v2 P2P Transport Protocol
 
-<https://github.com/bitcoin/bips/pull/1378>
+{'<'}https://github.com/bitcoin/bips/pull/1378{'>'}
 
 ### Validity Rollups on Bitcoin
 

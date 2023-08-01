@@ -1,8 +1,7 @@
-
 ---
 date: 2023-01-11
-title: Nostr: a protocol for a censorship-resistant social network
-type: post
+title: "Nostr: a protocol for a censorship-resistant social network"
+type: Doc
 ---
 # Nostr: a protocol for a censorship-resistant social network
 

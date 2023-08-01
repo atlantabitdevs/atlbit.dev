@@ -1,8 +1,7 @@
-
 ---
 date: 2023-05-31
-title: Bitcoin Socratic Seminar #18
-type: event
+title: "Bitcoin Socratic Seminar #18"
+type: Doc
 ---
 # Bitcoin Socratic Seminar #18
 

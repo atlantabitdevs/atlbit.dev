@@ -38,15 +38,14 @@ markdowns = os.listdir(f'{dir}/markdowns')
 def build_header(split_text):
     header_title = split_text[1]
     header_date = dates[header_title]
-    if header_title.find('Socratic') != -1:
-        header_type = 'event'
-    else:
-        header_type = 'post'
+    # if header_title.find('Socratic') != -1:
+    header_type = 'Doc'
+    # else:
+    #     header_type = 'Post'
 
-    header = f'''
----
+    header = f'''---
 date: {header_date}
-title: {header_title}
+title: "{header_title}"
 type: {header_type}
 ---
 '''
@@ -63,6 +62,9 @@ def simplify(markdowns):
             header, date, title = build_header(split_text)
             split_text.insert(0, header)
             joined_text = "".join(split_text)
+
+        joined_text = joined_text.replace('<', "{'<'}")
+        joined_text = joined_text.replace('>', "{'>'}")
 
         title = re.sub(r'[^A-Za-z0-9\s]+', '', title)
         title = title.replace(' ', '_').lower()

@@ -1,8 +1,7 @@
-
 ---
 date: 2022-06-01
-title: Bitcoin Socratic Seminar #7
-type: event
+title: "Bitcoin Socratic Seminar #7"
+type: Doc
 ---
 # Bitcoin Socratic Seminar #7
 
@@ -63,12 +62,12 @@ amount if they don't care about the amount.
 
 CashApp recently announced support for zero-amount invoices here:
 
-> [@CashApp](https://twitter.com/CashApp?ref_src=twsrc%5Etfw) now supports
-> scanning zero-amount lightning invoices ⚡️
-> [pic.twitter.com/RqV6PFtOAm](https://t.co/RqV6PFtOAm)
->
-> -- hugo (@hugojmd) [May 16,
-> 2022](https://twitter.com/hugojmd/status/1526337354570825728?ref_src=twsrc%5Etfw)
+{'>'} [@CashApp](https://twitter.com/CashApp?ref_src=twsrc%5Etfw) now supports
+{'>'} scanning zero-amount lightning invoices ⚡️
+{'>'} [pic.twitter.com/RqV6PFtOAm](https://t.co/RqV6PFtOAm)
+{'>'}
+{'>'} -- hugo (@hugojmd) [May 16,
+{'>'} 2022](https://twitter.com/hugojmd/status/1526337354570825728?ref_src=twsrc%5Etfw)
 
 ### Add the ability to hold HTLCs before forwarding
 

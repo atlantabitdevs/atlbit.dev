@@ -1,8 +1,7 @@
-
 ---
 date: 2022-04-27
-title: Bitcoin Socratic Seminar #6
-type: event
+title: "Bitcoin Socratic Seminar #6"
+type: Doc
 ---
 # Bitcoin Socratic Seminar #6
 
@@ -48,7 +47,7 @@ a doctoral candidate at the Georgia Institute of Technology.
 
 About the Bitcoin Policy Institute.
 
-<https://www.btcpolicy.org/>
+{'<'}https://www.btcpolicy.org/{'>'}
 
 ### Bitcoin and the Environment
 
@@ -77,43 +76,43 @@ dashboard with real-time data about energy used and bitcoin mined.
 
 Michael Scmid is building a water heater with a bitcoin miner.
 
-> Inlet and outlet done, also added the separation wall that allows the tank
-> to just work with 2 miners in the beginning.
-> [#bitcool](https://twitter.com/hashtag/bitcool?src=hash&ref_src=twsrc%5Etfw)
-> will overflow the miner side to the outlet side
-> [#btcwaterheater](https://twitter.com/hashtag/btcwaterheater?src=hash&ref_src=twsrc%5Etfw)
-> [#homemining](https://twitter.com/hashtag/homemining?src=hash&ref_src=twsrc%5Etfw)
-> [#immersionmining](https://twitter.com/hashtag/immersionmining?src=hash&ref_src=twsrc%5Etfw)
-> [pic.twitter.com/r0pF1CAAEP](https://t.co/r0pF1CAAEP)
->
-> -- Michael Schmid ⚡️ (@Schnitzel) [April 18,
-> 2022](https://twitter.com/Schnitzel/status/1515843196059897870?ref_src=twsrc%5Etfw)
+{'>'} Inlet and outlet done, also added the separation wall that allows the tank
+{'>'} to just work with 2 miners in the beginning.
+{'>'} [#bitcool](https://twitter.com/hashtag/bitcool?src=hash&ref_src=twsrc%5Etfw)
+{'>'} will overflow the miner side to the outlet side
+{'>'} [#btcwaterheater](https://twitter.com/hashtag/btcwaterheater?src=hash&ref_src=twsrc%5Etfw)
+{'>'} [#homemining](https://twitter.com/hashtag/homemining?src=hash&ref_src=twsrc%5Etfw)
+{'>'} [#immersionmining](https://twitter.com/hashtag/immersionmining?src=hash&ref_src=twsrc%5Etfw)
+{'>'} [pic.twitter.com/r0pF1CAAEP](https://t.co/r0pF1CAAEP)
+{'>'}
+{'>'} -- Michael Schmid ⚡️ (@Schnitzel) [April 18,
+{'>'} 2022](https://twitter.com/Schnitzel/status/1515843196059897870?ref_src=twsrc%5Etfw)
 
->
-> [#btcwaterheater](https://twitter.com/hashtag/btcwaterheater?src=hash&ref_src=twsrc%5Etfw):
-> setting up the
-> [#iotawatt](https://twitter.com/hashtag/iotawatt?src=hash&ref_src=twsrc%5Etfw)
-> to measure the electricity usage of the current water heater to compare it
-> to the Miner usage and stats for
-> [@jyn_urso](https://twitter.com/jyn_urso?ref_src=twsrc%5Etfw). For the
-> europe friends: yes this is a power distrib panel in the USA 🙈
-> [#homeminer](https://twitter.com/hashtag/homeminer?src=hash&ref_src=twsrc%5Etfw)
-> [pic.twitter.com/GAQxdNAV0T](https://t.co/GAQxdNAV0T)
->
-> -- Michael Schmid ⚡️ (@Schnitzel) [April 20,
-> 2022](https://twitter.com/Schnitzel/status/1516766411816849413?ref_src=twsrc%5Etfw)
+{'>'}
+{'>'} [#btcwaterheater](https://twitter.com/hashtag/btcwaterheater?src=hash&ref_src=twsrc%5Etfw):
+{'>'} setting up the
+{'>'} [#iotawatt](https://twitter.com/hashtag/iotawatt?src=hash&ref_src=twsrc%5Etfw)
+{'>'} to measure the electricity usage of the current water heater to compare it
+{'>'} to the Miner usage and stats for
+{'>'} [@jyn_urso](https://twitter.com/jyn_urso?ref_src=twsrc%5Etfw). For the
+{'>'} europe friends: yes this is a power distrib panel in the USA 🙈
+{'>'} [#homeminer](https://twitter.com/hashtag/homeminer?src=hash&ref_src=twsrc%5Etfw)
+{'>'} [pic.twitter.com/GAQxdNAV0T](https://t.co/GAQxdNAV0T)
+{'>'}
+{'>'} -- Michael Schmid ⚡️ (@Schnitzel) [April 20,
+{'>'} 2022](https://twitter.com/Schnitzel/status/1516766411816849413?ref_src=twsrc%5Etfw)
 
 Russ proposes cheap material for converting heat to electricity in a bitcoin
 mining water heater.
 
-> Has anyone thought about incorporating this into bitcoin mining? The waste
-> heat could be converted back into electricity, making mining more efficient.
-> I found some units but the efficiency and cost of the units are extremely
-> high, for now..[@jyn_urso](https://twitter.com/jyn_urso?ref_src=twsrc%5Etfw)
-> ?<https://t.co/nTeZVdOzL0>
->
-> -- Russ (@GregsOlderBro) [April 17,
-> 2022](https://twitter.com/GregsOlderBro/status/1515737447937843203?ref_src=twsrc%5Etfw)
+{'>'} Has anyone thought about incorporating this into bitcoin mining? The waste
+{'>'} heat could be converted back into electricity, making mining more efficient.
+{'>'} I found some units but the efficiency and cost of the units are extremely
+{'>'} high, for now..[@jyn_urso](https://twitter.com/jyn_urso?ref_src=twsrc%5Etfw)
+{'>'} ?{'<'}https://t.co/nTeZVdOzL0{'>'}
+{'>'}
+{'>'} -- Russ (@GregsOlderBro) [April 17,
+{'>'} 2022](https://twitter.com/GregsOlderBro/status/1515737447937843203?ref_src=twsrc%5Etfw)
 
 Published April 20, 2022By [Stephen DeLorme](author/stephen/index.html)
 

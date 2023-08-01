@@ -1,8 +1,7 @@
-
 ---
 date: 2022-01-25
-title: Notes for the BIP-119 Reading Group
-type: post
+title: "Notes for the BIP-119 Reading Group"
+type: Doc
 ---
 # Notes for the BIP-119 Reading Group
 
@@ -18,15 +17,15 @@ notes and resources to help you out.
 📙 [BIP-119 by Jeremy
 Rubin](https://github.com/bitcoin/bips/blob/master/bip-0119.mediawiki)
 
-> This BIP proposes a new opcode, OP_CHECKTEMPLATEVERIFY, to be activated as a
-> change to the semantics of OP_NOP4.  
->  
-> The new opcode has applications for transaction congestion control and
-> payment channel instantiation, among others, which are described in the
-> Motivation section of this BIP.
->
-> [From
-> BIP-119](https://github.com/bitcoin/bips/blob/master/bip-0119.mediawiki)
+{'>'} This BIP proposes a new opcode, OP_CHECKTEMPLATEVERIFY, to be activated as a
+{'>'} change to the semantics of OP_NOP4.  
+{'>'}  
+{'>'} The new opcode has applications for transaction congestion control and
+{'>'} payment channel instantiation, among others, which are described in the
+{'>'} Motivation section of this BIP.
+{'>'}
+{'>'} [From
+{'>'} BIP-119](https://github.com/bitcoin/bips/blob/master/bip-0119.mediawiki)
 
 ## How else can I follow along?
 

@@ -1,8 +1,7 @@
-
 ---
 date: 2023-01-18
-title: Bitcoin Lightning Privacy: Routing Analysis
-type: post
+title: "Bitcoin Lightning Privacy: Routing Analysis"
+type: Doc
 ---
 # Bitcoin Lightning Privacy: Routing Analysis
 
@@ -21,7 +20,7 @@ thought-out or spellchecked instructional plan. 🙃
 
 ## Lightning Privacy Introduction
 
-<https://lightningprivacy.com/en/introduction>
+{'<'}https://lightningprivacy.com/en/introduction{'>'}
 
   * Bitcoin Layer 1 - all TXes visible on a public blockchain
   * Lightning (Layer 2) - No central ledger, peer-to-peer
@@ -38,7 +37,7 @@ What is an anonymity set?
 
 ## Routing Analysis
 
-<https://lightningprivacy.com/en/routing-analysis>
+{'<'}https://lightningprivacy.com/en/routing-analysis{'>'}
 
   * LN uses onion routing for a certain amount of source and destination privacy
 
@@ -55,14 +54,14 @@ How is LN onion routing similar to TOR? How is it different?
 What is an LSP? How might using an LSP affect privacy?
 
   * HTLCs - using the same payment hash each time can affect privacy
-  * Wormhole attack - allows dishonest users to steal routing fees from honest users along a payment path - outlined in this paper: [](https://eprint.iacr.org/2018/472.pdf)<https://eprint.iacr.org/2018/472.pdf>
+  * Wormhole attack - allows dishonest users to steal routing fees from honest users along a payment path - outlined in this paper: [](https://eprint.iacr.org/2018/472.pdf){'<'}https://eprint.iacr.org/2018/472.pdf{'>'}
     * Basically, 2 malicious nodes (Mike and Mallory) are on the same payment route and collaborate
     * Normal behavior: nodes pass the preimage back to the prior node to unwind HTLCs
     * Evil behavior: Mike passes preimage back to Mallory, skipping all the nodes in between, and M & M take the routing fees of every node that was skipped
   * PTLCs might fix this
-    * PTLCs explained on SuredBits - [](https://suredbits.com/payment-points-part-1/#references)<https://suredbits.com/payment-points-part-1/#references>
+    * PTLCs explained on SuredBits - [](https://suredbits.com/payment-points-part-1/#references){'<'}https://suredbits.com/payment-points-part-1/#references{'>'}
   * Timing delays - basically, estimating how far away source of destination of a payment is by how long it takes to settle
-    * Top nodes can perform timing analysis on the majority of payments [](https://arxiv.org/pdf/2006.12143.pdf)<https://arxiv.org/pdf/2006.12143.pdf>
+    * Top nodes can perform timing analysis on the majority of payments [](https://arxiv.org/pdf/2006.12143.pdf){'<'}https://arxiv.org/pdf/2006.12143.pdf{'>'}
     * What if you run multiple nodes, and you route a payment for amount X, and then milliseconds later your other nodes routes a payment for slightly less than amount X.
     * What if average payment time between your node and neighbor is 100ms? If you route a payment to tyour neighbor and the HTLC or PTLC is fulfilled in about 100ms, you can assume your neighbor was the final hop.
 

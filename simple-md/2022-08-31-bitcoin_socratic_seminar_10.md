@@ -1,8 +1,7 @@
-
 ---
 date: 2022-08-31
-title: Bitcoin Socratic Seminar #10
-type: event
+title: "Bitcoin Socratic Seminar #10"
+type: Doc
 ---
 # Bitcoin Socratic Seminar #10
 

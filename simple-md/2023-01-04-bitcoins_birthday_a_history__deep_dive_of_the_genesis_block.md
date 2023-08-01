@@ -1,8 +1,7 @@
-
 ---
 date: 2023-01-04
-title: Bitcoin’s Birthday: a History & Deep Dive of the Genesis Block
-type: post
+title: "Bitcoin’s Birthday: a History & Deep Dive of the Genesis Block"
+type: Doc
 ---
 # Bitcoin’s Birthday: a History & Deep Dive of the Genesis Block
 
@@ -143,7 +142,7 @@ It's interesting that in a comment [on this Stack
 post,](https://bitcoin.stackexchange.com/questions/9773/how-do-you-make-a-
 genesis-block) Bitcoin Core dev Pieter Wiulle remarks:
 
-_> Even though the Genesis block (almost) satisfies all rules that other
+_{'>'} Even though the Genesis block (almost) satisfies all rules that other
 blocks have to satisfy (and even more, see
 [_bitcointalk.org/index.php?topic=172009.0_](https://bitcointalk.org/index.php?topic=172009.0)),
 it is not actually validated by full nodes. It's just a hardcoded starting

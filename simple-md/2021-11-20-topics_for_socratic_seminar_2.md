@@ -1,8 +1,7 @@
-
 ---
 date: 2021-11-20
-title: Topics for Socratic Seminar #2
-type: event
+title: "Topics for Socratic Seminar #2"
+type: Doc
 ---
 # Topics for Socratic Seminar #2
 

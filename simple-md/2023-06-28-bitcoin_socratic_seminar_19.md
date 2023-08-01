@@ -1,8 +1,7 @@
-
 ---
 date: 2023-06-28
-title: Bitcoin Socratic Seminar #19
-type: event
+title: "Bitcoin Socratic Seminar #19"
+type: Doc
 ---
 # Bitcoin Socratic Seminar #19
 
@@ -40,7 +39,7 @@ are formatted to foster debate, information sharing and lively discussion.
 ### 2️⃣ Other Layer 2's
 
   * [Ark explained with diagrams](https://twitter.com/_AlexLewin/status/1667185028768452611)
-  * [Boltz launches new web app UI for Liquid <> Lightning swaps](https://blog.boltz.exchange/p/introducing-our-new-boltz-web-app)
+  * [Boltz launches new web app UI for Liquid {'<'}{'>'} Lightning swaps](https://blog.boltz.exchange/p/introducing-our-new-boltz-web-app)
 
 ### 🔒 Infosec
 

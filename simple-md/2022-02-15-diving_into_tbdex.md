@@ -1,8 +1,7 @@
-
 ---
 date: 2022-02-15
-title: Diving into tbDEX
-type: post
+title: "Diving into tbDEX"
+type: Doc
 ---
 # Diving into tbDEX
 

@@ -1,8 +1,7 @@
-
 ---
 date: 2022-01-20
-title: Topics for Socratic Seminar #3
-type: event
+title: "Topics for Socratic Seminar #3"
+type: Doc
 ---
 # Topics for Socratic Seminar #3
 
@@ -37,7 +36,7 @@ borrowing several of those topics.
 ### ☠️ InfoSec
 
   * [Bitcoin.org DNS Hijacked?](https://www.bleepingcomputer.com/news/security/bitcoinorg-hackers-steal-17-000-in-double-your-cash-scam/)
-  * [Bitcoin stolen in failed COMIT network BTC <-> Monero Atomic Swap](https://www.reddit.com/r/Monero/comments/pb3f5a/sooo_i_lost_003_btc_trying_to_complete_an_atomic/)
+  * [Bitcoin stolen in failed COMIT network BTC {'<'}-{'>'} Monero Atomic Swap](https://www.reddit.com/r/Monero/comments/pb3f5a/sooo_i_lost_003_btc_trying_to_complete_an_atomic/)
   * [Cloudflare thwarts 17.2M rps DDoS attack — the second largest ever reported](https://blog.cloudflare.com/cloudflare-thwarts-17-2m-rps-ddos-attack-the-largest-ever-reported/)
   * [Coinbase sends accidental 2FA reset notification to customers](https://status.coinbase.com/incidents/pnjdv0f167rk)
   * [DAO Maker drained of $7m](https://medium.com/daomaker/dao-maker-statement-thursday-12th-of-august-2c3bb0d1bb69)

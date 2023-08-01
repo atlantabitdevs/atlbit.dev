@@ -1,8 +1,7 @@
-
 ---
 date: 2023-03-08
-title: Cypherpunk Manifesto
-type: post
+title: "Cypherpunk Manifesto"
+type: Doc
 ---
 # Cypherpunk Manifesto
 

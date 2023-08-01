@@ -1,8 +1,7 @@
-
 ---
 date: 2022-07-27
-title: Bitcoin Socratic Seminar #9
-type: event
+title: "Bitcoin Socratic Seminar #9"
+type: Doc
 ---
 # Bitcoin Socratic Seminar #9
 
@@ -26,26 +25,26 @@ are formatted to foster debate, information sharing and lively discussion.
 
 ### ⚡️ Fiat vs Lightning
 
-> RACE OF THE RAILS 🏃‍♂️  
->  
-> Bitcoin
-> [#Lightning](https://twitter.com/hashtag/Lightning?src=hash&ref_src=twsrc%5Etfw)
-> payments vs
-> [#fiat](https://twitter.com/hashtag/fiat?src=hash&ref_src=twsrc%5Etfw)
-> contactless payments at the
-> [#Gibraltar](https://twitter.com/hashtag/Gibraltar?src=hash&ref_src=twsrc%5Etfw)
-> Bakery.  
->  
-> £2.20 loaded up on both PoS.  
->  
-> WHO WINS?? ⚡️ 💵 ⚡️  
->  
-> ⁦[@CoinCorner](https://twitter.com/CoinCorner?ref_src=twsrc%5Etfw)⁩
-> ⁦[@CoinCornerMolly](https://twitter.com/CoinCornerMolly?ref_src=twsrc%5Etfw)⁩
-> [pic.twitter.com/b3ezy7FIeq](https://t.co/b3ezy7FIeq)
->
-> -- Joe Nakamoto (@JoeNakamoto) [July 25,
-> 2022](https://twitter.com/JoeNakamoto/status/1551546953934278660?ref_src=twsrc%5Etfw)
+{'>'} RACE OF THE RAILS 🏃‍♂️  
+{'>'}  
+{'>'} Bitcoin
+{'>'} [#Lightning](https://twitter.com/hashtag/Lightning?src=hash&ref_src=twsrc%5Etfw)
+{'>'} payments vs
+{'>'} [#fiat](https://twitter.com/hashtag/fiat?src=hash&ref_src=twsrc%5Etfw)
+{'>'} contactless payments at the
+{'>'} [#Gibraltar](https://twitter.com/hashtag/Gibraltar?src=hash&ref_src=twsrc%5Etfw)
+{'>'} Bakery.  
+{'>'}  
+{'>'} £2.20 loaded up on both PoS.  
+{'>'}  
+{'>'} WHO WINS?? ⚡️ 💵 ⚡️  
+{'>'}  
+{'>'} ⁦[@CoinCorner](https://twitter.com/CoinCorner?ref_src=twsrc%5Etfw)⁩
+{'>'} ⁦[@CoinCornerMolly](https://twitter.com/CoinCornerMolly?ref_src=twsrc%5Etfw)⁩
+{'>'} [pic.twitter.com/b3ezy7FIeq](https://t.co/b3ezy7FIeq)
+{'>'}
+{'>'} -- Joe Nakamoto (@JoeNakamoto) [July 25,
+{'>'} 2022](https://twitter.com/JoeNakamoto/status/1551546953934278660?ref_src=twsrc%5Etfw)
 
 ### 🥋 Nunchuk adds support for TAPSIGNER
 
@@ -83,18 +82,18 @@ raises-35-million-for-bitcoin-gaming)
 
 ### 🎨 Austin Bitcoin Design Club
 
-> Introducing Austin Bitcoin Design Club  
->  
-> AB⚡️DC is a bi-monthly gathering of Bitcoiners focused on design  
->  
-> Bring your creative ideas, bring your creative passions, and together we'll
-> build the beautiful future we all know is possible through Bitcoin  
->  
-> RSVP: <https://t.co/UdQPF037PD>
-> [pic.twitter.com/6mgrXq8hw1](https://t.co/6mgrXq8hw1)
->
-> -- AB⚡️DC (@AustinBTCDesign) [July 6,
-> 2022](https://twitter.com/AustinBTCDesign/status/1544766173249683456?ref_src=twsrc%5Etfw)
+{'>'} Introducing Austin Bitcoin Design Club  
+{'>'}  
+{'>'} AB⚡️DC is a bi-monthly gathering of Bitcoiners focused on design  
+{'>'}  
+{'>'} Bring your creative ideas, bring your creative passions, and together we'll
+{'>'} build the beautiful future we all know is possible through Bitcoin  
+{'>'}  
+{'>'} RSVP: {'<'}https://t.co/UdQPF037PD{'>'}
+{'>'} [pic.twitter.com/6mgrXq8hw1](https://t.co/6mgrXq8hw1)
+{'>'}
+{'>'} -- AB⚡️DC (@AustinBTCDesign) [July 6,
+{'>'} 2022](https://twitter.com/AustinBTCDesign/status/1544766173249683456?ref_src=twsrc%5Etfw)
 
 ### 🌶 Long-term block rewards
 

@@ -1,8 +1,7 @@
-
 ---
 date: 9999-99-99
-title: What should we read in 2022?
-type: post
+title: "What should we read in 2022?"
+type: Doc
 ---
 # What should we read in 2022?
 
