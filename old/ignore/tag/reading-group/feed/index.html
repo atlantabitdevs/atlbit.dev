@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>reading group Archives - Atlanta BitDevs</title>
+	<atom:link href="https://atlantabitdevs.org/tag/reading-group/feed/" rel="self" type="application/rss+xml" />
+	<link>https://atlantabitdevs.org/tag/reading-group/</link>
+	<description>Free &#38; Open Bitcoin Education in Atlanta</description>
+	<lastBuildDate>Fri, 13 Jan 2023 22:11:05 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+
+<image>
+	<url>https://atlantabitdevs.org/content/uploads/2021/10/cropped-bitcoin-symbol-32x32.png</url>
+	<title>reading group Archives - Atlanta BitDevs</title>
+	<link>https://atlantabitdevs.org/tag/reading-group/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Bitcoin’s Birthday: a History &#038; Deep Dive of the Genesis Block</title>
+		<link>https://atlantabitdevs.org/2023/01/13/genesis-block/</link>
+		
+		<dc:creator><![CDATA[Stephen DeLorme]]></dc:creator>
+		<pubDate>Fri, 13 Jan 2023 22:07:42 +0000</pubDate>
+				<category><![CDATA[Reading Groups]]></category>
+		<category><![CDATA[bitcoin]]></category>
+		<category><![CDATA[reading group]]></category>
+		<guid isPermaLink="false">https://atlantabitdevs.org/?p=233</guid>
+
+					<description><![CDATA[<p>We met up on January 4 to talk about the bitcoin genesis block. Here are Stephen&#8217;s notes he prepared for the discussion group. Yesterday marked the 14th anniversary of the bitcoin genesis block, which is timestamped January 3, 2009. What is a genesis block? A genesis block is the first block in a blockchain. It&#8217;s&#8230; <a class="more-link" href="https://atlantabitdevs.org/2023/01/13/genesis-block/">Continue reading <span class="screen-reader-text">Bitcoin’s Birthday: a History &#038; Deep Dive of the Genesis Block</span></a></p>
+<p>The post <a rel="nofollow" href="https://atlantabitdevs.org/2023/01/13/genesis-block/">Bitcoin’s Birthday: a History &#038; Deep Dive of the Genesis Block</a> appeared first on <a rel="nofollow" href="https://atlantabitdevs.org">Atlanta BitDevs</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<p>We<a href="https://www.meetup.com/atlantabitdevs/events/290298846/"> met up on January 4</a> to talk about the bitcoin genesis block. Here are Stephen&#8217;s notes he prepared for the discussion group.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p>Yesterday marked the 14th anniversary of the bitcoin genesis block, which is timestamped January 3, 2009.</p>
+
+
+
+<h2>What is a genesis block?</h2>
+
+
+
+<p>A genesis block is the first block in a blockchain. It&#8217;s unique because it does not reference a previous block and because it is typically hardcoded into node software. Bitcoin&#8217;s genesis block has several more unique qualities.</p>
+
+
+
+<h3>Questions</h3>
+
+
+
+<p>Why <a href="https://sourceforge.net/p/bitcoin/code/133/tree/trunk/main.cpp#l1613">hardcode</a> it into the software?</p>
+
+
+
+<h2>Let&#8217;s look at the bitcoin genesis block</h2>
+
+
+
+<p>You can find the genesis block in a block explorer by searching for &#8220;0&#8221;. Here it is on <a href="https://mempool.space/block/000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f">mempool.space</a>.</p>
+
+
+
+<h3>Questions</h3>
+
+
+
+<p>What are some unique qualities to this block? <em>Hint: you don&#8217;t have to be too technical to notice, just look at the <a href="http://mempool.space">mempool.space</a> page.</em></p>
+
+
+
+<h3>Fun Fact</h3>
+
+
+
+<p>Bitcoin signet and Bitcoin testnet both share the same unique feature in their genesis blocks, however, the block hashes are different.</p>
+
+
+
+<h2>How do we know when the genesis block was mined?</h2>
+
+
+
+<p>The timestamp would be sufficient in a trusted scenario, but this is bitcoin. The message in the coinbase transaction helps us to know that it would be impossible to mine the block <em>before</em> January 3, 2009. However, we don&#8217;t have precise evidence that it was mined on this date exactly.</p>
+
+
+
+<ul><li>October 31, 2008 &#8211; Satoshi <a href="https://www.metzdowd.com/pipermail/cryptography/2008-October/014810.html">released the Bitcoin whitepaper</a> to the <a href="https://www.metzdowd.com/pipermail/cryptography/2008-October/thread.html">Cryptography mailing list</a>.</li><li>January 8, 2009 &#8211; Satoshi <a href="https://www.metzdowd.com/pipermail/cryptography/2009-January/014994.html">releases Bitcoin v0.1</a> to the <a href="https://www.metzdowd.com/pipermail/cryptography/2009-January/thread.html">Cryptography mailing list</a>.</li><li>January 9, 2009 &#8211; Satoshi <a href="https://mempool.space/block/000000006a625f06636b8bb6ac7b960a8d03705d1ace08b1a19da3fdcc99ddbd">mines more blocks</a></li><li>January 10, 2009 &#8211; <a href="https://www.metzdowd.com/pipermail/cryptography/2009-January/015004.html">Hal Finney responds on the mailing list</a> and makes <a href="https://twitter.com/halfin/status/1110302988">the now famous tweet</a></li></ul>
+
+
+
+<h3>Question</h3>
+
+
+
+<p>Why is it that there is a 6 day gap between block 0 and block 1?</p>
+
+
+
+<p>Nobody knows for certain, but there are theories:</p>
+
+
+
+<ul><li>Satoshi was inspired by the Times headline, and mined the first block with a timestamp in the past to match the headline.</li><li>Satoshi had difficulty mining the first block and so he had to mine the first block for 6 days, but kept the timestamp and message persistent through all the attempts.</li><li>Satoshi mined it on Jan 3, then spent the next 6 days testing the bitcoin software and network. He then trashed the test blocks and started fresh, re-using the January 3 genesis block (this is called the <em>prenet hypothesis</em>).</li></ul>
+
+
+
+<h3>Mysteries</h3>
+
+
+
+<p><a href="https://bitcointalk.org/index.php?topic=172009.0">In this bitcointalk.org post</a>, Sergio Demian Lerner (future creator of the RSK sidechain) comments on some of this. He reasons that Satoshi likely used a single CPU. He also points out that the genesis block has a higher difficulty (43 zero bits instead of the 32 difficulty at the time) and he calculates that if Satoshi mined for 6 days, he would have a 17% chance of mining this block. Why did Satoshi opt for this higher difficulty? Did he get lucky? Did he use some massive computing infrastructure? If so, why only use it on the first block? (This user, however, <a href="https://bitcointalk.org/index.php?topic=172009.msg59136085#msg59136085">disputes that the extra leading zeroes are significant</a>).</p>
+
+
+
+<p>Sergio also points out that there is no routine in Satoshi&#8217;s source code for generating a genesis block. Therefore, Satoshi was using some other software to mine the block, though we don&#8217;t know how different it was. Perhaps it was a custom script written entirely for the purpose of mining the genesis block, or perhaps he simply modified the main client&#8217;s source code temporarily to mine the first block.</p>
+
+
+
+<h3>Prior work</h3>
+
+
+
+<p>Interestingly, Satoshi had actually been fiddling with the genesis back as far back as 2008. This <a href="https://bitcointalk.org/index.php?topic=382374.0;all">man on bitcointalk.org shares some early bitcoin source code</a> which Satoshi shared with him on November 16, 2008, a mere 2 weeks after the release of the whitepaper. You can go back to the mailing list to find <a href="https://www.metzdowd.com/pipermail/cryptography/2008-November/014863.html">Satoshi discussing how he had been working on the source code for the past year and a half</a>, and he mentions how he will share the &#8220;main files&#8221; with you by request.</p>
+
+
+
+<h2>Satoshi&#8217;s bitcoin</h2>
+
+
+
+<p>The genesis block coinbase tx spent to this address: <code><em>1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa</em></code></p>
+
+
+
+<p>You can see the <a href="https://www.blockchain.com/explorer/addresses/btc/1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa">address balance here</a>.</p>
+
+
+
+<p>Interestingly enough, the output is unspendable. This is because of how the bitcoin client is coded. Bitcoin Core maintains a block database and a transaction database, distinct from the raw block data stored on disk. If it starts up and finds the block database empty, it insert the hardcoded genesis block data. However, it skips adding the genesis coinbase to the transactions database.</p>
+
+
+
+<ul><li><a href="https://bitcoin.stackexchange.com/questions/10009/why-can-t-the-genesis-block-coinbase-be-spent">Charles Hoskinson explains on Bitcoin StackExchange</a></li><li><a href="https://www.reddit.com/r/Bitcoin/comments/1nc13r/the_first_50btc_block_reward_cant_be_spend_why/">Theymos explains on Reddit</a></li><li><a href="https://github.com/bitcoin/bitcoin/blob/9546a977d354b2ec6cd8455538e68fe4ba343a44/src/main.cpp#L1668">Code that skips the genesis TX</a></li></ul>
+
+
+
+<p>Was this an accidental oversight? Or did Satoshi feel it wasn&#8217;t fair to claim these coins since he mined them as the only network participant?</p>
+
+
+
+<p>Nobody knows, as Satoshi disappeared before anyone noticed this quirk of the genesis coinbase.</p>
+
+
+
+<p>It is believed that other outputs belonging to this address are spendable, assuming that Satoshi has the private key to this address. Even that is not known.</p>
+
+
+
+<h3>Wait, other outputs?</h3>
+
+
+
+<p>To this day, people are <a href="https://mempool.space/address/1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa">still sending outputs</a> to the genesis address to this day as tribute. Maybe <a href="https://bitcointalk.org/index.php?topic=172009.msg1790293#msg1790293">bitcoin is a religion</a>?</p>
+
+
+
+<h2>So who was Satoshi?</h2>
+
+
+
+<p>It&#8217;s interesting that in a comment <a href="https://bitcoin.stackexchange.com/questions/9773/how-do-you-make-a-genesis-block">on this Stack post,</a> Bitcoin Core dev Pieter Wiulle remarks:</p>
+
+
+
+<p><em>&gt; Even though the Genesis block (almost) satisfies all rules that other blocks have to satisfy (and even more, see <a href="https://bitcointalk.org/index.php?topic=172009.0"><u>bitcointalk.org/index.php?topic=172009.0</u></a>), it is not actually validated by full nodes. It&#8217;s just a hardcoded starting point, and it would actually have worked just as well if it did not carry any proof of work.</em></p>
+
+
+
+<p>Did Satoshi know this and decide to mine the block anyway to send a message or set some kind of precedent? Or was this an oversight, making him only human?</p>
+
+
+
+<p>A scientist named Jens Ducrée wrote<a href="https://arxiv.org/pdf/2206.10257.pdf"> this scholarly article</a> diving into a lot of circumstantial evidence about the identity of Satoshi. Did the Satoshi live in the UK, giving him early access to the Times print edition? Or did Satoshi have a close friend in the UK? Was he an individual genius or a team of people? Where did he go after disappearing on December 12, 2010?</p>
+
+
+
+<p>But most importantly: does Jens know how to use the spellchecker or work with a proofreader?</p>
+
+
+
+<h3>Question</h3>
+
+
+
+<p>Why disappear?</p>
+<p>The post <a rel="nofollow" href="https://atlantabitdevs.org/2023/01/13/genesis-block/">Bitcoin’s Birthday: a History &#038; Deep Dive of the Genesis Block</a> appeared first on <a rel="nofollow" href="https://atlantabitdevs.org">Atlanta BitDevs</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>What should we read in 2022?</title>
+		<link>https://atlantabitdevs.org/2022/02/06/what-should-we-read-in-2022/</link>
+		
+		<dc:creator><![CDATA[Stephen DeLorme]]></dc:creator>
+		<pubDate>Sun, 06 Feb 2022 23:04:22 +0000</pubDate>
+				<category><![CDATA[Reading Groups]]></category>
+		<category><![CDATA[bitcoin]]></category>
+		<category><![CDATA[lightning]]></category>
+		<category><![CDATA[reading group]]></category>
+		<guid isPermaLink="false">https://atlantabitdevs.org/?p=78</guid>
+
+					<description><![CDATA[<p>We want input on which Bitcoin development books you would like to read and discuss together in 2022. We&#8217;ve put together a list of potential books for BitDevs and BitPlebs meetups. Some of the books are geared towards developers, while others focus on economic aspects of Bitcoin Note that several books on this list have&#8230; <a class="more-link" href="https://atlantabitdevs.org/2022/02/06/what-should-we-read-in-2022/">Continue reading <span class="screen-reader-text">What should we read in 2022?</span></a></p>
+<p>The post <a rel="nofollow" href="https://atlantabitdevs.org/2022/02/06/what-should-we-read-in-2022/">What should we read in 2022?</a> appeared first on <a rel="nofollow" href="https://atlantabitdevs.org">Atlanta BitDevs</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<p>We want input on which Bitcoin development books you would like to read and discuss together in 2022. We&#8217;ve put together a list of potential books for BitDevs and BitPlebs meetups. Some of the books are geared towards developers, while others focus on economic aspects of Bitcoin</p>
+
+
+
+<p>Note that several books on this list have been covered at past meetups, however, we have many newer attendees who may not have read these books yet.</p>
+
+
+
+<h2 id="technical-books-for-the-devs">Technical books for the devs</h2>
+
+
+
+<h3 id="mastering-bitcoin">Mastering Bitcoin</h3>
+
+
+
+<figure class="wp-block-embed is-type-rich is-provider-amazon wp-block-embed-amazon"><div class="wp-block-embed__wrapper">
+<iframe title="Mastering Bitcoin: Unlocking Digital Cryptocurrencies" type="text/html" width="750" height="550" frameborder="0" allowfullscreen style="max-width:100%" src="https://read.amazon.com/kp/card?preview=inline&#038;linkCode=kpd&#038;ref_=k4w_oembed_7yCWYsXhPDiOSU&#038;asin=1449374042&#038;tag=kpembed-20"></iframe>
+</div></figure>
+
+
+
+<p>This is a must-read book for learning about the Bitcoin protocol. It covers the structure of blocks, the structure of transactions, how to compile Bitcoin Core, some of the cryptographic primitives employed in Bitcoin, and more.</p>
+
+
+
+<h3 id="programming-bitcoin">Programming Bitcoin</h3>
+
+
+
+<figure class="wp-block-embed is-type-rich is-provider-amazon wp-block-embed-amazon"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="Programming Bitcoin: Learn How to Program Bitcoin from Scratch" type="text/html" width="750" height="550" frameborder="0" allowfullscreen style="max-width:100%" src="https://read.amazon.com/kp/card?preview=inline&#038;linkCode=kpd&#038;ref_=k4w_oembed_wmUGGUbb78f6cP&#038;asin=1492031496&#038;tag=kpembed-20"></iframe>
+</div></figure>
+
+
+
+<p>This book teaches you how to program your own Bitcoin library in Python. The idea is that you will understand how Bitcoin works very deeply if you task yourself with coding your own implementation.</p>
+
+
+
+<h3 id="mastering-the-lightning-network">Mastering the Lightning Network</h3>
+
+
+
+<figure class="wp-block-embed is-type-rich is-provider-amazon wp-block-embed-amazon"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="Mastering the Lightning Network: A Second Layer Blockchain Protocol for Instant Bitcoin Payments" type="text/html" width="750" height="550" frameborder="0" allowfullscreen style="max-width:100%" src="https://read.amazon.com/kp/card?preview=inline&#038;linkCode=kpd&#038;ref_=k4w_oembed_IqENkKj40vkDqI&#038;asin=1492054860&#038;tag=kpembed-20"></iframe>
+</div></figure>
+
+
+
+<p>This is a must-read book for learning about the Lightning network protocol, which a layer 2 protocol which allows for nearly instant Bitcoin payments.</p>
+
+
+
+<h3 id="the-blocksize-war">The Blocksize War</h3>
+
+
+
+<figure class="wp-block-embed is-type-rich is-provider-amazon wp-block-embed-amazon"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="The Blocksize War: The battle over who controls Bitcoin’s protocol rules" type="text/html" width="750" height="550" frameborder="0" allowfullscreen style="max-width:100%" src="https://read.amazon.com/kp/card?preview=inline&#038;linkCode=kpd&#038;ref_=k4w_oembed_9iwTBxMiqZe6Mp&#038;asin=B08YQMC2WM&#038;tag=kpembed-20"></iframe>
+</div></figure>
+
+
+
+<p>This is an account of the Blocksize War, which is basically the debate from 2015 &#8211; 2017 over increasing Bitcoin&#8217;s blocksize. This is a fairly easy book to read and will help you to understand the design decisions that were made in developing the Bitcoin protocol.</p>
+
+
+
+<h3 id="working-in-public">Working in Public</h3>
+
+
+
+<figure class="wp-block-embed is-type-rich is-provider-amazon wp-block-embed-amazon"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="Working in Public: The Making and Maintenance of Open Source Software" type="text/html" width="750" height="550" frameborder="0" allowfullscreen style="max-width:100%" src="https://read.amazon.com/kp/card?preview=inline&#038;linkCode=kpd&#038;ref_=k4w_oembed_s4riZJhuFsg7or&#038;asin=0578675862&#038;tag=kpembed-20"></iframe>
+</div></figure>
+
+
+
+<p>This book is not about Bitcoin specifically. Rather, it&#8217;s about free open-source software (FOSS), how it is maintained, and the communities that form around the software. It&#8217;s a relevant topic because the maintenance of FOSS is critical to Bitcoin.</p>
+
+
+
+<h2 id="bitcoin-books-that-are-non-technical">Bitcoin books that are non-technical</h2>
+
+
+
+<h3 id="the-bitcoin-standard">The Bitcoin Standard</h3>
+
+
+
+<figure class="wp-block-embed is-type-rich is-provider-amazon wp-block-embed-amazon"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="The Bitcoin Standard: The Decentralized Alternative to Central Banking" type="text/html" width="750" height="550" frameborder="0" allowfullscreen style="max-width:100%" src="https://read.amazon.com/kp/card?preview=inline&#038;linkCode=kpd&#038;ref_=k4w_oembed_hSX13ZDlnTMQDu&#038;asin=B07BPM3GZQ&#038;tag=kpembed-20"></iframe>
+</div></figure>
+
+
+
+<p>A book about the history of money and impact that it has on society. Published in 2018 and still the definitive work on why Bitcoin is the best money.</p>
+
+
+
+<h3 id="the-fiat-standard">The Fiat Standard</h3>
+
+
+
+<figure class="wp-block-embed is-type-rich is-provider-amazon wp-block-embed-amazon"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="The Fiat Standard: The Debt Slavery Alternative to Human Civilization" type="text/html" width="750" height="550" frameborder="0" allowfullscreen style="max-width:100%" src="https://read.amazon.com/kp/card?preview=inline&#038;linkCode=kpd&#038;ref_=k4w_oembed_QOIL3E1nCtgK2D&#038;asin=B09KKVNQBK&#038;tag=kpembed-20"></iframe>
+</div></figure>
+
+
+
+<p>The recently published (November 2021) sequel to The Bitcoin Standard, this book explores the impact that sovereign issued fiat money has had on the economy within the past century and how it has contributed to a society based upon debt slavery.</p>
+
+
+
+<h3 id="the-bullish-case-for-bitcoin">The Bullish Case for Bitcoin</h3>
+
+
+
+<figure class="wp-block-embed is-type-rich is-provider-amazon wp-block-embed-amazon"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="The Bullish Case for Bitcoin" type="text/html" width="750" height="550" frameborder="0" allowfullscreen style="max-width:100%" src="https://read.amazon.com/kp/card?preview=inline&#038;linkCode=kpd&#038;ref_=k4w_oembed_jYnWYHXXm4eZg7&#038;asin=B09CT4SX2X&#038;tag=kpembed-20"></iframe>
+</div></figure>
+
+
+
+<p>A quicker read than the above two works, this recently published book was based upon the author&#8217;s famous Medium article. It speaks to why an investor should consider holding Bitcoin and can anticipate it to continue to increase in value.</p>
+
+
+
+<h3 id="21-lessons">21 Lessons</h3>
+
+
+
+<figure class="wp-block-embed is-type-rich is-provider-amazon wp-block-embed-amazon"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="21 Lessons: What I&#039;ve Learned from Falling Down the Bitcoin Rabbit Hole" type="text/html" width="750" height="550" frameborder="0" allowfullscreen style="max-width:100%" src="https://read.amazon.com/kp/card?preview=inline&#038;linkCode=kpd&#038;ref_=k4w_oembed_44h5sCVrwxiwOK&#038;asin=B083L93MJ7&#038;tag=kpembed-20"></iframe>
+</div></figure>
+
+
+
+<p>What I&#8217;ve Learned by Falling Down the Bitcoin Rabbit Hole By Gigi. A profound book about how understanding Bitcoin can change a person for the better. A very quick read. This can probably be covered in 1-2 discussion sessions.</p>
+
+
+
+<h3 id="the-sovereign-individual">The Sovereign Individual</h3>
+
+
+
+<figure class="wp-block-embed is-type-rich is-provider-amazon wp-block-embed-amazon"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="The Sovereign Individual: Mastering the Transition to the Information Age" type="text/html" width="750" height="550" frameborder="0" allowfullscreen style="max-width:100%" src="https://read.amazon.com/kp/card?preview=inline&#038;linkCode=kpd&#038;ref_=k4w_oembed_R4hdnp51YehcCY&#038;asin=B00AK9IXXM&#038;tag=kpembed-20"></iframe>
+</div></figure>
+
+
+
+<p>A book about the future as seen from 1999. The authors correctly predict a surprising and fascinating number of developments revolving around decentralization and microprocessors, including the rise of a non-state money like Bitcoin.</p>
+
+
+
+<h2 id="let-us-know-what-you-re-interested-in">Let us know what you&#8217;re interested in</h2>
+
+
+<script type="text/javascript">var gform;gform||(document.addEventListener("gform_main_scripts_loaded",function(){gform.scriptsLoaded=!0}),window.addEventListener("DOMContentLoaded",function(){gform.domLoaded=!0}),gform={domLoaded:!1,scriptsLoaded:!1,initializeOnLoaded:function(o){gform.domLoaded&&gform.scriptsLoaded?o():!gform.domLoaded&&gform.scriptsLoaded?window.addEventListener("DOMContentLoaded",o):document.addEventListener("gform_main_scripts_loaded",o)},hooks:{action:{},filter:{}},addAction:function(o,n,r,t){gform.addHook("action",o,n,r,t)},addFilter:function(o,n,r,t){gform.addHook("filter",o,n,r,t)},doAction:function(o){gform.doHook("action",o,arguments)},applyFilters:function(o){return gform.doHook("filter",o,arguments)},removeAction:function(o,n){gform.removeHook("action",o,n)},removeFilter:function(o,n,r){gform.removeHook("filter",o,n,r)},addHook:function(o,n,r,t,i){null==gform.hooks[o][n]&&(gform.hooks[o][n]=[]);var e=gform.hooks[o][n];null==i&&(i=n+"_"+e.length),gform.hooks[o][n].push({tag:i,callable:r,priority:t=null==t?10:t})},doHook:function(n,o,r){var t;if(r=Array.prototype.slice.call(r,1),null!=gform.hooks[n][o]&&((o=gform.hooks[n][o]).sort(function(o,n){return o.priority-n.priority}),o.forEach(function(o){"function"!=typeof(t=o.callable)&&(t=window[t]),"action"==n?t.apply(null,r):r[0]=t.apply(null,r)})),"filter"==n)return r[0]},removeHook:function(o,n,t,i){var r;null!=gform.hooks[o][n]&&(r=(r=gform.hooks[o][n]).filter(function(o,n,r){return!!(null!=i&&i!=o.tag||null!=t&&t!=o.priority)}),gform.hooks[o][n]=r)}});</script>
+                <div class='gf_browser_unknown gform_wrapper gravity-theme' id='gform_wrapper_2' ><form method='post' enctype='multipart/form-data'  id='gform_2'  action='/tag/reading-group/feed/' >
+                        <div class='gform_body gform-body'><div id='gform_fields_2' class='gform_fields top_label form_sublabel_below description_below'><fieldset id="field_2_2"  class="gfield field_sublabel_below field_description_above gfield_visibility_visible"  data-js-reload="field_2_2"><legend class='gfield_label gfield_label_before_complex'  >Technical books for the devs - Atlanta BitDevs</legend><div class='gfield_description' id='gfield_description_2_2'>Select as many as you like</div><div class='ginput_container ginput_container_checkbox'><div class='gfield_checkbox' id='input_2_2'><div class='gchoice gchoice_2_2_1'>
+								<input class='gfield-choice-input' name='input_2.1' type='checkbox'  value='Mastering Bitcoin - Andreas Antonopoulos'  id='choice_2_2_1'   aria-describedby="gfield_description_2_2"/>
+								<label for='choice_2_2_1' id='label_2_2_1'>Mastering Bitcoin - Andreas Antonopoulos</label>
+							</div><div class='gchoice gchoice_2_2_2'>
+								<input class='gfield-choice-input' name='input_2.2' type='checkbox'  value='Programming Bitcoin - Jimmy Song'  id='choice_2_2_2'   />
+								<label for='choice_2_2_2' id='label_2_2_2'>Programming Bitcoin - Jimmy Song</label>
+							</div><div class='gchoice gchoice_2_2_3'>
+								<input class='gfield-choice-input' name='input_2.3' type='checkbox'  value='Mastering the Lightning Network - Andreas Antonopoulos+'  id='choice_2_2_3'   />
+								<label for='choice_2_2_3' id='label_2_2_3'>Mastering the Lightning Network - Andreas Antonopoulos+</label>
+							</div><div class='gchoice gchoice_2_2_4'>
+								<input class='gfield-choice-input' name='input_2.4' type='checkbox'  value='The Blocksize War - Jonathan Bier'  id='choice_2_2_4'   />
+								<label for='choice_2_2_4' id='label_2_2_4'>The Blocksize War - Jonathan Bier</label>
+							</div><div class='gchoice gchoice_2_2_5'>
+								<input class='gfield-choice-input' name='input_2.5' type='checkbox'  value='Working in Public - Nadia Eghbal'  id='choice_2_2_5'   />
+								<label for='choice_2_2_5' id='label_2_2_5'>Working in Public - Nadia Eghbal</label>
+							</div><button type="button" id="button_2_select_all" onclick="gformToggleCheckboxes( this )" data-checked="0" data-label-select="Select All" data-label-deselect="Deselect All">Select All</button></div></div></fieldset><fieldset id="field_2_10"  class="gfield gfield--width-full field_sublabel_below field_description_above gfield_visibility_visible"  data-js-reload="field_2_10"><legend class='gfield_label gfield_label_before_complex'  >Bitcoin Books that are Nontechnical - Atlanta BitPlebs</legend><div class='gfield_description' id='gfield_description_2_10'>Select as many as you like</div><div class='ginput_container ginput_container_checkbox'><div class='gfield_checkbox' id='input_2_10'><div class='gchoice gchoice_2_10_1'>
+								<input class='gfield-choice-input' name='input_10.1' type='checkbox'  value='The Bitcoin Standard -  Saifedean Ammous'  id='choice_2_10_1'   aria-describedby="gfield_description_2_10"/>
+								<label for='choice_2_10_1' id='label_2_10_1'>The Bitcoin Standard -  Saifedean Ammous</label>
+							</div><div class='gchoice gchoice_2_10_2'>
+								<input class='gfield-choice-input' name='input_10.2' type='checkbox'  value='The Fiat Standard -  Saifedean Ammous'  id='choice_2_10_2'   />
+								<label for='choice_2_10_2' id='label_2_10_2'>The Fiat Standard -  Saifedean Ammous</label>
+							</div><div class='gchoice gchoice_2_10_3'>
+								<input class='gfield-choice-input' name='input_10.3' type='checkbox'  value='The Bullish Case for Bitcoin - Vijay Boyapati'  id='choice_2_10_3'   />
+								<label for='choice_2_10_3' id='label_2_10_3'>The Bullish Case for Bitcoin - Vijay Boyapati</label>
+							</div><div class='gchoice gchoice_2_10_4'>
+								<input class='gfield-choice-input' name='input_10.4' type='checkbox'  value='21 Lessons - Gigi'  id='choice_2_10_4'   />
+								<label for='choice_2_10_4' id='label_2_10_4'>21 Lessons - Gigi</label>
+							</div><div class='gchoice gchoice_2_10_5'>
+								<input class='gfield-choice-input' name='input_10.5' type='checkbox'  value='The Sovereign Individual - Davidson &amp; Rees-Mogg'  id='choice_2_10_5'   />
+								<label for='choice_2_10_5' id='label_2_10_5'>The Sovereign Individual - Davidson & Rees-Mogg</label>
+							</div><button type="button" id="button_10_select_all" onclick="gformToggleCheckboxes( this )" data-checked="0" data-label-select="Select All" data-label-deselect="Deselect All">Select All</button></div></div></fieldset><div id="field_2_5"  class="gfield gfield--width-full field_sublabel_below field_description_below gfield_visibility_visible"  data-js-reload="field_2_5"><label class='gfield_label' for='input_2_5' >Is there one you favor above all the rest?</label><div class='ginput_container ginput_container_select'><select name='input_5' id='input_2_5' class='large gfield_select'     aria-invalid="false" ><option value='None' >None</option><option value='Mastering Bitcoin' >Mastering Bitcoin</option><option value='Programming Bitcoin' >Programming Bitcoin</option><option value='Mastering Lightning' >Mastering Lightning</option><option value='The Blocksize Wars' >The Blocksize Wars</option><option value='Working in Public' >Working in Public</option><option value='The Bitcoin Standard' >The Bitcoin Standard</option><option value='The Fiat Standard' >The Fiat Standard</option><option value='The Bullish Case for Bitcoin' >The Bullish Case for Bitcoin</option><option value='21 Lessons' >21 Lessons</option><option value='The Sovereign Individual' >The Sovereign Individual</option></select></div></div><div id="field_2_6"  class="gfield gfield--width-full field_sublabel_below field_description_below gfield_visibility_visible"  data-js-reload="field_2_6"><label class='gfield_label' for='input_2_6' >Any Bitcoin or development related books you would be interested in reading that aren&#039;t on this list?</label><div class='ginput_container ginput_container_text'><input name='input_6' id='input_2_6' type='text' value='' class='large'      aria-invalid="false"   /> </div></div><div id="field_2_8"  class="gfield gfield--width-full field_sublabel_below field_description_below gfield_visibility_visible"  data-js-reload="field_2_8"><label class='gfield_label' for='input_2_8' >Your Email</label><div class='ginput_container ginput_container_email'>
+                            <input name='input_8' id='input_2_8' type='text' value='' class='large'     aria-invalid="false"  />
+                        </div></div><div id="field_2_9"  class="gfield gfield--width-full field_sublabel_below field_description_below gfield_visibility_visible"  data-js-reload="field_2_9"><label class='gfield_label' for='input_2_9' >Your Name</label><div class='ginput_container ginput_container_text'><input name='input_9' id='input_2_9' type='text' value='' class='large'      aria-invalid="false"   /> </div></div><div id="field_2_7"  class="gfield gfield--width-full field_sublabel_below field_description_below gfield_visibility_visible"  data-js-reload="field_2_7"><label class='gfield_label' for='input_2_7' >CAPTCHA</label><div id='input_2_7' class='ginput_container ginput_recaptcha' data-sitekey='6Lc-JNkdAAAAAEdknGiS0WPCyHFrgXJiZuDhWUDN'  data-theme='light' data-tabindex='0'  data-badge=''></div></div></div></div>
+        <div class='gform_footer top_label'> <input type='submit' id='gform_submit_button_2' class='gform_button button' value='Submit'  onclick='if(window["gf_submitting_2"]){return false;}  window["gf_submitting_2"]=true;  ' onkeypress='if( event.keyCode == 13 ){ if(window["gf_submitting_2"]){return false;} window["gf_submitting_2"]=true;  jQuery("#gform_2").trigger("submit",[true]); }' /> 
+            <input type='hidden' class='gform_hidden' name='is_submit_2' value='1' />
+            <input type='hidden' class='gform_hidden' name='gform_submit' value='2' />
+            
+            <input type='hidden' class='gform_hidden' name='gform_unique_id' value='' />
+            <input type='hidden' class='gform_hidden' name='state_2' value='WyJbXSIsIjE5ZjBlN2E3ZjA0NGNjYjM2NWE1MDRlZWZkMGY4ZmVkIl0=' />
+            <input type='hidden' class='gform_hidden' name='gform_target_page_number_2' id='gform_target_page_number_2' value='0' />
+            <input type='hidden' class='gform_hidden' name='gform_source_page_number_2' id='gform_source_page_number_2' value='1' />
+            <input type='hidden' name='gform_field_values' value='' />
+            
+        </div>
+                        </form>
+                        </div><p>The post <a rel="nofollow" href="https://atlantabitdevs.org/2022/02/06/what-should-we-read-in-2022/">What should we read in 2022?</a> appeared first on <a rel="nofollow" href="https://atlantabitdevs.org">Atlanta BitDevs</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Notes for the BIP-119 Reading&#160;Group</title>
+		<link>https://atlantabitdevs.org/2022/01/20/notes-for-the-bip-119-reading-group/</link>
+		
+		<dc:creator><![CDATA[Stephen DeLorme]]></dc:creator>
+		<pubDate>Thu, 20 Jan 2022 01:57:16 +0000</pubDate>
+				<category><![CDATA[Reading Groups]]></category>
+		<category><![CDATA[bip]]></category>
+		<category><![CDATA[bitcoin]]></category>
+		<category><![CDATA[reading group]]></category>
+		<guid isPermaLink="false">https://atlantabitdevs.org/?p=67</guid>
+
+					<description><![CDATA[<p>We're looking forward to seeing everyone next week for the BIP-119 reading group. Here are some notes and resources to help you out.</p>
+<p>The post <a rel="nofollow" href="https://atlantabitdevs.org/2022/01/20/notes-for-the-bip-119-reading-group/">Notes for the BIP-119 Reading&nbsp;Group</a> appeared first on <a rel="nofollow" href="https://atlantabitdevs.org">Atlanta BitDevs</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<p>We&#8217;re looking forward to<a href="https://www.meetup.com/atlantabitdevs/events/283206504/"> seeing everyone next week for the BIP-119 reading group</a>. Here are some notes and resources to help you out.</p>
+
+
+
+<h2>What are we reading?</h2>
+
+
+
+<p><img src="https://s.w.org/images/core/emoji/14.0.0/72x72/1f4d9.png" alt="📙" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <a href="https://github.com/bitcoin/bips/blob/master/bip-0119.mediawiki">BIP-119 by Jeremy Rubin</a></p>
+
+
+
+<blockquote class="wp-block-quote"><p>This BIP proposes a new opcode, OP_CHECKTEMPLATEVERIFY, to be activated as a change to the semantics of OP_NOP4.<br><br>The new opcode has applications for transaction congestion control and payment channel instantiation, among others, which are described in the Motivation section of this BIP.</p><cite><a href="https://github.com/bitcoin/bips/blob/master/bip-0119.mediawiki">From BIP-119</a></cite></blockquote>
+
+
+
+<h2>How else can I follow along?</h2>
+
+
+
+<p>If you are new to studying Bitcoin, find the document too difficult, or simply want some other contextual information, try these other sources instead. They will help you to follow along with the discussion.</p>
+
+
+
+<p><img src="https://s.w.org/images/core/emoji/14.0.0/72x72/1f399.png" alt="🎙" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <a href="https://stephanlivera.com/episode/339/">Jeremy Rubin on Stephan Livera&#8217;s podcast</a> &#8211; this entire episode is dedicated to Check Template Verify (BIP-119).</p>
+
+
+
+<p><img src="https://s.w.org/images/core/emoji/14.0.0/72x72/1f4bb.png" alt="💻" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <a href="https://utxos.org/">UTXOs.org</a> &#8211; this is an informational website Jeremy put together which outlines the vision for BIP-119 and lays out examples for how it would be used.</p>
+
+
+
+<h2>Questions to Consider</h2>
+
+
+
+<p>See if you can find the answers to the questions. Some of the questions are targeted at beginners, while others are more advanced. Some answers you will find in the reading material, some you may have to conduct your own research for, and some require you to do some thinking and form your own opinion.</p>
+
+
+
+<ul><li>What is a BIP?</li><li>Why do Bitcoin developers use BIPs? What would it look like if there were no BIPs?</li><li>What is a covenant? Should Bitcoin have covenants?</li><li>Do you think that &#8220;templates&#8221; are a good way to implement covenants in Bitcoin?</li><li>What are some of the use-cases for templates?</li><li>What are potential risks associated with this BIP?</li><li>What is a soft-fork?</li><li>What&#8217;s an argument for supporting this BIP?</li><li>What&#8217;s an argument for opposing this BIP?</li></ul>
+<p>The post <a rel="nofollow" href="https://atlantabitdevs.org/2022/01/20/notes-for-the-bip-119-reading-group/">Notes for the BIP-119 Reading&nbsp;Group</a> appeared first on <a rel="nofollow" href="https://atlantabitdevs.org">Atlanta BitDevs</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>
