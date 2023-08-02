@@ -41,9 +41,9 @@ const page = async ({ params }: PageProps) => {
 
   return (
     <main className="w-full dark:text-white">
-      <article className="flex flex-row w-full">
+      <article className="flex flex-col lg:flex-row w-full">
         {/* Nav */}
-        <div className="w-1/3 min-w-[300px] max-w-[480px] h-screen p-8 drop-shadow-sidebar sticky top-[82px] left-0 z-[49] bg-white dark:bg-neutral-900 overflow-y-auto flex flex-col gap-4">
+        <div className="lg:w-1/3 min-w-[300px] max-w-full lg:max-w-[480px] h-full lg:h-screen p-8 drop-shadow-sidebar lg:sticky top-[82px] left-0 z-[49] bg-white dark:bg-neutral-900 overflow-y-auto flex flex-col gap-4 lg:block">
           <header className="font-sans flex flex-col gap-2">
             <h1 className="text-4xl font-black">{post.title}</h1>
             <time className="text-2xl text-gray-500">{post.date}</time>
@@ -81,7 +81,7 @@ const page = async ({ params }: PageProps) => {
         </div>
 
         {/* Content */}
-        <div className="ml-10 relative z-1 w-full">
+        <div className="lg:ml-10 relative z-1 w-full">
           <div className="container mx-auto max-w-5xl px-4 pb-4">
             {post.image ? (
               <Image
@@ -96,7 +96,7 @@ const page = async ({ params }: PageProps) => {
             )}
 
             {params.contentType === contentType && data === undefined ? (
-              <></>
+              <div>{`No summary generated for ${params.slug}`}</div>
             ) : null}
 
             <Mdx
