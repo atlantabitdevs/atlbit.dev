@@ -56,7 +56,7 @@ const main = async () => {
                   messages: [
                     {
                       role: 'user',
-                      content: `Can you summarize the text after the asterisk for me? Use no more than 160 words. Split into paragraphs where appropriate. Do not mention the asterisk. * \n ${summary.text}`,
+                      content: `Summarize these meeting notes in a 1 paragraph cliff notes format: ${summary.text}`,
                     },
                   ],
                 }),
@@ -65,7 +65,7 @@ const main = async () => {
                   messages: [
                     {
                       role: 'user',
-                      content: `Can you summarize the text after the asterisk for me? Use no more than 100 words. Split into paragraphs where appropriate. Write it for a reader that may not be familiar with the technical jargon in the original text. Assume the reader is 15. Do not mention the asterisk. * ${summary.text} `,
+                      content: `Summarize this in an "explain like I'm five" format using a maximum of 60 words: ${summary.text} `,
                     },
                   ],
                 }),
