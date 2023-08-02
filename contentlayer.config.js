@@ -35,6 +35,9 @@ export const Doc = defineDocumentType(() => ({
     image: {
       type: 'string',
     },
+    meetupLink: {
+      type: 'string',
+    },
     published: {
       type: 'boolean',
       default: true,

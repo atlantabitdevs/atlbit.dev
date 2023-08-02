@@ -56,8 +56,14 @@ const page = async ({ params }: PageProps) => {
             )}
             {params.contentType === 'events' ? (
               <p className="text-xl flex flex-row gap-2 items-center">
-                <a href={''}>Meetup Link</a>
-                <ArrowTopRightOnSquareIcon className="w-6 h-6" />
+                {post.meetupLink ? (
+                  <>
+                    <a href={post.meetupLink}>Meetup Link</a>
+                    <ArrowTopRightOnSquareIcon className="w-6 h-6" />
+                  </>
+                ) : (
+                  ``
+                )}
               </p>
             ) : (
               ``
@@ -65,9 +71,9 @@ const page = async ({ params }: PageProps) => {
           </header>
           {params.contentType === 'events' ? (
             <nav>
-              <ul className="list-disc font-sans">
+              {/* <ul className="list-disc font-sans">
                 <li>Content Outline</li>
-              </ul>
+              </ul> */}
             </nav>
           ) : (
             ``
@@ -90,7 +96,7 @@ const page = async ({ params }: PageProps) => {
             )}
 
             {params.contentType === contentType && data === undefined ? (
-              <></>
+              <div>{`No summary generated for ${params.slug}`}</div>
             ) : null}
 
             <Mdx
