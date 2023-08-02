@@ -6,7 +6,7 @@ type Props = {
   href: string | undefined
   title: any
   slug: string
-  data: ParsedData | undefined
+  data?: ParsedData | undefined
 }
 
 export default function SummaryLink(props: Props) {
