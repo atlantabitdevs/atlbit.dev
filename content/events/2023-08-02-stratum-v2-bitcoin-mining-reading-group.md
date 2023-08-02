@@ -68,3 +68,4 @@ The Stratum V2 reference implementation is a work-in-progress and they are looki
 ## Conclusion
 
 Hopefully this was helpful for learniong about SV2 and the importance of miner decentralization. If you want to follow the SV2 project, you can <a href="https://discord.gg/UHckbC7x58" target="_blank" data-no-summary>join their Discord</a>.
+
