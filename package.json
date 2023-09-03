@@ -7,7 +7,10 @@
     "build": "contentlayer build && next build",
     "start": "next start",
     "lint": "next lint",
-    "summarize": "node --loader ts-node/esm ./scripts/summarize-md.ts"
+    "summarize": "cp meetup.ts ai/src/meetup.ts && cp types/Meetup.ts ai/src/types/Meetup.ts && cd ai && yarn start",
+    "summarizeold": "node --loader ts-node/esm ./scripts/summarize-md.ts",
+    "update": "git clone https://github.com/atlantabitdevs/bitdevs-upgrade.git ./tmp-template && ncp ./tmp-template/ . --filter '^((?!content|public|summaries).)*$' && rimraf ./tmp-template",
+    "update:clean": "rimraf ./tmp-templat"
   },
   "dependencies": {
     "@bitcoin-design/bitcoin-icons-react": "^0.1.9",
@@ -25,6 +28,7 @@
     "langchain": "^0.0.112",
     "marked": "^6.0.0",
     "marked-mangle": "^1.1.0",
+    "ncp": "^2.0.0",
     "next": "13.4.9",
     "next-contentlayer": "^0.3.4",
     "next-themes": "^0.2.1",
@@ -37,6 +41,7 @@
     "remark": "^14.0.3",
     "remark-gfm": "^3.0.1",
     "remark-html": "^15.0.2",
+    "rimraf": "^5.0.1",
     "shiki": "^0.14.3",
     "strip-markdown": "^5.0.1",
     "tailwind-merge": "^1.14.0",
