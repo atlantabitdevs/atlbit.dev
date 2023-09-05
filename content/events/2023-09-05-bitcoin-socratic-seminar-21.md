@@ -56,6 +56,15 @@ are formatted to foster debate, information sharing and lively discussion.
 
 [[Lightning-dev] option_simple_close for "unfailable" closing](https://lists.linuxfoundation.org/pipermail/lightning-dev/2023-July/004013.html)
 
+### 🎨 User Experience
+
+#### HRF Bounty for Bitcoin UI Kit
+
+- <a href="https://hrfbounties.org/" data-no-summary>HRF Bounty List</a>
+- <a href="https://www.bitcoinuikit.com/" data-no-summary>Bitcoin UI Kit (Figma)</a>
+- <a href="https://github.com/cypherstack/bitcoin-ui-kit-penpot" data-no-summary>Awarded Submissions</a>
+- <a href="https://discord.com/channels/903125802726596648/1144396832299036703" data-no-summary>Discussion in Bitcoin Design Community about modifying architecture for better FOSS collaboration in PenPot</a>
+
 ### 🧠 AI
 
 [BitDevs Upgrade template v0.1.0-alpha released](https://github.com/atlantabitdevs/bitdevs-upgrade)
