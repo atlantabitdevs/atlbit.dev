@@ -6,11 +6,10 @@ type Props = {
   href: string | undefined
   title: any
   slug: string
-  data?: ParsedData | undefined
+  data: ParsedData | undefined
 }
 
 export default function SummaryLink(props: Props) {
-  // TODO: Fetch the summary from the JSON file corresponding to this link using the props.slug
   // TODO: Figure out how to prevent this from being housed in a <p> tag when rendered, I want to use more semantic HTML inside this component
 
   const entry = props.data?.summary.find((item) => item.title == props.title)

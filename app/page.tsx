@@ -11,7 +11,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import MeetupName from '@/components/MeetupName'
 import PostPreview from '@/components/PostPreview'
-import { metaupdata } from '@/metaupdata'
+import { meetup } from '@/meetup'
 
 export default function Home({}) {
   const eventsContentData = getSortedMarkdownContent(ContentType.Events)
@@ -23,7 +23,7 @@ export default function Home({}) {
       <div className="border-b-gray-300 border-b py-10 md:py-20 flex flex-col gap-4 md:gap-10">
         <div className="w-40 h-40 md:w-[200px] md:h-[200px] rounded-full overflow-hidden">
           <Image
-            src={metaupdata.image}
+            src={meetup.image}
             alt=""
             width="400"
             height="200"
