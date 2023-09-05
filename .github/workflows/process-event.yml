@@ -1,4 +1,4 @@
-name: Process New Event
+name: Generate AI Summaries
 
 on:
   push:
@@ -7,6 +7,7 @@ on:
       - master
     paths:
       - 'content/events/[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]*.md'
+  workflow_dispatch:
 
 jobs:
   build:
@@ -27,7 +28,7 @@ jobs:
         run: cd ai && yarn install --network-timeout 1000000
 
       - name: Build and Process new event
-        run: cd ai && yarn start
+        run: yarn summarize
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
 
