@@ -18,6 +18,43 @@ are formatted to foster debate, information sharing and lively discussion.
 3. Raise your hand to grab the mic and participate in the conversation
 4. We go to a bar afterwards
 
+## Logistics for Tonight
+
+We’re looking forward to seeing you tonight at Bitcoin Socratic Seminar #21! This should be a big one. Thanks so much to our sponsors <a href="https://voltage.cloud/" data-no-summary>Voltage</a>, <a href="https://libertypay.com/" data-no-summary>LibertyPay</a>, <a href="https://atlbitlab.com/" data-no-summary>ATL BitLab</a>, <a href="https://www.bitrefill.com/buy" data-no-summary>Bitrefill</a>.
+
+### 🏫 Location
+
+**GSU Dahlberg Hall**<br />
+30 Courtland St SE, Atlanta, GA 30303<br />
+<a href="https://goo.gl/maps/ARtQe6witNbe48FL9" data-no-summary>Map Link</a><br />
+_This venue is part of Georgia State University and also sometimes goes by the name “Veteran’s Memorial Hall”._
+
+### 🚘 Parking
+
+The closest parking deck is called M-Deck. It is a paid parking deck located directly behind Dahlberg Hall.
+
+### 🚕 Rideshare
+
+Uber and Lyft work great in this city.
+
+### 🚋 Public Transit
+
+You can take the <a href="https://www.itsmarta.com/Atlanta-Street-Car-Info.aspx" data-no-summary>Atlanta Streetcar</a> from Centennial Olympic Park to Hurt Park.
+
+### 🚶‍♀️ Walking
+
+From the Omni, it’s manageable 0.8 mile walk. However, be careful alert back late at night or get a rideshare back.
+
+### 🍻 Afterwards
+
+Typically, everyone goes to get dinner or hang out at a bar afterwards. There is no official venue for this, but some suggestions are:
+
+- Sidebar
+- Park Bar
+- Hudson Grille
+
+Make friends at the Seminar and form a dinner train for your crew!
+
 ## Topics
 
 ### 🧡 Bitcoin
