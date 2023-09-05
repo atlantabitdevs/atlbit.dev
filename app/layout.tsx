@@ -5,13 +5,13 @@ import { IBM_Plex_Serif, Inter } from 'next/font/google'
 import Header from '@/components/Header/Header'
 import type { Metadata } from 'next'
 import { ThemeProvider } from './theme-provider'
-import { metaupdata } from '@/metaupdata'
+import { meetup } from '@/meetup'
 import { switchThemeDuration } from '@/lib/utils'
 
 const {
   city: { name, position },
   description,
-} = metaupdata
+} = meetup
 const inter = Inter({ subsets: ['latin'] })
 const ibmPlexSerif = IBM_Plex_Serif({
   weight: ['400', '600'],
@@ -35,7 +35,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <meta property="og:image" content={metaupdata.image} />
+        <meta property="og:image" content={meetup.image} />
         <meta property="og:image:type" content="image/jpg" />
         <meta property="og:image:width" content="1920" />
         <meta property="og:image:height" content="1080" />

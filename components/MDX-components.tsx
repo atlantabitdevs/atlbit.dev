@@ -33,7 +33,7 @@ export function Mdx({ code, slug, jsonData, page = false }: MdxProps) {
       children?: any
       'data-no-summary'?: string
     }) => {
-      if (noSummary || page) {
+      if (noSummary || jsonData === undefined || page) {
         return (
           <a
             className={cn(
@@ -71,7 +71,7 @@ export function Mdx({ code, slug, jsonData, page = false }: MdxProps) {
     ),
     p: ({ className, ...props }: { className?: any }) => (
       <p
-        className={cn('leading-7 [&:not(:first-child)]:mt-6', className)}
+        className={cn('leading-7 [&:not(:first-child)]:my-6', className)}
         {...props}
       />
     ),

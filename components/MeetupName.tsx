@@ -1,8 +1,8 @@
-import { metaupdata } from '@/metaupdata'
+import { meetup } from '@/meetup'
 
 const {
   city: { name, position },
-} = metaupdata
+} = meetup
 
 export default function MeetupName() {
   return (

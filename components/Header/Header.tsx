@@ -1,7 +1,7 @@
 import './Header.css'
 import MeetupName from '../MeetupName'
 import { ThemeSwitcher } from '../ThemeSwitcher'
-import { metaupdata } from '@/metaupdata'
+import { meetup } from '@/meetup'
 
 const Header = () => {
   return (
@@ -13,7 +13,7 @@ const Header = () => {
       </h1>
       <nav>
         <ul className="flex flex-row gap-4 font-semibold items-center">
-          {metaupdata.mainNav.map((item) => (
+          {meetup.mainNav.map((item) => (
             <li key={item.text} className="">
               <a href={item.link} className="no-underline">
                 {item.text}

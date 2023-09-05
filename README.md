@@ -2,7 +2,11 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/3dabcadd-d728-4a01-b01e-b7a556e40c29/deploy-status)](https://app.netlify.com/sites/bitdevs-upgrade/deploys)
 
+[![Generate AI Summaries](https://github.com/atlantabitdevs/bitdevs-upgrade/actions/workflows/process-event.yml/badge.svg)](https://github.com/atlantabitdevs/bitdevs-upgrade/actions/workflows/process-event.yml)
+
 This is a project to improve the UX of BitDevs websites and add AI generated summaries to help new attendees.
+
+![BitDevs Upgrade](https://github.com/atlantabitdevs/bitdevs-upgrade/raw/main/public/bitdevs-upgrade.jpg)
 
 ## AI Scraper and Summarizer
 
@@ -55,17 +59,8 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+## Upgrading
 
-To learn more about Next.js, take a look at the following resources:
+If you fork this template for your own website, you may want to upgrade the template in the future if there are bug fixes, UX improvements, or new features. You can run `./upgrade.sh` from a CLI shell to upgrade, which will pull down the latest, but ignore content that ia unique to your site.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+However, this in't guaranteed to work properly. Before running upgrade.sh, make sure all your changes have been committed. Create a clean branch and run the update their. Check the changes that have been applied when you merge to ensure none of your unique content is overwritten.

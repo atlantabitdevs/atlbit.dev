@@ -3,7 +3,6 @@ import {
   CaretDownIcon,
   CaretUpIcon,
 } from '@bitcoin-design/bitcoin-icons-react/filled'
-import exp from 'constants'
 import { useState } from 'react'
 
 interface AccordionProps {
@@ -12,18 +11,30 @@ interface AccordionProps {
   expanded?: boolean
 }
 
+function NewlineText({ text }: { text: string }) {
+  const newText = text.split('\n').map((str, index, array) =>
+    index === array.length - 1 ? (
+      str
+    ) : (
+      <>
+        {str}
+        <br />
+      </>
+    )
+  )
+
+  return <>{newText}</>
+}
+
 export default function Accordion(props: AccordionProps) {
-  const [expanded, setExpanded] = useState<boolean>(false)
+  const [expanded, setExpanded] = useState<boolean>(props.expanded || false)
 
   return (
     <>
       <span className="accordion">
         <span
           className="flex flex-row gap-2 cursor-pointer"
-          onClick={() => {
-            console.log('test')
-            setExpanded(!expanded)
-          }}
+          onClick={() => setExpanded(!expanded)}
         >
           <span>{props.type === 'cliff' ? <>📄</> : <>🧒</>}</span>
           <span className="text-xl font-sans font-semibold">
@@ -41,7 +52,11 @@ export default function Accordion(props: AccordionProps) {
             )}
           </span>
         </span>
-        {expanded ? <span className="block pb-4">{props.content}</span> : ``}
+        {expanded ? (
+          <span className="block pb-4">
+            <NewlineText text={props.content} />
+          </span>
+        ) : null}
       </span>
     </>
   )
