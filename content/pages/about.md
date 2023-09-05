@@ -13,3 +13,7 @@ Our monthly Socratic Seminar events are formatted to foster debate, information 
 A newsletter is sent out the day of the event which outlines discussion topics. Archives of discussion topics and presentations can be found in the event descriptions of past meetups.
 
 Please contact the organizers if you’d like to present at a future Socratic event or have a recommended topic for discussion.
+
+### Legacy Website
+
+Currently, there are 2 websites running for this meetup. This website uses an [experimental new template with AI summaries](https://github.com/atlantabitdevs/bitdevs-upgrade) of content. The [old website can be found here](https://atlantabitdevs.org/) while the organizers are still in the process of migrating content to this one.
