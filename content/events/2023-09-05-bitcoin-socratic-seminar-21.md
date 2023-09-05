@@ -40,6 +40,8 @@ are formatted to foster debate, information sharing and lively discussion.
 
 [wallet: Add CoinGrinder coin selection algorithm core #27877](https://github.com/bitcoin/bitcoin/pull/27877)
 
+<a href="https://github.com/bitcoin-dev-project/warnet" data-no-summary>Warnet: Monitor and analyze the emergent behaviours of Bitcoin networks</a>
+
 ### ⚡️ Lightning
 
 [Min cost flow based pay implementation (Rene Pay in CoreLN)](https://twitter.com/renepickhardt/status/1686061536937230351)
@@ -55,6 +57,11 @@ are formatted to foster debate, information sharing and lively discussion.
 [[Lightning-dev] Jamming Mitigation Dry Run](https://lists.linuxfoundation.org/pipermail/lightning-dev/2023-August/004034.html)
 
 [[Lightning-dev] option_simple_close for "unfailable" closing](https://lists.linuxfoundation.org/pipermail/lightning-dev/2023-July/004013.html)
+
+#### Lightning Simulation Tools
+
+- <a href="https://github.com/bitcoin-dev-project/sim-ln" data-no-summary>SimLN</a>
+- <a href="https://github.com/tee8z/doppler" data-no-summary>Doppler</a>
 
 ### 🎨 User Experience
 
