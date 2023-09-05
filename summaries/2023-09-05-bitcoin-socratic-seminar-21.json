@@ -8,7 +8,7 @@
     },
     {
       "summary": "In July 2023, a large theft took place involving vulnerable wallets. However, the exploitation likely began in May 2023 on a smaller scale. Another wallet software vulnerability, similar to the one in July, was discovered in November 2022 and also exploited. The culprits behind these ongoing thefts have not been identified. The vulnerability in the wallets is related to the use of a weak pseudo-random number generator (PRNG), which compromises the encryption and security of the wallets. One specific vulnerability, known as CWE-338, was identified in Trust Wallet (CVE-2023-31290). For more technical details, refer to Ledger Donjon's write-up on this vulnerability in Trust Wallet.",
-      "summaryeli15": "Imagine you have a special cup that gives you a reward every time you put money in it. But someone figures out a way to steal your money because the cup's security is not very good. They can predict what the reward will be and take it before you can. This happened to a digital wallet called Trust Wallet, and now your savings are not safe. Another similar attack happened before, and we don't know who is doing it.",
+      "summaryeli15": "A vulnerability was discovered in a library sometimes used for generating bitcoin private keys. Basically, the library should have been using very random, hard-to-guess numbers. However, the numbers it was picking were not as random as previously thought. Since the numbers were not random enough, attackers were able to essentially guess bitcoin private keys, check if they matched any activity on the blockchain, and take some people's bitcoin.",
       "title": "Milksad Security Vulnerability Disclosure",
       "link": "https://milksad.info/"
     },
