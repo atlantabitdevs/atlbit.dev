@@ -38,7 +38,7 @@
     },
     {
       "summary": "- Feedback from users is taken seriously and can be submitted through GitHub.\n- A coin selection algorithm is added to minimize input weight and create change.\n- The algorithm is designed for a specific use case of lightning service providers.\n- Lightning service providers prioritize maintaining a large pool of varied UTXOs to onboard new users and sell liquidity to existing users.\n- Multiple coin selection algorithms are desired to cater to different scenarios.\n- Changes have been made to optimize the CoinGrinder algorithm and fix crashes in the code.\n- CoinGrinder is a DFS-based algorithm that finds the input set with the lowest weight.\n- A data structure is introduced to track available effective values in UTXOs.\n- Skipping duplicate UTXO groups that create equivalent input sets improves efficiency.\n- Cutting is used when exceeding maximum weight while the last step has minimum weight in the lookahead.",
-      "summaryeli15": "The first paragraph is about taking feedback seriously and providing documentation for more information. The second paragraph introduces a new algorithm to select coins for transactions in a way that saves space. The rest of the text talks about specific details and considerations in implementing this algorithm.",
+      "summaryeli15": "Murch has opened a PR to bitcoin-core, introducing a new algorithm called \"CoinGrinder\" to select coins for transactions in a way that saves space. The rest of the text talks about specific details and considerations in implementing this algorithm.",
       "title": "wallet: Add CoinGrinder coin selection algorithm core #27877",
       "link": "https://github.com/bitcoin/bitcoin/pull/27877"
     },
