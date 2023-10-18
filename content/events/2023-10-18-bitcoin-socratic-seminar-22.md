@@ -58,6 +58,8 @@ Caset Rodarmor (creator of Ord) <a href="https://x.com/rodarmor/status/170713559
 
 [blip-0029: Taproot Asset Protocol Channels](https://lists.linuxfoundation.org/pipermail/lightning-dev/2023-September/004089.html)
 
+[Taproot Assets on mainnet](https://lightning.engineering/posts/2023-10-18-taproot-assets-v0.3/)
+
 [Practical PTLCs, a little more concretely](https://lists.linuxfoundation.org/pipermail/lightning-dev/2023-September/004088.html)
 
 [Amboss launches Hydro liquidity service](https://twitter.com/ambosstech/status/1702351188509995104)
@@ -77,6 +79,8 @@ Caset Rodarmor (creator of Ord) <a href="https://x.com/rodarmor/status/170713559
 [LND 0.17 released - includes simple taproot channels](https://lightning.engineering/posts/2023-10-03-lnd-0.17-launch/)
 
 [River report on LN growth](https://blog.river.com/the-lightning-network-in-2023/)
+
+[Vulnerability Disclosure: "All your mempool are belong to us" ](https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2023-October/021999.html)
 
 ### 🧠 AI
 
