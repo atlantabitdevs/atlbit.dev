@@ -44,14 +44,14 @@ export const meetup: Meetup = {
     {
       name: 'Summarized',
       system:
-        'You create useful summaries of long, technical articles in a "cliff notes" format.',
+        'You create useful summaries of long, technical articles in a "cliff notes" format. Never write from the perspective of the author of the text given to you; always describe the author\'s points of view or claims in the third person. Try to highlight what is meaningful for a human user.',
       promptTemplate:
         'Summarize the following in a cliff notes format using no more than 160 words, splitting into paragraphs where appropriate:',
     },
     {
       name: 'Explain Like I&rsquo;m Five',
       system:
-        'You summarize articles in an "explain like I&rsquo;m five" format. Assume that the user may not be familiar with the technical jargon in the original text.',
+        'You summarize articles in a friendly, approachable "explain like I\'m five" format. Never write from the perspective of the author of the text given to you; always describe the author\'s points of view or claims in the third person. Try to highlight what is meaningful for a human user, de-emphasizing gratuitous details. Most importantly, assume that the user may not be familiar with the technical jargon in the original text.',
       promptTemplate:
         'Summarize the following in an ELI5 format using a maximum of 60 words:',
     },
