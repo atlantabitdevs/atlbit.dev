@@ -64,11 +64,11 @@ Caset Rodarmor (creator of Ord) <a href="https://x.com/rodarmor/status/170713559
 
 [Amboss launches Hydro liquidity service](https://twitter.com/ambosstech/status/1702351188509995104)
 
-[LDK #2413](https://github.com/lightningdevkit/rust-lightning/issues/2413) supports sending payments to [blinded paths](https://bitcoinops.org/en/topics/rendez-vous-routing/) and allows receiving payments to paths where a single final hop is hidden (blinded) from the spender.
+[LDK PR #2413 - Blinded paths](https://github.com/lightningdevkit/rust-lightning/issues/2413) supports sending payments to blinded paths and allows receiving payments to paths where a single final hop is hidden (blinded) from the spender.
 
-[PR #2514](https://github.com/lightningdevkit/rust-lightning/issues/2514), also merged this week, provides other support for blinded payments in LDK.
+[LDK PR #2514 - other LDK blined paths stuff](https://github.com/lightningdevkit/rust-lightning/issues/2514)
 
-[LDK #2371](https://github.com/lightningdevkit/rust-lightning/issues/2371) adds support for managing payments using [offers](https://bitcoinops.org/en/topics/offers/). It allows a client application using LDK to use an offer to register its intent to pay an invoice, timing out the payment attempt if a sent offer never results in a received invoice, and then using existing code in LDK to pay the invoice (including retrying if the first attempts don’t succeed).
+[LDK #2371](https://github.com/lightningdevkit/rust-lightning/issues/2371) adds support for managing payments using offers. It allows a client application using LDK to use an offer to register its intent to pay an invoice, timing out the payment attempt if a sent offer never results in a received invoice, and then using existing code in LDK to pay the invoice (including retrying if the first attempts don’t succeed).
 
 [Scaling Lightning with Covenants](https://lists.linuxfoundation.org/pipermail/lightning-dev/2023-September/004092.html)
 
@@ -100,7 +100,7 @@ Caset Rodarmor (creator of Ord) <a href="https://x.com/rodarmor/status/170713559
 
 ### 📊 Business
 
-[Chipper adds Lightning](https://chippercash.com/) - TBD
+[Chipper adds Lightning](https://chippercash.com/)
 
 [Blockstream Greenlight open for business](https://blog.blockstream.com/greenlight-is-now-open-for-business/)
 
