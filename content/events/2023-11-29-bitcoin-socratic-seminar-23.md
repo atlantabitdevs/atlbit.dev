@@ -34,7 +34,7 @@ Tonight we'll be at our usual spot at NCR. Follow the parking instructions <a hr
 
 #### ⛏️ Mining
 
-[DEMAND: First Stratum V2 Mining Pool](https://bitcoinmagazine.com/business/demand-launches-worlds-first-stratum-v2-bitcoin-mining-pool)
+<a href="https://bitcoinmagazine.com/business/demand-launches-worlds-first-stratum-v2-bitcoin-mining-pool" target="_blank" rel="noreferrer">DEMAND: First Stratum V2 Mining Pool</a>
 
 ##### 🌊 Ocean
 
