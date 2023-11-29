@@ -6,7 +6,7 @@ type: Doc
 
 ![Bitcoin Socratic Seminar #23](/bitcoin-socratic-seminar-23.jpg)
 
-It’s almost time for <a href="https://www.meetup.com/atlantabitdevs/events/296345934/attendees/">Bitcoin Socratic Seminar #23</a>!
+It’s almost time for <a href="https://www.meetup.com/atlantabitdevs/events/296345934/">Bitcoin Socratic Seminar #23</a>!
 
 ## What is a Socratic Seminar?
 
