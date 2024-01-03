@@ -23,7 +23,7 @@ On your own time, read this week's chapter. Show up at this event (in-person or 
 
 ## This Session
 
-In order to give people time to obtain a copy of the book, we are going to first start with the <a href="https://spiral.xyz/bitcoin.pdf" target="_blank">Bitcoin Whitepaper</a>, which can be found as an appendix in the book, but also freely available on the internet. <a href="https://spiral.xyz/bitcoin.pdf" target="_blank">Read it </a>here.
+In order to give people time to obtain a copy of the book, we are going to first start with the <a href="https://spiral.xyz/bitcoin.pdf" target="_blank">Bitcoin Whitepaper</a>, which can be found as an appendix in the book, but also freely available on the internet. <a href="https://spiral.xyz/bitcoin.pdf" target="_blank">Read it here</a>.
 
 ### Study Questions
 
