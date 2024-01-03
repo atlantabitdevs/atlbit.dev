@@ -1,5 +1,5 @@
 ---
-date: '2024-01-01'
+date: '2024-01-10'
 title: 'Mastering Bitcoin: Whitepaper & Ground Rules'
 type: Doc
 ---
