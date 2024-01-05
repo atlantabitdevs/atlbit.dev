@@ -26,11 +26,11 @@ In order to give people time to obtain a copy of the book, we are going to first
 
 These questions are provided to help guide your thinking as read the material. We'll try to answer these together when we meet to discuss the chapter.
 
-1. What problem does Bitcoin aim to solve in the context of electronic cash systems, and how does it propose to solve it?
-2. Explain the concept of a peer-to-peer network in the context of Bitcoin and its significance in ensuring the security and functionality of the system.
+1. What are some problems with finance and commerce on the internet that Satoshi describes?
+2. What is a peer-to-peer system? What is the alternative to a peer-to-peer system?
 3. Discuss the role of digital signatures in Bitcoin transactions. How do they contribute to the integrity and security of the system?
-4. What is double-spending in the context of digital currencies, and how does Bitcoin address this issue?
-5. Describe the proof-of-work system used in Bitcoin. How does it contribute to the security and trust of the blockchain?
+4. What's the name of the _problem_ that bitcoin solved for the first time (while other digital currencies have struggled)? How did bitcoin address this issue?
+5. Describe the proof-of-work system used in Bitcoin. How does it contribute to the security of bitcoin?
 6. How does Bitcoin ensure the validity of transactions and prevent fraudulent activities without relying on a central authority?
 7. Discuss the incentives for participants in the Bitcoin network. How do these incentives ensure the longevity and stability of the system?
 8. Explore the concept of privacy in Bitcoin transactions. How does the system maintain a balance between transparency and user privacy?
