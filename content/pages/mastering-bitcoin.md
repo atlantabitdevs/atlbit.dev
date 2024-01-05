@@ -14,10 +14,10 @@ Discover, discuss, and delve into the world of Bitcoin with us. Your journey tow
 
 On your own time, read this week's chapter. Show up at this event (in-person or remotely) to discuss the chapter with other participants. Each session will follow this format:
 
-1. Introductions: participants are invited to introduce themselves (we will skip this if there is nobody new in the room).
-2. Gather Questions: then, we will go around the room to quickly discern what questions people had, what people were confused about, etc. and take note of these on the whiteboard so we can discuss further.
-3. Discussion: next, we will try and collectively answer the study questions together, as well as address any issues people defined in the prior step.
-4. Post-meetup Hangout: afterwards, those joining in-person typically go to a restaurant or bar together to socialize.
+1. Introductions (~5 minutes): participants are invited to introduce themselves (we will skip this if there is nobody new in the room).
+2. Gather Questions (~5-10 minutes): then, we will go around the room to quickly discern what questions people had, what people were confused about, etc. and take note of these on the whiteboard so we can discuss further.
+3. Discussion (~60 minutes): next, we will try and collectively answer the study questions together, as well as address any issues people defined in the prior step.
+4. Post-meetup Hangout (8:00pm - whenever): afterwards, those joining in-person typically go to a restaurant or bar together to socialize.
 
 ## Sessions
 
