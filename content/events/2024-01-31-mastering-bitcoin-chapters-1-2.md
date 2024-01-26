@@ -20,7 +20,7 @@ We recommend that you read up on the <a href="/page/mastering-bitcoin" target="_
 
 ## This Session
 
-In this session, <a href="https://twitter.com/thejordanbravo" target="_blank">Jordan Bravo</a> will lead us through a discussion of:
+In this session, <a href="https://twitter.com/StephenDeLorme" target="_blank">Stephen DeLorme</a> will lead us through a discussion of:
 
 - Chapter 1: Introduction
 - Chapter 2: How Bitcoin Works
@@ -29,4 +29,25 @@ In this session, <a href="https://twitter.com/thejordanbravo" target="_blank">Jo
 
 These questions are provided to help guide your thinking as read the material. We'll try to answer these together when we meet to discuss the chapter.
 
-TODO: Craft Study Questions
+#### Chapter 1
+
+1. Does Bitcoin have individual coins?
+2. What is Bitcoin's monetary policy?
+3. What are 4 innovations that were combined to make Bitcoin?
+4. What are some different ways to categorize Bitcoin wallets?
+5. Who are the "peers" in Bitcoin's Peer-to-Peer network?
+6. How do you find the price of bitcoin?
+
+#### Chapter 2
+
+1. What tool could you use to visualize a Bitcoin transaction?
+2. What kind of data might be included in a Bitcoin "invoice"?
+3. What is a name for the smallest onchain unit of bitcoin?
+4. Generally speaking, how do transaction inputs and outputs work?
+5. How do is a transaction's fee indicated?
+6. What is _coin selection_?
+7. What are some common forms of transactions?
+8. What is a UTXO?
+9. What is it called when a Bitcoin node shares a new transaction with other Bitcoin nodes?
+10. What's a good analogy to describe mining?
+11. A new transaction is not confirmed until it has been included in a valid \_ \_ \_ \_ _ by a _ \_ \_ \_ \_.
