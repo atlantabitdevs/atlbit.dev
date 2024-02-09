@@ -29,4 +29,21 @@ In this session, <a href="#" target="_blank">somebody</a> will lead us through a
 
 These questions are provided to help guide your thinking as read the material. We'll try to answer these together when we meet to discuss the chapter.
 
-TODO: Craft Study Questions
+#### Chapter 3
+
+- Which command enables you to enable or disable bitcoin features when building bitcoin core?
+- Where is the default location of bitcoind?
+- How much data is initially required for bitcoin blockchain data for a full node?
+- How much data is required for transactions over 30 days for a full node?
+- What does block height mean?
+
+#### Chapter 4
+
+- What are bitcoin addresses in terms of public/private key encryption?
+- What evidence is typically required to be authorized to spend in a bitcoin transaction?
+- Why is it hard to determine one's private key from a public key in elliptic curve cryptography?
+- What is the purpose of base58check encoding?
+- What are the steps involved in base58check encoding?
+- What tradeoffs does Bech32 have compared to base58check encoding?
+- What is the difference between Bech32 and Bech32m?
+- What is compressed in a "compressed private key"?
