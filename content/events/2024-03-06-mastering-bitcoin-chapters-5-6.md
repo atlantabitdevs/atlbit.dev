@@ -29,4 +29,12 @@ In this session, <a href="https://twitter.com/nonni_io" target="_blank">Bryan No
 
 These questions are provided to help guide your thinking as read the material. We'll try to answer these together when we meet to discuss the chapter.
 
-TODO: Craft Study Questions
+#### Chapter 5
+
+- What is a bitcoin wallet? Describe the miconceptions and the components.
+- What is the difference between a "wallet database" and a "wallet application"?
+- What is the trade off of onle using a single public key?
+- Describe the difference between independent / nondeterministic and deterministic key generation.
+- 
+
+#### Chapter 6
