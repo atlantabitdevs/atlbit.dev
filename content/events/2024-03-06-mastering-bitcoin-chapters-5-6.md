@@ -29,17 +29,12 @@ In this session, <a href="https://twitter.com/nonni_io" target="_blank">Bryan No
 
 These questions are provided to help guide your thinking as read the material. We'll try to answer these together when we meet to discuss the chapter.
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 216022e (initial discussion questions ch5)
 #### Chapter 5
 
 - What is a bitcoin wallet? Describe the miconceptions and the components.
 - What is the difference between a "wallet database" and a "wallet application"?
 - What is the trade off of onle using a single public key?
 - Describe the difference between independent / nondeterministic and deterministic key generation.
-<<<<<<< HEAD
 - What are the different types of recovery codes in wide use today? List some advantages and disagvantages.
 - Which recovery code schemes allow for an optional passphrase?
 - What are the 4 components needed to recover funds froim data loss? Why is the fourth needed?
@@ -68,11 +63,3 @@ These questions are provided to help guide your thinking as read the material. W
 - TODO
 - TODO
 - TODO
-=======
-TODO: Craft Study Questions
->>>>>>> 7e929bd (mastering bitcoin chapters 5 & 6 skeleton)
-=======
-- 
-
-#### Chapter 6
->>>>>>> 216022e (initial discussion questions ch5)

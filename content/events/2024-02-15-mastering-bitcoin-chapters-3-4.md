@@ -29,10 +29,6 @@ In this session, <a href="#" target="_blank">somebody</a> will lead us through a
 
 These questions are provided to help guide your thinking as read the material. We'll try to answer these together when we meet to discuss the chapter.
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> f7d61f1 (chapters 3+4 study questions)
 #### Chapter 3
 
 - Which command enables you to enable or disable bitcoin features when building bitcoin core?
@@ -51,9 +47,3 @@ These questions are provided to help guide your thinking as read the material. W
 - What tradeoffs does Bech32 have compared to base58check encoding?
 - What is the difference between Bech32 and Bech32m?
 - What is compressed in a "compressed private key"?
-<<<<<<< HEAD
-=======
-TODO: Craft Study Questions
->>>>>>> 1adbf4b (mastering bitcoin chapters 3 & 4 skeleton)
-=======
->>>>>>> f7d61f1 (chapters 3+4 study questions)

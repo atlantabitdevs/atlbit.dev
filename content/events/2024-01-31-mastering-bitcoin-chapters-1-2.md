@@ -20,15 +20,7 @@ We recommend that you read up on the <a href="/page/mastering-bitcoin" target="_
 
 ## This Session
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-In this session, <a href="https://twitter.com/StephenDeLorme" target="_blank">Stephen DeLorme</a> will lead us through a discussion of:
-=======
 In this session, <a href="https://twitter.com/thejordanbravo" target="_blank">Jordan Bravo</a> will lead us through a discussion of:
->>>>>>> bcc1c9f (mastering bitcoin chapters 1 & 2 skeleton)
-=======
-In this session, <a href="https://twitter.com/StephenDeLorme" target="_blank">Stephen DeLorme</a> will lead us through a discussion of:
->>>>>>> 457bc55 (added study qustions)
 
 - Chapter 1: Introduction
 - Chapter 2: How Bitcoin Works
@@ -37,10 +29,6 @@ In this session, <a href="https://twitter.com/StephenDeLorme" target="_blank">St
 
 These questions are provided to help guide your thinking as read the material. We'll try to answer these together when we meet to discuss the chapter.
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 457bc55 (added study qustions)
 #### Chapter 1
 
 1. Does Bitcoin have individual coins?
@@ -63,9 +51,3 @@ These questions are provided to help guide your thinking as read the material. W
 9. What is it called when a Bitcoin node shares a new transaction with other Bitcoin nodes?
 10. What's a good analogy to describe mining?
 11. A new transaction is not confirmed until it has been included in a valid \_ \_ \_ \_ _ by a _ \_ \_ \_ \_.
-<<<<<<< HEAD
-=======
-TODO: Craft Study Questions
->>>>>>> bcc1c9f (mastering bitcoin chapters 1 & 2 skeleton)
-=======
->>>>>>> 457bc55 (added study qustions)
