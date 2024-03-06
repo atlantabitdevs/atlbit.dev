@@ -46,6 +46,10 @@ These questions are provided to help guide your thinking as read the material. W
 - What is the difference between child and hardened child addresses? Why are hardened important?
 - Is openly sharing your xpub bad?
 
+Links:
+
+- <a href="https://docs.google.com/document/d/1mMIF0WxJXkEckZBq23UC_j1EiQqQoCOrZedgj7_2p0Q/edit#heading=h.repnjp7ccvzy" _target="blank">Chaincode Seminar Week 5: Notes</a>
+
 #### Chapter 6
 
 ##### General
@@ -83,6 +87,6 @@ These questions are provided to help guide your thinking as read the material. W
 
 Links:
 
-- [Chaincode Seminar Week 2: Segwit](https://chaincode.gitbook.io/seminars/bitcoin-protocol-development/segwit)
-- [Chaincode Seminar Notes](https://docs.google.com/document/d/1uwHZ8zYnEVOAUaFv14_qngy9j3QK5WLctsTtivzqCGk/edit#heading=h.iwqqf2id6ggo)
-- [Segwit Video w/ Jimmy Song](https://www.youtube.com/watch?v=Txfy2mFe16A)
+- <a href="https://chaincode.gitbook.io/seminars/bitcoin-protocol-development/segwit" target="_blank">Chaincode Seminar Week 2: Segwit</a>
+- <a href="https://docs.google.com/document/d/1uwHZ8zYnEVOAUaFv14_qngy9j3QK5WLctsTtivzqCGk/edit#heading=h.iwqqf2id6ggo" target="_blank">Chaincode Seminar Week 2: Notes</a>
+- <a href="https://www.youtube.com/watch?v=Txfy2mFe16A" target="_blank">Segwit Video w/ Jimmy Song</a>
