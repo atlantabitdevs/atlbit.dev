@@ -57,9 +57,9 @@ These questions are provided to help guide your thinking as read the material. W
 - What are the problems associated with this use of the sequence field?
 - What ended up replacing the inteded mechanism of the sequence field?
 - What constraint did BIP68 add to the sequence field?
-- TODO
-- TODO
-- TODO
-- TODO
-- TODO
-- TODO
+- What are the min/max values allowed in the amount field of an output? What are the practicality of these numbers?
+-
+-
+-
+-
+-
