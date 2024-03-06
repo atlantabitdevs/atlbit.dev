@@ -48,6 +48,8 @@ These questions are provided to help guide your thinking as read the material. W
 
 #### Chapter 6
 
+##### General
+
 - Difference between v1 and v2 transactions?
 - What is the purpose of the marker and flag fields?
 - Each input in a transaction must contain what? What does each of them do?
@@ -58,8 +60,29 @@ These questions are provided to help guide your thinking as read the material. W
 - What ended up replacing the inteded mechanism of the sequence field?
 - What constraint did BIP68 add to the sequence field?
 - What are the min/max values allowed in the amount field of an output? What are the practicality of these numbers?
--
--
--
--
+- What are uneconomical outputs and what are the problems associated with them?
+- What are these outputs called? What protects full nodes from these outputs? Explain. Any exceptions?
+- What makes OP_RETURN transactions special?
+- Is there a min/max for output scripts? How and when are these enforced?
+- Can anyone recall examples of an output script size that takes up almost a whole tx? How about a tx that almost takes up a whole block?
+
+##### Segwit
+
+Links:
+
+- [Chaincode Seminar Week 2: Segwit](https://chaincode.gitbook.io/seminars/bitcoin-protocol-development/segwit)
+- [Chaincode Seminar Notes](https://docs.google.com/document/d/1uwHZ8zYnEVOAUaFv14_qngy9j3QK5WLctsTtivzqCGk/edit#heading=h.iwqqf2id6ggo)
+- [Segwit Video w/ Jimmy Song](https://www.youtube.com/watch?v=Txfy2mFe16A)
+
+- What is a "witness" in bitcoin?
+- Why are they important?
+- Why do they exist?
+- What problems do they solve?
+- How are they used in bitcoin?
+- How do they allow users to spend UTXOs?
+- What problems did Segwit solve?
+- What is tx malleability, how did segwit solve this and why is it important?
+- What is an anyone-can-spend output script and how does it allow us to soft-fork Segwit into Bitcoin?
+- What defines a segwit output script template?
+- What are the two types of templates? How do they work?
 -
