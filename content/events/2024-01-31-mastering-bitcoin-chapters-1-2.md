@@ -20,7 +20,7 @@ We recommend that you read up on the <a href="/page/mastering-bitcoin" target="_
 
 ## This Session
 
-In this session, <a href="https://twitter.com/thejordanbravo" target="_blank">Jordan Bravo</a> will lead us through a discussion of:
+In this session, <a href="https://twitter.com/StephenDeLorme" target="_blank">Stephen DeLorme</a> will lead us through a discussion of:
 
 - Chapter 1: Introduction
 - Chapter 2: How Bitcoin Works
