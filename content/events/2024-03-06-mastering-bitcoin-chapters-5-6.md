@@ -35,6 +35,31 @@ These questions are provided to help guide your thinking as read the material. W
 - What is the difference between a "wallet database" and a "wallet application"?
 - What is the trade off of onle using a single public key?
 - Describe the difference between independent / nondeterministic and deterministic key generation.
-- 
+- What are the different types of recovery codes in wide use today? List some advantages and disagvantages.
+- Which recovery code schemes allow for an optional passphrase?
+- What are the 4 components needed to recover funds froim data loss? Why is the fourth needed?
+- Are version numbers important for recovery code schemes?
+- Are 12 words (128 bits of entropy) enough? What are advantages and disadvantages of using 12 vs. 24 words?
+- Advantages and disadvantages of using a passphrase.
+- Any questions about generating HD wallet from seed and seed from recovery code?
+- What is gap limit and how can it be handled?
+- What is the difference between child and hardened child addresses? Why are hardened important?
+- Is openly sharing your xpub bad?
 
 #### Chapter 6
+
+- Difference between v1 and v2 transactions?
+- What is the purpose of the marker and flag fields?
+- Each input in a transaction must contain what? What does each of them do?
+- How do full nodes use the previous output data?
+- How does Bitcoin Core track of all previous outputs?
+- What was the originally intended purpose of the sequence field as explained by Satoshi?
+- What are the problems associated with this use of the sequence field?
+- What ended up replacing the inteded mechanism of the sequence field?
+- What constraint did BIP68 add to the sequence field?
+- TODO
+- TODO
+- TODO
+- TODO
+- TODO
+- TODO
