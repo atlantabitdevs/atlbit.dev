@@ -37,7 +37,7 @@ Look for the **orange door** behind the **fence**.
 
 ### 🤙 Opening Demo
 
-We're going to hear from <a href="#">{{somebody}}</a> to learn about {{their}} recent work on {{stuff}}
+We're going to hear from <a href="#">[somebody]</a> to learn about [their] recent work on [stuff]
 
 ### 🧡 Bitcoin
 
