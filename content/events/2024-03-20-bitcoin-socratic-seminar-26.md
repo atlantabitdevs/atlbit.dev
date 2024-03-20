@@ -47,9 +47,9 @@ We're going to hear from <a href="https://twitter.com/nitesh_btc">Nitesh Balusu<
 
 [OpenSats: Fourth Wave of Bitcoin Grants](https://opensats.org/blog/bitcoin-grants-feb-2024)
 
-[QuantumCats: Bringing `OP_CAT` back to Bitcoin](https://www.quantumcats.xyz/)
+[QuantumCats: Bringing OP_CAT back to Bitcoin](https://www.quantumcats.xyz/)
 
-[Mining Misinformation: How the United Nations University Misrepresents Bitcoin's Energy Use](https://bitcoinmagazine.com/sponsored/mining-misinformation-how-the-united-nations-university-misrepresented-data-to-exaggerate-bitcoins-environmental-footprint)
+<a href="https://bitcoinmagazine.com/sponsored/mining-misinformation-how-the-united-nations-university-misrepresented-data-to-exaggerate-bitcoins-environmental-footprint">Mining Misinformation: How the United Nations University Misrepresents Bitcoin's Energy Use</a>
 
 [Marathon introduces Anduro, a "New Multi-Chain Bitcoin Layer-Two Network"](https://ir.mara.com/news-events/press-releases/detail/1344/marathon-digital-holdings-introduces-anduro-a-new)
 
@@ -83,6 +83,6 @@ We're going to hear from <a href="https://twitter.com/nitesh_btc">Nitesh Balusu<
 
 [Pix in Brazil: A Field Study for the Bitcoin Community](https://www.psacramento.com/pix-in-brazil-a-field-study-for-the-bitcoin-community/)
 
-[Judge rules CSW is not Satoshi](https://twitter.com/BitMEXResearch/status/1768263295666938277)
+<a href="https://twitter.com/BitMEXResearch/status/1768263295666938277">Judge rules CSW is not Satoshi</a>
 
 [House passes a bill that could lead to a TikTok ban if Chinese owner refuses to sell](https://apnews.com/article/tiktok-ban-house-vote-china-national-security-8fa7258fae1a4902d344c9d978d58a37?ref=nobsbitcoin.com)
