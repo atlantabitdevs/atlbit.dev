@@ -23,9 +23,11 @@ Tonight we'll be meeting at ATL BitLab. Join our <a href="https://atlantabitdevs
 
 ### Address
 
-684 John Wesley Dobbs Ave NE,
-Suite A1
+684 John Wesley Dobbs Ave NE,<br />
+Suite A1<br/>
 Atlanta, GA 30312
+
+📍 <a href="https://maps.app.goo.gl/cbVmpviUdczTKBc87">Google Maps</a>
 
 ### Parking
 
