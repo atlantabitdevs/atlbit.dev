@@ -15,7 +15,7 @@
     {
       "summary": "In 2010, Satoshi had to remove OP_CAT, a powerful scripting function, as it was endangering Bitcoin. However, Bitcoin developers recently realized that OP_CAT's power could have been safely utilized for creating smart contracts and connecting different blockchains. In 2024, the Taproot Wizards discovered that OP_CAT is not truly dead; it exists in a quantum realm, simultaneously dead and alive like Schrödinger's cat. If OP_CAT escapes this state, it could bring a wave of Bitcoin innovation. The Quantum Cats are on a mission to rescue OP_CAT and restore its magic to Bitcoin.",
       "summaryeli15": "In 2010, a powerful feature called OP_CAT in Bitcoin was deactivated. But now, Bitcoin developers have discovered that it could be used safely and was actually very useful. They found that it can create smart contracts and connect different chains together. In 2024, experts found that OP_CAT is not truly gone, but is trapped in a quantum realm. They want to bring it back so it can help create more innovative changes in Bitcoin. This is the mission of the Quantum Cats.",
-      "title": "QuantumCats: Bringing `OP_CAT` back to Bitcoin",
+      "title": "QuantumCats: Bringing OP_CAT back to Bitcoin",
       "link": "https://www.quantumcats.xyz/"
     },
     {
