@@ -41,6 +41,12 @@ We're going to hear from <a href="#">[somebody]</a> to learn about [their] recen
 
 ### 🧡 Bitcoin
 
+- [Bitcoin Core 27.0](https://github.com/bitcoin/bitcoin/blob/c7567d9223a927a88173ff04eeb4f54a5c02b43d/doc/release-notes/release-notes-27.0.md)
+
+- [Remove libbitcoinconsensus #29648](https://github.com/bitcoin/bitcoin/pull/29648)
+
+- [wallet: Add createwalletdescriptor and gethdkeys RPCs for adding new automatically generated descriptors #29130](https://github.com/bitcoin/bitcoin/pull/29130)
+
 - [[bitcoindev] Adding New BIP Editors](https://gnusha.org/pi/bitcoindev/CAMHHROw9mZJRnTbUo76PdqwJU==YJMvd9Qrst+nmyypaedYZgg@mail.gmail.com/T/#t)
 
 - [[bitcoindev] Time for an update to BIP2?](https://gnusha.org/pi/bitcoindev/59fa94cea6f70e02b1ce0da07ae230670730171c.camel@timruffing.de/)
@@ -56,10 +62,6 @@ We're going to hear from <a href="#">[somebody]</a> to learn about [their] recen
 - [Great Consensus Cleanup Revival](https://delvingbitcoin.org/t/great-consensus-cleanup-revival/710)
 
 - [[bitcoindev] The Future of Bitcoin Testnet](https://gnusha.org/pi/bitcoindev/CADL_X_eXjbRFROuJU0b336vPVy5Q2RJvhcx64NSNPH-3fDCUfw@mail.gmail.com/)
-
-- [Remove libbitcoinconsensus #29648](https://github.com/bitcoin/bitcoin/pull/29648)
-
-- [wallet: Add createwalletdescriptor and gethdkeys RPCs for adding new automatically generated descriptors #29130](https://github.com/bitcoin/bitcoin/pull/29130)
 
 ### ⚡️ Lightning
 
