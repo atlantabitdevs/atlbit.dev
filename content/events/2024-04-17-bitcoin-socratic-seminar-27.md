@@ -35,10 +35,6 @@ Look for the **orange door** behind the **fence**.
 
 ## Topics
 
-### 🤙 Opening Demo
-
-We're going to hear from <a href="#">[somebody]</a> to learn about [their] recent work on [stuff]
-
 ### 🧡 Bitcoin
 
 - [Bitcoin Core 27.0](https://github.com/bitcoin/bitcoin/blob/c7567d9223a927a88173ff04eeb4f54a5c02b43d/doc/release-notes/release-notes-27.0.md)
