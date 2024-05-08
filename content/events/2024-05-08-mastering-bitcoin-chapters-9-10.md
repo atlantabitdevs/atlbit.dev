@@ -47,11 +47,11 @@ In this session, <a href="https://twitter.com/_AlexLewin" target="_blank">Alex L
 - How does a "light node" operate? What are "SPV proofs"? What are the tradeoffs of using SPV proofs in a node?
 - What are Bloom Filters? Why are Bloom filters an improvement over SPV proofs?
 - Explain why Bloom filters are a "probabilistic data structure".
-- What is the successor to Bloom Filters?
+- Explain the successor to Bloom Filters (Golomb-Rice Coded Sets)? Why is it better?
 - How does a new node synchronize with the rest of the network?
 - Explain the peer discovery process in the Bitcoin network. What are DNS seeds, and why are they important?
 - Discuss the impact of network delays and latency on Bitcoin transaction propagation. How can network performance be improved?
 - What's the difference between Low-bandwidth mode and Hight-bandwidth mode in bitcoin core?
-- What is the purpose of Bitcoin's gossip protocol?
+- What is the Tor network? How does it relate to bitcoin? Bonus reading: [BIP 324](https://github.com/bitcoin/bips/blob/master/bip-0324.mediawiki)
 
 ---
