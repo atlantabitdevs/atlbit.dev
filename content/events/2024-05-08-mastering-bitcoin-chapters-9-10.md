@@ -27,6 +27,31 @@ In this session, <a href="https://twitter.com/_AlexLewin" target="_blank">Alex L
 
 ### Study Questions
 
-TODO: Craft Study Questions
+#### Chapter 9: Fees
+
+- What is the purpose of transaction fees in Bitcoin?
+- How are fees estimated for a transaction before it gets broadcasted?
+- How can you calculate the fees of a transaction that has already been confirmed?
+- What is Opt-in RBF? What is Full RBF? Why is Full RBF controversial for some people?
+- What are vBytes? How does this relate to SegWit and transaction fees?
+- What's the purpose of CPFP (child pays for parent)? Why is it important in lightning? How does BIP 331 (Package Relay) affect CPFP?
+- Why can fee estimation sometimes produce inaccurate results, and what improvements could be made?
+- How does mempool policy relate to fee estimation?
+- What is a transaction pinning attack? How is it different when applied to RBF versus CPFP?
+- What are Anchor outputs? How is this a solution for transaction pinning?
+
+#### Chapter 10: Network
+
+- What are nodes in the Bitcoin network, and what roles do they play?
+- What's the difference between a "light node", "full node", and "full archival node"? What must a node be capable of to be considered "full"?
+- How does a "light node" operate? What are "SPV proofs"? What are the tradeoffs of using SPV proofs in a node?
+- What are Bloom Filters? Why are Bloom filters an improvement over SPV proofs?
+- Explain why Bloom filters are a "probabilistic data structure".
+- What is the successor to Bloom Filters?
+- How does a new node synchronize with the rest of the network?
+- Explain the peer discovery process in the Bitcoin network. What are DNS seeds, and why are they important?
+- Discuss the impact of network delays and latency on Bitcoin transaction propagation. How can network performance be improved?
+- What's the difference between Low-bandwidth mode and Hight-bandwidth mode in bitcoin core?
+- What is the purpose of Bitcoin's gossip protocol?
 
 ---
