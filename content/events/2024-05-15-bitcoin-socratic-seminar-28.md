@@ -43,7 +43,7 @@ We're going to hear from <a href="#">[somebody]</a> to learn about [their] recen
 
 ### ⚡️ Lightning
 
-🆔 ### Decentralized Identity
+### 🆔 Decentralized Identity
 
 ### 🟣 Nostr
 
