@@ -37,7 +37,7 @@ Look for the **orange door** behind the **fence**.
 
 ### 🤙 Opening Demo
 
-We're going to hear from <a href="#">[Shehzan]</a> to learn about his recent work on [Lava.xyz]
+We're going to hear from <a href="https://twitter.com/MarediaShehzan">Shehzan Maredia</a> to learn about his company [lava.xyz](https://twitter.com/lava_xyz)
 
 ### 🧡 Bitcoin
 
@@ -58,6 +58,10 @@ We're going to hear from <a href="#">[Shehzan]</a> to learn about his recent wor
 - [LRC-20](https://delvingbitcoin.org/t/lrc-20-scalable-and-fast-tokenization-on-lightning/808)
 
 - [Boardwalk Cash](https://twitter.com/makeprisms/status/1790423585888280756)
+
+- [First Mainnet TAP Lightning payment](https://twitter.com/roasbeef/status/1786043468164337951)
+
+- [First Multi-hop TAP Lightning payment](https://twitter.com/roasbeef/status/1788624974728790471)
 
 ### 🆔 Decentralized Identity
 
