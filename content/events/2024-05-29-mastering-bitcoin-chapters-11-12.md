@@ -29,4 +29,28 @@ In this session, <a href="#" target="_blank">somebody</a> will lead us through a
 
 These questions are provided to help guide your thinking as read the material. We'll try to answer these together when we meet to discuss the chapter.
 
-TODO: Craft Study Questions
+#### Chapter 11: The Blockchain
+
+- What is a blockchain and how does it function in the context of Bitcoin?
+- How are blocks linked within the blockchain, and what role do cryptographic hashes play in this process?
+- Describe the structure of a block in the Bitcoin blockchain, including its main components.
+- What information is contained in the block header, and why is each field important?
+- Explain the significance of the genesis block and its unique properties.
+- How does the blockchain ensure security and immutability of transaction history?
+- What is a Merkle tree, and how does it facilitate transaction verification in the blockchain?
+- How do blockchain forks occur, and what happens during a fork?
+- Discuss the concept of block height and its implications for identifying blocks.
+- What are test blockchains like testnet, signet, and regtest, and why are they important for Bitcoin development?
+
+#### Chapter 12: Mining & Consensus
+
+- What is the primary purpose of Bitcoin mining, beyond the creation of new bitcoins?
+- How does mining contribute to the security and consensus of the Bitcoin network?
+- Explain the concept of proof-of-work and its role in mining.
+- What are the components of the coinbase transaction, and how does it differ from regular transactions?
+- Describe the process by which miners add new blocks to the blockchain.
+- How does the block reward change over time, and what is the significance of the halving events?
+- What happens to the block reward and miner incentives after all bitcoins have been mined?
+- Discuss the importance of transaction fees in the long-term sustainability of the mining process.
+- How does decentralized consensus work in the Bitcoin network?
+- What criteria must a Bitcoin transaction meet to be considered valid and included in a block?
