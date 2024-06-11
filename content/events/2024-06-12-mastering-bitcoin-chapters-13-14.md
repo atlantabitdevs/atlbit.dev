@@ -20,10 +20,10 @@ We recommend that you read up on the <a href="/page/mastering-bitcoin" target="_
 
 ## This Session
 
-In this session, <a href="#" target="_blank">somebody</a> will lead us through a discussion of:
+In this session, <a href="[#](https://x.com/nitesh_btc)" target="_blank">Nitesh</a> will lead us through a discussion of:
 
-- Chapter 13: Bitcoin Security
-- Chapter 14: Second-Layer Applications
+- [Chapter 13: Bitcoin Security](https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch13_security.adoc)
+- [Chapter 14: Second-Layer Applications](https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch14_applications.adoc)
 
 ### Study Questions
 
