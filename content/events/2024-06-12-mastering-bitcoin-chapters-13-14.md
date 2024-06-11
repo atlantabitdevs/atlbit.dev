@@ -29,4 +29,28 @@ In this session, <a href="#" target="_blank">somebody</a> will lead us through a
 
 These questions are provided to help guide your thinking as read the material. We'll try to answer these together when we meet to discuss the chapter.
 
-TODO: Craft Study Questions
+#### Chapter 13: Bitcoin Security
+
+- Why is possession considered "ten-tenths of the law" in Bitcoin, and what implications does this have for security?
+- How does decentralization impact the security model of Bitcoin compared to traditional centralized financial systems?
+- What are the core principles developers should follow when designing secure Bitcoin applications?
+- Explain the concept of the "root of trust" in Bitcoin's security architecture.
+- What are some of the best practices for securing Bitcoin keys and wallets?
+- How does cold storage work, and why is it considered an effective security technique for Bitcoin?
+- What are hardware signing devices, and how do they enhance Bitcoin security?
+- Why is it important to back up more than just private keys when using complex scripts or multisignatures?
+- How can diversifying risk help protect Bitcoin holdings?
+- What measures should be taken to ensure the survivability and availability of Bitcoin funds in case of the key holder's incapacity or death?
+
+#### Chapter 14: Second-Layer Applications
+
+- What are second-layer applications in the context of Bitcoin, and why are they important?
+- Describe the concept of "no double-spend" and its significance as a building block for Bitcoin applications.
+- How does the immutability of the blockchain contribute to the security and trustworthiness of Bitcoin applications?
+- What role does secure timestamping play in the functionality of blockchain applications?
+- Explain how payment channels work and their benefits for Bitcoin transactions.
+- What are colored coins, and how do they represent extrinsic assets on the Bitcoin blockchain?
+- How does the "pay to contract" (P2C) mechanism function in colored coin applications?
+- What is client-side validation, and why is it essential for the privacy and security of colored coins?
+- Describe the RGB protocol and its use of single-use seals, P2C, and client-side validation in Bitcoin applications.
+- How do Taproot Assets differ from RGB, and what are their respective advantages and disadvantages?
