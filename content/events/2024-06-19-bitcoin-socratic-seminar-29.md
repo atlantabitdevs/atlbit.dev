@@ -43,7 +43,14 @@ We're going to hear from <a href="#">[somebody]</a> to learn about [their] recen
 
 ### ⚡️ Lightning
 
-🆔 ### Decentralized Identity
+### 🆔 Decentralized Identity
+
+- [tbDex 1.0 Launch](https://www.youtube.com/watch?v=1sgxwF3hO2g)
+- [Decentralized Agnostic Paytag](https://github.com/TBD54566975/dap)
+- [didpay](https://github.com/TBD54566975/didpay)
+- [tbDEX 1.0 | Show & Tell](https://www.youtube.com/watch?v=MWMm513SCKA)
+- [Introducing did:dht - a new DID Method](https://www.youtube.com/watch?v=oEYOp6oSjRE)
+- [Democratizing Loans and Credit with FormFree](https://www.youtube.com/watch?v=vXYyT8rLaR4)
 
 ### 🟣 Nostr
 
