@@ -35,9 +35,9 @@ Look for the **orange door** behind the **fence**.
 
 ## Topics
 
-### 🤙 Opening Demo
+### 🤙 Opening Presentation
 
-~~We're going to hear from <a href="#">[somebody]</a> to learn about [their] recent work on [stuff]~~
+We’ll have an opening presentation to learn about [tbDex](https://tbdex.io) —  an open source protocol for building internet-native financial services.
 
 ### 🧡 Bitcoin
 - [Bitcoin Mechanic's write-up on Bitmain and empty blocks](https://primal.net/e/note16e0z9qln75zgjgfk2gr6wdyt9c4pe2cy8kg46a6j6ta4994yennqjutx8h)
