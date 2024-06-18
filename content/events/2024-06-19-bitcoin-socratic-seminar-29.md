@@ -37,11 +37,34 @@ Look for the **orange door** behind the **fence**.
 
 ### 🤙 Opening Demo
 
-We're going to hear from <a href="#">[somebody]</a> to learn about [their] recent work on [stuff]
+~~We're going to hear from <a href="#">[somebody]</a> to learn about [their] recent work on [stuff]~~
 
 ### 🧡 Bitcoin
+- [Bitcoin Mechanic's write-up on Bitmain and empty blocks](https://primal.net/e/note16e0z9qln75zgjgfk2gr6wdyt9c4pe2cy8kg46a6j6ta4994yennqjutx8h)
+- [Silent Payments: Privacy-preserving static addresses for Bitcoin](https://silentpayments.xyz/)
+- [Silent Payments: Light Client Protocol](https://delvingbitcoin.org/t/silent-payments-light-client-protocol/891)
+- [Mononaut's DMM exchange hack analysis](https://x.com/mononautical/status/1796939786071982233)
+- [Testnet 4 BIP](https://github.com/bitcoin/bips/pull/1601)
+- [DNS Payment Instructions is BIP 353](https://x.com/murchandamus/status/1797716852485091363)
+- [BIP 347: OP_CAT in Tapscript](https://github.com/bitcoin/bips/pull/1525#issuecomment-2075518532)
+- [Ark V2](https://brqgoo.medium.com/introducing-ark-v2-2e7ab378e87b)
+
+### 💵 Ecash
+- [Fedi Global Chat](https://www.fedi.xyz/blog/introducing-global-chat)
+- [Mutiny: Harbor ecash wallet](https://blog.mutinywallet.com/harbor/)
 
 ### ⚡️ Lightning
+
+- [Mutiny: blinded authentication with lightning address](https://blog.mutinywallet.com/blinded-authentication/)
+- [Spiral funds ValidiTEE](https://x.com/spiralbtc/status/1792584819366416527?s=46)
+- [ValidiTEE: Validating Lightning Signer in a Secure Enclave](https://github.com/msgilligan/ValidiTEE)
+- [Announcing LND 0.18 beta: Smarter Sweeps, Inbound Fees, and Improved Scaling!](https://lightning.engineering/posts/2024-05-30-lnd-0.18-launch/)
+- [LNDK can be run without custom LND build now](https://x.com/nitesh_btc/status/1791847412916433095?s=46)
+- [cfg: move experimental options to main protocol cfg](https://github.com/lightningnetwork/lnd/pull/8744)
+- [Core Lightning v24.05: "The Infinitely Divisible Satoshi"](https://blog.blockstream.com/core-lightning-v24-05-the-infinitely-divisible-satoshi/)
+- [New BOLT12.org](https://bolt12.org/)
+- [BOLT12-Prism v2.0 Release](https://github.com/gudnuf/bolt12-prism/releases/tag/v2.0.0)
+- [Zeus v0.9.0-alpha8 release - BOLT 12 address](https://nostr.com/note1aveta2nnkl7tvy3wnezrp8agukzyz4846pwve483url4sx5nh60syh39y0)
 
 ### 🆔 Decentralized Identity
 
@@ -54,6 +77,12 @@ We're going to hear from <a href="#">[somebody]</a> to learn about [their] recen
 
 ### 🟣 Nostr
 
+- [Unify - "nearly a BIP78 over Nostr Payjoin wallet"](https://github.com/Fonta1n3/Unify)
+
 ### 📊 Business
 
+- [Biden Vetoes Overturning SAB 121 Crypto Custody Bill](https://www.whitehouse.gov/briefing-room/presidential-actions/2024/05/31/a-message-to-the-house-of-representatives-on-the-presidents-veto-of-h-j-res-109/)
+
 ### 🕵️‍♂️ Privacy & InfoSec
+
+- [Poisoning public DNS resolvers](https://torrentfreak.com/google-cloudflare-cisco-will-poison-dns-to-stop-piracy-block-circumvention-240613/)
