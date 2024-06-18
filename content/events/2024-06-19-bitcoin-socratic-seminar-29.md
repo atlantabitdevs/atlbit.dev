@@ -65,6 +65,7 @@ Look for the **orange door** behind the **fence**.
 - [New BOLT12.org](https://bolt12.org/)
 - [BOLT12-Prism v2.0 Release](https://github.com/gudnuf/bolt12-prism/releases/tag/v2.0.0)
 - [Zeus v0.9.0-alpha8 release - BOLT 12 address](https://nostr.com/note1aveta2nnkl7tvy3wnezrp8agukzyz4846pwve483url4sx5nh60syh39y0)
+- [Zeus Bounties](https://njump.me/nevent1qqsrml6x7npc0hn3f8zqrcvsaf8qs9epr64gjvkrpvkf8j7kdqngaeqzyq6d9af8fuv43lxjevjx8k474h0c5g0cft8yysw63zqz80c9ejqf29d50pl)
 
 ### 🆔 Decentralized Identity
 
