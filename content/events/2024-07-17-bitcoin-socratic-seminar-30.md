@@ -84,6 +84,10 @@ We’ll have an opening presentation to learn about using wrapped lightning invo
 
 - [FormFree publishes new open-source package DCX](https://www.npmjs.com/package/@formfree/dcx)
 
+### 🟣 Nostr
+
+- [Nostr Web Services](https://primal.net/e/note12vy8lmphxyfd7np7t503k8fzs3em2h6szfwad0fkgr6prjkjuhxsddyprj)
+
 ### 🕵️‍♂️ Privacy & InfoSec
 
 - [Sophisticated Wasabi Coordinator Attacks](https://github.com/WalletWasabi/WalletWasabi/discussions/13249)
