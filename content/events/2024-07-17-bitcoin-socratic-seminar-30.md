@@ -51,14 +51,23 @@ We’ll have an opening presentation to learn about using wrapped lightning invo
 
 ### ⚡️ Lightning
 
-- [BOLT 12 Playground](Strike BOLT 12 Playground)
+- [BOLT 12 Playground](https://strike.me/blog/bolt12-playground/)
+- [DoS Disclosure: LND Onion Bomb](https://delvingbitcoin.org/t/dos-disclosure-lnd-onion-bomb/979)
+- [Estimating Likelihood for Lightning Payments to be (in)feasible](https://delvingbitcoin.org/t/estimating-likelihood-for-lightning-payments-to-be-in-feasible/973)
+- [bLIP: BOLT 11 Invoice Blinded Path Tagged Field](https://delvingbitcoin.org/t/blip-bolt-11-invoice-blinded-path-tagged-field/991)
 
 #### Lightning "on-the-fly-funding"
 
 - [Announcement tweet from Bastien](https://x.com/realtbast/status/1808160392062841237)
 - [blip-0036: on-the-fly channel funding](https://github.com/lightning/blips/pull/36)
 
+#### BOLT 12 Interoperaility
+
+- [Core Lightning: [track] Bolt 12 compatibility](https://github.com/ElementsProject/lightning/issues/7407)
+
 ### 💵 Ecash
+
+- [Spiral funds @thesimplekid to work on CDK (Cashu Dev Kit)](https://x.com/spiralbtc/status/1813257015889736071)
 
 #### Issues with Fedimint guardian domain names
 
@@ -70,8 +79,10 @@ We’ll have an opening presentation to learn about using wrapped lightning invo
 
 - [FormFree publishes new open-source package DCX](https://www.npmjs.com/package/@formfree/dcx)
 
-### 🟣 Nostr
-
-### 📊 Business
-
 ### 🕵️‍♂️ Privacy & InfoSec
+
+- [Sophisticated Wasabi Coordinator Attacks](https://github.com/WalletWasabi/WalletWasabi/discussions/13249)
+- [Massive AT&T breach](https://apnews.com/article/att-data-breach-text-cell-b5cdc8d6c9e1b980cb2163f34b297dad)
+- [Another RCE exploit found with Open SSH servers](https://thehackernews.com/2024/07/new-openssh-vulnerability-discovered.html)
+
+
