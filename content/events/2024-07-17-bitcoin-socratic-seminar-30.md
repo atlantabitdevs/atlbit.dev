@@ -51,10 +51,15 @@ We’ll have an opening presentation to learn about using wrapped lightning invo
 
 ### ⚡️ Lightning
 
-- [BOLT 12 Playground](https://strike.me/blog/bolt12-playground/)
 - [DoS Disclosure: LND Onion Bomb](https://delvingbitcoin.org/t/dos-disclosure-lnd-onion-bomb/979)
 - [Estimating Likelihood for Lightning Payments to be (in)feasible](https://delvingbitcoin.org/t/estimating-likelihood-for-lightning-payments-to-be-in-feasible/973)
 - [bLIP: BOLT 11 Invoice Blinded Path Tagged Field](https://delvingbitcoin.org/t/blip-bolt-11-invoice-blinded-path-tagged-field/991)
+
+#### BOLT 12
+
+- [BOLT 12 Playground](https://strike.me/blog/bolt12-playground/)
+- [Phoenix supports BIP353](https://github.com/ACINQ/phoenix/releases/tag/android-v2.3.3)
+- [Phoenix fixes compatibility issues with some offers](https://github.com/ACINQ/phoenix/releases/tag/android-v2.3.4)
 
 #### Lightning "on-the-fly-funding"
 
