@@ -41,11 +41,34 @@ We’ll have an opening presentation to learn about using wrapped lightning invo
 
 ### 🧡 Bitcoin
 
+- [Definitive explanation of my weird Bitcoin transaction](https://stacker.news/items/600187)
+- [Block mining chip first customer](https://x.com/jack/status/1811033076241150247)
+
+#### FROST RFC Complete
+
+- [Tweet](https://x.com/chelseakomlo/status/1809257856199479411)
+- [RFC Doc](https://www.rfc-editor.org/rfc/rfc9591.html)
+
 ### ⚡️ Lightning
+
+- [BOLT 12 Playground](Strike BOLT 12 Playground)
+
+#### Lightning "on-the-fly-funding"
+
+- [Announcement tweet from Bastien](https://x.com/realtbast/status/1808160392062841237)
+- [blip-0036: on-the-fly channel funding](https://github.com/lightning/blips/pull/36)
 
 ### 💵 Ecash
 
+#### Issues with Fedimint guardian domain names
+
+- [Mutiny Wallet thread discussing Fedimint DNS issue](https://x.com/MutinyWallet/status/1805346636660429021)
+- [Fedimint implementing API endpoint rotation for the next release](https://x.com/fedimint/status/1805688371798589906)
+- [DNS Tracking Issue for Guardian API Endpoint Rotation](https://github.com/fedimint/fedimint/issues/5525)
+
 ### 🆔 Decentralized Identity
+
+- [FormFree publishes new open-source package DCX](https://www.npmjs.com/package/@formfree/dcx)
 
 ### 🟣 Nostr
 
