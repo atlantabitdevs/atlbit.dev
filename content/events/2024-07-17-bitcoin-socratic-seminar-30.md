@@ -37,7 +37,7 @@ Look for the **orange door** behind the **fence**.
 
 ### 🤙 Opening Presentation
 
-We’ll have an opening presentation to learn about [something](/#) from [somebody](/#).
+We’ll have an opening presentation to learn about using wrapped lightning invoices on Sats.gg from [Chad Welch](https://x.com/chdwlch).
 
 ### 🧡 Bitcoin
 
