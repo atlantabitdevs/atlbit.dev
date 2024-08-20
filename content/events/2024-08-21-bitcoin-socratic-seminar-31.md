@@ -42,7 +42,10 @@ We’ll have an opening presentation to learn about Coordianted Fanout, a new pr
 ### 🧡 Bitcoin
 
 - [Nakamoto project research into who uses bitcoin](https://x.com/thetrocro/status/1815491534550417525)
+- [Rust Bitcoin Summit](https://github.com/rust-bitcoin/rust-bitcoin/discussions/3112)
 - [Rot13maxi's OP_CAT transaction](https://x.com/rot13maxi/status/1822342752505413814)
+- [Hyperion: A discrete time network event simulator for Bitcoin (Core)](https://delvingbitcoin.org/t/hyperion-a-discrete-time-network-event-simulator-for-bitcoin-core/1042)
+- [Cluster mempool: block building with sub-chunk granularity](https://delvingbitcoin.org/t/cluster-mempool-block-building-with-sub-chunk-granularity/1044/1)
 
 ### ⚡️ Lightning
 
@@ -52,6 +55,7 @@ We’ll have an opening presentation to learn about Coordianted Fanout, a new pr
 - [Firebolt Wallet Alpha v1.0.8](https://github.com/AreaLayer/firebolt-react-native/releases/tag/Alpha-v1.0.8)
 - [Firebolt Wallet Alpha v1.0.9](https://github.com/AreaLayer/firebolt-react-native/releases/tag/alpha-v1.0.9)
 - [Firebolt Wallet Alpha v1.0.10](https://github.com/AreaLayer/firebolt-react-native/releases/tag/alpha-v1.0.10)
+- [Polar v3.0.0 release - Taproot Assets, Lightning Terminal](https://x.com/lightningpolar/status/1815785643332563435)
 
 ### 💵 Ecash
 
@@ -61,12 +65,15 @@ We’ll have an opening presentation to learn about Coordianted Fanout, a new pr
 
 ### 🆔 Decentralized Identity
 
+- [TBD partners with DIF and Google Cloud to offer DWNs as a manged service](https://www.tbd.website/blog/managed-web5-decentralized-web-nodes-now-available)
+
 ### 🟣 Nostr
 
 ### 📊 Business
 
 - [SEC approved the first leveraged single-stock ETF targeting MicroStrategy](https://bitcoinmagazine.com/business/sec-approves-the-first-leveraged-microstrategy-etf)
 - [No Olympic athletes win a bitcoin medal](https://x.com/PeterSchiff/status/1820190593995129009)
+- [Voltage launches Bitcoin Core nodes](https://x.com/voltage_cloud/status/1818311961672663459)
 
 ### 🕵️‍♂️ Privacy & InfoSec
 
