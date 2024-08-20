@@ -37,13 +37,21 @@ Look for the **orange door** behind the **fence**.
 
 ### 🤙 Opening Presentation
 
-We’ll have an opening presentation to learn about [something](/#) from [somebody](/#).
+We’ll have an opening presentation to learn about Coordianted Fanout, a new privacy technique for Bitcoin, from [somebody](/#).
 
 ### 🧡 Bitcoin
 
+- [Nakamoto project research into who uses bitcoin](https://x.com/thetrocro/status/1815491534550417525)
+
 ### ⚡️ Lightning
 
+- [Breez SDK supports Liquid](https://bitcoinmagazine.com/technical/breez-lightning-sdk-integrating-support-for-liquid-network)
+- [Taproot Assets on Lightning on mainnet](https://lightning.engineering/posts/2024-07-23-taproot-assets-LN/)
+- [Mutiny wallet shutting down](https://blog.mutinywallet.com/mutiny-wallet-is-shutting-down/)
+
 ### 💵 Ecash
+
+- [Nutsack ecash nostr client](https://primal.net/e/note1u3qvwqcdtf0fwv0lxt3rd6tfkjlye8rkl3gdw3zrevlhmqa378sqhex7ht)
 
 ### 🆔 Decentralized Identity
 
@@ -52,3 +60,5 @@ We’ll have an opening presentation to learn about [something](/#) from [somebo
 ### 📊 Business
 
 ### 🕵️‍♂️ Privacy & InfoSec
+
+- [Dark Skippy Disclosure](https://darkskippy.com/)
