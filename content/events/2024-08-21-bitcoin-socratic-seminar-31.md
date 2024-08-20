@@ -37,7 +37,7 @@ Look for the **orange door** behind the **fence**.
 
 ### 🤙 Opening Presentation
 
-We’ll have an opening presentation to learn about Coordianted Fanout, a new privacy technique for Bitcoin, from [somebody](/#).
+We’ll have an opening presentation to learn about Coordinated Fanout, a new privacy technique for Bitcoin.
 
 ### 🧡 Bitcoin
 
@@ -46,6 +46,8 @@ We’ll have an opening presentation to learn about Coordianted Fanout, a new pr
 - [Rot13maxi's OP_CAT transaction](https://x.com/rot13maxi/status/1822342752505413814)
 - [Hyperion: A discrete time network event simulator for Bitcoin (Core)](https://delvingbitcoin.org/t/hyperion-a-discrete-time-network-event-simulator-for-bitcoin-core/1042)
 - [Cluster mempool: block building with sub-chunk granularity](https://delvingbitcoin.org/t/cluster-mempool-block-building-with-sub-chunk-granularity/1044/1)
+- [Stats on compact block reconstructions](https://delvingbitcoin.org/t/stats-on-compact-block-reconstructions/1052)
+- [ARK v0.2 | Covenant-less, Offline Payments, Client SDKs, and MutinyNet Support... Oh My!](https://arkdev.info/blog/ark-release-v0.2/)
 
 ### ⚡️ Lightning
 
@@ -56,18 +58,27 @@ We’ll have an opening presentation to learn about Coordianted Fanout, a new pr
 - [Firebolt Wallet Alpha v1.0.9](https://github.com/AreaLayer/firebolt-react-native/releases/tag/alpha-v1.0.9)
 - [Firebolt Wallet Alpha v1.0.10](https://github.com/AreaLayer/firebolt-react-native/releases/tag/alpha-v1.0.10)
 - [Polar v3.0.0 release - Taproot Assets, Lightning Terminal](https://x.com/lightningpolar/status/1815785643332563435)
+- [BOLT 12 Trusted Contacts](https://delvingbitcoin.org/t/bolt-12-trusted-contacts/1046)
+- [VLS releases v0.12](https://vls.tech/posts/v0.12/)
 
 ### 💵 Ecash
 
 - [Nutsack ecash nostr client](https://primal.net/e/note1u3qvwqcdtf0fwv0lxt3rd6tfkjlye8rkl3gdw3zrevlhmqa378sqhex7ht)
 - [StatechainJS: fast & free bitcoin transactions -- like ecash but a bit safer](https://stacker.news/items/619667)
 - [Fedi launch event](https://x.com/fedibtc/status/1820820426760880175)
+- [Bankify - turn cashu mint into lightning wallet using NWC](https://github.com/supertestnet/bankify)
 
 ### 🆔 Decentralized Identity
 
 - [TBD partners with DIF and Google Cloud to offer DWNs as a manged service](https://www.tbd.website/blog/managed-web5-decentralized-web-nodes-now-available)
 
 ### 🟣 Nostr
+
+- [NDK 2.10 + ndk-wallet](https://dev.highlighter.com/pablof7z/NDK-2-10-ndk-wallet-u5m0vi)
+- [OpenSats: Sixth Wave of Nostr Grants](https://opensats.org/blog/nostr-grants-august-2024)
+- [OpenSats: Long-Term Support For Kieran Harkin](https://opensats.org/blog/kieran-receives-lts-grant)
+- [Long-Term Support For Vitor Pamplona](https://opensats.org/blog/vitor-pamplona-receives-lts-grant)
+- [Announcing DVMDash v0.1](https://njump.me/naddr1qqxnzdejxv6nyd34xscnjd3sqgsd5x8fscqypualfyu8dlqkkx539tj6dah634g4ns779wpr8gxes5grqsqqqa286uhhhy)
 
 ### 📊 Business
 
@@ -78,3 +89,4 @@ We’ll have an opening presentation to learn about Coordianted Fanout, a new pr
 ### 🕵️‍♂️ Privacy & InfoSec
 
 - [Dark Skippy Disclosure](https://darkskippy.com/)
+- [Proxy Please: Help People Connect to Signal](https://signal.org/blog/proxy-please/)
