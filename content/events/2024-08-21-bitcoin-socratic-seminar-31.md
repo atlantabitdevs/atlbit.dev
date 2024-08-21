@@ -48,6 +48,7 @@ We’ll have an opening presentation to learn about Coordinated Fanout, a new pr
 - [Cluster mempool: block building with sub-chunk granularity](https://delvingbitcoin.org/t/cluster-mempool-block-building-with-sub-chunk-granularity/1044/1)
 - [Stats on compact block reconstructions](https://delvingbitcoin.org/t/stats-on-compact-block-reconstructions/1052)
 - [ARK v0.2 | Covenant-less, Offline Payments, Client SDKs, and MutinyNet Support... Oh My!](https://arkdev.info/blog/ark-release-v0.2/)
+- [New time warp vulnerability in testnet4](https://bitcoinops.org/en/newsletters/2024/08/16/) 
 
 ### ⚡️ Lightning
 
@@ -66,6 +67,7 @@ We’ll have an opening presentation to learn about Coordinated Fanout, a new pr
 - [Nutsack ecash nostr client](https://primal.net/e/note1u3qvwqcdtf0fwv0lxt3rd6tfkjlye8rkl3gdw3zrevlhmqa378sqhex7ht)
 - [StatechainJS: fast & free bitcoin transactions -- like ecash but a bit safer](https://stacker.news/items/619667)
 - [Fedi launch event](https://x.com/fedibtc/status/1820820426760880175)
+- [Fedimint v0.4 Release](https://github.com/fedimint/ui/releases/tag/v0.4.0)
 - [Bankify - turn cashu mint into lightning wallet using NWC](https://github.com/supertestnet/bankify)
 
 ### 🆔 Decentralized Identity
