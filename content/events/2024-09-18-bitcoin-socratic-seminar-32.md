@@ -47,14 +47,15 @@ We’ll have an opening presentation to learn about [Blockstamp](https://blockst
 - [$1 million OP_CAT Research Fund](https://mailing-list.bitcoindevs.xyz/bitcoindev/04b61777-7f9a-4714-b3f2-422f99e54f87n@googlegroups.com/)
 - [Benny's DLC Dev Kit is funded](https://x.com/bennyhodl/status/1831720708042260618)
 - [The data availability problem for ZK rollups](https://bitcoinmagazine.com/technical/bitcoin-rollups-the-rock-or-the-hard-place)
+- [Shinigami Starknet bitcoin test transaction](https://x.com/BrandonR505/status/1831583014289133898)
 
 ### ⚡️ Lightning
 
-[Strike Supports BOLT 12 - Blog Post](https://strike.me/blog/bolt12-offers/)
+- [Strike Supports BOLT 12 - Blog Post](https://strike.me/blog/bolt12-offers/)
+- [CoreLN v24.08](https://github.com/ElementsProject/lightning/releases/tag/v24.08)
+- [LDK v0.0.124](https://github.com/lightningdevkit/rust-lightning/releases/tag/v0.0.124)
 
 ### 💵 Ecash
-
-### 🆔 Decentralized Identity
 
 ### 🟣 Nostr
 
