@@ -37,7 +37,7 @@ Look for the **orange door** behind the **fence**.
 
 ### 🤙 Opening Presentation
 
-We’ll have an opening presentation to learn about [something](/#) from [somebody](/#).
+We’ll have an opening presentation to learn about [Blockstamp](https://blockstamp.app/) from [Gratten](https://github.com/gratten).
 
 ### 🧡 Bitcoin
 
