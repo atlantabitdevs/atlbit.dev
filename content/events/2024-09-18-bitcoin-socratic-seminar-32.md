@@ -41,7 +41,16 @@ We’ll have an opening presentation to learn about [Blockstamp](https://blockst
 
 ### 🧡 Bitcoin
 
+- [Gloria gets a package relay TX mined on testnet4](https://x.com/glozow/status/1829100551067365608)
+- [Bitcoin Mining Development Mailing List Motivations](https://groups.google.com/g/bitcoinminingdev/c/97fkfVmHWYU?pli=1)
+- [Lava Loans Protocol V2](https://github.com/lava-xyz/loans-paper/blob/960b91af83513f6a17d87904457e7a9e786b21e0/loans_v2.pdf)
+- [$1 million OP_CAT Research Fund](https://mailing-list.bitcoindevs.xyz/bitcoindev/04b61777-7f9a-4714-b3f2-422f99e54f87n@googlegroups.com/)
+- [Benny's DLC Dev Kit is funded](https://x.com/bennyhodl/status/1831720708042260618)
+- [The data availability problem for ZK rollups](https://bitcoinmagazine.com/technical/bitcoin-rollups-the-rock-or-the-hard-place)
+
 ### ⚡️ Lightning
+
+[Strike Supports BOLT 12 - Blog Post](https://strike.me/blog/bolt12-offers/)
 
 ### 💵 Ecash
 
@@ -51,4 +60,9 @@ We’ll have an opening presentation to learn about [Blockstamp](https://blockst
 
 ### 📊 Business
 
+- [Anduro Whitepaper](https://coordinate.anduro.io/)
+
 ### 🕵️‍♂️ Privacy & InfoSec
+
+- [Wasabi Coordinator Ecosystems - Wabisator](https://wabisator.com/)
+- [Wasabi Coordinator Ecosystems - Wasabist](https://wasabist.io/)
