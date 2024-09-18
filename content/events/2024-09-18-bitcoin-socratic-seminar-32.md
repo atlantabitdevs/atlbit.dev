@@ -54,12 +54,26 @@ We’ll have an opening presentation to learn about [Blockstamp](https://blockst
 - [Strike Supports BOLT 12 - Blog Post](https://strike.me/blog/bolt12-offers/)
 - [CoreLN v24.08](https://github.com/ElementsProject/lightning/releases/tag/v24.08)
 - [LDK v0.0.124](https://github.com/lightningdevkit/rust-lightning/releases/tag/v0.0.124)
+- [Privately sending payments while offline with BOLT 12](https://delvingbitcoin.org/t/privately-sending-payments-while-offline-with-bolt12/1134)
+- [Ark Node](https://x.com/ArkLabsHQ/status/1827013390134296723)
+- [0 fee lightning commitment transaction](https://x.com/realtbast/status/1834213774674247987)
+- [SuperScalar: Laddered Timeout-Tree-Structured Decker-Wattenhofer Factories](https://delvingbitcoin.org/t/superscalar-laddered-timeout-tree-structured-decker-wattenhofer-factories/1143)
 
-### 📊 Business
+### 💵 Ecash
+
+- [First Fedimint LDK Node Gateway transaction on mainnet](https://x.com/EricSirion/status/1825624407005642850)
+- [Fedminit second-generation lightning integration (lnv2 module)](https://x.com/joschisanbtc/status/1833778662027432136)
+
+### 🟣 Nostr
+
+- [BitVotr](https://bitvotr.com/)
+
+### ⛓️⛓️ Sidechains
 
 - [Anduro Whitepaper](https://coordinate.anduro.io/)
 
 ### 🕵️‍♂️ Privacy & InfoSec
 
+- [Selfie Records from Synonym](https://x.com/Synonym_to/status/1833907090567602589)
 - [Wasabi Coordinator Ecosystems - Wabisator](https://wabisator.com/)
 - [Wasabi Coordinator Ecosystems - Wasabist](https://wasabist.io/)
