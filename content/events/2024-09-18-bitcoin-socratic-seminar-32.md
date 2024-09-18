@@ -63,10 +63,17 @@ We’ll have an opening presentation to learn about [Blockstamp](https://blockst
 
 - [First Fedimint LDK Node Gateway transaction on mainnet](https://x.com/EricSirion/status/1825624407005642850)
 - [Fedminit second-generation lightning integration (lnv2 module)](https://x.com/joschisanbtc/status/1833778662027432136)
+- [Fedimint Web SDK initial release](https://github.com/fedimint/fedimint-web-sdk) [npm package](https://www.npmjs.com/package/@fedimint/core-web)
+- [Bitcoin++ Ecash Addition in Berlin](https://btcplusplus.dev/conf/berlin24)
 
 ### 🟣 Nostr
 
 - [BitVotr](https://bitvotr.com/)
+
+### 📊 Business
+
+- [Geyser.fund bans projects in "Sensitive Conflict Zones"](https://x.com/geyserfund/status/1836468065900601415)
+- [Trump Buys Beer with bitcoin at Pubkey NYC](https://x.com/PubKey_NYC/status/1836516863976632782) [Walker's tweet](https://x.com/WalkerAmerica/status/1836529151920013616)
 
 ### ⛓️⛓️ Sidechains
 
