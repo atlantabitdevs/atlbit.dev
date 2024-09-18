@@ -55,10 +55,6 @@ We’ll have an opening presentation to learn about [Blockstamp](https://blockst
 - [CoreLN v24.08](https://github.com/ElementsProject/lightning/releases/tag/v24.08)
 - [LDK v0.0.124](https://github.com/lightningdevkit/rust-lightning/releases/tag/v0.0.124)
 
-### 💵 Ecash
-
-### 🟣 Nostr
-
 ### 📊 Business
 
 - [Anduro Whitepaper](https://coordinate.anduro.io/)
