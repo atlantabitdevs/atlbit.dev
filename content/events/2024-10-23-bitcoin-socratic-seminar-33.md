@@ -87,6 +87,7 @@ We’ll have an opening presentation to learn about the **L402-HLS Protocol** fr
 - [Joinstr v0.1.1 release](https://njump.me/nevent1qqsqqqz3szluv9pzv29hqhjruxqvjcawrxnj0wfmpr7akhm2y9qtegqpzemhxue69uhhyetvv9ujumn0wd68ytnzv9hxgq3qv6qjdzkwgaydgxjvlnq7vsqxlwf4h0p4j7pt8ktprajd28r82tvskgh05w)
 - [AlgoRelay: the first nostr native relay capable of serving personalized, algorithmic feeds without the use of external or proprietary APIs or DVMs](https://njump.me/nevent1qqsz5gdtpk3t07wjtu935u3syzpk6qgvsh6aaw6qghskw9arehj75lgpz9mhxue69uhkummnw3ezuamfdejj7q3qutx00neqgqln72j22kej3ux7803c2k986henvvha4thuwfkper4sxpqqqqqqz4sywtg)
 - [Long-Term Support For Greenart7c3](https://opensats.org/blog/greenart7c3-receives-lts-grant)
+- [Seventh Wave of Nostr Grants](https://opensats.org/blog/7th-wave-of-nostr-grants)
 
 ### 📊 Business & Government
 
@@ -96,12 +97,10 @@ We’ll have an opening presentation to learn about the **L402-HLS Protocol** fr
 - [Italy Plans to Raise Bitcoin Capital Gains Tax from 26% to 42%](https://archive.ph/4Iqgb) - [Reuters Article](https://www.reuters.com/markets/europe/italy-stiffens-terms-digital-services-tax-2025-budget-2024-10-16/#:~:text=Italy%20will%20also%20raise%20a,from%2026%25%2C%20Leo%20added)
 - [Tornado Cash Dev Roman Storm’s Criminal Case Will Proceed to Trial, NY Judge Orders](https://www.coindesk.com/policy/2024/09/26/tornado-cash-dev-roman-storms-criminal-case-will-proceed-to-trial-ny-judge-orders/)
 - [Kingdom of Bhutan holds 13K BTC from mining ops](https://xcancel.com/ArkhamIntel/status/1835712533854118072)
-- 
 
 ### 🕵️‍♂️ Privacy & InfoSec
 
 - [AshiGaru v1.0.0 - privacy-focused mobile bitcoin wallet](https://ashigaru.rs/news/release-wallet-v1-0-0/)
 - [Is Tor still safe to use?](https://blog.torproject.org/tor-is-still-safe/)
-- [Seventh Wave of Nostr Grants](https://opensats.org/blog/7th-wave-of-nostr-grants)
 - [Long-Term Support For Jason Donenfeld, creator of WireGuard](https://opensats.org/blog/jason-donenfeld-lts-grant)
 
