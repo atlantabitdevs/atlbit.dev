@@ -63,7 +63,7 @@ We’ll have an opening presentation to learn about the **L402-HLS Protocol** fr
 - [Fedimint Web SDK](https://web.fedimint.org/)
 - [bitcoin++ ecash edition - videos live)(https://www.youtube.com/@btcplusplus/streams)
 
-### ZK
+### 0️⃣ ZK
 
 - [Alpen Labs - Strata launch](https://x.com/Strata_BTC/status/1841140951315857437)
 - [Strata design rationale](https://docs.stratabtc.org/technical/design-rationale/)
@@ -71,7 +71,7 @@ We’ll have an opening presentation to learn about the **L402-HLS Protocol** fr
 - [Bitcoin PIPEs - Covenants and ZKPs on Bitcoin Without Soft Fork](https://www.allocin.it/uploads/placeholder-bitcoin.pdf)
 - [Shielded CSV: Private and Efficient Client-Side Validation](https://mailing-list.bitcoindevs.xyz/bitcoindev/b0afc5f2-4dcc-469d-b952-03eeac6e7d1b@gmail.com/#r)
 
-### Ark
+### 🅰️ Ark
 
 - [ARK v0.3 | VTXO Tree Signing and New Onboarding Process](https://arkdev.info/blog/ark-release-v0.3/)
 - ["Ark on bitcoin is here"](https://blog.second.tech/ark-on-bitcoin-is-here/)
