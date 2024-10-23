@@ -61,7 +61,7 @@ We’ll have an opening presentation to learn about the **L402-HLS Protocol** fr
 ### 💵 Ecash
 
 - [Fedimint Web SDK](https://web.fedimint.org/)
-- [bitcoin++ ecash edition - videos live)(https://www.youtube.com/@btcplusplus/streams)
+- [bitcoin++ ecash edition - videos live](https://www.youtube.com/@btcplusplus/streams)
 
 ### 0️⃣ ZK
 
