@@ -47,6 +47,7 @@ We’ll have an opening presentation to learn about the **L402-HLS Protocol** fr
 - [Coinbase supports bech32m ("taproot addresses")](https://x.com/CoinbaseAssets/status/1843712761391399318)
 - [Dana wallet released](https://github.com/cygnet3/danawallet)
 - [New Stratum V2 SRI release 1.1.0](https://xcancel.com/StratumV2/status/1846577802197311512)
+- [Block's new self custody scheme](https://assets.ctfassets.net/mtmp6hzjjvnd/6Qjcs8zgMiyffC0Uk8cx4V/f4be3237365ab7302915ec96d80f74d2/Unlocking_Mass_Market_Self_Custody.pdf)
 
 ### ⚡️ Lightning
 
