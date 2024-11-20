@@ -53,6 +53,7 @@ We’ll have an opening presentation to learn about [something](/#) from [somebo
 - [Remove mempoolfullrbf #30592](https://github.com/bitcoin/bitcoin/pull/30592)
 - [BTCPayServer 2.0](https://blog.btcpayserver.org/btcpay-server-2-0/)
 - [BTCPayServer 2.0 silly video](https://x.com/BtcpayServer/status/1851636343664791745)
+- [Bitcoin Design Guide: Silent Payments](https://bitcoin.design/guide/how-it-works/silent-payments/)
 
 ### ⚡️ Lightning
 
