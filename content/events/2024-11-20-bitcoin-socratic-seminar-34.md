@@ -41,7 +41,23 @@ We’ll have an opening presentation to learn about [something](/#) from [somebo
 
 ### 🧡 Bitcoin
 
+- [Bitcoin Consensus Analysis Project](https://github.com/bitcoin-cap/bcap)
+- [Steve's bcap tweet thread](https://x.com/moneyball/status/1854585339119341796)
+- [ColliderScript: Covenants in Bitcoin via 160-bit hash collisions](https://x.com/avihu28/status/1854570598439014807)
+- [[bitcoindev] Public disclosure of one vulnerability affecting Bitcoin Core <26.0](https://mailing-list.bitcoindevs.xyz/bitcoindev/uJpfg8UeMOfVUATG4YRiGmyz5MALtZq68FCBXA6PT-BNstodivpqQfDxD1JAv5Qny_vuNr-A1m8jIDNHQLhAQt8hj8Ee9OT6ZFE5Z16O97A=@protonmail.com/#r)
+- [Ephemeral Dust PR Review](https://bitcoincore.reviews/30239)
+- [libsecp256k1 v0.6.0 - new version adds musig module](https://github.com/bitcoin-core/secp256k1/releases/tag/v0.6.0)
+- Tether Wallet Dev Kit
+  - [X announcement](https://x.com/Tether_to/status/1856019304031846811)
+  - [Marketing site](https://wallet.tether.io/)
+  - [Docs](https://docs.wallet.tether.io/)
+- [Block -  Introducing Proto: Building the future of bitcoin mining hardware](https://www.mining.build/blog/introducing-proto-building-the-future-of-bitcoin-mining-hardware-2/) 
+
 ### ⚡️ Lightning
+
+- [Lightspark unveils an L2 using statechains](https://bitcoinmagazine.com/business/lightspark-announces-new-bitcoin-l2-and-upgraded-uma-capabilities)
+- [LDK - Include invoice requests in async payment onions](https://github.com/lightningdevkit/rust-lightning/pull/3207)
+- [Zeus White](https://blog.zeusln.com/introducing-zeus-white/)
 
 ### 💵 Ecash
 
@@ -50,5 +66,9 @@ We’ll have an opening presentation to learn about [something](/#) from [somebo
 ### 🟣 Nostr
 
 ### 📊 Business
+
+- [Bitkey featured in Time's best inventions of 2024](https://time.com/7094838/block-bitkey/)
+- [Tether crude oil purchase](https://x.com/paoloardoino/status/1854897147499397437)
+- [Tether Commended for Collaboration with Canadian Law Enforcement in Recovery of Stolen Digital Assets](https://tether.io/news/tether-commended-for-collaboration-with-canadian-law-enforcement-in-recovery-of-stolen-digital-assets/)
 
 ### 🕵️‍♂️ Privacy & InfoSec
