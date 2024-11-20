@@ -47,28 +47,25 @@ We’ll have an opening presentation to learn about [something](/#) from [somebo
 - [[bitcoindev] Public disclosure of one vulnerability affecting Bitcoin Core <26.0](https://mailing-list.bitcoindevs.xyz/bitcoindev/uJpfg8UeMOfVUATG4YRiGmyz5MALtZq68FCBXA6PT-BNstodivpqQfDxD1JAv5Qny_vuNr-A1m8jIDNHQLhAQt8hj8Ee9OT6ZFE5Z16O97A=@protonmail.com/#r)
 - [Ephemeral Dust PR Review](https://bitcoincore.reviews/30239)
 - [libsecp256k1 v0.6.0 - new version adds musig module](https://github.com/bitcoin-core/secp256k1/releases/tag/v0.6.0)
-- Tether Wallet Dev Kit
-  - [X announcement](https://x.com/Tether_to/status/1856019304031846811)
-  - [Marketing site](https://wallet.tether.io/)
-  - [Docs](https://docs.wallet.tether.io/)
-- [Block -  Introducing Proto: Building the future of bitcoin mining hardware](https://www.mining.build/blog/introducing-proto-building-the-future-of-bitcoin-mining-hardware-2/) 
+- [Tether Wallet Dev Kit - X announcement](https://x.com/Tether_to/status/1856019304031846811)
+- [Tether Wallet Dev Kit - Marketing site](https://wallet.tether.io/)
+- [Block -  Introducing Proto: Building the future of bitcoin mining hardware](https://www.mining.build/blog/introducing-proto-building-the-future-of-bitcoin-mining-hardware-2/)
+- [Remove mempoolfullrbf #30592](https://github.com/bitcoin/bitcoin/pull/30592)
+- [BTCPayServer 2.0](https://blog.btcpayserver.org/btcpay-server-2-0/)
+- [BTCPayServer 2.0 silly video](https://x.com/BtcpayServer/status/1851636343664791745)
 
 ### ⚡️ Lightning
 
 - [Lightspark unveils an L2 using statechains](https://bitcoinmagazine.com/business/lightspark-announces-new-bitcoin-l2-and-upgraded-uma-capabilities)
 - [LDK - Include invoice requests in async payment onions](https://github.com/lightningdevkit/rust-lightning/pull/3207)
 - [Zeus White](https://blog.zeusln.com/introducing-zeus-white/)
-
-### 💵 Ecash
-
-### 🆔 Decentralized Identity
-
-### 🟣 Nostr
+- [OPR - Offchain Payment Resolution Protocol](https://delvingbitcoin.org/t/a-fast-scalable-protocol-for-resolving-lightning-payments/1233)
+- [Papers about IP-layer censorship of LN payments](https://delvingbitcoin.org/t/research-paper-on-ln-payment-censorship/1248)
+- [LDK - Support paying directly to Human Readable Names using bLIP 32 #3283](https://github.com/lightningdevkit/rust-lightning/pull/3283)
+- [Boltz BOLT 12 Swaps](https://xcancel.com/boltzhq/status/1853834574914113720)
 
 ### 📊 Business
 
 - [Bitkey featured in Time's best inventions of 2024](https://time.com/7094838/block-bitkey/)
 - [Tether crude oil purchase](https://x.com/paoloardoino/status/1854897147499397437)
 - [Tether Commended for Collaboration with Canadian Law Enforcement in Recovery of Stolen Digital Assets](https://tether.io/news/tether-commended-for-collaboration-with-canadian-law-enforcement-in-recovery-of-stolen-digital-assets/)
-
-### 🕵️‍♂️ Privacy & InfoSec
