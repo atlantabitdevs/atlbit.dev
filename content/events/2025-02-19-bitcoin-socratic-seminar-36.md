@@ -43,6 +43,9 @@ We'll have an opening presentation to learn about [something](/#) from [somebody
 
 ### ⚡️ Lightning
 
+- [Disclosure: Invalid Claims Liquidity Griefing in LDK v0.0.125 & Earlier](https://morehouse.github.io/lightning/ldk-invalid-claims-liquidity-griefing/)
+- [Tether, Lightning Labs Announce USDT on Lightning Network](https://tether.io/news/tether-brings-usdt-to-bitcoins-lightning-network-ushering-in-a-new-era-of-unstoppable-technology/)
+
 ### 💵 Ecash
 
 ### 🟣 Nostr
@@ -50,3 +53,7 @@ We'll have an opening presentation to learn about [something](/#) from [somebody
 ### 📊 Business
 
 ### 🕵️‍♂️ Privacy & InfoSec
+
+### Misc.
+
+- [US Department of Justice Sued Over Criminalization of Software Development](https://www.nobsbitcoin.com/doj-sued-over-criminalization-of-software-development/)
