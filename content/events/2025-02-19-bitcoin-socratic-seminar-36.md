@@ -45,7 +45,7 @@ We'll have an opening presentation to learn about [something](/#) from [somebody
 
 ### ⚡️ Lightning
 
-- [Disclosure: Invalid Claims Liquidity Griefing in LDK v0.0.125 & Earlier](https://morehouse.github.io/lightning/ldk-invalid-claims-liquidity-griefing/)
+- [Disclosure: Invalid Claims Liquidity Griefing in LDK v0.0.125 & Earlier](https://morehouse.github.io/lightning/ldk-invalid-claims-liquidity-griefing/) (fixed in v0.1.1)
 - [Tether, Lightning Labs Announce USDT on Lightning Network](https://tether.io/news/tether-brings-usdt-to-bitcoins-lightning-network-ushering-in-a-new-era-of-unstoppable-technology/)
 
 ### 💵 Ecash
