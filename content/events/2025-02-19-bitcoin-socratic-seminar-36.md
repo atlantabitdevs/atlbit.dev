@@ -41,6 +41,8 @@ We'll have an opening presentation to learn about [something](/#) from [somebody
 
 ### 🧡 Bitcoin
 
+- [What's being done today to make Bitcoin "quantum-safe"?](https://bitcoin.stackexchange.com/questions/125171/what-exactly-is-being-done-today-to-make-bitcoin-quantum-safe)
+
 ### ⚡️ Lightning
 
 - [Disclosure: Invalid Claims Liquidity Griefing in LDK v0.0.125 & Earlier](https://morehouse.github.io/lightning/ldk-invalid-claims-liquidity-griefing/)
