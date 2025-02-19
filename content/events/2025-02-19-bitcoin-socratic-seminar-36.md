@@ -35,10 +35,6 @@ Look for the **orange door** behind the **fence**.
 
 ## Topics
 
-### 🤙 Opening Presentation
-
-We'll have an opening presentation to learn about [something](/#) from [somebody](/#).
-
 ### 🧡 Bitcoin
 
 - [What's being done today to make Bitcoin "quantum-safe"?](https://bitcoin.stackexchange.com/questions/125171/what-exactly-is-being-done-today-to-make-bitcoin-quantum-safe)
@@ -56,6 +52,7 @@ We'll have an opening presentation to learn about [something](/#) from [somebody
 - [Updated BIP Process Proposal (BIP3)](https://bitcoinops.org/en/newsletters/2025/02/14/#updated-proposal-for-updated-bip-process)
 - [Block's Proto Partners with The 256 Foundation for Open-Source Mining](https://www.nobsbitcoin.com/blocks-proto-partners-with-the-256-foundation-to-support-open-source-bitcoin-mining/)
 - [First Bitcoin Telehash Fundraiser Mines Block, Raises 3.146 BTC](https://www.nobsbitcoin.com/the-first-ever-bitcoin-hashrate-fundraiser-actually-found-a-block-2/)
+- [New Replacement Cycling Attack Vector Disclosed](https://bitcoinops.org/en/newsletters/2025/01/31/#replacement-cycling-attacks-with-miner-exploitation)
 
 ### ⚡️ Lightning
 
@@ -101,20 +98,15 @@ We'll have an opening presentation to learn about [something](/#) from [somebody
 - [PeerSwap v4.0rc1 Lightning Channel Liquidity Tool](https://bitcoinops.org/en/newsletters/2025/01/24/#peerswap-v4-0rc1)
 - [Tether, Lightning Labs Announce USDT on Lightning Network](https://tether.io/news/tether-brings-usdt-to-bitcoins-lightning-network-ushering-in-a-new-era-of-unstoppable-technology/)
 
-### 💰 Ecash
-
-### 📊 Business
-
 ### 🕵️‍♂️ Privacy & InfoSec
 
 - [Coinswap v0.1.0 Beta Release](https://bitcoinops.org/en/newsletters/2025/01/24/#coinswap-v0-1-0-released)
 - [Rust-payjoin 0.21.0 with Transaction Cut-through](https://bitcoinops.org/en/newsletters/2025/01/24/#rust-payjoin-0-21-0-released)
 - [Joinpool Prototype Using CTV](https://bitcoinops.org/en/newsletters/2025/01/24/#joinpool-prototype-using-ctv)
 - [Rust Joinstr Library for Coinjoin Protocol](https://bitcoinops.org/en/newsletters/2025/01/24/#rust-joinstr-library-announced)
-- [New Replacement Cycling Attack Vector Disclosed](https://bitcoinops.org/en/newsletters/2025/01/31/#replacement-cycling-attacks-with-miner-exploitation)
 - [Obscura VPN Launches on macOS with Provable Privacy Design](https://www.nobsbitcoin.com/obscura-vpn-is-now-available-on-macos/)
 
-### 💻 Development & Infrastructure
+### 💻 New Releases
 
 - [BTCPay Server 2.0.6 Security Update](https://bitcoinops.org/en/newsletters/2025/01/24/#btcpay-server-2-0-6)
 - [Bitcoin Keeper v1.3.0 Adds Miniscript Support](https://bitcoinops.org/en/newsletters/2025/01/24/#bitcoin-keeper-adds-miniscript-support)
