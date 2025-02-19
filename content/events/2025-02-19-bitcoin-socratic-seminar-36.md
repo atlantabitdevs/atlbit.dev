@@ -45,11 +45,15 @@ Look for the **orange door** behind the **fence**.
 - [Stats on Bitcoin Core Orphan Pool Evictions](https://bitcoinops.org/en/newsletters/2025/02/14/#stats-on-orphan-evictions)
 - [Updated BIP Process Proposal (BIP3)](https://bitcoinops.org/en/newsletters/2025/02/14/#updated-proposal-for-updated-bip-process)
 - [New Replacement Cycling Attack Vector Disclosed](https://bitcoinops.org/en/newsletters/2025/01/31/#replacement-cycling-attacks-with-miner-exploitation)
+- [Optimal Cluster Linearization Research Discovery](https://bitcoinops.org/en/newsletters/2025/02/07/#discovery-of-previous-research-for-finding-optimal-cluster-linearization)
 
 #### 🧡 Mining
 
 - [Block's Proto Partners with The 256 Foundation for Open-Source Mining](https://www.nobsbitcoin.com/blocks-proto-partners-with-the-256-foundation-to-support-open-source-bitcoin-mining/)
 - [First Bitcoin Telehash Fundraiser Mines Block, Raises 3.146 BTC](https://www.nobsbitcoin.com/the-first-ever-bitcoin-hashrate-fundraiser-actually-found-a-block-2/)
+- [Deterministic Transaction Selection from Committed Mempool](https://bitcoinops.org/en/newsletters/2025/02/07/#deterministic-transaction-selection-from-a-committed-mempool)
+- [Request for a Covenant Design for Braidpool Mining Pool](https://bitcoinops.org/en/newsletters/2025/02/07/#request-for-a-covenant-design-supporting-braidpool)
+- [Fast Difficulty Adjustment for DAG Blockchain](https://bitcoinops.org/en/newsletters/2025/02/07/#fast-difficulty-adjustment-algorithm-for-a-dag-blockchain)
 
 #### 🧡 PSBTv2 Developments
 
@@ -124,13 +128,6 @@ Look for the **orange door** behind the **fence**.
 - [LDK: New Static Invoice and Offer Creation Features](https://bitcoinops.org/en/newsletters/2025/01/24/#ldk-3408)
 - [LDK: Improved HTLC Handling](https://bitcoinops.org/en/newsletters/2025/02/07/#ldk-3556)
 - [LDK: Complete Support for Receiving Async Payments](https://bitcoinops.org/en/newsletters/2025/02/14/#ldk-3440)
-
-### 📝 Research & Protocols
-
-- [Optimal Cluster Linearization Research Discovery](https://bitcoinops.org/en/newsletters/2025/02/07/#discovery-of-previous-research-for-finding-optimal-cluster-linearization)
-- [Covenant Design for Braidpool Mining Pool](https://bitcoinops.org/en/newsletters/2025/02/07/#request-for-a-covenant-design-supporting-braidpool)
-- [Deterministic Transaction Selection from Committed Mempool](https://bitcoinops.org/en/newsletters/2025/02/07/#deterministic-transaction-selection-from-a-committed-mempool)
-- [Fast Difficulty Adjustment for DAG Blockchain](https://bitcoinops.org/en/newsletters/2025/02/07/#fast-difficulty-adjustment-algorithm-for-a-dag-blockchain)
 
 ### Misc.
 
