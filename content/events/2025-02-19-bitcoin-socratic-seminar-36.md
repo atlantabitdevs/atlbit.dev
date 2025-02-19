@@ -54,7 +54,17 @@ Look for the **orange door** behind the **fence**.
 - [First Bitcoin Telehash Fundraiser Mines Block, Raises 3.146 BTC](https://www.nobsbitcoin.com/the-first-ever-bitcoin-hashrate-fundraiser-actually-found-a-block-2/)
 - [New Replacement Cycling Attack Vector Disclosed](https://bitcoinops.org/en/newsletters/2025/01/31/#replacement-cycling-attacks-with-miner-exploitation)
 
+#### PSBTv2 Developments
+
+- [PSBTv2 Integration Testing and Implementation Status](https://bitcoinops.org/en/newsletters/2025/01/24/#psbtv2-integration-testing)
+- [Merklized PSBTv2 Implementation in Ledger Hardware Wallets](https://bitcoinops.org/en/newsletters/2025/01/24/#merklized-psbtv2)
+- [Silent Payments Integration with PSBTv2](https://bitcoinops.org/en/newsletters/2025/01/24/#silent-payments-psbtv2)
+
 ### ⚡️ Lightning
+
+- [PeerSwap v4.0rc1 Lightning Channel Liquidity Tool](https://bitcoinops.org/en/newsletters/2025/01/24/#peerswap-v4-0rc1)
+- [Tether, Lightning Labs Announce USDT on Lightning Network](https://tether.io/news/tether-brings-usdt-to-bitcoins-lightning-network-ushering-in-a-new-era-of-unstoppable-technology/)
+- [Voltage x Fidelity paper: The Lightning Network - Expanding Bitcoin Use Cases](https://x.com/voltage_cloud/status/1892228262027219202)
 
 #### LDK Updates
 
@@ -86,17 +96,6 @@ Look for the **orange door** behind the **fence**.
 - [Zero-knowledge Gossip for LN Channel Announcements](https://bitcoinops.org/en/newsletters/2025/02/07/#zero-knowledge-gossip-for-ln-channel-announcements)
 - [Discussion: Probabilistic Payments as Alternative to Trimmed HTLCs](https://bitcoinops.org/en/newsletters/2025/02/14/#continued-discussion-about-probabilistic-payments)
 - [Further Discussion on Ephemeral Anchor Scripts](https://bitcoinops.org/en/newsletters/2025/02/14/#continued-discussion-about-ephemeral-anchor-scripts-for-ln)
-
-#### PSBTv2 Developments
-
-- [PSBTv2 Integration Testing and Implementation Status](https://bitcoinops.org/en/newsletters/2025/01/24/#psbtv2-integration-testing)
-- [Merklized PSBTv2 Implementation in Ledger Hardware Wallets](https://bitcoinops.org/en/newsletters/2025/01/24/#merklized-psbtv2)
-- [Silent Payments Integration with PSBTv2](https://bitcoinops.org/en/newsletters/2025/01/24/#silent-payments-psbtv2)
-
-#### Tools & Infrastructure
-
-- [PeerSwap v4.0rc1 Lightning Channel Liquidity Tool](https://bitcoinops.org/en/newsletters/2025/01/24/#peerswap-v4-0rc1)
-- [Tether, Lightning Labs Announce USDT on Lightning Network](https://tether.io/news/tether-brings-usdt-to-bitcoins-lightning-network-ushering-in-a-new-era-of-unstoppable-technology/)
 
 ### 🕵️‍♂️ Privacy & InfoSec
 
