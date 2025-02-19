@@ -81,6 +81,7 @@ Look for the **orange door** behind the **fence**.
 
 ### 💻 New Releases
 
+- [Foundation: Passport Prime Product Video](https://youtu.be/0TjuC4NVxnI?feature=shared)
 - [LDK v0.1.1 Security Release](https://bitcoinops.org/en/newsletters/2025/01/31/#ldk-v0-1-1)
 - [BTCPay Server 2.0.6 Security Update](https://bitcoinops.org/en/newsletters/2025/01/24/#btcpay-server-2-0-6)
 - [Bitcoin Keeper v1.3.0 Adds Miniscript Support](https://bitcoinops.org/en/newsletters/2025/01/24/#bitcoin-keeper-adds-miniscript-support)
