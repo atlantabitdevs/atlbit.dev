@@ -41,12 +41,39 @@ We'll have an opening presentation to learn about [something](/#) from [somebody
 
 ### 🧡 Bitcoin
 
+- [Bitcoin Core 23.0 Release]
+- [Play Ping Pong or NGMI (Blog Post)](https://blog.brollup.org/play-ping-pong-or-ngmi-01c36667c21f)
+- [Antpool historical templating bug](https://b10c.me/observations/14-antpool-and-friends-invalid-mining-jobs/)
+- [Covenants Support](https://en.bitcoin.it/w/index.php?title=Covenants_support)
+- [CTV+CSFS Covenants Proposal](https://delvingbitcoin.org/t/ctv-csfs-can-we-reach-consensus-on-a-first-step-towards-covenants/1509)
+  - [Jeremy Rubin's Endorsement](https://x.com/JeremyRubin/status/1895676912401252588)
+  - [Christian Decker](https://x.com/Snyke/status/1895880013796556818)
+  - [The Ark case for CTV](https://delvingbitcoin.org/t/the-ark-case-for-ctv/1528)
+
 ### ⚡️ Lightning
+
+- [Zero-Fee Commitments Proposal](https://delvingbitcoin.org/t/zero-fee-commitments-for-mobile-wallets/1453)
+
+### 🏆 Hackathons
+
+- [Bitcoin++ Hackathon in Floripa, Brazil](https://gist.github.com/supertestnet/9808060c7e03fd1001f17d242da5f30b)
+- [Atlanta Wins Bitcoin++ 2hr Turbo Hackathon in Austin, TX](https://devpost.com/software/bitdoom)
+- [ATL Bitlab Announces "Battle of the Mine-hackers" Hackathon](https://x.com/atlbitlab/status/1900238545786225100)
+- [Upcoming Bitcoin++ conference in Austin, TX May 6-7](https://x.com/btcplusplus/status/1902003242571125212)
 
 ### 💵 Ecash
 
+- [Hiding Ecash in Emojis](https://cashu.me/) 🥜󠅓󠅑󠅣󠅘󠅥󠄲󠅟󠄢󠄶󠅤󠅕󠄲󠅘󠅟󠅔󠄸󠅂󠅧󠅓󠅪󠅟󠅦󠄼󠄢󠄡󠅠󠅒󠅞󠅁󠅥󠅒󠄷󠄥󠄢󠅒󠄢󠅨󠄠󠅕󠅙󠄥󠅚󠅒󠄢󠄡󠅘󠅔󠅇󠄾󠅪󠅉󠅈󠅂󠅘󠅔󠄹󠄷󠅙󠅉󠅇󠅜󠄹󠄱󠄺󠅏󠅔󠅕󠄧󠄻󠄿󠅗󠅙󠄶󠅘󠅓󠄹󠄿󠅚󠅉󠅇󠄵󠅁󠅉󠅈󠄾󠄤󠅁󠄷󠄾󠅚󠄿󠄷󠄵󠄢󠄿󠄴󠄱󠄢󠄽󠄴󠄽󠄣󠅉󠄢󠄾󠅜󠄽󠄢󠄶󠅚󠄿󠅄󠅔󠅚󠄾󠅪󠅁󠄥󠄿󠄴󠅂󠅝󠅉󠅇󠅆󠅙󠅉󠄢󠄹󠄠󠄾󠅇󠅊󠅜󠄿󠅄󠅉󠄤󠅊󠅄󠅛󠅧󠅉󠅇󠄾󠅛󠄿󠅄󠅂󠅙󠅉󠅪󠅅󠄢󠄽󠅄󠄹󠄣󠄾󠄢󠅉󠅨󠄽󠅪󠅘󠅚󠄽󠅚󠄾󠅘󠅊󠄴󠄲󠅘󠅉󠄡󠅗󠅘󠄱󠄣󠅘󠅛󠄽󠅕󠄽󠅙󠄹󠄤󠄻󠅩󠅘󠅁󠅂󠅕󠅊󠅪󠄤󠅇󠅒󠄽󠄠󠄵󠄲󠄝󠅥󠄡󠅠󠄹󠄸󠄾󠅢󠅢󠅟󠄶󠄱󠄹󠄧󠅃󠅓󠅄󠅑󠅊󠅟󠄢󠄶󠅘󠄲󠄷󠄶󠅪󠅕󠄵󠄱󠅪󠄾󠄷󠅉󠅨󠄽󠄢󠅉󠄣󠅊󠅄󠅆󠅙󠄽󠅚󠅛󠄢󠄾󠅪󠅜󠅛󠅊󠅄󠄹󠅪󠄾󠅚󠄽󠄥󠅊󠅚󠅘󠅜󠄿󠄴󠅁󠅩󠄾󠅚󠅉󠅪󠅉󠅚󠅛󠅨󠅊󠅚󠅓󠄥󠅉󠅄󠅊󠅚󠅉󠅝󠅂󠅛󠄾󠅄󠄶󠅝󠄾󠅚󠅗󠄤󠄾󠅪󠅂󠅚󠅉󠅇󠄽󠄠󠅊󠅇󠅂󠅛󠄾󠅇󠄶󠅝󠄽󠄴󠄹󠄠󠅉󠅇󠄾󠅉󠄹󠅁󠄿󠅀󠅪󠄢󠅛󠅖󠅘󠅔󠅤󠅪󠄺󠅠󠅝󠅡󠄾󠄶󠅙󠅢󠄱󠅂󠅇󠄠󠅥󠅏󠅒󠄷󠄹󠅡󠅩󠄳󠅣󠅀󠅅󠄤󠄻󠅅󠄸󠅠󠅙󠄲󠄴󠅆󠅛󠅡󠄾󠅘󠅉󠅁󠄶󠅘󠅓󠄣󠅘󠄱󠄽󠅇󠅅󠄠󠄾󠄴󠄲󠅚󠅉󠅪󠄹󠅪󠄿󠄴󠅓󠄠󠄽󠅇󠅊󠅜󠄿󠄴󠅉󠄢󠄽󠅄󠅁󠅧󠄿󠅄󠅔󠅘󠄽󠅚󠅁󠄢󠄾󠅪󠅓󠄢󠄿󠄴󠅓󠄠󠄽󠅪󠄾󠅜󠄽󠅪󠄽󠅪󠅊󠅚󠄵󠄤󠄽󠅝󠅉󠄠󠅊󠅚󠅜󠅝󠄿󠅄󠄽󠅩󠄽󠅝󠅆󠅙󠄽󠅪󠄲󠅜󠄽󠄴󠄹󠄢󠅉󠅚󠄺󠅛󠅉󠅝󠄶󠅚󠅇󠄳󠄵󠄳󠅀󠅓󠅁󠄩󠄲󠅥󠄣󠄲󠅢󠅨󠄿󠅔󠅏󠅖󠅏󠄵󠄷󠅓󠄦󠅡󠅡󠄻󠅡󠅧󠅨󠅙󠄢󠄣󠅊󠅏󠅁󠄻󠅇󠅜󠄲󠄹󠄢󠅙󠅑󠅗󠅗󠄾󠅛
+
 ### 🟣 Nostr
 
+- [Frostr Release](https://x.com/bitcoinplebdev/status/1894152268104040590)
+
 ### 📊 Business
+
+- [Strategic Bitcoin Reserve](https://x.com/davidsacks47/status/1897802280738734236)
+  - [Official Fact Sheet](https://www.whitehouse.gov/fact-sheets/2025/03/fact-sheet-president-donald-j-trump-establishes-the-strategic-bitcoin-reserve-and-u-s-digital-asset-stockpile/)
+  - [David Sacks Dumps Bitcoin before announcment](https://bitcoinnews.com/legal/david-sacks-sold-200m-digital-assets/)
+- [New Perpetual Stock Offering from "Strategy"](https://x.com/saylor/status/1901969874441654434)
 
 ### 🕵️‍♂️ Privacy & InfoSec
