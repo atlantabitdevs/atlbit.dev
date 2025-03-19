@@ -58,8 +58,6 @@ We'll have an opening presentation to learn about [something](/#) from [somebody
 
 - [Bitcoin++ Hackathon in Floripa, Brazil](https://gist.github.com/supertestnet/9808060c7e03fd1001f17d242da5f30b)
 - [Atlanta Wins Bitcoin++ 2hr Turbo Hackathon in Austin, TX](https://devpost.com/software/bitdoom)
-- [ATL Bitlab Announces "Battle of the Mine-hackers" Hackathon](https://x.com/atlbitlab/status/1900238545786225100)
-- [Upcoming Bitcoin++ conference in Austin, TX May 6-7](https://x.com/btcplusplus/status/1902003242571125212)
 
 ### 💵 Ecash
 
