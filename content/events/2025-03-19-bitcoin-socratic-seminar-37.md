@@ -37,7 +37,6 @@ Look for the **orange door** behind the **fence**.
 
 ### 🧡 Bitcoin
 
-- [Bitcoin Core 23.0 Release]
 - [Play Ping Pong or NGMI (Blog Post)](https://blog.brollup.org/play-ping-pong-or-ngmi-01c36667c21f)
 - [Antpool historical templating bug](https://b10c.me/observations/14-antpool-and-friends-invalid-mining-jobs/)
 - [Covenants Support](https://en.bitcoin.it/w/index.php?title=Covenants_support)
