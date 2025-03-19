@@ -19,7 +19,7 @@ Inspired by other BitDevs meetups around the US, our Socratic Seminar events are
 
 ## Logistics for Tonight
 
-Tonight we'll be meeting at ATL BitLab. Join our <a href="https://atlantabitdevs.org/telegram/" target="_blank">telegram channel</a> in case you need to ask for help finding us the night of the event.
+Tonight we'll be meeting at ATL BitLab.
 
 ### Address
 
@@ -35,10 +35,6 @@ Look for the **orange door** behind the **fence**.
 
 ## Topics
 
-### 🤙 Opening Presentation
-
-We'll have an opening presentation to learn about [something](/#) from [somebody](/#).
-
 ### 🧡 Bitcoin
 
 - [Bitcoin Core 23.0 Release]
@@ -49,10 +45,16 @@ We'll have an opening presentation to learn about [something](/#) from [somebody
   - [Jeremy Rubin's Endorsement](https://x.com/JeremyRubin/status/1895676912401252588)
   - [Christian Decker](https://x.com/Snyke/status/1895880013796556818)
   - [The Ark case for CTV](https://delvingbitcoin.org/t/the-ark-case-for-ctv/1528)
+- [Best-(Worst-)Case MEVil Response](https://delvingbitcoin.org/t/best-worst-case-mevil-response/1465)
+- [P2QRH / BIP-360 Update](https://mailing-list.bitcoindevs.xyz/bitcoindev/8797807d-e017-44e2-b419-803291779007n@googlegroups.com/)
+- [Bitcoin Forking Guide - Response to BCAP](https://delvingbitcoin.org/t/bitcoin-forking-guide/1451)
+- [DMND Stratum V2 Mining Pool emerges from stealth](https://x.com/DEMAND_POOL/status/1902054071940370540)
 
 ### ⚡️ Lightning
 
 - [Zero-Fee Commitments Proposal](https://delvingbitcoin.org/t/zero-fee-commitments-for-mobile-wallets/1453)
+- [A Zero-Dependency Web Component for Stylish BIP-21 Payments](https://stacker.news/items/893417)
+- [LDK adds Peer Storage](https://github.com/lightningdevkit/rust-lightning/pull/3575)
 
 ### 🏆 Hackathons
 
@@ -61,6 +63,7 @@ We'll have an opening presentation to learn about [something](/#) from [somebody
 
 ### 💵 Ecash
 
+- [Fedimint v0.6.0 - on-chain for everyone](https://github.com/fedimint/fedimint/releases/tag/v0.6.0)
 - [Hiding Ecash in Emojis](https://cashu.me/) 🥜󠅓󠅑󠅣󠅘󠅥󠄲󠅟󠄢󠄶󠅤󠅕󠄲󠅘󠅟󠅔󠄸󠅂󠅧󠅓󠅪󠅟󠅦󠄼󠄢󠄡󠅠󠅒󠅞󠅁󠅥󠅒󠄷󠄥󠄢󠅒󠄢󠅨󠄠󠅕󠅙󠄥󠅚󠅒󠄢󠄡󠅘󠅔󠅇󠄾󠅪󠅉󠅈󠅂󠅘󠅔󠄹󠄷󠅙󠅉󠅇󠅜󠄹󠄱󠄺󠅏󠅔󠅕󠄧󠄻󠄿󠅗󠅙󠄶󠅘󠅓󠄹󠄿󠅚󠅉󠅇󠄵󠅁󠅉󠅈󠄾󠄤󠅁󠄷󠄾󠅚󠄿󠄷󠄵󠄢󠄿󠄴󠄱󠄢󠄽󠄴󠄽󠄣󠅉󠄢󠄾󠅜󠄽󠄢󠄶󠅚󠄿󠅄󠅔󠅚󠄾󠅪󠅁󠄥󠄿󠄴󠅂󠅝󠅉󠅇󠅆󠅙󠅉󠄢󠄹󠄠󠄾󠅇󠅊󠅜󠄿󠅄󠅉󠄤󠅊󠅄󠅛󠅧󠅉󠅇󠄾󠅛󠄿󠅄󠅂󠅙󠅉󠅪󠅅󠄢󠄽󠅄󠄹󠄣󠄾󠄢󠅉󠅨󠄽󠅪󠅘󠅚󠄽󠅚󠄾󠅘󠅊󠄴󠄲󠅘󠅉󠄡󠅗󠅘󠄱󠄣󠅘󠅛󠄽󠅕󠄽󠅙󠄹󠄤󠄻󠅩󠅘󠅁󠅂󠅕󠅊󠅪󠄤󠅇󠅒󠄽󠄠󠄵󠄲󠄝󠅥󠄡󠅠󠄹󠄸󠄾󠅢󠅢󠅟󠄶󠄱󠄹󠄧󠅃󠅓󠅄󠅑󠅊󠅟󠄢󠄶󠅘󠄲󠄷󠄶󠅪󠅕󠄵󠄱󠅪󠄾󠄷󠅉󠅨󠄽󠄢󠅉󠄣󠅊󠅄󠅆󠅙󠄽󠅚󠅛󠄢󠄾󠅪󠅜󠅛󠅊󠅄󠄹󠅪󠄾󠅚󠄽󠄥󠅊󠅚󠅘󠅜󠄿󠄴󠅁󠅩󠄾󠅚󠅉󠅪󠅉󠅚󠅛󠅨󠅊󠅚󠅓󠄥󠅉󠅄󠅊󠅚󠅉󠅝󠅂󠅛󠄾󠅄󠄶󠅝󠄾󠅚󠅗󠄤󠄾󠅪󠅂󠅚󠅉󠅇󠄽󠄠󠅊󠅇󠅂󠅛󠄾󠅇󠄶󠅝󠄽󠄴󠄹󠄠󠅉󠅇󠄾󠅉󠄹󠅁󠄿󠅀󠅪󠄢󠅛󠅖󠅘󠅔󠅤󠅪󠄺󠅠󠅝󠅡󠄾󠄶󠅙󠅢󠄱󠅂󠅇󠄠󠅥󠅏󠅒󠄷󠄹󠅡󠅩󠄳󠅣󠅀󠅅󠄤󠄻󠅅󠄸󠅠󠅙󠄲󠄴󠅆󠅛󠅡󠄾󠅘󠅉󠅁󠄶󠅘󠅓󠄣󠅘󠄱󠄽󠅇󠅅󠄠󠄾󠄴󠄲󠅚󠅉󠅪󠄹󠅪󠄿󠄴󠅓󠄠󠄽󠅇󠅊󠅜󠄿󠄴󠅉󠄢󠄽󠅄󠅁󠅧󠄿󠅄󠅔󠅘󠄽󠅚󠅁󠄢󠄾󠅪󠅓󠄢󠄿󠄴󠅓󠄠󠄽󠅪󠄾󠅜󠄽󠅪󠄽󠅪󠅊󠅚󠄵󠄤󠄽󠅝󠅉󠄠󠅊󠅚󠅜󠅝󠄿󠅄󠄽󠅩󠄽󠅝󠅆󠅙󠄽󠅪󠄲󠅜󠄽󠄴󠄹󠄢󠅉󠅚󠄺󠅛󠅉󠅝󠄶󠅚󠅇󠄳󠄵󠄳󠅀󠅓󠅁󠄩󠄲󠅥󠄣󠄲󠅢󠅨󠄿󠅔󠅏󠅖󠅏󠄵󠄷󠅓󠄦󠅡󠅡󠄻󠅡󠅧󠅨󠅙󠄢󠄣󠅊󠅏󠅁󠄻󠅇󠅜󠄲󠄹󠄢󠅙󠅑󠅗󠅗󠄾󠅛
 
 ### 📊 Business
@@ -69,5 +72,3 @@ We'll have an opening presentation to learn about [something](/#) from [somebody
   - [Official Fact Sheet](https://www.whitehouse.gov/fact-sheets/2025/03/fact-sheet-president-donald-j-trump-establishes-the-strategic-bitcoin-reserve-and-u-s-digital-asset-stockpile/)
   - [David Sacks Dumps Bitcoin before announcment](https://bitcoinnews.com/legal/david-sacks-sold-200m-digital-assets/)
 - [New Perpetual Stock Offering from "Strategy"](https://x.com/saylor/status/1901969874441654434)
-
-### 🕵️‍♂️ Privacy & InfoSec
