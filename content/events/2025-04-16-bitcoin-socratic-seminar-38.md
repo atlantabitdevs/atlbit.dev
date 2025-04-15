@@ -41,9 +41,12 @@ We'll have an opening presentation to learn about [something](/#) from [somebody
 
 ### 🧡 Bitcoin
 
+- [OP_NEXT Recap](https://opnext.dev/)
 - [How CSFS+PAIRCOMMIT enables mass delegated introspection](https://delvingbitcoin.org/t/how-csfs-paircommit-enables-mass-delegated-introspection/1599)
 - [Awesome CTV+CSFS](https://github.com/arshbot/awesome-ctv-csfs)
 - [Plan to relay certain taproot annexes](https://bitcoinops.org/en/newsletters/2025/03/28/#plan-to-relay-certain-taproot-annexes)
+- [Multiple discussions abour quantum computer theft and resistance](https://bitcoinops.org/en/newsletters/2025/04/04/#multiple-discussions-about-quantum-computer-theft-and-resistance)
+- [Multiple discussions about a CTV+CSFS soft fork](https://bitcoinops.org/en/newsletters/2025/04/04/#multiple-discussions-about-a-ctv-csfs-soft-fork)
 
 ### ⚡️ Lightning
 
