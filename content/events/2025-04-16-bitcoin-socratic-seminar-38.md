@@ -58,6 +58,7 @@ We'll have an opening presentation to learn about [something](/#) from [somebody
 ### ⚡️ Lightning
 
 - [Voltage Payments Launch](https://x.com/voltage_cloud/status/1912178065913843821)
+- [Bitcoin Mining Pool Braiins Hits 1,000 Daily Payouts On Lightning Network](https://bitcoinmagazine.com/news/bitcoin-mining-pool-braiins-hits-1000-daily-payouts-on-lightning-network)
 
 ### 💵 Ecash
 
