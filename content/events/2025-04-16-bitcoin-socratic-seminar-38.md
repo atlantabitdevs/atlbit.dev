@@ -47,6 +47,12 @@ We'll have an opening presentation to learn about [something](/#) from [somebody
 - [Plan to relay certain taproot annexes](https://bitcoinops.org/en/newsletters/2025/03/28/#plan-to-relay-certain-taproot-annexes)
 - [Multiple discussions abour quantum computer theft and resistance](https://bitcoinops.org/en/newsletters/2025/04/04/#multiple-discussions-about-quantum-computer-theft-and-resistance)
 - [Multiple discussions about a CTV+CSFS soft fork](https://bitcoinops.org/en/newsletters/2025/04/04/#multiple-discussions-about-a-ctv-csfs-soft-fork)
+- [Bitcoin Core 29.0 Released](https://groups.google.com/g/bitcoindev/c/nfiWEOBGyzk)
+- [Post Quantum Signatures and Scaling Bitcoin](https://groups.google.com/g/bitcoindev/c/wKizvPUfO7w)
+- [How CTV+CSFS improves BitVM bridges](https://delvingbitcoin.org/t/how-ctv-csfs-improves-bitvm-bridges/1591)
+- [Evolving the Ark protocol using CTV and CSFS](https://delvingbitcoin.org/t/evolving-the-ark-protocol-using-ctv-and-csfs/1602)
+- [SwiftSync – Speeding up IBD with pre-generated hints](https://delvingbitcoin.org/t/swiftsync-speeding-up-ibd-with-pre-generated-hints-poc/1562)
+- [BitScript Demo - Visualize Transaction Deserialization](https://www.bitscript.app/transactions?transaction=02000000000101623e560c9bf8a944d5470b16398e1331f5e6713854ee1101f641421c7b00acbd0100000000fdffffff024a0100000000000022512010de0497f3242f5a5b9c2a1a8f91f1b86f11d43f803eadbcd2f74fa78328ca58b86f070000000000225120adaf7aa2d999344f19e9bc9578651017847d883a473979f8481a77a3cd07c6fb0340e6cf378ecf59379fdfc272cea7771de69af39195dcf0b6d213652cc02c5e7252cd8066beb33f1431a382671370bb6f946476f87f351eefafd096363f0455dec67b209c5e783f822fec27b492072fb93121480753e26530d04e326681920d640bbf5dac0063036f7264010118746578742f706c61696e3b636861727365743d7574662d3800357b2270223a226272632d3230222c226f70223a226d696e74222c227469636b223a2273662020222c22616d74223a2231303030227d6821c19c5e783f822fec27b492072fb93121480753e26530d04e326681920d640bbf5d00000000&env=MAINNET)
 
 ### ⚡️ Lightning
 
