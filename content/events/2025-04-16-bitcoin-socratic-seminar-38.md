@@ -41,11 +41,15 @@ We'll have an opening presentation to learn about [something](/#) from [somebody
 
 ### 🧡 Bitcoin
 
+- [How CSFS+PAIRCOMMIT enables mass delegated introspection](https://delvingbitcoin.org/t/how-csfs-paircommit-enables-mass-delegated-introspection/1599)
+- [Awesome CTV+CSFS](https://github.com/arshbot/awesome-ctv-csfs)
+- [Plan to relay certain taproot annexes](https://bitcoinops.org/en/newsletters/2025/03/28/#plan-to-relay-certain-taproot-annexes)
+
 ### ⚡️ Lightning
 
-### 💵 Ecash
+- [Voltage Payments Launch](https://x.com/voltage_cloud/status/1912178065913843821)
 
-### 🟣 Nostr
+### 💵 Ecash
 
 ### 📊 Business
 
