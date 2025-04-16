@@ -41,6 +41,7 @@ Look for the **orange door** behind the **fence**.
 - [Bitcoin Designathon - May 4-18, 2025](https://event.bitcoin.design/)
 - [Bitcoin++ - Austin, TX - Hackathon - May 7-9, 2025](https://btcpp.dev/conf/atx25)
 - [Bitcoin 2025 Hackathon - Until May 20, 2025](https://b.tc/conference/2025/hackathon)
+- [Battle of the Mine-hackers @ ATL BitLab](https://minehackers.atlbitlab.com/)
 
 ### 🧡 Bitcoin
 
