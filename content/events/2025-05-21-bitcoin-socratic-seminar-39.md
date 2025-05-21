@@ -62,6 +62,7 @@ Look for the **orange door** behind the **fence**.
 - [LDK - BOLT 12 Proof of Payments](https://github.com/lightningdevkit/rust-lightning/pull/3593)
 - [Core Lightning - Add LSPS0 Client and Service Plugin](https://github.com/ElementsProject/lightning/pull/8227)
 - [Presidio Bitcoin Hack Winner - Autonomous Rekt](https://x.com/jbrill_/status/1924515004801233237)
+- [Breez Nodeless supports BOLT12 and BIP353](https://x.com/Breez_Tech/status/1925190330426499554)
 
 ### 📊 Business & Regulatory
 
