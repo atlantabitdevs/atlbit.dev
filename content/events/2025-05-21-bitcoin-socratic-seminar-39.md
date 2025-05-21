@@ -48,6 +48,7 @@ Look for the **orange door** behind the **fence**.
 - [Relax OP_RETURN standardness restrictions](https://mailing-list.bitcoindevs.xyz/bitcoindev/rhfyCHr4RfaEalbfGejVdolYCVWIyf84PT2062DQbs5-eU8BPYty5sGyvI3hKeRZQtVC7rn_ugjUWFnWCymz9e9Chbn7FjWJePllFhZRKYk=@protonmail.com/)
 - [wallet: Disable creating and loading legacy wallets](https://github.com/bitcoin/bitcoin/pull/31250)
 - [BIP 54: Consensus Cleanup merged](https://github.com/bitcoin/bips/pull/1800)
+- [UTXOSet Report](https://research.mempool.space/utxo-set-report/)
 
 ### ⚡️ Lightning
 
@@ -61,5 +62,3 @@ Look for the **orange door** behind the **fence**.
 
 - [Revolut to Roll Out Bitcoin Lightning Payments for Europe Users Through Lightspark
 ](https://www.coindesk.com/business/2025/05/07/revolut-to-roll-out-bitcoin-lightning-payments-for-europe-users-through-lightspark)
-
-### 🕵️‍♂️ Privacy & InfoSec
