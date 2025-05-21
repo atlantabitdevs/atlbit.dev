@@ -52,10 +52,15 @@ Look for the **orange door** behind the **fence**.
 - [Garbageman](https://x.com/theinstagibbs/status/1924784110754549900)
 - [Continued discussion around BIP177 - Redefine Bitcoin's base unit](https://github.com/bitcoin/bips/blob/master/bip-0177.mediawiki)
 - [descriptor-encrypt: a rust library to encrypt Bitcoin descriptors](https://github.com/joshdoman/descriptor-encrypt)
-- [Dust Expiry: Clean the UTXO set from spam](https://delvingbitcoin.org/t/dust-expiry-clean-the-utxo-set-from-spam/1707/19)
+- [Dust Expiry: Clean the UTXO set from spam](https://delvingbitcoin.org/t/dust-expiry-clean-the-utxo-set-from-spam/1707/19) [tweet](https://x.com/robin_linus/status/1925263369977893192)
 - [CVE-2025-43707: Disclosure of rust-miniscript vulnerability](https://antoinep.com/posts/cve-2025-43707/)
+- [Pay to Quantum Resistant Hash Progress (BIP 360)](https://austinbitdevs.com/2025-05-15-socratic-seminar-64)
+- [Hourglass BIP](https://github.com/cryptoquick/bips/blob/hourglass/bip-hourglass.mediawiki)
+- [64-bit Arithmetic Proposal](https://groups.google.com/g/bitcoindev/c/j1zEky-3QEE)
+- [Bitcoin++ Debate Results](https://roughconsensus.xyz) [ossification clip](https://www.youtube.com/live/rsMujxqgHeQ?si=1biANKFPM64Ag1f5&t=31771)
 
 ### 📱 Software and Client Updates
+
 - [CakeWallet adds Payjoin V2](https://x.com/cakewallet/status/1924594310202155069)
 - [BTCPay Ghost integration](https://x.com/BtcpayServer/status/1923391823059333356)
 
@@ -64,17 +69,24 @@ Look for the **orange door** behind the **fence**.
 - [BOLT 12 - re-add recurrence support](https://github.com/lightning/bolts/pull/1240)
 - [LDK - BOLT 12 Proof of Payments](https://github.com/lightningdevkit/rust-lightning/pull/3593)
 - [Core Lightning - Add LSPS0 Client and Service Plugin](https://github.com/ElementsProject/lightning/pull/8227)
-- [Presidio Bitcoin Hack Winner - Autonomous Rekt](https://x.com/jbrill_/status/1924515004801233237)
 - [Breez Nodeless supports BOLT12 and BIP353](https://x.com/Breez_Tech/status/1925190330426499554)
 - [Wallet of Satoshi announces non-custodial US-approved wallet](https://x.com/walletofsatoshi/status/1923875750165479768)
+- [Splicing Interoperability](https://x.com/dusty_daemon/status/1923185532282052736)
 
 ### 📊 Business & Regulatory
 
 - [Steak n' Shake supports bitcoin payments](https://x.com/nitesh_btc/status/1924970192477520150)
 - [Revolut to Roll Out Bitcoin Lightning Payments for Europe Users Through Lightspark
-](https://www.coindesk.com/business/2025/05/07/revolut-to-roll-out-bitcoin-lightning-payments-for-europe-users-through-lightspark)
+  ](https://www.coindesk.com/business/2025/05/07/revolut-to-roll-out-bitcoin-lightning-payments-for-europe-users-through-lightspark)
 - [Blockchain Regulatory Certainty Act](https://x.com/GOPMajorityWhip/status/1925206873701048341)
 - [Magic Eden to add support for Spark L2](https://www.spark.money/news/magic-eden-spark-partnership)
 - [JPMorgan CEO Jamie Dimon says the bank will let clients buy bitcoin](https://www.cnbc.com/2025/05/19/jpmorgan-ceo-jamie-dimon-says-the-bank-will-let-clients-buy-bitcoin.html)
 - [Wisconsin Sells Entire $350M Spot Bitcoin ETF Stake](https://www.coindesk.com/markets/2025/05/16/wisconsin-sells-entire-350m-spot-bitcoin-etf-stake)
 - [OCC Gives Banks the Green Light to Offer Bitcoin and Crypto Custody and Trading Services](https://bitcoinmagazine.com/news/occ-gives-banks-the-green-light-to-offer-bitcoin-and-crypto-custody-and-trading-services)
+- [Coinbase PII Leak & $20M Ransom](https://x.com/cointelegraph/status/1922977880314654962)
+
+### 🏆 Hackathons
+
+- [Atlanta wins Bitcoin++ ATX Hackathon](https://t.me/c/1204119993/17146)
+- [Atlanta wins Bitcoin Design Foundation's Designathon](https://event.bitcoin.design/)
+- [Presidio Bitcoin Hack Winner - Autonomous Rekt](https://x.com/jbrill_/status/1924515004801233237)
