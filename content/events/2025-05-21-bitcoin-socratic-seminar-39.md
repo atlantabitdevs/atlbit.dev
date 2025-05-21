@@ -66,6 +66,7 @@ Look for the **orange door** behind the **fence**.
 
 ### 📊 Business & Regulatory
 
+- [Steak n' Shake supports bitcoin payments](https://x.com/nitesh_btc/status/1924970192477520150)
 - [Revolut to Roll Out Bitcoin Lightning Payments for Europe Users Through Lightspark
 ](https://www.coindesk.com/business/2025/05/07/revolut-to-roll-out-bitcoin-lightning-payments-for-europe-users-through-lightspark)
 - [Blockchain Regulatory Certainty Act](https://x.com/GOPMajorityWhip/status/1925206873701048341)
