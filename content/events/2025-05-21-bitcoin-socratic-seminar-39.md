@@ -41,11 +41,16 @@ We'll have an opening presentation to learn about [something](/#) from [somebody
 
 ### 🧡 Bitcoin
 
+- [Bitcoin.org animations PR merged](https://github.com/bitcoin-dot-org/Bitcoin.org/pull/4254)
+- [The MEVil of Relay Policy](https://spiralbtc.substack.com/p/the-mevil-of-relay-policy)
+- [Thunderbolt: A Formally Verified Protocol for Off-Chain Bitcoin Transfers](https://eprint.iacr.org/2025/709)
+- [Taproot annex on mainnet](https://x.com/mononautical/status/1921180666831499737?s=46)
+
 ### ⚡️ Lightning
 
-### 💵 Ecash
+- [BOLT 12 - re-add recurrence support](https://github.com/lightning/bolts/pull/1240)
 
-### 🟣 Nostr
+### 💵 Ecash
 
 ### 📊 Business
 
