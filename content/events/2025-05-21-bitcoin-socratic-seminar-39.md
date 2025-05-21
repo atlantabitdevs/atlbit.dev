@@ -45,10 +45,19 @@ We'll have an opening presentation to learn about [something](/#) from [somebody
 - [The MEVil of Relay Policy](https://spiralbtc.substack.com/p/the-mevil-of-relay-policy)
 - [Thunderbolt: A Formally Verified Protocol for Off-Chain Bitcoin Transfers](https://eprint.iacr.org/2025/709)
 - [Taproot annex on mainnet](https://x.com/mononautical/status/1921180666831499737?s=46)
+- [A simple backup scheme for wallet accounts](https://delvingbitcoin.org/t/a-simple-backup-scheme-for-wallet-accounts/1607/1)
+- [DahLIAS: Discrete Logarithm-Based Interactive Aggregate Signatures](https://mailing-list.bitcoindevs.xyz/bitcoindev/be3813bf-467d-4880-9383-2a0b0223e7e5@gmail.com/)
+- [What's the largest size OP_RETURN payload ever created?](https://bitcoin.stackexchange.com/questions/126131/whats-the-largest-size-op-return-payload-ever-created)
+- [How to linearize your cluster](https://delvingbitcoin.org/t/how-to-linearize-your-cluster/303/68)
+- [Relax OP_RETURN standardness restrictions](https://mailing-list.bitcoindevs.xyz/bitcoindev/rhfyCHr4RfaEalbfGejVdolYCVWIyf84PT2062DQbs5-eU8BPYty5sGyvI3hKeRZQtVC7rn_ugjUWFnWCymz9e9Chbn7FjWJePllFhZRKYk=@protonmail.com/)
+- [wallet: Disable creating and loading legacy wallets](https://github.com/bitcoin/bitcoin/pull/31250)
+- [BIP 54: Consensus Cleanup merged](https://github.com/bitcoin/bips/pull/1800)
 
 ### ⚡️ Lightning
 
 - [BOLT 12 - re-add recurrence support](https://github.com/lightning/bolts/pull/1240)
+- [LDK - BOLT 12 Proof of Payments](https://github.com/lightningdevkit/rust-lightning/pull/3593)
+- [Core Lightning - Add LSPS0 Client and Service Plugin](https://github.com/ElementsProject/lightning/pull/8227)
 
 ### 💵 Ecash
 
