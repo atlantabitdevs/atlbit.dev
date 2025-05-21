@@ -63,7 +63,8 @@ Look for the **orange door** behind the **fence**.
 - [Core Lightning - Add LSPS0 Client and Service Plugin](https://github.com/ElementsProject/lightning/pull/8227)
 - [Presidio Bitcoin Hack Winner - Autonomous Rekt](https://x.com/jbrill_/status/1924515004801233237)
 
-### 📊 Business
+### 📊 Business & Regulatory
 
 - [Revolut to Roll Out Bitcoin Lightning Payments for Europe Users Through Lightspark
 ](https://www.coindesk.com/business/2025/05/07/revolut-to-roll-out-bitcoin-lightning-payments-for-europe-users-through-lightspark)
+- [Blockchain Regulatory Certainty Act](https://x.com/GOPMajorityWhip/status/1925206873701048341)
