@@ -49,6 +49,12 @@ Look for the **orange door** behind the **fence**.
 - [wallet: Disable creating and loading legacy wallets](https://github.com/bitcoin/bitcoin/pull/31250)
 - [BIP 54: Consensus Cleanup merged](https://github.com/bitcoin/bips/pull/1800)
 - [UTXOSet Report](https://research.mempool.space/utxo-set-report/)
+- [Garbageman](https://x.com/theinstagibbs/status/1924784110754549900)
+- [Continued discussion around BIP177 - Redefine Bitcoin's base unit](https://github.com/bitcoin/bips/blob/master/bip-0177.mediawiki)
+
+### 📱 Software and Client Updates
+- [CakeWallet adds Payjoin V2](https://x.com/cakewallet/status/1924594310202155069)
+- [BTCPay Ghost integration](https://x.com/BtcpayServer/status/1923391823059333356)
 
 ### ⚡️ Lightning
 
