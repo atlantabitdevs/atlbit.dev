@@ -56,8 +56,6 @@ Look for the **orange door** behind the **fence**.
 - [LDK - BOLT 12 Proof of Payments](https://github.com/lightningdevkit/rust-lightning/pull/3593)
 - [Core Lightning - Add LSPS0 Client and Service Plugin](https://github.com/ElementsProject/lightning/pull/8227)
 
-### 💵 Ecash
-
 ### 📊 Business
 
 - [Revolut to Roll Out Bitcoin Lightning Payments for Europe Users Through Lightspark
