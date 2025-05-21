@@ -35,10 +35,6 @@ Look for the **orange door** behind the **fence**.
 
 ## Topics
 
-### 🤙 Opening Presentation
-
-We'll have an opening presentation to learn about [something](/#) from [somebody](/#).
-
 ### 🧡 Bitcoin
 
 - [Bitcoin.org animations PR merged](https://github.com/bitcoin-dot-org/Bitcoin.org/pull/4254)
@@ -62,5 +58,8 @@ We'll have an opening presentation to learn about [something](/#) from [somebody
 ### 💵 Ecash
 
 ### 📊 Business
+
+- [Revolut to Roll Out Bitcoin Lightning Payments for Europe Users Through Lightspark
+](https://www.coindesk.com/business/2025/05/07/revolut-to-roll-out-bitcoin-lightning-payments-for-europe-users-through-lightspark)
 
 ### 🕵️‍♂️ Privacy & InfoSec
