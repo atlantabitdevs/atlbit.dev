@@ -61,6 +61,7 @@ Look for the **orange door** behind the **fence**.
 - [BOLT 12 - re-add recurrence support](https://github.com/lightning/bolts/pull/1240)
 - [LDK - BOLT 12 Proof of Payments](https://github.com/lightningdevkit/rust-lightning/pull/3593)
 - [Core Lightning - Add LSPS0 Client and Service Plugin](https://github.com/ElementsProject/lightning/pull/8227)
+- [Presidio Bitcoin Hack Winner - Autonomous Rekt](https://x.com/jbrill_/status/1924515004801233237)
 
 ### 📊 Business
 
