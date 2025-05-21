@@ -51,6 +51,9 @@ Look for the **orange door** behind the **fence**.
 - [UTXOSet Report](https://research.mempool.space/utxo-set-report/)
 - [Garbageman](https://x.com/theinstagibbs/status/1924784110754549900)
 - [Continued discussion around BIP177 - Redefine Bitcoin's base unit](https://github.com/bitcoin/bips/blob/master/bip-0177.mediawiki)
+- [descriptor-encrypt: a rust library to encrypt Bitcoin descriptors](https://github.com/joshdoman/descriptor-encrypt)
+- [Dust Expiry: Clean the UTXO set from spam](https://delvingbitcoin.org/t/dust-expiry-clean-the-utxo-set-from-spam/1707/19)
+- [CVE-2025-43707: Disclosure of rust-miniscript vulnerability](https://antoinep.com/posts/cve-2025-43707/)
 
 ### 📱 Software and Client Updates
 - [CakeWallet adds Payjoin V2](https://x.com/cakewallet/status/1924594310202155069)
@@ -63,6 +66,7 @@ Look for the **orange door** behind the **fence**.
 - [Core Lightning - Add LSPS0 Client and Service Plugin](https://github.com/ElementsProject/lightning/pull/8227)
 - [Presidio Bitcoin Hack Winner - Autonomous Rekt](https://x.com/jbrill_/status/1924515004801233237)
 - [Breez Nodeless supports BOLT12 and BIP353](https://x.com/Breez_Tech/status/1925190330426499554)
+- [Wallet of Satoshi announces non-custodial US-approved wallet](https://x.com/walletofsatoshi/status/1923875750165479768)
 
 ### 📊 Business & Regulatory
 
@@ -70,3 +74,7 @@ Look for the **orange door** behind the **fence**.
 - [Revolut to Roll Out Bitcoin Lightning Payments for Europe Users Through Lightspark
 ](https://www.coindesk.com/business/2025/05/07/revolut-to-roll-out-bitcoin-lightning-payments-for-europe-users-through-lightspark)
 - [Blockchain Regulatory Certainty Act](https://x.com/GOPMajorityWhip/status/1925206873701048341)
+- [Magic Eden to add support for Spark L2](https://www.spark.money/news/magic-eden-spark-partnership)
+- [JPMorgan CEO Jamie Dimon says the bank will let clients buy bitcoin](https://www.cnbc.com/2025/05/19/jpmorgan-ceo-jamie-dimon-says-the-bank-will-let-clients-buy-bitcoin.html)
+- [Wisconsin Sells Entire $350M Spot Bitcoin ETF Stake](https://www.coindesk.com/markets/2025/05/16/wisconsin-sells-entire-350m-spot-bitcoin-etf-stake)
+- [OCC Gives Banks the Green Light to Offer Bitcoin and Crypto Custody and Trading Services](https://bitcoinmagazine.com/news/occ-gives-banks-the-green-light-to-offer-bitcoin-and-crypto-custody-and-trading-services)
