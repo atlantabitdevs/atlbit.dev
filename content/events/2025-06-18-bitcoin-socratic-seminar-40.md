@@ -51,6 +51,7 @@ Look for the **orange door** behind the **fence**.
 - [Censorship Resistant Transaction Relay - Taking out the garbage(man)](https://groups.google.com/g/bitcoindev/c/bmV1QwYEN4k)
 - [Swiftsync: Faster synchronization with UTXO set hintfile](https://gist.github.com/RubenSomsen/a61a37d14182ccd78760e477c78133cd)
 - [Swiftsync early prototype 5x speedup for IBD vs AssumeValid](https://delvingbitcoin.org/t/swiftsync-speeding-up-ibd-with-pre-generated-hints-poc/1562/2)
+- [Proposal: Self-Verifiable Transaction Broadcast Log for Enhanced User Transparency](https://groups.google.com/g/bitcoindev/c/urnN99uTa3E/m/rqgfSy1hAQAJ)
 
 #### Mining
 - [Stratum V2 Mining Profitability Report](https://x.com/StratumV2/status/1933192464896069721)
