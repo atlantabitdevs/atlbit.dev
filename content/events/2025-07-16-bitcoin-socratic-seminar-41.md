@@ -89,6 +89,7 @@ Look for the **orange door** behind the **fence**.
 - [Standard Chartered becomes first global bank to offer spot bitcoin trading](https://www.coindesk.com/business/2025/07/15/standard-chartered-says-it-s-the-first-global-bank-to-offer-spot-bitcoin-and-ether-trading)
 - [Roxom Announces Launch of Bitcoin Denominated Capital Market Platform](https://bitcoinmagazine.com/news/roxom-announces-launch-of-bitcoin-denominated-capital-market-platform-in-september)
 - [Vanguard becomes top MSTR holder](https://cryptoslate.com/vanguard-becomes-top-mstr-holder-via-passive-index-fund-despite-snubbing-bitcoin-and-crypto/)
+- [Ego Death Capital Raises $100M for Bitcoin Startup Fund](https://bitbo.io/news/ego-death-capital-logo.png/)
 
 ### Fun
 
