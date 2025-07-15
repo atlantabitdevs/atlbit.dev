@@ -35,26 +35,39 @@ Look for the **orange door** behind the **fence**.
 
 ## Topics
 
-### 🤙 Opening Presentation
-
-We'll have an opening presentation to learn about [something](/#) from [somebody](/#).
-
-### 🧡 Bitcoin
+### Bitcoin
 
 - [Frostpunk](https://spiralbtc.substack.com/p/nerd-of-the-month-frostpunk)
-- [CTV + CSFS: a letter](https://groups.google.com/g/bitcoindev/c/KJF6A55DPJ8/m/ZWhVgOm7AQAJ)
+- [A rust library to encode descriptors with a 30-40% size reduction](https://delvingbitcoin.org/t/a-rust-library-to-encode-descriptors-with-a-30-40-size-reduction/1804)
+- [[bitcoindev] Proposal for Decentralized Satellite-Based Bitcoin Nodes](https://groups.google.com/g/bitcoindev/c/57_6D3O8RZg/m/cTzolEEkBwAJ)
+- [[bitcoindev] Make pathological transactions with more than 2500 legacy signature operations non-standard](https://groups.google.com/g/bitcoindev/c/u2Bz1Ms8_lA/m/AdgOwwLUBQAJ)
+
+#### CTV+CSFS
+
+- [[bitcoindev] CTV + CSFS: a letter](https://groups.google.com/g/bitcoindev/c/KJF6A55DPJ8/m/ZWhVgOm7AQAJ)
+- [[bitcoindev] What's a good stopping point? Making the case for the capabilities enabled by CTV+CSFS](https://groups.google.com/g/bitcoindev/c/-qJc1EWQzY0/m/9O_ga58aAwAJ)
 - [How CTV+CSFS improves BitVM bridges](https://delvingbitcoin.org/t/how-ctv-csfs-improves-bitvm-bridges/1591/25)
 - [CTV vault output descriptor](https://delvingbitcoin.org/t/ctv-vault-output-descriptor/1766)
 - [CTV+CSFS advantages for PTLCs](https://delvingbitcoin.org/t/ctv-csfs-can-we-reach-consensus-on-a-first-step-towards-covenants/1509/80)
-- [A rust library to encode descriptors with a 30-40% size reduction](https://delvingbitcoin.org/t/a-rust-library-to-encode-descriptors-with-a-30-40-size-reduction/1804)
-- [Proposal for Decentralized Satellite-Based Bitcoin Nodes](https://groups.google.com/g/bitcoindev/c/57_6D3O8RZg/m/cTzolEEkBwAJ)
 
-### ⚡️ Lightning
+#### Quantum
+
+- [[bitcoindev] Against Allowing Quantum Recovery of Bitcoin](https://groups.google.com/g/bitcoindev/c/uUK6py0Yjq0/m/UOcjKudiAwAJ)
+- [[bitcoindev] A Post Quantum Migration Proposal](https://groups.google.com/g/bitcoindev/c/uEaf4bj07rE/m/RMkPWnrSBwAJ)
+- [[bitcoindev] OP_CAT Enables Winternitz Signatures](https://groups.google.com/g/bitcoindev/c/Zx_NMqZH65Y/m/LV5zE15qAQAJ)
+- [[bitcoindev] Post-Quantum commit / reveal Fawkescoin variant as a soft fork](https://groups.google.com/g/bitcoindev/c/LpWOcXMcvk8/m/DjaiWnViAQAJ)
+
+### Lightning
 
 - [Reimagining Onion Messages as an Overlay Layer](https://delvingbitcoin.org/t/reimagining-onion-messages-as-an-overlay-layer/1799)
 - [LDK #3618: Async recipient-side of static invoice server](https://github.com/lightningdevkit/rust-lightning/issues/3618)
+- [LDK #3817: Revert attribution of failures](https://github.com/lightningdevkit/rust-lightning/pull/3817)
+- [Eclair #3110: Increase channel spent delay to 72 blocks](https://github.com/ACINQ/eclair/pull/3110)
+- [LDK #3873: Follow-ups #3741: Exchange splice_locked messages](https://github.com/lightningdevkit/rust-lightning/pull/3873)
 
-### 💵 Ecash
+### Ecash
+
+- [Fedimint Web Wallet](https://x.com/Harsh_dev098/status/1933888486139978085)
 
 ### Other Layer 2s
 
@@ -63,3 +76,7 @@ We'll have an opening presentation to learn about [something](/#) from [somebody
 ### Fun
 
 - [Spiral Plushie Confidential 4](https://spiralbtc.substack.com/p/plushie-confidential-4-logistics)
+- [Robinhood tokens smart contract analysis](https://x.com/allenf32/status/1940395784605925855)
+- [Design-a-Note: Bringing ecash to life](https://habla.news/a/naddr1qvzqqqr4gupzprpfkvsapu7xzdpcst4yjc37s3m3dyxdq4nwgzus7z896dpnd24qqqxnzde4xqurgd3c8qenqd3ssgmp38)
+- [Proton wallet acocunts feature](https://x.com/protonwallet/status/1932485335981641968)
+- [Skibidi Cash Bounty](https://x.com/pavlenex/status/1942616034747228480)
