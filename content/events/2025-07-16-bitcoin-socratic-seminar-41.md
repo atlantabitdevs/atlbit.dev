@@ -85,3 +85,4 @@ Look for the **orange door** behind the **fence**.
 - [Proton wallet acocunts feature](https://x.com/protonwallet/status/1932485335981641968)
 - [Skibidi Cash Bounty](https://x.com/pavlenex/status/1942616034747228480)
 - [2025 Btrust Grant Recipients](https://x.com/btrustteam/status/1940437346454999290)
+- [ATL BitLab - Mining Hackathon Finished](https://www.youtube.com/watch?v=yQjVJcQ9L1M)
