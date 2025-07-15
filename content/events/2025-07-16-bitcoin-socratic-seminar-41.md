@@ -29,7 +29,7 @@ Atlanta, GA 30312
 
 ### Parking
 
-Park anywhere in the gravel lot that has a "tenants only" sign (ATL BitLab is the tenant and you are their guests). You can also park right in front of ATL BitLab's fence. Avoid the areas marked for valet use.
+Please see this page for current parking information: <a href="https://atlbitlab.com/parking-at-atl-bitlab">Parking at ATl BitLab</a>
 
 Look for the **orange door** behind the **fence**.
 
@@ -41,12 +41,19 @@ We'll have an opening presentation to learn about [something](/#) from [somebody
 
 ### 🧡 Bitcoin
 
+- [Frostpunk](https://spiralbtc.substack.com/p/nerd-of-the-month-frostpunk)
+- [CTV + CSFS: a letter](https://groups.google.com/g/bitcoindev/c/KJF6A55DPJ8/m/ZWhVgOm7AQAJ)
+
 ### ⚡️ Lightning
+
+- [Reimagining Onion Messages as an Overlay Layer](https://delvingbitcoin.org/t/reimagining-onion-messages-as-an-overlay-layer/1799)
 
 ### 💵 Ecash
 
-### 🟣 Nostr
+### Other Layer 2s
 
-### 📊 Business
+- [Discussion on X about Spark trust model after Wallet of Satoshi + Spark announcement](https://x.com/TheBlueMatt/status/1940179770735829432)
 
-### 🕵️‍♂️ Privacy & InfoSec
+### Fun
+
+- [Spiral Plushie Confidential 4](https://spiralbtc.substack.com/p/plushie-confidential-4-logistics)
