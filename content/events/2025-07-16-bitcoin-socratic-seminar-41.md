@@ -41,6 +41,8 @@ Look for the **orange door** behind the **fence**.
 - [A rust library to encode descriptors with a 30-40% size reduction](https://delvingbitcoin.org/t/a-rust-library-to-encode-descriptors-with-a-30-40-size-reduction/1804)
 - [[bitcoindev] Proposal for Decentralized Satellite-Based Bitcoin Nodes](https://groups.google.com/g/bitcoindev/c/57_6D3O8RZg/m/cTzolEEkBwAJ)
 - [[bitcoindev] Make pathological transactions with more than 2500 legacy signature operations non-standard](https://groups.google.com/g/bitcoindev/c/u2Bz1Ms8_lA/m/AdgOwwLUBQAJ)
+- [Exploring extended relative timelocks](https://delvingbitcoin.org/t/exploring-extended-relative-timelocks/1818)
+- [Private access control for private keys](https://delvingbitcoin.org/t/chain-code-delegation-private-access-control-for-bitcoin-keys/1837)
 
 #### CTV+CSFS
 
@@ -49,6 +51,7 @@ Look for the **orange door** behind the **fence**.
 - [How CTV+CSFS improves BitVM bridges](https://delvingbitcoin.org/t/how-ctv-csfs-improves-bitvm-bridges/1591/25)
 - [CTV vault output descriptor](https://delvingbitcoin.org/t/ctv-vault-output-descriptor/1766)
 - [CTV+CSFS advantages for PTLCs](https://delvingbitcoin.org/t/ctv-csfs-can-we-reach-consensus-on-a-first-step-towards-covenants/1509/80)
+- [Using MuHash to commit to sibling prevouts](https://delvingbitcoin.org/t/understanding-and-mitigating-a-op-ctv-footgun-the-unsatisfiable-utxo/1809/12)
 
 #### Quantum
 
@@ -80,6 +83,7 @@ Look for the **orange door** behind the **fence**.
 ### Fun
 
 - [Spiral Plushie Confidential 4](https://spiralbtc.substack.com/p/plushie-confidential-4-logistics)
+- [Descriptor QR](https://descriptorqr.org)
 - [Robinhood tokens smart contract analysis](https://x.com/allenf32/status/1940395784605925855)
 - [Design-a-Note: Bringing ecash to life](https://habla.news/a/naddr1qvzqqqr4gupzprpfkvsapu7xzdpcst4yjc37s3m3dyxdq4nwgzus7z896dpnd24qqqxnzde4xqurgd3c8qenqd3ssgmp38)
 - [Proton wallet acocunts feature](https://x.com/protonwallet/status/1932485335981641968)
