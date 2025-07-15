@@ -43,10 +43,16 @@ We'll have an opening presentation to learn about [something](/#) from [somebody
 
 - [Frostpunk](https://spiralbtc.substack.com/p/nerd-of-the-month-frostpunk)
 - [CTV + CSFS: a letter](https://groups.google.com/g/bitcoindev/c/KJF6A55DPJ8/m/ZWhVgOm7AQAJ)
+- [How CTV+CSFS improves BitVM bridges](https://delvingbitcoin.org/t/how-ctv-csfs-improves-bitvm-bridges/1591/25)
+- [CTV vault output descriptor](https://delvingbitcoin.org/t/ctv-vault-output-descriptor/1766)
+- [CTV+CSFS advantages for PTLCs](https://delvingbitcoin.org/t/ctv-csfs-can-we-reach-consensus-on-a-first-step-towards-covenants/1509/80)
+- [A rust library to encode descriptors with a 30-40% size reduction](https://delvingbitcoin.org/t/a-rust-library-to-encode-descriptors-with-a-30-40-size-reduction/1804)
+- [Proposal for Decentralized Satellite-Based Bitcoin Nodes](https://groups.google.com/g/bitcoindev/c/57_6D3O8RZg/m/cTzolEEkBwAJ)
 
 ### ⚡️ Lightning
 
 - [Reimagining Onion Messages as an Overlay Layer](https://delvingbitcoin.org/t/reimagining-onion-messages-as-an-overlay-layer/1799)
+- [LDK #3618: Async recipient-side of static invoice server](https://github.com/lightningdevkit/rust-lightning/issues/3618)
 
 ### 💵 Ecash
 
