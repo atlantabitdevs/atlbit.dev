@@ -80,6 +80,7 @@ Look for the **orange door** behind the **fence**.
 
 - [Bitcoin Policy Summit](https://www.btcpolicysummit.org/)
 - [Senator Lummis unveils Bitcoin tax legislation](https://www.lummis.senate.gov/press-releases/lummis-unveils-digital-asset-tax-legislation/)
+- [Connecticut bans bitcoin use in government](https://cointelegraph.com/news/connecticut-governor-signs-bill-law-prohibiting-crypto-government)
 
 ### Business
 
@@ -87,6 +88,7 @@ Look for the **orange door** behind the **fence**.
 - [Federal Reserve clears US banks to custody bitcoin](https://www.federalreserve.gov/newsevents/pressreleases/files/bcreg20250714a1.pdf)
 - [Standard Chartered becomes first global bank to offer spot bitcoin trading](https://www.coindesk.com/business/2025/07/15/standard-chartered-says-it-s-the-first-global-bank-to-offer-spot-bitcoin-and-ether-trading)
 - [Roxom Announces Launch of Bitcoin Denominated Capital Market Platform](https://bitcoinmagazine.com/news/roxom-announces-launch-of-bitcoin-denominated-capital-market-platform-in-september)
+- [Vanguard becomes top MSTR holder](https://cryptoslate.com/vanguard-becomes-top-mstr-holder-via-passive-index-fund-despite-snubbing-bitcoin-and-crypto/)
 
 ### Fun
 
