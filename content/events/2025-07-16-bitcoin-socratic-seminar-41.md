@@ -79,6 +79,14 @@ Look for the **orange door** behind the **fence**.
 ### Policy
 
 - [Bitcoin Policy Summit](https://www.btcpolicysummit.org/)
+- [Senator Lummis unveils Bitcoin tax legislation](https://www.lummis.senate.gov/press-releases/lummis-unveils-digital-asset-tax-legislation/)
+
+### Business
+
+- [Kazakhstan ccnsiders investing reserves in bitcoin](https://bitcoinmagazine.com/news/kazakhstan-considers-investing-national-reserves-in-bitcoin)
+- [Federal Reserve clears US banks to custody bitcoin](https://www.federalreserve.gov/newsevents/pressreleases/files/bcreg20250714a1.pdf)
+- [Standard Chartered becomes first global bank to offer spot bitcoin trading](https://www.coindesk.com/business/2025/07/15/standard-chartered-says-it-s-the-first-global-bank-to-offer-spot-bitcoin-and-ether-trading)
+- [Roxom Announces Launch of Bitcoin Denominated Capital Market Platform](https://bitcoinmagazine.com/news/roxom-announces-launch-of-bitcoin-denominated-capital-market-platform-in-september)
 
 ### Fun
 
