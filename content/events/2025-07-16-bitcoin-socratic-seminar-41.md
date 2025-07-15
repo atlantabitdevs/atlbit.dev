@@ -73,6 +73,10 @@ Look for the **orange door** behind the **fence**.
 
 - [Discussion on X about Spark trust model after Wallet of Satoshi + Spark announcement](https://x.com/TheBlueMatt/status/1940179770735829432)
 
+### Policy
+
+- [Bitcoin Policy Summit](https://www.btcpolicysummit.org/)
+
 ### Fun
 
 - [Spiral Plushie Confidential 4](https://spiralbtc.substack.com/p/plushie-confidential-4-logistics)
@@ -80,3 +84,4 @@ Look for the **orange door** behind the **fence**.
 - [Design-a-Note: Bringing ecash to life](https://habla.news/a/naddr1qvzqqqr4gupzprpfkvsapu7xzdpcst4yjc37s3m3dyxdq4nwgzus7z896dpnd24qqqxnzde4xqurgd3c8qenqd3ssgmp38)
 - [Proton wallet acocunts feature](https://x.com/protonwallet/status/1932485335981641968)
 - [Skibidi Cash Bounty](https://x.com/pavlenex/status/1942616034747228480)
+- [2025 Btrust Grant Recipients](https://x.com/btrustteam/status/1940437346454999290)
