@@ -89,6 +89,7 @@ Look for the **orange door** behind the **fence**.
 - [Senator Lummis unveils Bitcoin tax legislation](https://www.lummis.senate.gov/press-releases/lummis-unveils-digital-asset-tax-legislation/)
 - [Connecticut bans bitcoin use in government](https://cointelegraph.com/news/connecticut-governor-signs-bill-law-prohibiting-crypto-government)
 - [Kenya's Deadly Tax Protests](https://www.cnn.com/2025/07/07/africa/kenya-police-prodemocracy-protests-intl#:~:text=The%20East%20African%20country%20has%20been%20hit%20by%20a%20wave%20of%20bloody%20protests%20that%20began%20last%20year%20over%20an%20unpopular%20finance%20bill%20that%20raised%20taxes%20amid%20a%20cost%2Dof%2Dliving%20crisis.)
+- [Texas Strategic Bitcoin Reserve](https://en.wikipedia.org/wiki/Texas_Strategic_Bitcoin_Reserve?utm_source=chatgpt.com)
 
 ### Business
 
@@ -99,7 +100,6 @@ Look for the **orange door** behind the **fence**.
 - [Vanguard becomes top MSTR holder](https://cryptoslate.com/vanguard-becomes-top-mstr-holder-via-passive-index-fund-despite-snubbing-bitcoin-and-crypto/)
 - [Ego Death Capital Raises $100M for Bitcoin Startup Fund](https://bitbo.io/news/ego-death-capital-logo.png/)
 - [Blockstream Announces plan for SPAC](https://cointelegraph.com/news/cantor-fitzgerald-plans-3-5b-bitcoin-buy-from-adam-back-s-blockstream-reports)
-- [Texas Strategic Bitcoin Reserve](https://en.wikipedia.org/wiki/Texas_Strategic_Bitcoin_Reserve?utm_source=chatgpt.com)
 
 ### Fun
 
