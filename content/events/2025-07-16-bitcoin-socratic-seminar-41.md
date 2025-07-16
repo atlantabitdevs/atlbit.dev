@@ -38,16 +38,15 @@ Look for the **orange door** behind the **fence**.
 ### Bitcoin
 
 - [Frostpunk](https://spiralbtc.substack.com/p/nerd-of-the-month-frostpunk)
-- [A rust library to encode descriptors with a 30-40% size reduction](https://delvingbitcoin.org/t/a-rust-library-to-encode-descriptors-with-a-30-40-size-reduction/1804)
-  - [Output Descriptor Optech](https://bitcoinops.org/en/newsletters/2025/07/11/#:~:text=Josh%20Doman%20posted%20to%20Delving%20Bitcoin%20to%20announce%20a%20library%20he%E2%80%99s%20written%20that%20encodes%20output%20script%20descriptors%20into%20a%20binary%20format%20that%20reduces%20their%20size%20by%20about%2040%25.)
+- [A rust library to encode descriptors with a 30-40% size reduction](https://delvingbitcoin.org/t/a-rust-library-to-encode-descriptors-with-a-30-40-size-reduction/1804) [Output Descriptor Optech](https://bitcoinops.org/en/newsletters/2025/07/11/#:~:text=Josh%20Doman%20posted%20to%20Delving%20Bitcoin%20to%20announce%20a%20library%20he%E2%80%99s%20written%20that%20encodes%20output%20script%20descriptors%20into%20a%20binary%20format%20that%20reduces%20their%20size%20by%20about%2040%25.) [Descriptor QR](https://descriptorqr.org) [Stacker News Post](https://stacker.news/items/1042205)
 - [[bitcoindev] Proposal for Decentralized Satellite-Based Bitcoin Nodes](https://groups.google.com/g/bitcoindev/c/57_6D3O8RZg/m/cTzolEEkBwAJ)
 - [[bitcoindev] Make pathological transactions with more than 2500 legacy signature operations non-standard](https://groups.google.com/g/bitcoindev/c/u2Bz1Ms8_lA/m/AdgOwwLUBQAJ)
 - [Exploring extended relative timelocks](https://delvingbitcoin.org/t/exploring-extended-relative-timelocks/1818)
 - [Private access control for private keys](https://delvingbitcoin.org/t/chain-code-delegation-private-access-control-for-bitcoin-keys/1837)
 - [Fingerprinting nodes via addr requests](https://delvingbitcoin.org/t/fingerprinting-nodes-via-addr-requests/1786#:~:text=When%20a%20node,%2318991.)
 - [Stratum v2 STARK proof payouts](https://x.com/dimahledba/status/1935354385795592491#:~:text=We%27ve%20developed%20a%20prototype%20within%20Stratum%20v2%20that%20leverages%20STARK%20proofs%20to%20achieve%20a%20more%20trustless%20system%20and%20better%20preserve%20the%20strategies%20of%20individual%20miners.)
-- [Fuzzamoto found a bug in bitcoin core](https://x.com/dergoegge/status/1936093236226871794)
-  - [repo](hub.com/dergoegge/fuzzamoto)
+- [Fuzzamoto found a bug in bitcoin core](https://x.com/dergoegge/status/1936093236226871794) [repo](hub.com/dergoegge/fuzzamoto)
+- [Min transaction fee reduction debate](https://github.com/bitcoin/bitcoin/pull/32959)
 
 #### CTV+CSFS
 
@@ -105,7 +104,6 @@ Look for the **orange door** behind the **fence**.
 ### Fun
 
 - [Spiral Plushie Confidential 4](https://spiralbtc.substack.com/p/plushie-confidential-4-logistics)
-- [Descriptor QR](https://descriptorqr.org)
 - [Robinhood tokens smart contract analysis](https://x.com/allenf32/status/1940395784605925855)
 - [Design-a-Note: Bringing ecash to life](https://habla.news/a/naddr1qvzqqqr4gupzprpfkvsapu7xzdpcst4yjc37s3m3dyxdq4nwgzus7z896dpnd24qqqxnzde4xqurgd3c8qenqd3ssgmp38)
 - [Proton wallet acocunts feature](https://x.com/protonwallet/status/1932485335981641968)
