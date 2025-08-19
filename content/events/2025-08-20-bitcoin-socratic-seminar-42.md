@@ -56,6 +56,7 @@ We'll have an opening presentation to learn about [something](/#) from [somebody
 - [Not ECDSA. Not Schnorr. Meet DahLIAS](https://bitcoinmagazine.com/technical/not-ecdsa-not-schnorr-meet-dahlias)
 - [[bitcoindev] Revisiting secp256r1 signatures (i.e. P256, mobile HSM support)](https://groups.google.com/g/bitcoindev/c/XSYL0gx0cDM/m/kupPkNgWBAAJ)
 - [Testing compact block prefilling](https://delvingbitcoin.org/t/stats-on-compact-block-reconstructions/1052/33)
+- [Simplicity Launches on Liquid Mainnet](https://blog.blockstream.com/simplicity-launches-on-liquid-mainnet/)
 
 #### Alternative Clients
 
@@ -86,5 +87,6 @@ We'll have an opening presentation to learn about [something](/#) from [somebody
 
 ### Business
 - [SoFi Chooses Lightspark to Power International Money Transfers](https://www.lightspark.com/news/lightspark/sofi-lightspark-announcement)
+- [Flashnet launched AMM beta on Spark](https://x.com/flashnet/status/1954718954204893230)
 
 ### Fun
