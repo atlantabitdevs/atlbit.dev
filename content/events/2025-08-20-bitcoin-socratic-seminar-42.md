@@ -89,6 +89,7 @@ We'll have an opening presentation to learn about [something](/#) from [somebody
 - [LDK #3246 - Enable Creation of Offers and Refunds Without Blinded Path](https://github.com/lightningdevkit/rust-lightning/pull/3246)
 - [LDK #3892 - offer: make the merkle tree signature public](https://github.com/lightningdevkit/rust-lightning/pull/3892)
 - [LDK #3662 - LSPS5 implementation](https://github.com/lightningdevkit/rust-lightning/pull/3662)
+- [[Proposal] Bitcoin Deposits: A Zero UTXO Trust-Minimized Lightning Wallet](https://delvingbitcoin.org/t/proposal-bitcoin-deposits-a-zero-utxo-trust-minimized-lightning-wallet/1922)
 
 ### Other Layer 2s
 
