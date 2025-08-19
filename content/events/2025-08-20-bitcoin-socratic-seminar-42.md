@@ -41,6 +41,12 @@ We'll have an opening presentation to learn about [something](/#) from [somebody
 
 ### Bitcoin
 
+#### Mining
+
+- [Block Unveils Proto Rig and Proto Fleet](https://investors.block.xyz/investor-news/news-details/2025/Block-Unveils-Proto-Rig-and-Proto-Fleet-Marking-a-New-Era-in-Bitcoin-Mining/default.aspx)
+
+#### Tooling
+
 - [Augur: Block’s Open Source Bitcoin Fee Estimation Library](https://delvingbitcoin.org/t/augur-block-s-open-source-bitcoin-fee-estimation-library/1848)
 - [Confidential Script: Emulate soft forks using stateless TEEs](https://delvingbitcoin.org/t/confidential-script-emulate-soft-forks-using-stateless-tees/1918)
 
@@ -62,6 +68,7 @@ We'll have an opening presentation to learn about [something](/#) from [somebody
 - [Payjoin v3 - From Two-Party Protocol to Multiparty Framework](https://payjoindevkit.org/2025/03/18/the-evolution-of-payjoin/)
 - [[bitcoindev] New BIP Editors: 1 Year Later](https://groups.google.com/g/bitcoindev/c/erO5zP3FgS4/m/G5Vjtu9xCAAJ)
 - [Sharing block templates](https://delvingbitcoin.org/t/sharing-block-templates/1906)
+- [Peer Observer - new p2p network monitoring tool](https://x.com/0xB10C/status/1950216578194170276)
 
 #### Alternative Clients
 
@@ -78,24 +85,27 @@ We'll have an opening presentation to learn about [something](/#) from [somebody
 
 ### Lightning
 
+- [Disclosure: LND gossip_timestamp_filter DoS](https://delvingbitcoin.org/t/disclosure-lnd-gossip-timestamp-filter-dos/1859)
 - [LDK #3628 - Async payments static invoice server](https://github.com/lightningdevkit/rust-lightning/pull/3628)
 - [LDK #3246 - Enable Creation of Offers and Refunds Without Blinded Path](https://github.com/lightningdevkit/rust-lightning/pull/3246)
 - [LDK #3892 - offer: make the merkle tree signature public](https://github.com/lightningdevkit/rust-lightning/pull/3892)
 - [LDK #3662 - LSPS5 implementation](https://github.com/lightningdevkit/rust-lightning/pull/3662)
 
-### Mining
-
-- [Block Unveils Proto Rig and Proto Fleet](https://investors.block.xyz/investor-news/news-details/2025/Block-Unveils-Proto-Rig-and-Proto-Fleet-Marking-a-New-Era-in-Bitcoin-Mining/default.aspx)
-
 ### Ecash
 
 ### Other Layer 2s
+
+- [Alpen Labs - Glock Protocol: formally defined protocol for garbled circuits on bitcoin (bitvm-3)](https://x.com/AlpenLabs/status/1957808842558885902)
 
 ### Policy
 
 ### Business
 
+- [Google redacts non-custodial wallet ban from play store](https://x.com/NewsFromGoogle/status/1955741506440192463)
 - [SoFi Chooses Lightspark to Power International Money Transfers](https://www.lightspark.com/news/lightspark/sofi-lightspark-announcement)
 - [Flashnet launched AMM beta on Spark](https://x.com/flashnet/status/1954718954204893230)
 
 ### Fun
+
+- [Bitty abomination](https://x.com/spiralbtc/status/1937590671369474430)
+- [Bringing ₿ to the World](https://spiralbtc.substack.com/p/bringing-to-the-world)
