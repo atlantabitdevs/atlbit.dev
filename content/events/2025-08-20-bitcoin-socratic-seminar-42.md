@@ -35,10 +35,6 @@ Look for the **orange door** behind the **fence**.
 
 ## Topics
 
-### 🤙 Opening Presentation
-
-We'll have an opening presentation to learn about [something](/#) from [somebody](/#).
-
 ### Bitcoin
 
 #### Mining
