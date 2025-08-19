@@ -41,12 +41,31 @@ We'll have an opening presentation to learn about [something](/#) from [somebody
 
 ### Bitcoin
 
+- [Augur: Block’s Open Source Bitcoin Fee Estimation Library](https://delvingbitcoin.org/t/augur-block-s-open-source-bitcoin-fee-estimation-library/1848)
+
+#### Bitcoin Core
+
+- [Bitcoin Core #32521 - policy: make pathological transactions packed with legacy sigops non-standard](https://github.com/bitcoin/bitcoin/pull/32521)
+- [Bitcoin v29.1 - Release Candidate 1](https://github.com/bitcoin/bitcoin/blob/v29.1rc1/doc/release-notes.md)
+
+#### Ideas & Research
+
 - [BipTreexo](https://github.com/utreexo/biptreexo)
 - [Not ECDSA. Not Schnorr. Meet DahLIAS](https://bitcoinmagazine.com/technical/not-ecdsa-not-schnorr-meet-dahlias)
+- [[bitcoindev] Revisiting secp256r1 signatures (i.e. P256, mobile HSM support)](https://groups.google.com/g/bitcoindev/c/XSYL0gx0cDM/m/kupPkNgWBAAJ)
+- [Testing compact block prefilling](https://delvingbitcoin.org/t/stats-on-compact-block-reconstructions/1052/33)
+
+#### Alternative Clients
+
+- [Floresta v0.8.0 Release](https://github.com/vinteumorg/Floresta/releases/tag/v0.8.0)
 
 #### CTV+CSFS
 
+- [[bitcoindev] A Taproot-native (re-)bindable transaction bundle proposal](https://groups.google.com/g/bitcoindev/c/5wLThgegha4/m/iUWIZPIaCAAJ)
+
 #### Quantum
+
+- [Taproot is post-quantum secure when restricted to script-path spends](https://groups.google.com/g/bitcoindev/c/ydE5u5C0xVc/m/fXs1_i1CBAAJ)
 
 ### Lightning
 
