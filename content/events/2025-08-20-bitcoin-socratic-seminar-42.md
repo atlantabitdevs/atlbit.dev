@@ -57,6 +57,7 @@ We'll have an opening presentation to learn about [something](/#) from [somebody
 - [[bitcoindev] Revisiting secp256r1 signatures (i.e. P256, mobile HSM support)](https://groups.google.com/g/bitcoindev/c/XSYL0gx0cDM/m/kupPkNgWBAAJ)
 - [Testing compact block prefilling](https://delvingbitcoin.org/t/stats-on-compact-block-reconstructions/1052/33)
 - [Simplicity Launches on Liquid Mainnet](https://blog.blockstream.com/simplicity-launches-on-liquid-mainnet/)
+- [Payjoin v3 - From Two-Party Protocol to Multiparty Framework](https://payjoindevkit.org/2025/03/18/the-evolution-of-payjoin/)
 
 #### Alternative Clients
 
