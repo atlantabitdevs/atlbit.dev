@@ -109,3 +109,4 @@ We'll have an opening presentation to learn about [something](/#) from [somebody
 
 - [Bitty abomination](https://x.com/spiralbtc/status/1937590671369474430)
 - [Bringing ₿ to the World](https://spiralbtc.substack.com/p/bringing-to-the-world)
+- [₿ISA Cards](https://x.com/unllamas/status/1950944668641866185)
