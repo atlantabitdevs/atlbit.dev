@@ -42,11 +42,13 @@ We'll have an opening presentation to learn about [something](/#) from [somebody
 ### Bitcoin
 
 - [Augur: Block’s Open Source Bitcoin Fee Estimation Library](https://delvingbitcoin.org/t/augur-block-s-open-source-bitcoin-fee-estimation-library/1848)
+- [Confidential Script: Emulate soft forks using stateless TEEs](https://delvingbitcoin.org/t/confidential-script-emulate-soft-forks-using-stateless-tees/1918)
 
 #### Bitcoin Core
 
 - [Bitcoin Core #32521 - policy: make pathological transactions packed with legacy sigops non-standard](https://github.com/bitcoin/bitcoin/pull/32521)
 - [Bitcoin v29.1 - Release Candidate 1](https://github.com/bitcoin/bitcoin/blob/v29.1rc1/doc/release-notes.md)
+- [Lower default min fees to 0.1 sats/vbyte](https://github.com/bitcoin/bitcoin/pull/33106)
 
 #### Ideas & Research
 
@@ -66,6 +68,7 @@ We'll have an opening presentation to learn about [something](/#) from [somebody
 #### Quantum
 
 - [Taproot is post-quantum secure when restricted to script-path spends](https://groups.google.com/g/bitcoindev/c/ydE5u5C0xVc/m/fXs1_i1CBAAJ)
+- [Post-Quantum HD-Wallets, Silent Payments, Key Aggregation, and Threshold Signatures](https://delvingbitcoin.org/t/post-quantum-hd-wallets-silent-payments-key-aggregation-and-threshold-signatures/1854)
 
 ### Lightning
 
