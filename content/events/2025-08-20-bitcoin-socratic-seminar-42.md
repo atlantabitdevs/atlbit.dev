@@ -74,6 +74,10 @@ We'll have an opening presentation to learn about [something](/#) from [somebody
 
 - [LDK #3628 - Async payments static invoice server](https://github.com/lightningdevkit/rust-lightning/pull/3628)
 
+### Mining
+
+- [Block Unveils Proto Rig and Proto Fleet](https://investors.block.xyz/investor-news/news-details/2025/Block-Unveils-Proto-Rig-and-Proto-Fleet-Marking-a-New-Era-in-Bitcoin-Mining/default.aspx)
+
 ### Ecash
 
 ### Other Layer 2s
@@ -81,5 +85,6 @@ We'll have an opening presentation to learn about [something](/#) from [somebody
 ### Policy
 
 ### Business
+- [SoFi Chooses Lightspark to Power International Money Transfers](https://www.lightspark.com/news/lightspark/sofi-lightspark-announcement)
 
 ### Fun
