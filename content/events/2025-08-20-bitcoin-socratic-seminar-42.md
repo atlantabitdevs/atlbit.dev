@@ -48,7 +48,9 @@ We'll have an opening presentation to learn about [something](/#) from [somebody
 
 - [Bitcoin Core #32521 - policy: make pathological transactions packed with legacy sigops non-standard](https://github.com/bitcoin/bitcoin/pull/32521)
 - [Bitcoin v29.1 - Release Candidate 1](https://github.com/bitcoin/bitcoin/blob/v29.1rc1/doc/release-notes.md)
-- [Lower default min fees to 0.1 sats/vbyte](https://github.com/bitcoin/bitcoin/pull/33106)
+- [Changing the minimum relay feerate](https://delvingbitcoin.org/t/changing-the-minimum-relay-feerate/1886)
+- [Bitcoin Core ##33106 - policy: lower the default blockmintxfee, incrementalrelayfee, minrelaytxfee #33106](https://github.com/bitcoin/bitcoin/pull/33106)
+- [Bitcoin Core #33050 net, validation: don't punish peers for consensus-invalid txs](https://github.com/bitcoin/bitcoin/pull/33050)
 
 #### Ideas & Research
 
@@ -58,6 +60,8 @@ We'll have an opening presentation to learn about [something](/#) from [somebody
 - [Testing compact block prefilling](https://delvingbitcoin.org/t/stats-on-compact-block-reconstructions/1052/33)
 - [Simplicity Launches on Liquid Mainnet](https://blog.blockstream.com/simplicity-launches-on-liquid-mainnet/)
 - [Payjoin v3 - From Two-Party Protocol to Multiparty Framework](https://payjoindevkit.org/2025/03/18/the-evolution-of-payjoin/)
+- [[bitcoindev] New BIP Editors: 1 Year Later](https://groups.google.com/g/bitcoindev/c/erO5zP3FgS4/m/G5Vjtu9xCAAJ)
+- [Sharing block templates](https://delvingbitcoin.org/t/sharing-block-templates/1906)
 
 #### Alternative Clients
 
@@ -75,6 +79,9 @@ We'll have an opening presentation to learn about [something](/#) from [somebody
 ### Lightning
 
 - [LDK #3628 - Async payments static invoice server](https://github.com/lightningdevkit/rust-lightning/pull/3628)
+- [LDK #3246 - Enable Creation of Offers and Refunds Without Blinded Path](https://github.com/lightningdevkit/rust-lightning/pull/3246)
+- [LDK #3892 - offer: make the merkle tree signature public](https://github.com/lightningdevkit/rust-lightning/pull/3892)
+- [LDK #3662 - LSPS5 implementation](https://github.com/lightningdevkit/rust-lightning/pull/3662)
 
 ### Mining
 
@@ -87,6 +94,7 @@ We'll have an opening presentation to learn about [something](/#) from [somebody
 ### Policy
 
 ### Business
+
 - [SoFi Chooses Lightspark to Power International Money Transfers](https://www.lightspark.com/news/lightspark/sofi-lightspark-announcement)
 - [Flashnet launched AMM beta on Spark](https://x.com/flashnet/status/1954718954204893230)
 
