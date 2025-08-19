@@ -6,7 +6,7 @@ type: Doc
 
 ![Bitcoin Socratic Seminar #42](/bitcoin-socratic-seminar-42.jpg)
 
-It's almost time for <a href="https://www.meetup.com/atlantabitdevs/">Bitcoin Socratic Seminar #42</a>!
+It's almost time for <a href="https://www.meetup.com/atlantabitdevs/events/305303524/">Bitcoin Socratic Seminar #42</a>!
 
 ## What is a Socratic Seminar?
 
@@ -64,7 +64,6 @@ We'll have an opening presentation to learn about [something](/#) from [somebody
 - [Not ECDSA. Not Schnorr. Meet DahLIAS](https://bitcoinmagazine.com/technical/not-ecdsa-not-schnorr-meet-dahlias)
 - [[bitcoindev] Revisiting secp256r1 signatures (i.e. P256, mobile HSM support)](https://groups.google.com/g/bitcoindev/c/XSYL0gx0cDM/m/kupPkNgWBAAJ)
 - [Testing compact block prefilling](https://delvingbitcoin.org/t/stats-on-compact-block-reconstructions/1052/33)
-- [Simplicity Launches on Liquid Mainnet](https://blog.blockstream.com/simplicity-launches-on-liquid-mainnet/)
 - [Payjoin v3 - From Two-Party Protocol to Multiparty Framework](https://payjoindevkit.org/2025/03/18/the-evolution-of-payjoin/)
 - [[bitcoindev] New BIP Editors: 1 Year Later](https://groups.google.com/g/bitcoindev/c/erO5zP3FgS4/m/G5Vjtu9xCAAJ)
 - [Sharing block templates](https://delvingbitcoin.org/t/sharing-block-templates/1906)
@@ -91,13 +90,10 @@ We'll have an opening presentation to learn about [something](/#) from [somebody
 - [LDK #3892 - offer: make the merkle tree signature public](https://github.com/lightningdevkit/rust-lightning/pull/3892)
 - [LDK #3662 - LSPS5 implementation](https://github.com/lightningdevkit/rust-lightning/pull/3662)
 
-### Ecash
-
 ### Other Layer 2s
 
+- [Simplicity Launches on Liquid Mainnet](https://blog.blockstream.com/simplicity-launches-on-liquid-mainnet/)
 - [Alpen Labs - Glock Protocol: formally defined protocol for garbled circuits on bitcoin (bitvm-3)](https://x.com/AlpenLabs/status/1957808842558885902)
-
-### Policy
 
 ### Business
 
