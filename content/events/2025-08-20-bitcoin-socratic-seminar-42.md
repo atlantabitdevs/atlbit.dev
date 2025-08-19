@@ -39,14 +39,25 @@ Look for the **orange door** behind the **fence**.
 
 We'll have an opening presentation to learn about [something](/#) from [somebody](/#).
 
-### 🧡 Bitcoin
+### Bitcoin
 
-### ⚡️ Lightning
+- [BipTreexo](https://github.com/utreexo/biptreexo)
+- [Not ECDSA. Not Schnorr. Meet DahLIAS](https://bitcoinmagazine.com/technical/not-ecdsa-not-schnorr-meet-dahlias)
 
-### 💵 Ecash
+#### CTV+CSFS
 
-### 🟣 Nostr
+#### Quantum
 
-### 📊 Business
+### Lightning
 
-### 🕵️‍♂️ Privacy & InfoSec
+- [LDK #3628 - Async payments static invoice server](https://github.com/lightningdevkit/rust-lightning/pull/3628)
+
+### Ecash
+
+### Other Layer 2s
+
+### Policy
+
+### Business
+
+### Fun
