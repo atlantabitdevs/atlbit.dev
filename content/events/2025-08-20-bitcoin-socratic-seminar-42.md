@@ -103,3 +103,4 @@ Look for the **orange door** behind the **fence**.
 - [Bitty abomination](https://x.com/spiralbtc/status/1937590671369474430)
 - [Bringing ₿ to the World](https://spiralbtc.substack.com/p/bringing-to-the-world)
 - [₿ISA Cards](https://x.com/unllamas/status/1950944668641866185)
+- [Bitcoin Design Community - 5 Year Anniversary Report](https://five.bitcoin.design/)
