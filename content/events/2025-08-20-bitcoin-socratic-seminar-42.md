@@ -40,6 +40,7 @@ Look for the **orange door** behind the **fence**.
 #### Mining
 
 - [Block Unveils Proto Rig and Proto Fleet](https://investors.block.xyz/investor-news/news-details/2025/Block-Unveils-Proto-Rig-and-Proto-Fleet-Marking-a-New-Era-in-Bitcoin-Mining/default.aspx)
+- [Proto Rig Video](https://x.com/protomining/status/1958183271810118130)
 
 #### Tooling
 
