@@ -46,6 +46,7 @@ Look for the **orange door** behind the **fence**.
 
 - [Augur: Block’s Open Source Bitcoin Fee Estimation Library](https://delvingbitcoin.org/t/augur-block-s-open-source-bitcoin-fee-estimation-library/1848)
 - [Confidential Script: Emulate soft forks using stateless TEEs](https://delvingbitcoin.org/t/confidential-script-emulate-soft-forks-using-stateless-tees/1918)
+- [ArkadeOS use of TEEs for covenant emulation](https://docs.arkadeos.com/#verifiable-trust)
 
 #### Bitcoin Core
 
@@ -62,6 +63,7 @@ Look for the **orange door** behind the **fence**.
 - [[bitcoindev] Revisiting secp256r1 signatures (i.e. P256, mobile HSM support)](https://groups.google.com/g/bitcoindev/c/XSYL0gx0cDM/m/kupPkNgWBAAJ)
 - [Testing compact block prefilling](https://delvingbitcoin.org/t/stats-on-compact-block-reconstructions/1052/33)
 - [Payjoin v3 - From Two-Party Protocol to Multiparty Framework](https://payjoindevkit.org/2025/03/18/the-evolution-of-payjoin/)
+- [Payjoin Foundation is Announced at Bitcoin++ Riga](https://insider.btcpp.dev/p/the-payjoin-foundation-is-announced)
 - [[bitcoindev] New BIP Editors: 1 Year Later](https://groups.google.com/g/bitcoindev/c/erO5zP3FgS4/m/G5Vjtu9xCAAJ)
 - [Sharing block templates](https://delvingbitcoin.org/t/sharing-block-templates/1906)
 - [Peer Observer - new p2p network monitoring tool](https://x.com/0xB10C/status/1950216578194170276)
