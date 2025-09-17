@@ -37,8 +37,8 @@ Look for the **orange door** behind the **fence**.
 
 ### 🧡 Bitcoin
 
-- [Bitcoin v30rc1 is availible](https://groups.google.com/g/bitcoindev/c/DGZBYo1kPUk)
-- [Bitcoin Knots v29.1 is availible](https://groups.google.com/g/bitcoindev/c/LCClkGlM698)
+- [Bitcoin v30rc1 is available](https://groups.google.com/g/bitcoindev/c/DGZBYo1kPUk)
+- [Bitcoin Knots v29.1 is available](https://groups.google.com/g/bitcoindev/c/LCClkGlM698)
 - [Provable Cryptography for Bitcoin: An Introduction (Workbook)](https://delvingbitcoin.org/t/provable-cryptography-for-bitcoin-an-introduction-workbook/1974)
 - [New Eclipse Attack Method Writeup](https://delvingbitcoin.org/t/eclipsing-bitcoin-nodes-with-bgp-interception-attacks/1965)
 - [BIP 153 - Sharing Block Templates with Peers](https://github.com/ajtowns/bips/blob/86d20db638c7b2f1e29f2f3072eab005f5b811d5/bip-0153.md)
