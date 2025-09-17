@@ -59,7 +59,7 @@ Look for the **orange door** behind the **fence**.
 
 ### 🐒 Metaprotocols
 
-- [Unstoppable JPGs stuffed in ](https://blog.bitmex.com/the-unstoppable-jpg-in-private-keys/)
+- [Unstoppable JPGs stuffed in keys](https://blog.bitmex.com/the-unstoppable-jpg-in-private-keys/)
 - [Ordinals impact on node runners](https://x.com/BitMEXResearch/status/1965190903762395536)
 
 ### 🤖 AI
@@ -71,7 +71,7 @@ Look for the **orange door** behind the **fence**.
 
 - [bitcoin++ Istanbul Recap](https://stacker.news/items/1216306)
 - [ATL wins bitcoin++ Hackathon](https://x.com/Marumover/status/1964031240417271892)
-- [Robin Linus explains Garbled Circuits at bitcoin++ in Istanbul](https://www.youtube.com/live/gWWxDd3mhZc?si=ZFuon1gKJV__v_Ws&t=1335)
+- [Robin Linus explains Garbled Circuits at bitcoin++ in Istanbul](https://www.youtube.com/live/gWWxDd3mhZc?si=bE82tHJdwpVpD6WQ&t=1672)
 - [Presidio Bitcoin Design Week (ongoing)](https://x.com/bitcoin_design/status/1968087401726873988)
 
 ### 📊 Business
