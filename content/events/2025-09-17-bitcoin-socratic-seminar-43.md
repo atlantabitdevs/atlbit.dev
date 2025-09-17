@@ -70,9 +70,10 @@ Look for the **orange door** behind the **fence**.
 ### 🎉 Events & Conferences
 
 - [bitcoin++ Istanbul Recap](https://stacker.news/items/1216306)
-- [ATL wins bitcoin++ Hackathon](https://x.com/Marumover/status/1964031240417271892)
+- [ATL wins bitcoin++ Hackathon](https://x.com/Marumover/status/1964031240417271892) [Artmak](https://www.youtube.com/live/S162rwnTVDs?si=56T3FFiNHRGj_7WL&t=18211)
 - [Robin Linus explains Garbled Circuits at bitcoin++ in Istanbul](https://www.youtube.com/live/gWWxDd3mhZc?si=bE82tHJdwpVpD6WQ&t=1672)
 - [Presidio Bitcoin Design Week (ongoing)](https://x.com/bitcoin_design/status/1968087401726873988)
+- [TABCONF 7 - October 13th - 16th](https://7.tabconf.com/)
 
 ### 📊 Business
 
