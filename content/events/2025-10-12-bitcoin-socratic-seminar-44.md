@@ -1,5 +1,5 @@
 ---
-date: '2025-10-15'
+date: '2025-10-12'
 title: 'Bitcoin Socratic Seminar #44'
 type: Doc
 ---
@@ -41,11 +41,11 @@ We'll have an opening presentation to learn about [something](/#) from [somebody
 
 ### 🧡 Bitcoin
 
+- [BIP321 replaces BIP21](https://x.com/TheBlueMatt/status/1970612483867255173)
+
 ### ⚡️ Lightning
 
 ### 💵 Ecash
-
-### 🟣 Nostr
 
 ### 📊 Business
 
