@@ -45,6 +45,8 @@ We'll have an opening presentation to learn about [something](/#) from [somebody
 
 ### ⚡️ Lightning
 
+- [Lexe Uses LDK to Run Self-Custodial Lightning in Secure Enclaves](https://spiralbtc.substack.com/p/lexe-uses-ldk-to-run-self-custodial)
+
 ### 💵 Ecash
 
 ### 📊 Business
