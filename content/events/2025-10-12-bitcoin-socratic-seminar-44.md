@@ -70,7 +70,7 @@ Look for the **orange door** behind the **fence**.
 
 ### Business & Regulatory
 
-- [Save Our Wallets: CLAIRTY campain](https://x.com/btcpolicyorg/status/1971331972372066649)
+- [Save Our Wallets: CLARITY campaign](https://x.com/btcpolicyorg/status/1971331972372066649)
 - [Square - Merchant bitcoin stacking](https://x.com/milessuter/status/1975969260024496525)
 
 ### Privacy & InfoSec
