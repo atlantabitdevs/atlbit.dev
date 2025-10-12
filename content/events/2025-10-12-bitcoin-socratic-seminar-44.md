@@ -58,15 +58,13 @@ Look for the **orange door** behind the **fence**.
 - [MultiChannel and MultiPTLC: Towards A Global High-Availability Consistent/Partition-Tolerant Database For Bitcoin Payments](https://delvingbitcoin.org/t/multichannel-and-multiptlc-towards-a-global-high-availability-consistent-partition-tolerant-database-for-bitcoin-payments/1983)
 - [Papa Swaps - submarine swaps with one TX instead of two](https://github.com/supertestnet/papa-swap)
 - [LDK: Async send always-online counterparty side #4045](https://github.com/lightningdevkit/rust-lightning/pull/4045)
-- [LDK: https://github.com/lightningdevkit/rust-lightning/pull/4049](https://github.com/lightningdevkit/rust-lightning/issues/4049)
+- [LDK: Always-online node forward invoice request #4049](https://github.com/lightningdevkit/rust-lightning/issues/4049)
 - [Disclosure: Eclair Preimage Extraction Exploit](https://delvingbitcoin.org/t/disclosure-eclair-preimage-extraction-exploit/2010)
 - [LDK: Deprecate pay_for_offer_from_human_readable_name #4083](https://github.com/lightningdevkit/rust-lightning/pull/4083)
 - [LDK: Support client_trusts_lsp on LSPS2 #3838](https://github.com/lightningdevkit/rust-lightning/pull/3838)
 - [Flattening Nested 2-of-2 Of a 1-of-1 And a k-of-n](https://delvingbitcoin.org/t/flattening-nested-2-of-2-of-a-1-of-1-and-a-k-of-n/2018)
 - [CoreLN: BOLT12 recurrence spec update #8398](https://github.com/ElementsProject/lightning/pull/8398)
 - [LND: docs: add deprecation warning for tor.v2 #10254](https://github.com/lightningnetwork/lnd/pull/10254)
-
-### Ecash
 
 ### Business & Regulatory
 
@@ -75,4 +73,4 @@ Look for the **orange door** behind the **fence**.
 
 ### Privacy & InfoSec
 
-- [SPark publicizes all user transaction data](https://x.com/theinstagibbs/status/1975944960160465405)
+- [Spark publicizes all user transaction data](https://x.com/theinstagibbs/status/1975944960160465405)
