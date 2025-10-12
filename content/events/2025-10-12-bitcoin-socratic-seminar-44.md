@@ -66,6 +66,7 @@ Look for the **orange door** behind the **fence**.
 - [LDK: Support client_trusts_lsp on LSPS2 #3838](https://github.com/lightningdevkit/rust-lightning/pull/3838)
 - [CoreLN: BOLT12 recurrence spec update #8398](https://github.com/ElementsProject/lightning/pull/8398)
 - [LND: docs: add deprecation warning for tor.v2 #10254](https://github.com/lightningnetwork/lnd/pull/10254)
+- [Improved Path-Finding Algorithm](https://arxiv.org/abs/2509.13448v1) - [source paper - "Breaking the Sorting Barrier"](https://arxiv.org/abs/2504.17033)
 
 ### Ecash
 
@@ -77,6 +78,7 @@ Look for the **orange door** behind the **fence**.
 
 - [Save Our Wallets: CLARITY campaign](https://x.com/btcpolicyorg/status/1971331972372066649)
 - [Square - Merchant bitcoin stacking](https://x.com/milessuter/status/1975969260024496525)
+- [Breez time2build Hackathon](https://www.time2build.dev/)
 
 ### Privacy & InfoSec
 
