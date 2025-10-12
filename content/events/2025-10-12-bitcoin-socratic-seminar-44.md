@@ -45,12 +45,14 @@ Look for the **orange door** behind the **fence**.
 - [Optimal Threshold Signatures in Bitcoin](https://delvingbitcoin.org/t/optimal-threshold-signatures-in-bitcoin/2023)
 - [[bitcoindev] On (in)ability to embed data into Schnorr](https://gnusha.org/pi/bitcoindev/0f6c92cc-e922-4d9f-9fdf-69384dcc4086n@googlegroups.com/)
 - [[BIP Proposal] Limit ScriptPubkey Size >= 520 Bytes Consensus.](https://groups.google.com/g/bitcoindev/c/YO8ZwnG_ISs)
+- [Flattening Nested 2-of-2 Of a 1-of-1 and a k-of-n](https://delvingbitcoin.org/t/flattening-nested-2-of-2-of-a-1-of-1-and-a-k-of-n/2018#:~:text=Statechain%20BS%20can%20have%20its%20security%20%E2%80%9Cimproved%E2%80%9D%20by%20having%20the%20statechain%20operator%20be%20a%20k%2Dof%2Dn%20with%20the%20current%20user%20being%20a%20priveleged%20single%20signer.)
 
 #### Bitcoin Core
+
 - [wallet: Identify transactions spending 0-value outputs, and add tests for anchor outputs in a wallet #33268](https://github.com/bitcoin/bitcoin/pull/33268)
 - [p2p: Increase tx relay rate #28592](https://github.com/bitcoin/bitcoin/pull/28592)
 - [multiprocess: Don't require bitcoin -m argument when IPC options are used](https://github.com/bitcoin/bitcoin/pull/33229)
-- [Bitcoin Core 30.0rc3 release candidate is available](https://groups.google.com/g/bitcoindev/c/eEhI06HBjgY/m/KclQ5tl9AwAJ)
+- [Bitcoin Core 30.0 is released](https://bitcoincore.org/en/releases/30.0/)
 
 ### Lightning
 
@@ -62,9 +64,14 @@ Look for the **orange door** behind the **fence**.
 - [Disclosure: Eclair Preimage Extraction Exploit](https://delvingbitcoin.org/t/disclosure-eclair-preimage-extraction-exploit/2010)
 - [LDK: Deprecate pay_for_offer_from_human_readable_name #4083](https://github.com/lightningdevkit/rust-lightning/pull/4083)
 - [LDK: Support client_trusts_lsp on LSPS2 #3838](https://github.com/lightningdevkit/rust-lightning/pull/3838)
-- [Flattening Nested 2-of-2 Of a 1-of-1 And a k-of-n](https://delvingbitcoin.org/t/flattening-nested-2-of-2-of-a-1-of-1-and-a-k-of-n/2018)
 - [CoreLN: BOLT12 recurrence spec update #8398](https://github.com/ElementsProject/lightning/pull/8398)
 - [LND: docs: add deprecation warning for tor.v2 #10254](https://github.com/lightningnetwork/lnd/pull/10254)
+
+### Ecash
+
+### Other L2s & Covenants
+
+- [Spark and Ark are Channel Factories](https://bitcoinmagazine.com/print/ark-and-spark-the-channel-factories-print)
 
 ### Business & Regulatory
 
@@ -73,4 +80,4 @@ Look for the **orange door** behind the **fence**.
 
 ### Privacy & InfoSec
 
-- [Spark publicizes all user transaction data](https://x.com/theinstagibbs/status/1975944960160465405)
+- [SPark publicizes all user transaction data](https://x.com/theinstagibbs/status/1975944960160465405) - [SparkScan.io](https://www.sparkscan.io/)
