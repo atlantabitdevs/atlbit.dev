@@ -83,3 +83,4 @@ Look for the **orange door** behind the **fence**.
 
 - [Spark publicizes all user transaction data](https://x.com/theinstagibbs/status/1975944960160465405) - [SparkScan.io](https://www.sparkscan.io/)
 - [Practical Post-Quantum Ring Signature Scheme](https://eprint.iacr.org/2025/1680)
+- [IsAnyoneUsingThisPrivateKey.com](https://x.com/TheAhmadOsman/status/1971471008478658567)
