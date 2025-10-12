@@ -57,6 +57,7 @@ Look for the **orange door** behind the **fence**.
 ### Lightning
 
 - [Lexe Uses LDK to Run Self-Custodial Lightning in Secure Enclaves](https://spiralbtc.substack.com/p/lexe-uses-ldk-to-run-self-custodial)
+  - [Persisting Mutable Storage Inside The “T”EE](https://delvingbitcoin.org/t/persisting-mutable-storage-inside-the-t-ee/2029/1)
 - [MultiChannel and MultiPTLC: Towards A Global High-Availability Consistent/Partition-Tolerant Database For Bitcoin Payments](https://delvingbitcoin.org/t/multichannel-and-multiptlc-towards-a-global-high-availability-consistent-partition-tolerant-database-for-bitcoin-payments/1983)
 - [Papa Swaps - submarine swaps with one TX instead of two](https://github.com/supertestnet/papa-swap)
 - [LDK: Async send always-online counterparty side #4045](https://github.com/lightningdevkit/rust-lightning/pull/4045)
@@ -68,10 +69,11 @@ Look for the **orange door** behind the **fence**.
 - [LND: docs: add deprecation warning for tor.v2 #10254](https://github.com/lightningnetwork/lnd/pull/10254)
 - [Improved Path-Finding Algorithm](https://arxiv.org/abs/2509.13448v1) - [source paper - "Breaking the Sorting Barrier"](https://arxiv.org/abs/2504.17033)
 
-### Other L2s & Ecash
+### Other L2s, Ecash, Covenants
 
 - [Spark and Ark are Channel Factories](https://bitcoinmagazine.com/print/ark-and-spark-the-channel-factories-print)
 - [Hackathon project - Cashu Payments Added to Signal](https://www.youtube.com/live/Gl7g7Q1HGW8?si=3-0tG1KJYubqOOuy&t=7239)
+- [MutinyNet upgrades to Bitcoin Inquisition](https://x.com/benthecarman/status/1968794533291794509)
 
 ### Business & Regulatory
 
