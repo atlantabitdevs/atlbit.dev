@@ -68,11 +68,10 @@ Look for the **orange door** behind the **fence**.
 - [LND: docs: add deprecation warning for tor.v2 #10254](https://github.com/lightningnetwork/lnd/pull/10254)
 - [Improved Path-Finding Algorithm](https://arxiv.org/abs/2509.13448v1) - [source paper - "Breaking the Sorting Barrier"](https://arxiv.org/abs/2504.17033)
 
-### Ecash
-
-### Other L2s & Covenants
+### Other L2s & Ecash
 
 - [Spark and Ark are Channel Factories](https://bitcoinmagazine.com/print/ark-and-spark-the-channel-factories-print)
+- [Hackathon project - Cashu Payments Added to Signal](https://www.youtube.com/live/Gl7g7Q1HGW8?si=3-0tG1KJYubqOOuy&t=7239)
 
 ### Business & Regulatory
 
@@ -83,3 +82,4 @@ Look for the **orange door** behind the **fence**.
 ### Privacy & InfoSec
 
 - [Spark publicizes all user transaction data](https://x.com/theinstagibbs/status/1975944960160465405) - [SparkScan.io](https://www.sparkscan.io/)
+- [Practical Post-Quantum Ring Signature Scheme](https://eprint.iacr.org/2025/1680)
