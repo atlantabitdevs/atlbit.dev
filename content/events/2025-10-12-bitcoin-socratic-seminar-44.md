@@ -80,4 +80,4 @@ Look for the **orange door** behind the **fence**.
 
 ### Privacy & InfoSec
 
-- [SPark publicizes all user transaction data](https://x.com/theinstagibbs/status/1975944960160465405) - [SparkScan.io](https://www.sparkscan.io/)
+- [Spark publicizes all user transaction data](https://x.com/theinstagibbs/status/1975944960160465405) - [SparkScan.io](https://www.sparkscan.io/)
