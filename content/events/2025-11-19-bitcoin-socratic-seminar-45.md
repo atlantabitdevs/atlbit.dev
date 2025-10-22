@@ -63,6 +63,9 @@ We'll have an opening presentation to learn about [something](/#) from [somebody
 
 ### Privacy & InfoSec
 
+- [Yubico: Future-proofing authentication: A look at the future of post-quantum cryptography
+](https://www.yubico.com/blog/future-proofing-authentication-a-look-at-the-future-of-post-quantum-cryptography/)
+
 ### Just for fun
 
 - [Paxos $300 Trillion Oopsie](https://rekt.news/paxos-300trillion-oopsie)
