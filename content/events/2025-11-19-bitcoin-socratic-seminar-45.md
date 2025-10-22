@@ -41,6 +41,11 @@ We'll have an opening presentation to learn about [something](/#) from [somebody
 
 ### Bitcoin
 
+#### Quantum
+
+- [Replication of Quantum Factorisation Records with an 8-bit Home Computer, an Abacus, and a Dog](https://eprint.iacr.org/2025/1237.pdf)
+- [Google - Our Quantum Echoes algorithm is a big step toward real-world applications for quantum computing](https://blog.google/technology/research/quantum-echoes-willow-verifiable-quantum-advantage/)
+
 #### Bitcoin Core
 
 ### Lightning
