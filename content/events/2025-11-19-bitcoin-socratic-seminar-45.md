@@ -39,14 +39,18 @@ Look for the **orange door** behind the **fence**.
 
 We'll have an opening presentation to learn about [something](/#) from [somebody](/#).
 
-### 🧡 Bitcoin
+### Bitcoin
 
-### ⚡️ Lightning
+#### Bitcoin Core
 
-### 💵 Ecash
+### Lightning
 
-### 🟣 Nostr
+### Ecash
 
-### 📊 Business
+### Business
 
-### 🕵️‍♂️ Privacy & InfoSec
+### Privacy & InfoSec
+
+### Just for fun
+
+- [Paxos $300 Trillion Oopsie](https://rekt.news/paxos-300trillion-oopsie)
