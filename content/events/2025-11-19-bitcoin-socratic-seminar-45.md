@@ -45,9 +45,16 @@ We'll have an opening presentation to learn about [something](/#) from [somebody
 
 ### Lightning
 
+### Ark
+
+- [ArkadeOS goes to mainnet](https://x.com/arkade_os/status/1980607782945485056)
+- [Arké macOS Prototype](https://community.second.tech/t/arke-macos-prototype/156)
+
 ### Ecash
 
 ### Business
+
+- [Lightspark acquires StrigaHQ](https://x.com/lightspark/status/1978069345768014245)
 
 ### Privacy & InfoSec
 
