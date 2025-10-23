@@ -60,6 +60,7 @@ We'll have an opening presentation to learn about [something](/#) from [somebody
 ### Business
 
 - [Lightspark acquires StrigaHQ](https://x.com/lightspark/status/1978069345768014245)
+- [Trump pardons convicted Binance founder 'CZ' Zhao](https://www.reuters.com/world/us/trump-pardons-convicted-binance-founder-zhao-white-house-says-2025-10-23/)
 
 ### Privacy & InfoSec
 
