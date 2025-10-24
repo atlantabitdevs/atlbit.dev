@@ -50,6 +50,8 @@ We'll have an opening presentation to learn about [something](/#) from [somebody
 
 ### Lightning
 
+- [Ademan receives Spiral grant for LNHANCE Expeditionary Project](https://x.com/spiralbtc/status/1981412553206194609)
+
 ### Ark
 
 - [ArkadeOS goes to mainnet](https://x.com/arkade_os/status/1980607782945485056)
