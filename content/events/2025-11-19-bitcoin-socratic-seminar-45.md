@@ -41,6 +41,8 @@ We'll have an opening presentation to learn about [something](/#) from [somebody
 
 ### Bitcoin
 
+- [KeyMeld - Distributed MuSig2 Bitcoin signing via AWS Nitro Enclaves using a secure 2-phase workflow](https://github.com/tee8z/keymeld)
+
 #### Quantum
 
 - [Replication of Quantum Factorisation Records with an 8-bit Home Computer, an Abacus, and a Dog](https://eprint.iacr.org/2025/1237.pdf)
