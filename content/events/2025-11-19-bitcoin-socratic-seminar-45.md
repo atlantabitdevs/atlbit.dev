@@ -64,7 +64,10 @@ We'll have an opening presentation to learn about [something](/#) from [somebody
 ### Business
 
 - [Lightspark acquires StrigaHQ](https://x.com/lightspark/status/1978069345768014245)
+
+### Legal & Regulatory Issues
 - [Trump pardons convicted Binance founder 'CZ' Zhao](https://www.reuters.com/world/us/trump-pardons-convicted-binance-founder-zhao-white-house-says-2025-10-23/)
+- [Keonne Rodriguez Sentenced to 5 Years in Prison, $250,000 Fine](https://www.therage.co/keonne-rodriguez-samourai-sentenced/)
 
 ### Privacy & InfoSec
 
