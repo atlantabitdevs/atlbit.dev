@@ -83,6 +83,7 @@ We'll have an opening presentation to learn about [something](/#) from [somebody
 
 - [Lightspark acquires StrigaHQ](https://x.com/lightspark/status/1978069345768014245)
 - [Merchants Don’t Read White Papers, They Read Cash Flow Statements](https://spiralbtc.substack.com/p/merchants-dont-read-white-papers-d69)
+- [Controversy over updates to Lava loans product](https://x.com/_arshbot/status/1986156462519832921?s=20)
 
 ### Legal & Regulatory Issues
 
