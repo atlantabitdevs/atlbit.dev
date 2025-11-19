@@ -43,9 +43,21 @@ We'll have an opening presentation to learn about [something](/#) from [somebody
 
 - [KeyMeld - Distributed MuSig2 Bitcoin signing via AWS Nitro Enclaves using a secure 2-phase workflow](https://github.com/tee8z/keymeld)
 - [Determining BlockTemplate Fee Increase Using Fee Rate Diagram](https://delvingbitcoin.org/t/determining-blocktemplate-fee-increase-using-fee-rate-diagram/2052/1)
-- [BIP draft: Reduced Data Temporary Softfork](https://github.com/bitcoin/bips/pull/2017)
 - [BIP54 implementation and test vectors](https://groups.google.com/g/bitcoindev/c/1XEtmIS_XRc)
 - [Proposal: OP_STARK_VERIFY - Native STARK Proof Verification in Bitcoin Script](https://delvingbitcoin.org/t/proposal-op-stark-verify-native-stark-proof-verification-in-bitcoin-script/2056)
+
+#### RDTS - Reduced Data Temporary Softfork
+
+- [[BIP Proposal] Limit ScriptPubkey Size >= 520 Bytes Consensus](https://groups.google.com/g/bitcoindev/c/YO8ZwnG_ISs)
+- [BIP draft: Reduced Data Temporary Softfork](https://github.com/bitcoin/bips/pull/2017)
+- [PR: chainparams: remove dnsseed.bitcoin.dashjr-list-of-p2p-nodes.us](https://github.com/bitcoin/bitcoin/pull/33723)
+- [Peter Todd etches the new BIP into the blockchain](https://x.com/mononautical/status/1982601377923891530)
+- [OrdiKnots: introducing Ordiknots: magic internet JPEGs powered by Bitcoin Knots ](https://x.com/t4t5/status/1990434223073730568?s=20)
+- [Udi: "...the taproot wizards company invested $6.8 million dollars into research and development..."](https://x.com/udiWertheimer/status/1990453267101520367?s=20)
+- [BPUB protocol for arbitrary data on Bitcoin](https://x.com/ProofOfCash/status/1991223037996233019)
+- [PR: Add support for Lua-based TX filtering](https://github.com/bitcoinknots/bitcoin/pull/119)
+- [PR: Ordiknots lua filter](https://github.com/jasonfoura/bitcoin/pull/1/files)
+- [Mechanic's response to OrdiKnots](https://x.com/GrassFedBitcoin/status/1990466785989292528)
 
 #### BIPs Process
 
