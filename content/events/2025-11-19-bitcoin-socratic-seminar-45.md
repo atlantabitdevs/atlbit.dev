@@ -104,6 +104,7 @@ We'll have an opening presentation to learn about [something](/#) from [somebody
 - [Controversy over updates to Lava loans product](https://x.com/_arshbot/status/1986156462519832921?s=20)
 - [$523 Million of outflows in one day from Bitcoin ETF](https://www.reuters.com/markets/wealth/investors-pull-record-523-million-blackrocks-flagship-bitcoin-etf-2025-11-19/)
 - [El Salvador smash buys 1,000 BTC](https://x.com/nayibbukele/status/1990571996732965357)
+- [1000 Square Merchants on Bitcoin Maps](https://x.com/btcmap/status/1991258735608561666)
 
 ### Legal & Regulatory Issues
 
