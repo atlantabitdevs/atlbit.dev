@@ -48,6 +48,7 @@ We'll have an opening presentation to learn about [something](/#) from [somebody
 - [Proposal: OP_STARK_VERIFY - Native STARK Proof Verification in Bitcoin Script](https://delvingbitcoin.org/t/proposal-op-stark-verify-native-stark-proof-verification-in-bitcoin-script/2056)
 
 #### BIPs Process
+
 - [Motion to Activate BIP 3](https://groups.google.com/g/bitcoindev/c/j4_toD-ofEc/m/esV-XScYAAAJ)
 - [BIP3: clarify number assignment](https://github.com/bitcoin/bips/pull/2022)
 - [BIP3: add guidance on originality, quality, LLMs](https://github.com/bitcoin/bips/pull/2006)
@@ -63,13 +64,13 @@ We'll have an opening presentation to learn about [something](/#) from [somebody
 
 - [Public disclosure of 4 Bitcoin Core security advisories](https://groups.google.com/g/bitcoindev/c/sBpCgS_yGws)
 - [Comparing the performance of ECDSA signature validation in OpenSSL vs. libsecp256k1 over the last decade](https://delvingbitcoin.org/t/comparing-the-performance-of-ecdsa-signature-validation-in-openssl-vs-libsecp256k1-over-the-last-decade/2087)
-- 
+-
 
 ### Lightning
 
 - [Ademan receives Spiral grant for LNHANCE Expeditionary Project](https://x.com/spiralbtc/status/1981412553206194609)
 - [Channel Jamming - Outgoing Reputation: Simulation Results and Updates](https://delvingbitcoin.org/t/outgoing-reputation-simulation-results-and-updates/2069)
-- 
+-
 
 ### Ark
 
@@ -84,14 +85,16 @@ We'll have an opening presentation to learn about [something](/#) from [somebody
 - [Merchants Don’t Read White Papers, They Read Cash Flow Statements](https://spiralbtc.substack.com/p/merchants-dont-read-white-papers-d69)
 
 ### Legal & Regulatory Issues
+
 - [Trump pardons convicted Binance founder 'CZ' Zhao](https://www.reuters.com/world/us/trump-pardons-convicted-binance-founder-zhao-white-house-says-2025-10-23/)
 - [Keonne Rodriguez Sentenced to 5 Years in Prison, $250,000 Fine](https://www.therage.co/keonne-rodriguez-samourai-sentenced/)
 
 ### Privacy & InfoSec
 
 - [Yubico: Future-proofing authentication: A look at the future of post-quantum cryptography
-](https://www.yubico.com/blog/future-proofing-authentication-a-look-at-the-future-of-post-quantum-cryptography/)
+  ](https://www.yubico.com/blog/future-proofing-authentication-a-look-at-the-future-of-post-quantum-cryptography/)
 - [The Scroll #5: The Many Faces of CoinJoins](https://spiralbtc.substack.com/p/the-scroll-5-the-many-faces-of-coinjoins)
+- [Cloudflare outage on November 18, 2025](https://blog.cloudflare.com/18-november-2025-outage/)
 
 ### Just for fun
 
