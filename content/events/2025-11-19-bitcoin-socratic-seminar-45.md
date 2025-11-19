@@ -88,6 +88,10 @@ We'll have an opening presentation to learn about [something](/#) from [somebody
 - [LNhance.org](https://lnhance.org/)
 - [Channel Jamming - Outgoing Reputation: Simulation Results and Updates](https://delvingbitcoin.org/t/outgoing-reputation-simulation-results-and-updates/2069)
 
+### Ecash
+
+- [Fedimint is now in the Start9 community registry](https://x.com/fedimint/status/1985743059082994077)
+
 ### Ark
 
 - [ArkadeOS goes to mainnet](https://x.com/arkade_os/status/1980607782945485056)
