@@ -59,6 +59,7 @@ We'll have an opening presentation to learn about [something](/#) from [somebody
 - [PR: Add support for Lua-based TX filtering](https://github.com/bitcoinknots/bitcoin/pull/119)
 - [PR: Ordiknots lua filter](https://github.com/jasonfoura/bitcoin/pull/1/files)
 - [Mechanic's response to OrdiKnots](https://x.com/GrassFedBitcoin/status/1990466785989292528)
+- [Bitcoin Core v30 surpass number of knots nodes](https://bitcoin.clarkmoody.com/dashboard/)
 
 #### BIPs Process
 
@@ -84,6 +85,7 @@ We'll have an opening presentation to learn about [something](/#) from [somebody
 ### Lightning
 
 - [Ademan receives Spiral grant for LNHANCE Expeditionary Project](https://x.com/spiralbtc/status/1981412553206194609)
+- [LNhance.org](https://lnhance.org/)
 - [Channel Jamming - Outgoing Reputation: Simulation Results and Updates](https://delvingbitcoin.org/t/outgoing-reputation-simulation-results-and-updates/2069)
 
 ### Ark
@@ -91,18 +93,19 @@ We'll have an opening presentation to learn about [something](/#) from [somebody
 - [ArkadeOS goes to mainnet](https://x.com/arkade_os/status/1980607782945485056)
 - [Arké macOS Prototype](https://community.second.tech/t/arke-macos-prototype/156)
 
-### Ecash
-
 ### Business
 
 - [Lightspark acquires StrigaHQ](https://x.com/lightspark/status/1978069345768014245)
 - [Merchants Don’t Read White Papers, They Read Cash Flow Statements](https://spiralbtc.substack.com/p/merchants-dont-read-white-papers-d69)
 - [Controversy over updates to Lava loans product](https://x.com/_arshbot/status/1986156462519832921?s=20)
+- [$523 Million of outflows in one day from Bitcoin ETF](https://www.reuters.com/markets/wealth/investors-pull-record-523-million-blackrocks-flagship-bitcoin-etf-2025-11-19/?utm_source=chatgpt.com)
+- [El Salvador smash buys 1,000 BTC](https://x.com/nayibbukele/status/1990571996732965357)
 
 ### Legal & Regulatory Issues
 
 - [Trump pardons convicted Binance founder 'CZ' Zhao](https://www.reuters.com/world/us/trump-pardons-convicted-binance-founder-zhao-white-house-says-2025-10-23/)
 - [Keonne Rodriguez Sentenced to 5 Years in Prison, $250,000 Fine](https://www.therage.co/keonne-rodriguez-samourai-sentenced/)
+- [Coinbase Launches regulated ICO platform](https://www.theblock.co/post/378177/coinbase-public-token-sales-ico-platform-monad-first?utm_campaign=website&utm_medium=referral&utm_source=newsletter)
 
 ### Privacy & InfoSec
 
