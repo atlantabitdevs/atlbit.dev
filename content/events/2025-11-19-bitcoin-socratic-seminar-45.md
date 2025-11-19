@@ -98,14 +98,14 @@ We'll have an opening presentation to learn about [something](/#) from [somebody
 - [Lightspark acquires StrigaHQ](https://x.com/lightspark/status/1978069345768014245)
 - [Merchants Don’t Read White Papers, They Read Cash Flow Statements](https://spiralbtc.substack.com/p/merchants-dont-read-white-papers-d69)
 - [Controversy over updates to Lava loans product](https://x.com/_arshbot/status/1986156462519832921?s=20)
-- [$523 Million of outflows in one day from Bitcoin ETF](https://www.reuters.com/markets/wealth/investors-pull-record-523-million-blackrocks-flagship-bitcoin-etf-2025-11-19/?utm_source=chatgpt.com)
+- [$523 Million of outflows in one day from Bitcoin ETF](https://www.reuters.com/markets/wealth/investors-pull-record-523-million-blackrocks-flagship-bitcoin-etf-2025-11-19/)
 - [El Salvador smash buys 1,000 BTC](https://x.com/nayibbukele/status/1990571996732965357)
 
 ### Legal & Regulatory Issues
 
 - [Trump pardons convicted Binance founder 'CZ' Zhao](https://www.reuters.com/world/us/trump-pardons-convicted-binance-founder-zhao-white-house-says-2025-10-23/)
 - [Keonne Rodriguez Sentenced to 5 Years in Prison, $250,000 Fine](https://www.therage.co/keonne-rodriguez-samourai-sentenced/)
-- [Coinbase Launches regulated ICO platform](https://www.theblock.co/post/378177/coinbase-public-token-sales-ico-platform-monad-first?utm_campaign=website&utm_medium=referral&utm_source=newsletter)
+- [Coinbase Launches regulated ICO platform](https://www.theblock.co/post/378177/coinbase-public-token-sales-ico-platform-monad-first)
 
 ### Privacy & InfoSec
 
