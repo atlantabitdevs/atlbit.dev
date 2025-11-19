@@ -70,7 +70,7 @@ We'll have an opening presentation to learn about [something](/#) from [somebody
 
 - [Replication of Quantum Factorisation Records with an 8-bit Home Computer, an Abacus, and a Dog](https://eprint.iacr.org/2025/1237.pdf)
 - [Google - Our Quantum Echoes algorithm is a big step toward real-world applications for quantum computing](https://blog.google/technology/research/quantum-echoes-willow-verifiable-quantum-advantage/)
-- [[bitcoindev] OP_CIV - Post-Quantum Signature Aggregation](https://gnusha.org/pi/bitcoindev/05195086-ee52-472c-962d-0df2e0b9dca2n@googlegroups.com/)
+- [[bitcoindev] OP_CIV - Post-Quantum Signature Aggregation](https://groups.google.com/g/bitcoindev/c/oFbEQb_DB3I)
 
 #### Bitcoin Core
 
