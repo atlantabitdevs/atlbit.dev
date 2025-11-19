@@ -43,6 +43,12 @@ We'll have an opening presentation to learn about [something](/#) from [somebody
 
 - [KeyMeld - Distributed MuSig2 Bitcoin signing via AWS Nitro Enclaves using a secure 2-phase workflow](https://github.com/tee8z/keymeld)
 - [Determining BlockTemplate Fee Increase Using Fee Rate Diagram](https://delvingbitcoin.org/t/determining-blocktemplate-fee-increase-using-fee-rate-diagram/2052/1)
+  <<<<<<< Updated upstream
+  =======
+- [Cluster Mempool & RBFr discussion](https://delvingbitcoin.org/t/generalizing-rbf-under-cluster-mempool/2115)
+- [BIP 444 draft: Reduced Data Temporary Softfork](https://github.com/bitcoin/bips/pull/2017)
+- [BIP 444 compliant transaction containing full BIP 444 text](https://github.com/bitcoin/bips/pull/2017)
+  > > > > > > > Stashed changes
 - [BIP54 implementation and test vectors](https://groups.google.com/g/bitcoindev/c/1XEtmIS_XRc)
 - [Proposal: OP_STARK_VERIFY - Native STARK Proof Verification in Bitcoin Script](https://delvingbitcoin.org/t/proposal-op-stark-verify-native-stark-proof-verification-in-bitcoin-script/2056)
 
@@ -76,13 +82,13 @@ We'll have an opening presentation to learn about [something](/#) from [somebody
 
 - [Public disclosure of 4 Bitcoin Core security advisories](https://groups.google.com/g/bitcoindev/c/sBpCgS_yGws)
 - [Comparing the performance of ECDSA signature validation in OpenSSL vs. libsecp256k1 over the last decade](https://delvingbitcoin.org/t/comparing-the-performance-of-ecdsa-signature-validation-in-openssl-vs-libsecp256k1-over-the-last-decade/2087)
--
+- [Bitcoin Kernel (libbitcoinkernel) gets merged 🎉](https://github.com/bitcoin/bitcoin/pull/30595#issuecomment-3486609787)
+- [Bitcoin Core's public roadmap](https://x.com/bitschmidty/status/1986100498567499789)
 
 ### Lightning
 
 - [Ademan receives Spiral grant for LNHANCE Expeditionary Project](https://x.com/spiralbtc/status/1981412553206194609)
 - [Channel Jamming - Outgoing Reputation: Simulation Results and Updates](https://delvingbitcoin.org/t/outgoing-reputation-simulation-results-and-updates/2069)
--
 
 ### Ark
 
@@ -104,8 +110,7 @@ We'll have an opening presentation to learn about [something](/#) from [somebody
 
 ### Privacy & InfoSec
 
-- [Yubico: Future-proofing authentication: A look at the future of post-quantum cryptography
-  ](https://www.yubico.com/blog/future-proofing-authentication-a-look-at-the-future-of-post-quantum-cryptography/)
+- [Yubico: Future-proofing authentication: A look at the future of post-quantum cryptography](https://www.yubico.com/blog/future-proofing-authentication-a-look-at-the-future-of-post-quantum-cryptography/)
 - [The Scroll #5: The Many Faces of CoinJoins](https://spiralbtc.substack.com/p/the-scroll-5-the-many-faces-of-coinjoins)
 - [Cloudflare outage on November 18, 2025](https://blog.cloudflare.com/18-november-2025-outage/)
 
