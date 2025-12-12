@@ -11,10 +11,10 @@ import { getPageContentFromMarkdown } from '@/lib/parse-markdown-files'
 const contentType = 'page'
 
 interface PageProps {
-  params: {
+  params: Promise<{
     slug: string
     contentType: string
-  }
+  }>
 }
 
 type Args = {
@@ -35,12 +35,13 @@ async function getDocFromParams(params: Args) {
 }
 
 const page = async ({ params }: PageProps) => {
-  console.log('params [id]/page.tsx: ', params)
+  const resolvedParams = await params
+  console.log('params [id]/page.tsx: ', resolvedParams)
   const currentPageData = getPageContentFromMarkdown().filter(
-    (page: any) => page.id === params.slug,
+    (page: any) => page.id === resolvedParams.slug,
   )[0]
   // console.log('currentPageData: ', currentPageData)
-  const { post, data } = await getDocFromParams(params)
+  const { post, data } = await getDocFromParams(resolvedParams)
 
   if (!post) {
     return <div>Watermelon 404 sorry you poor bitdev</div>
@@ -51,7 +52,7 @@ const page = async ({ params }: PageProps) => {
       <article className="flex flex-row w-full">
           <div className="container mx-auto max-w-5xl p-4 flex flex-col gap-4">
             <h1 className="text-4xl font-black">{post.title}</h1>
-            <Mdx code={post.body.code} slug={params.slug} page={true} />
+            <Mdx code={post.body.code} slug={resolvedParams.slug} page={true} />
           </div>
       </article>
     </main>
