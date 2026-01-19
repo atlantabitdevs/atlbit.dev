@@ -4,9 +4,7 @@ title: "Bitcoin Socratic Seminar #5"
 type: Doc
 ---
 
-![Poster for Bitcoin Socratic Seminar
-#5](https://atlantabitdevs.org/content/uploads/2022/03/ATLBitDevs_2022-03-23_socratic-
-seminar-1568x882.png)
+![Poster for Bitcoin Socratic Seminar #5](/bitcoin-socratic-seminar-5.png)
 
 It's time for the [first Atlanta BitDevs Socratic Seminar of
 2022](https://www.meetup.com/atlantabitdevs/events/283224005/)! Come hang out

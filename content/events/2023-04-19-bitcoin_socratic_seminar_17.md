@@ -4,7 +4,7 @@ title: "Bitcoin Socratic Seminar #17"
 type: Doc
 ---
 
-![](https://atlantabitdevs.org/content/uploads/2023/04/ATLBitDevs_2023-04-26_socratic-1568x882.jpg)
+![](/bitcoin-socratic-seminar-17.jpg)
 
 It’s almost time for <a href="https://www.meetup.com/atlantabitdevs/events/292584775/">Bitcoin Socratic Seminar #17</a>!
 

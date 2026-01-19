@@ -4,11 +4,9 @@ title: "Bitcoin Socratic Seminar #12"
 type: Doc
 ---
 
-![](https://atlantabitdevs.org/content/uploads/2022/10/ATLBitDevs_2022-10-12_socratic-
-seminar-1568x882.jpg)
+![](/bitcoin-socratic-seminar-12.jpg)
 
-It’s almost time for [Bitcoin Socratic Seminar
-#12](https://www.meetup.com/atlantabitdevs/events/287231385/)!
+It’s almost time for [Bitcoin Socratic Seminar #12](https://www.meetup.com/atlantabitdevs/events/287231385/)!
 
 ## What is a Socratic Seminar?
 
@@ -40,7 +38,7 @@ Next, we'll go over the latest in bitcoin and lightning development.
 
 ### Onion messages
 
-{'<'}https://lightningdevkit.org/blog/onion-messages-demystified/{'>'}
+https://lightningdevkit.org/blog/onion-messages-demystified/
 
 ### LND/BTCD bug
 
@@ -58,7 +56,7 @@ network](https://stacker.news/items/80134)
 
 ### Add BIP324: v2 P2P Transport Protocol
 
-{'<'}https://github.com/bitcoin/bips/pull/1378{'>'}
+https://github.com/bitcoin/bips/pull/1378
 
 ### Validity Rollups on Bitcoin
 

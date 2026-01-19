@@ -4,41 +4,30 @@ title: "Topics for Socratic Seminar #4"
 type: Doc
 ---
 
-![Poster for Atlanta BitDevs Socratic Seminar #4 and Pre-TABConf
-Jam](https://atlantabitdevs.org/content/uploads/2021/11/AtlantaBitDevs_Event-
-Picture_Socratic4-1568x886.png)
+![Poster for Atlanta BitDevs Socratic Seminar #4 and Pre-TABConf Jam](/bitcoin-socratic-seminar-4.png)
 
 Here are the topics for Socratic Seminar #4. 🍂
 
 ## 🕵️‍♂️ Secret Guest
 
-<a href="https://twitter.com/murchandamus/status/1452731827525988360">Native segwit outputs continue to increase</a>
+* <a href="https://twitter.com/murchandamus/status/1452731827525988360">Native segwit outputs continue to increase</a>
+* <a href="https://github.com/bitcoin/bitcoin/pull/22539#issuecomment-885743844">RBF usage</a>
+* <a href="https://mobile.twitter.com/ErgoBTC/status/1451681557165477888">Darkside Ransomware</a>
 
-<a href="https://github.com/bitcoin/bitcoin/pull/22539#issuecomment-885743844">RBF usage</a>
-
-<a href="https://mobile.twitter.com/ErgoBTC/status/1451681557165477888">Darkside Ransomware</a>
-
-<a href="https://bitcoinops.org/en/newsletters/2021/10/06/">Preparing for taproot #16: output linking</a>
-
-<a href="https://bitcoinops.org/en/newsletters/2021/10/13/#ln-spend-to-fees-cve">CVE-2021-41591/ CVE-2021-41592 / CVE-2021-41593 "Dust HTLC Exposure Considered Harmful</a>
-
-<a href="https://github.com/bitcoin/bitcoin/pull/23002">Make descriptor wallets by default</a>
-
-<a href="https://github.com/bitcoin/bitcoin/pull/22340">Use legacy relaying to download blocks in blocks-only mode</a>
-
-<a href="https://github.com/bitcoin/bitcoin/pull/17526">Add Single Random Draw as an additional coin selection algorithm</a>
-
-<a href="https://github.com/lightningnetwork/lnd/pull/5689eclairv0.6.2https://github.com/ACINQ/eclair/releases/tag/v0.6.2">Support remote signing over RPC</a>
-
-<a href="https://github.com/sipa/writeups/tree/main/elligator-square-for-bn">Elligator Squared for BN-like curves</a>
-
-<a href="https://twitter.com/carl_dong/status/1448081732385771522">On libbitcoinkernel</a>
+* <a href="https://bitcoinops.org/en/newsletters/2021/10/06/">Preparing for taproot #16: output linking</a>
+* <a href="https://bitcoinops.org/en/newsletters/2021/10/13/#ln-spend-to-fees-cve">CVE-2021-41591/ CVE-2021-41592 / CVE-2021-41593 "Dust HTLC Exposure Considered Harmful</a>
+* <a href="https://github.com/bitcoin/bitcoin/pull/23002">Make descriptor wallets by default</a>
+* <a href="https://github.com/bitcoin/bitcoin/pull/22340">Use legacy relaying to download blocks in blocks-only mode</a>
+* <a href="https://github.com/bitcoin/bitcoin/pull/17526">Add Single Random Draw as an additional coin selection algorithm</a>
+* <a href="https://github.com/lightningnetwork/lnd/pull/5689eclairv0.6.2https://github.com/ACINQ/eclair/releases/tag/v0.6.2">Support remote signing over RPC</a>
+* <a href="https://github.com/sipa/writeups/tree/main/elligator-square-for-bn">Elligator Squared for BN-like curves</a>
+* <a href="https://twitter.com/carl_dong/status/1448081732385771522">On libbitcoinkernel</a>
 
 ## 💪 Shaun
 
-<a href="https://www.truthcoin.info/blog/security-budget-ii-mm/">Security Budget II, Low Fees, and Merged Mining</a>
+* <a href="https://www.truthcoin.info/blog/security-budget-ii-mm/">Security Budget II, Low Fees, and Merged Mining</a>
 
-<a href="https://medium.com/breez-technology/lightning-the-internet-choosing-the-right-path-bedfa6382316">Lightning and the Internet: Choosing the Right Path</a>
+* <a href="https://medium.com/breez-technology/lightning-the-internet-choosing-the-right-path-bedfa6382316">Lightning and the Internet: Choosing the Right Path</a>
 
 ## 👾 Stephen
 
