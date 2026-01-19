@@ -19,7 +19,7 @@ Inspired by other BitDevs meetups around the US, our Socratic Seminar events are
 
 ## Logistics for Tonight
 
-Tonight we'll be meeting at Manuel's Tavern. From North Highland Ave, go in the front door. Take a right, and go past the pinball machines into the large room. Join our <a href="https://atlantabitdevs.org/telegram/" target="_blank">telegram channel</a> in case you need to ask for help finding us the night of the event.
+Tonight we'll be meeting at Manuel's Tavern. From North Highland Ave, go in the front door. Take a right, and go past the pinball machines into the large room. Join our <a href="/page/contact" target="_blank">telegram channel</a> in case you need to ask for help finding us the night of the event.
 
 ### Address
 

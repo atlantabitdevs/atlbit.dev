@@ -19,7 +19,7 @@ Inspired by other BitDevs meetups around the US, our Socratic Seminar events are
 
 ## Logistics for Tonight
 
-Tonight we'll be meeting at ATL BitLab. If this is your first time attending a meetup at BitLab, follow these <a href="https://atlantabitdevs.org/parking-instructions-for-atl-bitlab/" target="_blank">parking instructions</a> and join our <a href="https://atlantabitdevs.org/telegram/" target="_blank">telegram channel</a> in case you need to ask for help finding us the night of the event.
+Tonight we'll be meeting at ATL BitLab. If this is your first time attending a meetup at BitLab, follow these <a href="https://atlbitlab.com/parking-at-atl-bitlab" target="_blank">parking instructions</a> and join our <a href="/page/contact" target="_blank">telegram channel</a> in case you need to ask for help finding us the night of the event.
 
 ## Topics
 

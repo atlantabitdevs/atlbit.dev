@@ -38,7 +38,7 @@ When buying, ensure that you are getting the **3rd Edition** and that <a href="h
 
 ### Can I join remotely?
 
-Yes, <a href="https://atlantabitdevs.org/telegram/" target="_blank">join our Telegram room</a> to be a part of the Atlanta BitDevs community chat. Here, we'll share a Jitsi link before the event where you can join the discussion.
+Yes, <a href="/page/contact" target="_blank">join our Telegram room</a> to be a part of the Atlanta BitDevs community chat. Here, we'll share a Jitsi link before the event where you can join the discussion.
 
 ### Can I join if I haven't read this week's chapter?
 

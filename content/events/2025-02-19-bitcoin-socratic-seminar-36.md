@@ -19,7 +19,7 @@ Inspired by other BitDevs meetups around the US, our Socratic Seminar events are
 
 ## Logistics for Tonight
 
-Tonight we'll be meeting at ATL BitLab. Join our <a href="https://atlantabitdevs.org/telegram/" target="_blank">telegram channel</a> in case you need to ask for help finding us the night of the event.
+Tonight we'll be meeting at ATL BitLab. Join our <a href="/page/contact" target="_blank">telegram channel</a> in case you need to ask for help finding us the night of the event.
 
 ### Address
 
