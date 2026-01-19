@@ -6,18 +6,19 @@ import {
 import PostPreview from '@/components/PostPreview'
 
 type PageProps = {
-  params: {
+  params: Promise<{
     contentType: ContentType
-  }
+  }>
 }
-export default function Page({ params }: PageProps) {
-  const { contentType } = params
+export default async function Page({ params }: PageProps) {
+  const resolvedParams = await params
+  const { contentType } = resolvedParams
   const allContentData = getSortedMarkdownContent(contentType)
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div className="flex flex-col gap-10 border-b border-b-400 py-10">
-        <h2 className="text-center">{params.contentType.toUpperCase()}</h2>
+        <h2 className="text-center">{resolvedParams.contentType.toUpperCase()}</h2>
 
         {allContentData.map(({ id, date, title }, i) => (
           <PostPreview

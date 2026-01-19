@@ -8,10 +8,10 @@ import { allDocs } from 'contentlayer/generated'
 const contentType = 'events'
 
 interface PageProps {
-  params: {
+  params: Promise<{
     slug: string
     contentType: string
-  }
+  }>
 }
 
 type Args = {
@@ -31,10 +31,11 @@ async function getDocFromParams(params: Args) {
 }
 
 const page = async ({ params }: PageProps) => {
-  const { post, data } = await getDocFromParams(params)
+  const resolvedParams = await params
+  const { post, data } = await getDocFromParams(resolvedParams)
 
-  if (params.contentType === contentType && data === undefined)
-    console.log(`No summary generated for ${params.slug}`)
+  if (resolvedParams.contentType === contentType && data === undefined)
+    console.log(`No summary generated for ${resolvedParams.slug}`)
 
   if (!post) {
     return <div>404 sorry you poor bitdev</div>
@@ -48,14 +49,14 @@ const page = async ({ params }: PageProps) => {
           <header className="font-sans flex flex-col gap-2">
             <h1 className="text-4xl font-black">{post.title}</h1>
             <time className="text-2xl text-gray-500">{post.date}</time>
-            {params.contentType === 'posts' ? (
+            {resolvedParams.contentType === 'posts' ? (
               <p className="text-xl flex flex-row gap-2 items-center">
                 {post.author}
               </p>
             ) : (
               ``
             )}
-            {params.contentType === 'events' ? (
+            {resolvedParams.contentType === 'events' ? (
               <p className="text-xl flex flex-row gap-2 items-center">
                 {post.meetupLink ? (
                   <>
@@ -70,7 +71,7 @@ const page = async ({ params }: PageProps) => {
               ``
             )}
           </header>
-          {params.contentType === 'events' ? (
+          {resolvedParams.contentType === 'events' ? (
             <nav>
               {/* <ul className="list-disc font-sans">
                 <li>Content Outline</li>
@@ -98,7 +99,7 @@ const page = async ({ params }: PageProps) => {
 
             <Mdx
               code={post.body.code}
-              slug={params.slug}
+              slug={resolvedParams.slug}
               jsonData={data}
               page={false}
             />
