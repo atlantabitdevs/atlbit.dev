@@ -4,11 +4,9 @@ title: "Bitcoin Socratic Seminar #8"
 type: Doc
 ---
 
-![](https://atlantabitdevs.org/content/uploads/2022/06/ATLBitDevs_2022-06-29_socratic-
-seminar-1568x882.jpg)
+![](/bitcoin-socratic-seminar-8.jpg)
 
-It’s almost time for [Bitcoin Socratic Seminar
-#8](https://www.meetup.com/atlantabitdevs/events/286248874/)!
+It’s almost time for [Bitcoin Socratic Seminar #8](https://www.meetup.com/atlantabitdevs/events/286248874/)!
 
 ## What is a Socratic Seminar?
 
@@ -22,7 +20,7 @@ are formatted to foster debate, information sharing and lively discussion.
 
 ## Opening Presentation
 
-![](https://atlantabitdevs.org/content/uploads/2022/06/ATLBitDevs_2022-06-29_jordan-1024x576.jpg)
+![](/ATLBitDevs_2022-06-29_jordan-1024x576.jpg)
 
 Everyday, our privacy and control over personal data is slipping away. What
 can you do about it? Jordan Bravo will kick off the evening by sharing what
@@ -30,8 +28,7 @@ he's learned from his own journey to reclaim digital sovereignty: this
 includes things like encryption, privacy tools, self-hosted email, being your
 own cloud, and of course, bitcoin.
 
-EDIT: Here's [Jordan's presentation deck](https://atlantabitdevs.org/content/uploads/2022/06/Seminar-
-Digital-Self-Sovereignty-and-Privacy-2022-06-29.pptx) if you need a reminder
+EDIT: Here's [Jordan's presentation deck](/Seminar-Digital-Self-Sovereignty-and-Privacy-2022-06-29.pptx) if you need a reminder
 about some of the tools he discussed.
 
 ## Discussion Topics

@@ -4,8 +4,7 @@ title: "Topics for Socratic Seminar #2"
 type: Doc
 ---
 
-![Socratic Seminar #2 & Texas
-Recap](https://atlantabitdevs.org/content/uploads/2021/10/AtlantaBitDevs_Event-Picture-1568x886.png)
+![Socratic Seminar #2 & Texas Recap](/bitcoin-socratic-seminar-2.png)
 
 All the topics for Socratic Seminar #2 are contained here in this Gist:
 

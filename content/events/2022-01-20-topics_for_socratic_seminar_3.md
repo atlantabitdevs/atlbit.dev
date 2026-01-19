@@ -4,12 +4,9 @@ title: "Topics for Socratic Seminar #3"
 type: Doc
 ---
 
-![Atlanta BitDevs Socratic Seminar #3
-poster](https://atlantabitdevs.org/content/uploads/2021/10/AtlantaBitDevs_Event-
-Picture_Socratic3-1568x886.png)
+![Atlanta BitDevs Socratic Seminar #3 poster](/bitcoin-socratic-seminar-3.png)
 
-Here are the topics we'll be covering at [Socratic Seminar
-#3](https://www.meetup.com/atlantabitdevs/events/279332744/).
+Here are the topics we'll be covering at [Socratic Seminar #3](https://www.meetup.com/atlantabitdevs/events/279332744/).
 
 ## 🎃 Whitepaper
 

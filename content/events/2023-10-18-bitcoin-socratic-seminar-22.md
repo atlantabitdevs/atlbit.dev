@@ -20,7 +20,7 @@ are formatted to foster debate, information sharing and lively discussion.
 
 ## Logistics for Tonight
 
-Due to a scheduling conflict with our hosts, we're not going to be at NCR. This time, we'll try a Socratic Seminar at ATL BitLab and see how it goes. If this is your first time attending a meetup at BitLab, follow these <a href="https://atlantabitdevs.org/parking-instructions-for-atl-bitlab/" target="_blank">parking instructions</a> and join our <a href="https://atlantabitdevs.org/telegram/" target="_blank">telegram channel</a> in case you need to ask for help finding us the night of the event.
+Due to a scheduling conflict with our hosts, we're not going to be at NCR. This time, we'll try a Socratic Seminar at ATL BitLab and see how it goes. If this is your first time attending a meetup at BitLab, follow these <a href="https://atlbitlab.com/parking-at-atl-bitlab" target="_blank">parking instructions</a> and join our <a href="/page/contact" target="_blank">telegram channel</a> in case you need to ask for help finding us the night of the event.
 
 ## Topics
 

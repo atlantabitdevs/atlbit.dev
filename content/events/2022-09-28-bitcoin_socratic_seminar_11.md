@@ -4,11 +4,9 @@ title: "Bitcoin Socratic Seminar #11"
 type: Doc
 ---
 
-![](https://atlantabitdevs.org/content/uploads/2022/09/ATLBitDevs_2022-09-28_socratic-
-seminar-1568x882.jpg)
+![](/bitcoin-socratic-seminar-11.jpg)
 
-It’s almost time for [Bitcoin Socratic Seminar
-#11](https://www.meetup.com/atlantabitdevs/events/287231374/)!
+It’s almost time for [Bitcoin Socratic Seminar #11](https://www.meetup.com/atlantabitdevs/events/287231374/)!
 
 ## What is a Socratic Seminar?
 

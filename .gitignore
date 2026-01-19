@@ -33,6 +33,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+scripts/*.js
 
 # ai directory
 ai/build
