@@ -33,7 +33,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <head>
         <meta property="og:image" content={meetup.image} />
         <meta property="og:image:type" content="image/jpg" />
