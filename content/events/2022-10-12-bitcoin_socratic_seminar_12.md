@@ -20,7 +20,7 @@ are formatted to foster debate, information sharing and lively discussion.
 
 ## Opening Presentation
 
-![](https://atlantabitdevs.org/content/uploads/2022/10/Screen-Shot-2022-10-12-at-9.45.57-AM-1024x523.png)
+![](/Screen-Shot-2022-10-12-at-9.45.57-AM-1024x523.png)
 
 We'll start out talking about the [Summer of
 Bitcoin](https://www.summerofbitcoin.org/), which is a global internship

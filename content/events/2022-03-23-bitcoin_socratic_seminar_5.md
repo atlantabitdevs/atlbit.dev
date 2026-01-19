@@ -23,7 +23,7 @@ are formatted to foster debate, information sharing and lively discussion.
 
 ## Special Presentation
 
-![](https://atlantabitdevs.org/content/uploads/2022/03/pleb-fm-leaderboard-1024x576.jpg)
+![](/pleb-fm-leaderboard-1024x576.jpg)
 
 This past weekend, members of Atlanta BitDevs participated in the SatsX
 hackathon and took the Overall Best Prize for **PlebFM** , an auction-style
