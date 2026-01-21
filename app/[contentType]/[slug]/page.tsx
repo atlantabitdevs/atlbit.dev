@@ -1,6 +1,4 @@
-import getJsonFile, { ParsedData } from '@/lib/get-json'
 import { ArrowTopRightOnSquareIcon } from '@heroicons/react/24/outline'
-import { FC } from 'react'
 import Image from 'next/image'
 import { Mdx } from '@/components/MDX-components'
 import { allDocs } from 'contentlayer/generated'
@@ -20,25 +18,30 @@ type Args = {
 }
 
 async function getDocFromParams(params: Args) {
-  let data: ParsedData | undefined
   const post = allDocs.find((post) => post.slugAsParams === params.slug)
+  return { post }
+}
 
-  if (params.contentType === contentType) {
-    data = await getJsonFile({ fileName: params.slug })
-  }
-
-  return { post, data }
+export async function generateStaticParams() {
+  return allDocs.map((doc) => {
+    const pathParts = doc._raw.flattenedPath.split('/')
+    return {
+      contentType: pathParts[0] || 'events',
+      slug: pathParts.slice(1).join('/'),
+    }
+  })
 }
 
 const page = async ({ params }: PageProps) => {
   const resolvedParams = await params
-  const { post, data } = await getDocFromParams(resolvedParams)
-
-  if (resolvedParams.contentType === contentType && data === undefined)
-    console.log(`No summary generated for ${resolvedParams.slug}`)
+  const { post } = await getDocFromParams(resolvedParams)
 
   if (!post) {
     return <div>404 sorry you poor bitdev</div>
+  }
+
+  if (!post.body || !post.body.code) {
+    return <div>Error: Content not available for this post</div>
   }
 
   return (
@@ -100,7 +103,6 @@ const page = async ({ params }: PageProps) => {
             <Mdx
               code={post.body.code}
               slug={resolvedParams.slug}
-              jsonData={data}
               page={false}
             />
           </div>

@@ -1,22 +1,31 @@
+'use client'
+
 import * as React from 'react'
 
 import { Callout } from '@/components/callout'
 import Image from 'next/image'
 import { MdxCard } from '@/components/mdx-card'
-import { ParsedData } from '@/lib/get-json'
-import SummaryLink from './SummaryLink'
 import { cn } from '@/lib/utils'
 import { useMDXComponent } from 'next-contentlayer/hooks'
 
 interface MdxProps {
   code: string
   slug: string
-  jsonData?: ParsedData | undefined
   page: boolean
 }
 
-export function Mdx({ code, slug, jsonData, page = false }: MdxProps) {
-  const Component = useMDXComponent(code)
+export function Mdx({ code, slug, page = false }: MdxProps) {
+  if (!code) {
+    return <div>Error: No content code available</div>
+  }
+
+  let Component
+  try {
+    Component = useMDXComponent(code)
+  } catch (error) {
+    console.error('Error loading MDX component:', error)
+    return <div>Error: Failed to load content</div>
+  }
 
   // TODO: Fix the liberal className?: explicit any usage
 
@@ -25,30 +34,23 @@ export function Mdx({ code, slug, jsonData, page = false }: MdxProps) {
       className,
       href,
       children,
-      'data-no-summary': noSummary,
       ...props
     }: {
       className?: any
       href?: string
       children?: any
-      'data-no-summary'?: string
     }) => {
-      if (noSummary || jsonData === undefined || page) {
-        return (
-          <a
-            className={cn(
-              'font-medium underline underline-offset-4',
-              className
-            )}
-            href={href}
-            {...props}
-          >
-            {children}
-          </a>
-        )
-      }
       return (
-        <SummaryLink href={href} title={children} slug={slug} data={jsonData} />
+        <a
+          className={cn(
+            'font-medium underline underline-offset-4',
+            className
+          )}
+          href={href}
+          {...props}
+        >
+          {children}
+        </a>
       )
     },
     h1: ({ className, ...props }: { className?: any }) => (
@@ -164,9 +166,18 @@ export function Mdx({ code, slug, jsonData, page = false }: MdxProps) {
     Card: MdxCard,
   }
 
-  return (
-    <div className="mdx">
-      <Component components={components} />
-    </div>
-  )
+  if (!Component) {
+    return <div>Error: Failed to initialize MDX component</div>
+  }
+
+  try {
+    return (
+      <div className="mdx">
+        <Component components={components} />
+      </div>
+    )
+  } catch (error) {
+    console.error('Error rendering MDX component:', error)
+    return <div>Error: Failed to render content</div>
+  }
 }

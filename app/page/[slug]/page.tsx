@@ -1,12 +1,5 @@
-import getJsonFile, { ParsedData } from '@/lib/get-json'
-
-import { ArrowTopRightOnSquareIcon } from '@heroicons/react/24/outline'
-import { FC } from 'react'
-import Image from 'next/image'
 import { Mdx } from '@/components/MDX-components'
 import { allDocs } from 'contentlayer/generated'
-import socraticDiscussion from 'public/socratic-discussion-default.jpg'
-import { getPageContentFromMarkdown } from '@/lib/parse-markdown-files'
 
 const contentType = 'page'
 
@@ -23,28 +16,20 @@ type Args = {
 }
 
 async function getDocFromParams(params: Args) {
-  let data: ParsedData | undefined
-  // console.log('allDocs: ', allDocs)
   const post = allDocs.find((post) => post.slugAsParams === params.slug)
-
-  if (params.contentType === contentType) {
-    data = await getJsonFile({ fileName: params.slug })
-  }
-
-  return { post, data }
+  return { post }
 }
 
 const page = async ({ params }: PageProps) => {
   const resolvedParams = await params
-  console.log('params [id]/page.tsx: ', resolvedParams)
-  const currentPageData = getPageContentFromMarkdown().filter(
-    (page: any) => page.id === resolvedParams.slug,
-  )[0]
-  // console.log('currentPageData: ', currentPageData)
-  const { post, data } = await getDocFromParams(resolvedParams)
+  const { post } = await getDocFromParams(resolvedParams)
 
   if (!post) {
     return <div>Watermelon 404 sorry you poor bitdev</div>
+  }
+
+  if (!post.body || !post.body.code) {
+    return <div>Error: Content not available for this post</div>
   }
 
   return (
