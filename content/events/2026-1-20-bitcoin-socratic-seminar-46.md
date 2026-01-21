@@ -40,12 +40,15 @@ Look for the **orange door** behind the **fence**.
 - [BIP 3 Activated](https://x.com/murchandamus/status/2011491288735240549?s=46&t=8UJ-4zrOeVUt0LsBTybN6Q)
 - [OP_CC: A simple introspection opcode to enable cheaper consolidations](https://delvingbitcoin.org/t/op-cc-a-simple-introspection-opcode-to-enable-cheaper-consolidations/2177)
 - [Vanadium: A Virtualized Secure Enclave for Hardware Signing Devices](https://delvingbitcoin.org/t/vanadium-a-virtualized-secure-enclave-for-hardware-signing-devices/2142)
+- [Frost DAO](https://x.com/btcplusplus/status/2013604929722523885)
+- [Hornet UTXO - Constant-time UTXO set queries](https://delvingbitcoin.org/t/hornet-utxo-1-a-custom-constant-time-highly-parallel-utxo-database/2201)
 
 #### Bitcoin Core
 
 - [Bitcoin Core: Wallet Migration Failure May Delete Unrelated Wallet Files In Bitcoin Core 30.0 and 30.1](https://bitcoincore.org/en/2026/01/05/wallet-migration-bug/)
 - [OP_CC Proposal](https://delvingbitcoin.org/t/op-cc-a-simple-introspection-opcode-to-enable-cheaper-consolidations/2177)
 - [BIP 3 Activates](https://x.com/murchandamus/status/2011491288735240549?s=46&t=8UJ-4zrOeVUt0LsBTybN6Q)
+- [Silent Payment output descriptors](https://groups.google.com/g/bitcoindev/c/bP6ktUyCOJI)
 
 ### Lightning
 
@@ -54,17 +57,18 @@ Look for the **orange door** behind the **fence**.
 
 ### Other L2s
 
-- [BitVM 4?](https://x.com/david_seroy/status/2011515801166364695)
+- [Alpen Labs drops paper to improve BitVM 3 by 1000x (BitVM 4)](https://x.com/david_seroy/status/2011515801166364695)
+  - [Confirmation](https://x.com/david_seroy/status/2011502240075338216)
 - [Ideal company launches](https://x.com/idealgroup/status/2013273724632351201)
 
 ### Business
 
 - [STRC Launches](https://www.strategy.com/stretch)
 - [BUCK Token Launches](https://x.com/BuckToken)
+- [Saylor advocates for hard fork that forces users to move coins](https://damus.io/note1yu8qh0l4cq9gg9fpk4jclp6q0mepuyacq8ha5ljnx76ang52t9pq2npf36)
 
 ### Privacy & InfoSec
 
 - [Bitchat in Uganda](https://x.com/callebtc/status/2011339844623221224)
 - [Stringer Safety](https://x.com/ALewin/status/2013474336208835045)
-
-### Just for fun
+- [Gemini trained on gmail](https://x.com/iAnonymous3000/status/2009339746472902762)
