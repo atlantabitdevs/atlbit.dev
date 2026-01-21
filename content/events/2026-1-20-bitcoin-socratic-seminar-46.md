@@ -60,6 +60,7 @@ Look for the **orange door** behind the **fence**.
 #### Quantum
 
 - [Hash-Based Signatures for Bitcoin's Post-Quantum Future](https://groups.google.com/g/bitcoindev/c/gOfL5ag_bDU/m/0YuwSQ29CgAJ)
+- [Should we burn Satoshi's coins with a hardfork?](https://damus.io/note1yu8qh0l4cq9gg9fpk4jclp6q0mepuyacq8ha5ljnx76ang52t9pq2npf36)
 
 #### Bitcoin Core
 
@@ -67,7 +68,6 @@ Look for the **orange door** behind the **fence**.
 - [OP_CC Proposal](https://delvingbitcoin.org/t/op-cc-a-simple-introspection-opcode-to-enable-cheaper-consolidations/2177)
 - [BIP 3 Activates](https://x.com/murchandamus/status/2011491288735240549?s=46&t=8UJ-4zrOeVUt0LsBTybN6Q)
 - [Incremental mutation testing in the Bitcoin Core](https://delvingbitcoin.org/t/incremental-mutation-testing-in-the-bitcoin-core/2197)
-
 
 ### Lightning
 
@@ -80,12 +80,12 @@ Look for the **orange door** behind the **fence**.
 - [Alpen Labs drops paper to improve BitVM 3 by 1000x (BitVM 4)](https://x.com/david_seroy/status/2011515801166364695)
   - [Confirmation](https://x.com/david_seroy/status/2011502240075338216)
 - [Ideal company launches](https://x.com/idealgroup/status/2013273724632351201)
+- [Fedimint v0.10.0 - Lighthouse](https://github.com/fedimint/fedimint/releases/tag/v0.10.0)
 
 ### Business
 
 - [STRC Launches](https://www.strategy.com/stretch)
 - [BUCK Token Launches](https://x.com/BuckToken)
-- [Saylor advocates for hard fork that forces users to move coins](https://damus.io/note1yu8qh0l4cq9gg9fpk4jclp6q0mepuyacq8ha5ljnx76ang52t9pq2npf36)
 
 ### Privacy & InfoSec
 
