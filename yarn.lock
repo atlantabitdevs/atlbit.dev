@@ -628,6 +628,11 @@
     unist-util-visit "^4.0.0"
     vfile "^5.0.0"
 
+"@netlify/plugin-nextjs@^5.15.5":
+  version "5.15.5"
+  resolved "https://registry.yarnpkg.com/@netlify/plugin-nextjs/-/plugin-nextjs-5.15.5.tgz#748a85083158251a2095153b3d230f73ab0cb366"
+  integrity sha512-Lvix59vHCEfvopILvdfIK2EPe/CrLH5qrIdwYnJbxpp/SSVgklsHpBrfNM9ADTr310r+WJRDz11NcDyHu3iT9w==
+
 "@next/env@15.5.9":
   version "15.5.9"
   resolved "https://registry.yarnpkg.com/@next/env/-/env-15.5.9.tgz#53c2c34dc17cd87b61f70c6cc211e303123b2ab8"
