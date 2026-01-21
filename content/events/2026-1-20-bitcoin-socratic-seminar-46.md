@@ -65,8 +65,6 @@ Look for the **orange door** behind the **fence**.
 #### Bitcoin Core
 
 - [Bitcoin Core: Wallet Migration Failure May Delete Unrelated Wallet Files In Bitcoin Core 30.0 and 30.1](https://bitcoincore.org/en/2026/01/05/wallet-migration-bug/)
-- [OP_CC Proposal](https://delvingbitcoin.org/t/op-cc-a-simple-introspection-opcode-to-enable-cheaper-consolidations/2177)
-- [BIP 3 Activates](https://x.com/murchandamus/status/2011491288735240549?s=46&t=8UJ-4zrOeVUt0LsBTybN6Q)
 - [Incremental mutation testing in the Bitcoin Core](https://delvingbitcoin.org/t/incremental-mutation-testing-in-the-bitcoin-core/2197)
 
 ### Lightning
