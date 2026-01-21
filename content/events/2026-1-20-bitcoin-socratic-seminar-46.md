@@ -60,6 +60,7 @@ Look for the **orange door** behind the **fence**.
 #### Quantum
 
 - [Hash-Based Signatures for Bitcoin's Post-Quantum Future](https://groups.google.com/g/bitcoindev/c/gOfL5ag_bDU/m/0YuwSQ29CgAJ)
+- [Should we burn Satoshi's coins with a hardfork?](https://damus.io/note1yu8qh0l4cq9gg9fpk4jclp6q0mepuyacq8ha5ljnx76ang52t9pq2npf36)
 
 #### Bitcoin Core
 
@@ -85,7 +86,6 @@ Look for the **orange door** behind the **fence**.
 
 - [STRC Launches](https://www.strategy.com/stretch)
 - [BUCK Token Launches](https://x.com/BuckToken)
-- [Saylor advocates for hard fork that forces users to move coins](https://damus.io/note1yu8qh0l4cq9gg9fpk4jclp6q0mepuyacq8ha5ljnx76ang52t9pq2npf36)
 
 ### Privacy & InfoSec
 
