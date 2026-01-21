@@ -20,7 +20,7 @@ const computedFields = {
 export const Doc = defineDocumentType(() => ({
   name: 'Doc',
   filePathPattern: `**/*.md`,
-  contentType: 'mdx',
+  contentType: 'markdown',
   fields: {
     title: {
       type: 'string',

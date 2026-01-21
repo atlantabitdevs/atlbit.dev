@@ -40,7 +40,7 @@ const page = async ({ params }: PageProps) => {
     return <div>404 sorry you poor bitdev</div>
   }
 
-  if (!post.body || !post.body.code) {
+  if (!post.body || !post.body.html) {
     return <div>Error: Content not available for this post</div>
   }
 
@@ -101,7 +101,7 @@ const page = async ({ params }: PageProps) => {
             )}
 
             <Mdx
-              code={post.body.code}
+              html={post.body.html}
               slug={resolvedParams.slug}
               page={false}
             />
