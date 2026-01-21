@@ -68,7 +68,6 @@ Look for the **orange door** behind the **fence**.
 - [BIP 3 Activates](https://x.com/murchandamus/status/2011491288735240549?s=46&t=8UJ-4zrOeVUt0LsBTybN6Q)
 - [Incremental mutation testing in the Bitcoin Core](https://delvingbitcoin.org/t/incremental-mutation-testing-in-the-bitcoin-core/2197)
 
-
 ### Lightning
 
 - [LDK Node 0.70 - supports experimental splicing and async payments](https://newreleases.io/project/github/lightningdevkit/ldk-node/release/v0.7.0)
@@ -80,6 +79,7 @@ Look for the **orange door** behind the **fence**.
 - [Alpen Labs drops paper to improve BitVM 3 by 1000x (BitVM 4)](https://x.com/david_seroy/status/2011515801166364695)
   - [Confirmation](https://x.com/david_seroy/status/2011502240075338216)
 - [Ideal company launches](https://x.com/idealgroup/status/2013273724632351201)
+- [Fedimint v0.10.0 - Lighthouse](https://github.com/fedimint/fedimint/releases/tag/v0.10.0)
 
 ### Business
 
