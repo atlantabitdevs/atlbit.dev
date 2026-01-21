@@ -39,6 +39,7 @@ Look for the **orange door** behind the **fence**.
 
 - [BIP 3 Activated](https://x.com/murchandamus/status/2011491288735240549?s=46&t=8UJ-4zrOeVUt0LsBTybN6Q)
 - [OP_CC: A simple introspection opcode to enable cheaper consolidations](https://delvingbitcoin.org/t/op-cc-a-simple-introspection-opcode-to-enable-cheaper-consolidations/2177)
+- [Vanadium: A Virtualized Secure Enclave for Hardware Signing Devices](https://delvingbitcoin.org/t/vanadium-a-virtualized-secure-enclave-for-hardware-signing-devices/2142)
 
 #### Bitcoin Core
 
