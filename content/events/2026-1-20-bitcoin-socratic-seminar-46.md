@@ -35,13 +35,14 @@ Look for the **orange door** behind the **fence**.
 
 ## Topics
 
-### 🤙 Opening Presentation
-
-We'll have an opening presentation to learn about [something](/#) from [somebody](/#).
-
 ### Bitcoin
 
+- [Bitcoin Core: Wallet Migration Failure May Delete Unrelated Wallet Files In Bitcoin Core 30.0 and 30.1](https://bitcoincore.org/en/2026/01/05/wallet-migration-bug/)
+
 ### Lightning
+
+- [Rene Pickhardt - A Mathematical Theory of Payment Channel Networks](https://x.com/renepickhardt/status/2009598480306901363)
+- [Rene Pickhardt - Ark as a Channel Factory: Compressed Liquidity Management for Improved Payment Feasibility](https://delvingbitcoin.org/t/ark-as-a-channel-factory-compressed-liquidity-management-for-improved-payment-feasibility/2179)
 
 ### Business
 
