@@ -37,6 +37,11 @@ Look for the **orange door** behind the **fence**.
 
 ### Bitcoin
 
+- [BIP 3 Activated](https://x.com/murchandamus/status/2011491288735240549?s=46&t=8UJ-4zrOeVUt0LsBTybN6Q)
+- [OP_CC: A simple introspection opcode to enable cheaper consolidations](https://delvingbitcoin.org/t/op-cc-a-simple-introspection-opcode-to-enable-cheaper-consolidations/2177)
+
+#### Bitcoin Core
+
 - [Bitcoin Core: Wallet Migration Failure May Delete Unrelated Wallet Files In Bitcoin Core 30.0 and 30.1](https://bitcoincore.org/en/2026/01/05/wallet-migration-bug/)
 
 ### Lightning
@@ -44,8 +49,14 @@ Look for the **orange door** behind the **fence**.
 - [Rene Pickhardt - A Mathematical Theory of Payment Channel Networks](https://x.com/renepickhardt/status/2009598480306901363)
 - [Rene Pickhardt - Ark as a Channel Factory: Compressed Liquidity Management for Improved Payment Feasibility](https://delvingbitcoin.org/t/ark-as-a-channel-factory-compressed-liquidity-management-for-improved-payment-feasibility/2179)
 
+### Other Layer 2s
+
+- [Alpen Labs drops paper describing 1000x improvement to garbled circuits](https://x.com/murchandamus/status/2011491288735240549?s=46&t=8UJ-4zrOeVUt0LsBTybN6Q)
+
 ### Business
 
 ### Privacy & InfoSec
+
+- [BitChat in Uganda](https://x.com/callebtc/status/2011339844623221224)
 
 ### Just for fun
