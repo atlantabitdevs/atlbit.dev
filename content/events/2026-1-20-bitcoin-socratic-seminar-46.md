@@ -4,7 +4,7 @@ title: 'Bitcoin Socratic Seminar #46'
 type: Doc
 ---
 
-![Bitcoin Socratic Seminar #46](/bitcoin-socratic-seminar-46.jpg)
+![Bitcoin Socratic Seminar #46](/bitdevs-socratic-seminar-2026.jpg)
 
 It's almost time for <a href="https://www.meetup.com/atlantabitdevs/">Bitcoin Socratic Seminar #46</a>!
 
