@@ -42,16 +42,36 @@ Look for the **orange door** behind the **fence**.
 - [Vanadium: A Virtualized Secure Enclave for Hardware Signing Devices](https://delvingbitcoin.org/t/vanadium-a-virtualized-secure-enclave-for-hardware-signing-devices/2142)
 - [Frost DAO](https://x.com/btcplusplus/status/2013604929722523885)
 - [Hornet UTXO - Constant-time UTXO set queries](https://delvingbitcoin.org/t/hornet-utxo-1-a-custom-constant-time-highly-parallel-utxo-database/2201)
+- [Building a vault using blinded co-signers](https://delvingbitcoin.org/t/building-a-vault-using-blinded-co-signers/2141)
+- [[BIP Proposal] Peer Feature Negotiation](https://groups.google.com/g/bitcoindev/c/DFXtbUdCNZE?pli=1)
+- [[BIP Proposal] Add sp() output descriptor format for BIP352](https://groups.google.com/g/bitcoindev/c/bP6ktUyCOJI)
+
+#### Year 2106
+
+- [[Discussion] Year 2106 Timestamp Overflow - Proposal for uint64 Migration](https://groups.google.com/g/bitcoindev/c/PHZEIRb04RY/m/ryatIL5RCwAJ)
+- [Does GCC preclude a soft fork to handle timestamp overflow?](https://groups.google.com/g/bitcoindev/c/L4Eu9bA5iBw/m/jo9RzS-HAQAJ)
+- [Modifying BIP54 to Support Future nTime Soft Fork](https://delvingbitcoin.org/t/modifying-bip54-to-support-future-ntime-soft-fork/2163)
+
+#### CTV
+
+- [CTV activation meeting #1 Notes](https://groups.google.com/g/bitcoindev/c/HC2bn4QOR-M/m/TF8qJidzAAAJ)
+- [Understanding and Mitigating a OP_CTV Footgun: The Unsatisfiable UTXO](https://delvingbitcoin.org/t/understanding-and-mitigating-a-op-ctv-footgun-the-unsatisfiable-utxo/1809)
+
+#### Quantum
+
+- [Hash-Based Signatures for Bitcoin's Post-Quantum Future](https://groups.google.com/g/bitcoindev/c/gOfL5ag_bDU/m/0YuwSQ29CgAJ)
 
 #### Bitcoin Core
 
 - [Bitcoin Core: Wallet Migration Failure May Delete Unrelated Wallet Files In Bitcoin Core 30.0 and 30.1](https://bitcoincore.org/en/2026/01/05/wallet-migration-bug/)
 - [OP_CC Proposal](https://delvingbitcoin.org/t/op-cc-a-simple-introspection-opcode-to-enable-cheaper-consolidations/2177)
 - [BIP 3 Activates](https://x.com/murchandamus/status/2011491288735240549?s=46&t=8UJ-4zrOeVUt0LsBTybN6Q)
-- [Silent Payment output descriptors](https://groups.google.com/g/bitcoindev/c/bP6ktUyCOJI)
+- [Incremental mutation testing in the Bitcoin Core](https://delvingbitcoin.org/t/incremental-mutation-testing-in-the-bitcoin-core/2197)
+
 
 ### Lightning
 
+- [LDK Node 0.70 - supports experimental splicing and async payments](https://newreleases.io/project/github/lightningdevkit/ldk-node/release/v0.7.0)
 - [Rene Pickhardt - A Mathematical Theory of Payment Channel Networks](https://x.com/renepickhardt/status/2009598480306901363)
 - [Rene Pickhardt - Ark as a Channel Factory: Compressed Liquidity Management for Improved Payment Feasibility](https://delvingbitcoin.org/t/ark-as-a-channel-factory-compressed-liquidity-management-for-improved-payment-feasibility/2179)
 
