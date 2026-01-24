@@ -1,0 +1,3 @@
+# Redirect old domains to new domain
+/*    https://atlbit.dev/:splat    301!  Host=atlantabitdevs.org
+/*    https://atlbit.dev/:splat    301!  Host=www.atlantabitdevs.org
