@@ -35,4 +35,10 @@ Look for the **orange door** behind the **fence**.
 
 ## Topics
 
-*Topics will be added as they are suggested and approved in [Issue #130](https://github.com/atlantabitdevs/atlbit.dev/issues/130).*
+### Bitcoin Core
+
+- [glozow steps down as Bitcoin Core maintainer](https://github.com/bitcoin/bitcoin/pull/34517) - Gloria Zhao removes her key from trusted-keys after ~3.5 years as maintainer
+
+---
+
+*More topics will be added as they are suggested and approved in [Issue #130](https://github.com/atlantabitdevs/atlbit.dev/issues/130).*
