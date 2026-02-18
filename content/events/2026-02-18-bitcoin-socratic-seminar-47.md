@@ -41,8 +41,13 @@ Look for the **orange door** behind the **fence**.
 
 ### Bitcoin
 
+- [Bitcoin Inquisition 29.2](https://github.com/bitcoin-inquisition/bitcoin/releases/tag/v29.2-inq)
+- [Bitcoin Core 29.3](https://bitcoincore.org/en/releases/29.3/)
 - [Would OP_SUCCESS + OP_CAT be spent?](https://delvingbitcoin.org/t/would-op-success-op-cat-be-spent/2223) - Discussion on Delving Bitcoin about the interaction between OP_SUCCESS and OP_CAT
-- [Nested MuSig2](https://nkohen.github.io/publication/2026-02-12-nested-musig2) - Nadav Kohen proposes NestedMuSig2, a recursive variant that formally proves the security of nesting MuSig2-aggregated keys as participants in outer MuSig2 sessions
+- [Nested MuSig2 - Nadav Kohen](https://eprint.iacr.org/2026/223)
+- [BIP 360 Merged - Quantum Resistance via P2MR](https://x.com/codaMW/status/2021946742384796013)
+- [Sigbash v2 - Oblivious Signing](https://x.com/arbedout/status/2020885323778044259)
+- [Silent Payment Scanning Attack Mitigation](https://groups.google.com/g/bitcoindev/c/tgcAQVqvzVg)
 - [Bithumb Accidentally Sends $40B in Bitcoin](https://www.theguardian.com/world/2026/feb/10/bithumb-korean-crypto-exchange-sent-bitcoin-mistake) - South Korea's second-largest exchange sent 620,000 BTC instead of 620,000 KRW during a promo event, raising questions about exchange operational security and crypto's legal classification
 
 ### Lightning
