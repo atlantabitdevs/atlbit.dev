@@ -44,9 +44,11 @@ Look for the **orange door** behind the **fence**.
 - [Libsecp256k1 0.7.1 - Security improvements for stack secret clearing](https://github.com/bitcoin-core/secp256k1/releases/tag/v0.7.1)
 - [Rust Bitcoin #5470 - Validate transactions have at least one output](https://github.com/rust-bitcoin/rust-bitcoin/issues/5470)
 - [Rust Bitcoin #5443 - Validate transaction outputs don't exceed MAX_MONEY](https://github.com/rust-bitcoin/rust-bitcoin/issues/5443)
+- [Would OP_SUCCESS (OP_CAT) be spent?](https://delvingbitcoin.org/t/would-op-success-op-cat-be-spent/2223)
 
 ### Lightning
 
+- [BOLT12 on Lexe](https://lexe.app/blog/bolt12/)
 - [LN-Symmetry update - Rebased to Bitcoin Inquisition 29.x with TRUC, ephemeral dust, P2A, and 1p1c package relay](https://delvingbitcoin.org/t/ln-symmetry-project-recap/359/17)
   - [BOLT specs (eltoo_trucd branch)](https://github.com/instagibbs/bolts/tree/eltoo_trucd)
   - [CLN implementation (2026-01-eltoo_rebased branch)](https://github.com/instagibbs/lightning/tree/2026-01-eltoo_rebased)
