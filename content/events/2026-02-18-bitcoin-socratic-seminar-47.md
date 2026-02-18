@@ -39,6 +39,8 @@ Look for the **orange door** behind the **fence**.
 
 - [glozow steps down as Bitcoin Core maintainer](https://github.com/bitcoin/bitcoin/pull/34517) - Gloria Zhao removes her key from trusted-keys after ~3.5 years as maintainer
 - [Bitcoin Core 29.3](https://bitcoincore.org/en/releases/29.3/)
+- [The future of Bitcoin Core GUI](https://delvingbitcoin.org/t/the-future-of-the-bitcoin-core-gui/2253)
+- [Recent OP_RETURN statistics](https://delvingbitcoin.org/t/recent-op-return-output-statistics/2248)
 
 ### Bitcoin
 
@@ -46,7 +48,9 @@ Look for the **orange door** behind the **fence**.
 - [Would OP_SUCCESS + OP_CAT be spent?](https://delvingbitcoin.org/t/would-op-success-op-cat-be-spent/2223) - Discussion on Delving Bitcoin about the interaction between OP_SUCCESS and OP_CAT
 - [Nested MuSig2 - Nadav Kohen](https://eprint.iacr.org/2026/223)
 - [BIP 360 Merged - Quantum Resistance via P2MR](https://x.com/codaMW/status/2021946742384796013)
+  - [Quantum FUD Rebuttal](https://x.com/rperezmarco/status/2018973998323773666)
 - [Sigbash v2 - Oblivious Signing](https://x.com/arbedout/status/2020885323778044259)
+- [BLISK - Boolean Logic Integrated into Single Key](https://github.com/zero-art-rs/blisk) [comparison to Sigbash](https://x.com/SatsBridge/status/2021148957674438865)
 - [Silent Payment Scanning Attack Mitigation](https://groups.google.com/g/bitcoindev/c/tgcAQVqvzVg)
 
 ### Lightning
@@ -71,3 +75,10 @@ Look for the **orange door** behind the **fence**.
 - [OpenClaw Bot Spawns Child Agent](https://x.com/getAlby/status/2021613700944474151) - First documented case of an AI agent autonomously purchasing services via Lightning to spawn a child agent, using LNVPS, OpenClaw, Alby Hub, and PPQ
 - [Alby Bitcoin Payments Agent Skill](https://github.com/getAlby/alby-agent-skill) - AI agent skill for bitcoin payments via Nostr Wallet Connect
 - [Magnolia Launches](https://x.com/arshbot/status/2019407933067653372) - Banking API integrating Bitcoin and stablecoins with traditional finance, including agent bank accounts via ClawBot.cash
+- ["An AI agent published a hit piece on me"](https://simonwillison.net/2026/Feb/12/an-ai-agent-published-a-hit-piece-on-me/)
+- [The Automaton - Fully Autonomous, self replicating AI](https://x.com/0xSigil/status/2023877649475731671) [my fork](https://github.com/alexlwn123/automaton-ln)
+- [PPQ launches AutoClaw Router](https://x.com/PPQdotAI/status/2024155753896935671)
+
+### 💩
+
+- [If you held the McChicken...](https://x.com/UziCryptoo/status/2017580559711764515)
