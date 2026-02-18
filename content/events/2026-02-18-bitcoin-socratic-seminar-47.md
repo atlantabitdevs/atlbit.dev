@@ -55,8 +55,8 @@ Look for the **orange door** behind the **fence**.
 
 ### Lightning
 
-- [Flint by Spiral](https://www.flintlabs.xyz/) - New project from Spiral (Block) focused on Lightning development tools and infrastructure
-- [BOLT12 on Lexe](https://lexe.app/blog/bolt12/) - Lexe adds BOLT12 support, enabling static payment codes and improved privacy for Lightning payments
+- [Flint by Spiral](https://flints.dev/) - New project from Spiral (Block) focused on Lightning development tools and infrastructure
+- [BOLT12 on Lexe](https://blog.lexe.app/bolt12-offers/) - Lexe adds BOLT12 support, enabling static payment codes and improved privacy for Lightning payments
 - [LN-Symmetry Project Recap](https://delvingbitcoin.org/t/ln-symmetry-project-recap/359/17) - Greg Sanders rebased LN-Symmetry (eltoo) to Bitcoin Inquisition 29.x with TRUC, ephemeral dust, P2A, and 1p1c package relay support
 - [$1M Lightning Transaction](https://x.com/voltage_cloud/status/2019402303032209818) - Voltage powered the first publicly reported $1M Lightning transaction between SD Markets and Kraken, settled in 0.47 seconds
 - [Programming Lightning - HRF Grant](https://x.com/_austin_f/status/2014078123613335841) - Austin received an HRF grant for a self-paced educational curriculum where students implement a Lightning payment channel from scratch
