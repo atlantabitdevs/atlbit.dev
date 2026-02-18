@@ -38,17 +38,16 @@ Look for the **orange door** behind the **fence**.
 ### Bitcoin Core
 
 - [glozow steps down as Bitcoin Core maintainer](https://github.com/bitcoin/bitcoin/pull/34517) - Gloria Zhao removes her key from trusted-keys after ~3.5 years as maintainer
+- [Bitcoin Core 29.3](https://bitcoincore.org/en/releases/29.3/)
 
 ### Bitcoin
 
 - [Bitcoin Inquisition 29.2](https://github.com/bitcoin-inquisition/bitcoin/releases/tag/v29.2-inq)
-- [Bitcoin Core 29.3](https://bitcoincore.org/en/releases/29.3/)
 - [Would OP_SUCCESS + OP_CAT be spent?](https://delvingbitcoin.org/t/would-op-success-op-cat-be-spent/2223) - Discussion on Delving Bitcoin about the interaction between OP_SUCCESS and OP_CAT
 - [Nested MuSig2 - Nadav Kohen](https://eprint.iacr.org/2026/223)
 - [BIP 360 Merged - Quantum Resistance via P2MR](https://x.com/codaMW/status/2021946742384796013)
 - [Sigbash v2 - Oblivious Signing](https://x.com/arbedout/status/2020885323778044259)
 - [Silent Payment Scanning Attack Mitigation](https://groups.google.com/g/bitcoindev/c/tgcAQVqvzVg)
-- [Bithumb Accidentally Sends $40B in Bitcoin](https://www.theguardian.com/world/2026/feb/10/bithumb-korean-crypto-exchange-sent-bitcoin-mistake) - South Korea's second-largest exchange sent 620,000 BTC instead of 620,000 KRW during a promo event, raising questions about exchange operational security and crypto's legal classification
 
 ### Lightning
 
@@ -57,7 +56,14 @@ Look for the **orange door** behind the **fence**.
 - [LN-Symmetry Project Recap](https://delvingbitcoin.org/t/ln-symmetry-project-recap/359/17) - Greg Sanders rebased LN-Symmetry (eltoo) to Bitcoin Inquisition 29.x with TRUC, ephemeral dust, P2A, and 1p1c package relay support
 - [$1M Lightning Transaction](https://x.com/voltage_cloud/status/2019402303032209818) - Voltage powered the first publicly reported $1M Lightning transaction between SD Markets and Kraken, settled in 0.47 seconds
 - [Programming Lightning - HRF Grant](https://x.com/_austin_f/status/2014078123613335841) - Austin received an HRF grant for a self-paced educational curriculum where students implement a Lightning payment channel from scratch
+
+### Other Layer 2s
+
 - [bark-0.1.0-beta.6 (Ark)](https://x.com/2ndbtc/status/2015401100355002626) - Adds hArk for async VTXO claims, removes synchronous coordination
+
+### Business
+
+- [Bithumb Accidentally Sends $40B in Bitcoin](https://www.theguardian.com/world/2026/feb/10/bithumb-korean-crypto-exchange-sent-bitcoin-mistake) - South Korea's second-largest exchange sent 620,000 BTC instead of 620,000 KRW during a promo event, raising questions about exchange operational security and crypto's legal classification
 
 ### AI + Lightning
 
