@@ -76,7 +76,7 @@ Look for the **orange door** behind the **fence**.
 - [Alby Bitcoin Payments Agent Skill](https://github.com/getAlby/alby-agent-skill) - AI agent skill for bitcoin payments via Nostr Wallet Connect
 - [Magnolia Launches](https://x.com/arshbot/status/2019407933067653372) - Banking API integrating Bitcoin and stablecoins with traditional finance, including agent bank accounts via ClawBot.cash
 - ["An AI agent published a hit piece on me"](https://simonwillison.net/2026/Feb/12/an-ai-agent-published-a-hit-piece-on-me/)
-- [The Automaton - Fully Autonomous, self replicating AI](https://x.com/0xSigil/status/2023877649475731671) [my fork](https://github.com/alexlwn123/automaton-ln)
+- [The Automaton - Fully Autonomous, self replicating AI](https://x.com/0xSigil/status/2023877649475731671) [LN fork](https://github.com/alexlwn123/automaton-ln)
 - [PPQ launches AutoClaw Router](https://x.com/PPQdotAI/status/2024155753896935671)
 
 ### 💩
