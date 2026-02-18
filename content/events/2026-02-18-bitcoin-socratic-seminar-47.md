@@ -39,6 +39,11 @@ Look for the **orange door** behind the **fence**.
 
 - [glozow steps down as Bitcoin Core maintainer](https://github.com/bitcoin/bitcoin/pull/34517) - Gloria Zhao removes her key from trusted-keys after ~3.5 years as maintainer
 
----
+### Bitcoin
 
-*More topics will be added as they are suggested and approved in [Issue #130](https://github.com/atlantabitdevs/atlbit.dev/issues/130).*
+- [Would OP_SUCCESS + OP_CAT be spent?](https://delvingbitcoin.org/t/would-op-success-op-cat-be-spent/2223) - Discussion on Delving Bitcoin about the interaction between OP_SUCCESS and OP_CAT
+
+### Lightning
+
+- [Flint by Spiral](https://www.flintlabs.xyz/) - New project from Spiral (Block) focused on Lightning development tools and infrastructure
+- [BOLT12 on Lexe](https://lexe.app/blog/bolt12/) - Lexe adds BOLT12 support, enabling static payment codes and improved privacy for Lightning payments
