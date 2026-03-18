@@ -3,18 +3,15 @@ import * as React from 'react'
 import { Callout } from '@/components/callout'
 // import Image from 'next/image'
 import { MdxCard } from '@/components/mdx-card'
-import { ParsedData } from '@/lib/get-json'
-// import SummaryLink from './SummaryLink'
 import { cn } from '@/lib/utils'
 import { useMDXComponent } from 'next-contentlayer/hooks'
 
 interface MdxProps {
   code: string
   slug: string
-  jsonData: ParsedData | undefined
 }
 
-export function Mdx({ code, slug, jsonData }: MdxProps) {
+export function Mdx({ code, slug }: MdxProps) {
   const Component = useMDXComponent(code)
 
   // TODO: Fix the liberal className?: explicit any usage
@@ -24,13 +21,11 @@ export function Mdx({ code, slug, jsonData }: MdxProps) {
       className,
       href,
       children,
-      'data-no-summary': noSummary,
       ...props
     }: {
       className?: any
       href?: string
       children?: any
-      'data-no-summary'?: string
     }) => {
       return (
         <a
