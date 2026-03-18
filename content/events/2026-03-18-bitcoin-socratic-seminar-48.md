@@ -39,9 +39,8 @@ Look for the **orange door** behind the **fence**.
 
 #### Cryptography
 
-- [DahLIAS paper accepted to Eurocrypt](https://eprint.iacr.org/) - Cross-input signature aggregation paper accepted into a mainstream cryptography conference
-- [Cross-input signature aggregation paper](https://eprint.iacr.org/) - Additional attention on cross-input signature aggregation as research continues to mature
-- [Blockstream Announcement](https://x.com/blksresearch/status/2031667618298605930) - Cross-input signature aggregation paper accepted into a mainstream cryptography conference
+- [DahLIAS paper accepted to Eurocrypt](https://x.com/blksresearch/status/2031667618298605930) - Cross-input signature aggregation paper accepted into a mainstream cryptography conference
+  - [Cross-input signature aggregation paper](https://eprint.iacr.org/) - Additional attention on cross-input signature aggregation as research continues to mature
 - [Partial fraction techniques for cryptography](https://x.com/kostascrypto/status/2017507147043504261) - Achieves constant-time, constant-size key-value commitments using bilinear pairing
 
 #### Bitcoin Core
@@ -127,3 +126,6 @@ Look for the **orange door** behind the **fence**.
 - [Open Source Agents Need to Get Serious About Payments](https://x.com/TheBlueMatt/status/2026667191475777727) - Matt Corallo argues open source AI agents need native payment rails like Lightning
 - [Unhuman Store](https://unhuman.store/) - Suite of AI agent services accepting Lightning payments via L402
 - [Mail Mike](https://mailmike.lol/) - AI email agent that accepts Lightning payments to send emails on your behalf
+- [MDK + MPP: One line of code to add Lightning paywalls to any API](https://x.com/JohnCantrell97/status/2034377639079600242) - John Cantrell adds MPP support to mdk-cloudflare, enabling self-custodial Lightning payment paywalls on Cloudflare Workers with a single line of code
+  - [mdk-cloudflare](https://github.com/johncantrell97/mdk-cloudflare) - MoneyDevKit on Cloudflare Workers — runs a Lightning node compiled to WASM inside a Durable Object
+  - [MPP (Merchant Payment Protocol)](https://mpp.dev/) - Open protocol by Tempo and Stripe that makes HTTP 402 "Payment Required" real
