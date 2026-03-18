@@ -35,7 +35,16 @@ Look for the **orange door** behind the **fence**.
 
 ## Topics
 
-### Bitcoin Core
+### Bitcoin
+
+- [DahLIAS paper accepted to Eurocrypt](https://eprint.iacr.org/) - Cross-input signature aggregation paper accepted into a mainstream cryptography conference
+- [Cross-input signature aggregation paper](https://eprint.iacr.org/) - Additional attention on cross-input signature aggregation as research continues to mature
+- [Blockstream Announcement](https://x.com/blksresearch/status/2031667618298605930) - Cross-input signature aggregation paper accepted into a mainstream cryptography conference
+- [Rusty Russell requests BIP numbers for two Great Script Restoration BIPs](https://groups.google.com/g/bitcoindev/c/GisTcPb8Jco/m/8znWcWwKAQAJ)
+  - [BIPs PRs](https://github.com/bitcoin/bips/pull/2118)
+  - [Two additional BIPs](https://groups.google.com/g/bitcoindev/c/GisTcPb8Jco) are WIP
+
+#### Bitcoin Core
 
 - [Implementation of draft BIP for 24bit nonce space](https://github.com/bitcoin/bitcoin/pull/34779)
 - [BDK Version 3.0.0-rc1 released](https://github.com/bitcoindevkit/bdk_wallet/releases/tag/v3.0.0-rc.1) - First release candidate for BDK v3.0.0
@@ -55,15 +64,6 @@ Look for the **orange door** behind the **fence**.
   - [C12d - Interactive AI assistant for node analytics](https://c12d.vercel.app/) - 3rd place
   - [Alpen Fuzzing](https://loot.fund/hackathons/bitcoin-exploits-edition/applications/16) - [Bug found](https://github.com/alpenlabs/alpen/issues/1409)
   - [Stealth](https://x.com/brenorb/status/2028897371749269890)
-
-### Bitcoin
-
-- [DahLIAS paper accepted to Eurocrypt](https://eprint.iacr.org/) - Cross-input signature aggregation paper accepted into a mainstream cryptography conference
-- [Cross-input signature aggregation paper](https://eprint.iacr.org/) - Additional attention on cross-input signature aggregation as research continues to mature
-- [Blockstream Announcement](https://x.com/blksresearch/status/2031667618298605930) - Cross-input signature aggregation paper accepted into a mainstream cryptography conference
-- [Rusty Russell requests BIP numbers for two Great Script Restoration BIPs](https://groups.google.com/g/bitcoindev/c/GisTcPb8Jco/m/8znWcWwKAQAJ)
-  - [BIPs PRs](https://github.com/bitcoin/bips/pull/2118)
-  - [Two additional BIPs](https://groups.google.com/g/bitcoindev/c/GisTcPb8Jco) are WIP
 
 #### Post-Quantum
 
@@ -117,15 +117,9 @@ Look for the **orange door** behind the **fence**.
 - [Square launches bounties to onboard merchants to accept bitcoin](https://x.com/BitcoinNewsCom/status/2029906172141093075)
 - [COLDCARD Proof-of-Reserves Support](https://x.com/COLDCARDwallet/status/2029684130938531965) - "Perfect for audits, transparency reports, or just flexing your reserves."
 
-### AI + Lightning
+### AI
 
 - [Using AI tooling for code review](https://delvingbitcoin.org/t/using-ai-tooling-for-code-review/2277)
 - [Open Source Agents Need to Get Serious About Payments](https://x.com/TheBlueMatt/status/2026667191475777727)
 - [Unhuman Store](https://unhuman.store/)
 - [Mail Mike](https://mailmike.lol/)
-
-### 💩
-
-- [IBM](https://x.com/Rob1Ham/status/2029989251228839990)
-- [The 20 Millionth Bitcoin Was Mined (Block 939,999)](https://www.cryptbull.net/2026/03/11/bitcoin-crosses-20-million-coins-mined-and-only-1-in-20-remains/)
-- [Meta Rugs $MOLT](https://x.com/diegoxyz/status/2032465158644138133)
