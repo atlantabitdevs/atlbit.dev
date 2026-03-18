@@ -42,6 +42,7 @@ Look for the **orange door** behind the **fence**.
 - [DahLIAS paper accepted to Eurocrypt](https://eprint.iacr.org/) - Cross-input signature aggregation paper accepted into a mainstream cryptography conference
 - [Cross-input signature aggregation paper](https://eprint.iacr.org/) - Additional attention on cross-input signature aggregation as research continues to mature
 - [Blockstream Announcement](https://x.com/blksresearch/status/2031667618298605930) - Cross-input signature aggregation paper accepted into a mainstream cryptography conference
+- [Partial fraction techniques for cryptography](https://x.com/kostascrypto/status/2017507147043504261) - Achieves constant-time, constant-size key-value commitments using bilinear pairing
 
 #### Bitcoin Core
 
@@ -84,6 +85,7 @@ Look for the **orange door** behind the **fence**.
 
 - [Binohash: Transaction Introspection Without Softforks](https://x.com/robin_linus/status/2026700104774856827) - First mined transaction demonstrating limited covenants using only existing Bitcoin script, potentially eliminating the need for a light client in BitVM bridges
   - [Delving Bitcoin discussion](https://delvingbitcoin.org/t/binohash-transaction-introspection-without-softforks/2288)
+- [Duty-Free Bits: Projectivizing Garbling Schemes](https://x.com/AlpenLabs/status/2031043052735971623) - 20-45x size reduction in offchain garbling for BitVM
 
 ### Lightning
 
@@ -116,6 +118,8 @@ Look for the **orange door** behind the **fence**.
 - [Strike Receives BitLicense to operate in New York](https://x.com/mattcrv/status/2029994842386813422) - Strike approved by NYDFS to serve New York customers
 - [Square launches bounties to onboard merchants to accept bitcoin](https://x.com/BitcoinNewsCom/status/2029906172141093075) - Incentive program to drive merchant Bitcoin adoption through Square POS
 - [COLDCARD Proof-of-Reserves Support](https://x.com/COLDCARDwallet/status/2029684130938531965) - "Perfect for audits, transparency reports, or just flexing your reserves."
+- [Square auto-enables bitcoin payments starting March 30, 2026]((https://x.com/BitcoinNewsCom/status/2033967355483615732) - Lightning payments will now be accepted by all Square merchants by default
+- [SEC and CFTC clarify application of securities law to crypto assets](https://www.sec.gov/newsroom/press-releases/2026-30-sec-clarifies-application-federal-securities-laws-crypto-assets) - Commodities, collectibles, and mining and wrapping activity now explicitly excluded
 
 ### AI
 
