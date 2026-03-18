@@ -118,7 +118,7 @@ Look for the **orange door** behind the **fence**.
 - [Strike Receives BitLicense to operate in New York](https://x.com/mattcrv/status/2029994842386813422) - Strike approved by NYDFS to serve New York customers
 - [Square launches bounties to onboard merchants to accept bitcoin](https://x.com/BitcoinNewsCom/status/2029906172141093075) - Incentive program to drive merchant Bitcoin adoption through Square POS
 - [COLDCARD Proof-of-Reserves Support](https://x.com/COLDCARDwallet/status/2029684130938531965) - "Perfect for audits, transparency reports, or just flexing your reserves."
-- [Square auto-enables bitcoin payments starting March 30, 2026]((https://x.com/BitcoinNewsCom/status/2033967355483615732) - Lightning payments will now be accepted by all Square merchants by default
+- [Square auto-enables bitcoin payments starting March 30, 2026](https://x.com/BitcoinNewsCom/status/2033967355483615732) - Lightning payments will now be accepted by all Square merchants by default
 - [SEC and CFTC clarify application of securities law to crypto assets](https://www.sec.gov/newsroom/press-releases/2026-30-sec-clarifies-application-federal-securities-laws-crypto-assets) - Commodities, collectibles, and mining and wrapping activity are now explicitly excluded from securities law
 
 ### AI
