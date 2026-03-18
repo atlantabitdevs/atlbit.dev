@@ -98,9 +98,7 @@ Look for the **orange door** behind the **fence**.
 
 ### Other Layer 2s
 
-- V-PACK - Stateless VTXO verification standard for the Ark ecosystem, aiming to let users independently verify and visualize VTXOs
-  - Goal is a lean verifier that can run in embedded environments such as hardware wallets
-  - [Tool to audit VTXO exit paths](https://www.vtxopack.org/)
+- [V-PACK](https://www.vtxopack.org/) - Stateless VTXO verification standard for the Ark ecosystem, letting users independently verify and visualize VTXO exit paths
 - [Second Releases hArk-based Ark Software](https://docs.second.tech/changelog/changelog/#010-beta6) - Ark v0.1.0-beta.6 uses hash-lock Ark (hArk) to eliminate synchronous interactivity during rounds
 - [Ark Labs Raises $5.2M with Tether](https://bitcoinmagazine.com/news/ark-labs-raises-5-2m-with-tether) - Seed round led by Tether to build production Ark infrastructure
 - [Crest - New Privacy Tool Announced built on Citrea](https://x.com/crest_btc) - Privacy-focused protocol building on the Citrea Bitcoin rollup
