@@ -39,6 +39,10 @@ Look for the **orange door** behind the **fence**.
 
 - [Implementation of draft BIP for 24bit nonce space](https://github.com/bitcoin/bitcoin/pull/34779)
 - [BDK Version 3.0.0-rc1 released](https://github.com/bitcoindevkit/bdk_wallet/releases/tag/v3.0.0-rc.1) - First release candidate for BDK v3.0.0
+- [Recent OP_RETURN Output Statistics](https://delvingbitcoin.org/t/recent-op-return-output-statistics/2248) - ajtowns analyzes OP_RETURN usage since Bitcoin Core v30.0 relaxed mempool limits; only 0.44% of OP_RETURN data used the new larger sizes
+- [Hornet Node v0.1 Update](https://delvingbitcoin.org/t/hornet-node-v0-1-update/2300) - A new project creating a standalone specification of Bitcoin consensus rules, separate from the reference client implementation
+- [Default dbcache Increased to 1 GiB](https://github.com/bitcoin/bitcoin/issues/34692) - Default dbcache doubled on 64-bit systems with ≥4 GiB RAM
+- [Libsecp256k1: Runtime SHA256 Compression API](https://github.com/bitcoin-core/secp256k1/issues/1777) - New API lets applications supply a custom SHA256 compression function at runtime, enabling hardware-accelerated hashing without recompilation
 
 #### Security & Testing
 
@@ -65,12 +69,14 @@ Look for the **orange door** behind the **fence**.
 
 - [PQ Provers for P2PKH Outputs](https://delvingbitcoin.org/t/pq-provers-for-p2pkh-outputs/2287) - Proposal for post-quantum proof schemes to protect legacy P2PKH outputs
 - [Hourglass V2 Update](https://groups.google.com/g/bitcoindev/c/0E1UyyQIUA0) - Rate-limiting P2PK UTXO spending (1 BTC/block) as quantum attack mitigation, with input from Jameson Lopp
+- [The Limitations of Cryptographic Agility in Bitcoin](https://groups.google.com/g/bitcoindev/c/O6l3GUvyO7A) - Pieter Wuille examines the constraints and trade-offs of adding cryptographic agility to Bitcoin's consensus rules
 
 #### BIPs & Protocol Proposals
 
 - [[BIP Draft] 24 nVersion Bits for General Purpose Use](https://groups.google.com/g/bitcoindev/c/fCfbi8hy-AE) - Matt Corallo proposes expanding nVersion nonce space from 16 to 24 bits, replacing BIP 320
 - [Draft BIP: Output Script Descriptor Annotations](https://bitcoinops.org/en/newsletters/2026/02/27/#draft-bip-for-output-script-descriptor-annotations) - Craig Raw proposes appending key/value metadata such as wallet birthday and gap limit to descriptors via URL-like query syntax, improving silent payment scanning efficiency
   - [bitcoin-dev discussion](https://groups.google.com/g/bitcoindev/c/ozjr1lF3Rkc)
+- [BIP392: Silent Payment Descriptor Format](https://github.com/bitcoin/bips/issues/2047) - New sp() descriptor published for silent payment wallets, defining how to represent silent payment keys in output script descriptors
 
 #### Covenants & Script Innovation
 
@@ -85,12 +91,15 @@ Look for the **orange door** behind the **fence**.
   - Perhaps the last Lightning implementation to support onion messages?
 - [LDK: Collaborative Multipath Payments](https://github.com/lightningdevkit/rust-lightning/issues/4373) - Multiple wallets or nodes can collaboratively pay a single invoice by each sending part of a multipath payment
 - [Eclair: Auto Channel Type Selection](https://github.com/ACINQ/eclair/issues/3250) - OpenChannelInterceptor auto-selects `channel_type` for LSP-initiated channels; defaults to anchor channels, simple taproot channels expected next
+- [LDK: Trampoline Routing Groundwork](https://github.com/lightningdevkit/rust-lightning/issues/4304) - Refactors HTLC forwarding to support multiple incoming/outgoing HTLCs per forward, enabling trampoline nodes to act as MPP endpoints on both sides
+- [LDK: Dual Funding on Splices](https://github.com/lightningdevkit/rust-lightning/issues/4416) - Acceptor can now contribute funds when both peers attempt to initiate a splice simultaneously
 
 ### Other Layer 2s
 
 - V-PACK - Stateless VTXO verification standard for the Ark ecosystem, aiming to let users independently verify and visualize VTXOs
   - Goal is a lean verifier that can run in embedded environments such as hardware wallets
   - [Tool to audit VTXO exit paths](https://www.vtxopack.org/)
+- [Second Releases hArk-based Ark Software](https://docs.second.tech/changelog/changelog/#010-beta6) - Ark v0.1.0-beta.6 uses hash-lock Ark (hArk) to eliminate synchronous interactivity during rounds
 - [Ark Labs Raises $5.2M with Tether](https://bitcoinmagazine.com/news/ark-labs-raises-5-2m-with-tether)
 - [Crest - New Privacy Tool Announced built on Citrea](https://x.com/crest_btc)
   - Closed beta [announcement](https://x.com/crest_btc/status/2032071660036128904)
