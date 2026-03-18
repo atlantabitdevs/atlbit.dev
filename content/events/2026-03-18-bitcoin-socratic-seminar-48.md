@@ -37,16 +37,15 @@ Look for the **orange door** behind the **fence**.
 
 ### Bitcoin
 
+#### Cryptography
+
 - [DahLIAS paper accepted to Eurocrypt](https://eprint.iacr.org/) - Cross-input signature aggregation paper accepted into a mainstream cryptography conference
 - [Cross-input signature aggregation paper](https://eprint.iacr.org/) - Additional attention on cross-input signature aggregation as research continues to mature
 - [Blockstream Announcement](https://x.com/blksresearch/status/2031667618298605930) - Cross-input signature aggregation paper accepted into a mainstream cryptography conference
-- [Rusty Russell requests BIP numbers for two Great Script Restoration BIPs](https://groups.google.com/g/bitcoindev/c/GisTcPb8Jco/m/8znWcWwKAQAJ)
-  - [BIPs PRs](https://github.com/bitcoin/bips/pull/2118)
-  - [Two additional BIPs](https://groups.google.com/g/bitcoindev/c/GisTcPb8Jco) are WIP
 
 #### Bitcoin Core
 
-- [Implementation of draft BIP for 24bit nonce space](https://github.com/bitcoin/bitcoin/pull/34779)
+- [Implementation of draft BIP for 24bit nonce space](https://github.com/bitcoin/bitcoin/pull/34779) - PR implementing the draft BIP to expand nVersion nonce space to 24 bits
 - [BDK Version 3.0.0-rc1 released](https://github.com/bitcoindevkit/bdk_wallet/releases/tag/v3.0.0-rc.1) - First release candidate for BDK v3.0.0
 - [Recent OP_RETURN Output Statistics](https://delvingbitcoin.org/t/recent-op-return-output-statistics/2248) - ajtowns analyzes OP_RETURN usage since Bitcoin Core v30.0 relaxed mempool limits; only 0.44% of OP_RETURN data used the new larger sizes
 - [Hornet Node v0.1 Update](https://delvingbitcoin.org/t/hornet-node-v0-1-update/2300) - A new project creating a standalone specification of Bitcoin consensus rules, separate from the reference client implementation
@@ -77,6 +76,9 @@ Look for the **orange door** behind the **fence**.
 - [Draft BIP: Output Script Descriptor Annotations](https://bitcoinops.org/en/newsletters/2026/02/27/#draft-bip-for-output-script-descriptor-annotations) - Craig Raw proposes appending key/value metadata such as wallet birthday and gap limit to descriptors via URL-like query syntax, improving silent payment scanning efficiency
   - [bitcoin-dev discussion](https://groups.google.com/g/bitcoindev/c/ozjr1lF3Rkc)
 - [BIP392: Silent Payment Descriptor Format](https://github.com/bitcoin/bips/issues/2047) - New sp() descriptor published for silent payment wallets, defining how to represent silent payment keys in output script descriptors
+- [Rusty Russell requests BIP numbers for two Great Script Restoration BIPs](https://groups.google.com/g/bitcoindev/c/GisTcPb8Jco/m/8znWcWwKAQAJ) - First two BIPs of the "Bitcoin Scripting Proposal BIP Quartet" (varops budget + tapscript leaf 0xc2) submitted for BIP numbers
+  - [BIPs PRs](https://github.com/bitcoin/bips/pull/2118)
+  - [Two additional BIPs](https://groups.google.com/g/bitcoindev/c/GisTcPb8Jco) are WIP
 
 #### Covenants & Script Innovation
 
@@ -100,11 +102,11 @@ Look for the **orange door** behind the **fence**.
   - Goal is a lean verifier that can run in embedded environments such as hardware wallets
   - [Tool to audit VTXO exit paths](https://www.vtxopack.org/)
 - [Second Releases hArk-based Ark Software](https://docs.second.tech/changelog/changelog/#010-beta6) - Ark v0.1.0-beta.6 uses hash-lock Ark (hArk) to eliminate synchronous interactivity during rounds
-- [Ark Labs Raises $5.2M with Tether](https://bitcoinmagazine.com/news/ark-labs-raises-5-2m-with-tether)
-- [Crest - New Privacy Tool Announced built on Citrea](https://x.com/crest_btc)
+- [Ark Labs Raises $5.2M with Tether](https://bitcoinmagazine.com/news/ark-labs-raises-5-2m-with-tether) - Seed round led by Tether to build production Ark infrastructure
+- [Crest - New Privacy Tool Announced built on Citrea](https://x.com/crest_btc) - Privacy-focused protocol building on the Citrea Bitcoin rollup
   - Closed beta [announcement](https://x.com/crest_btc/status/2032071660036128904)
   - [Repo](https://github.com/crest-bitcoin/protocol) is a fork of another protocol
-- [Park - Privacy in Ark](https://uncensoredtech.substack.com/p/park)
+- [Park - Privacy in Ark](https://uncensoredtech.substack.com/p/park) - Proposal for adding privacy features to the Ark protocol
 
 #### Ecash
 
@@ -112,14 +114,14 @@ Look for the **orange door** behind the **fence**.
 
 ### Business
 
-- [Strike Announces Bitcoin Line of Credit (BLOC)](https://x.com/Strike/status/2028974333708644588)
-- [Strike Receives BitLicense to operate in New York](https://x.com/mattcrv/status/2029994842386813422)
-- [Square launches bounties to onboard merchants to accept bitcoin](https://x.com/BitcoinNewsCom/status/2029906172141093075)
+- [Strike Announces Bitcoin Line of Credit (BLOC)](https://x.com/Strike/status/2028974333708644588) - Borrow against your Bitcoin without selling, powered by Strike
+- [Strike Receives BitLicense to operate in New York](https://x.com/mattcrv/status/2029994842386813422) - Strike approved by NYDFS to serve New York customers
+- [Square launches bounties to onboard merchants to accept bitcoin](https://x.com/BitcoinNewsCom/status/2029906172141093075) - Incentive program to drive merchant Bitcoin adoption through Square POS
 - [COLDCARD Proof-of-Reserves Support](https://x.com/COLDCARDwallet/status/2029684130938531965) - "Perfect for audits, transparency reports, or just flexing your reserves."
 
 ### AI
 
-- [Using AI tooling for code review](https://delvingbitcoin.org/t/using-ai-tooling-for-code-review/2277)
-- [Open Source Agents Need to Get Serious About Payments](https://x.com/TheBlueMatt/status/2026667191475777727)
-- [Unhuman Store](https://unhuman.store/)
-- [Mail Mike](https://mailmike.lol/)
+- [Using AI tooling for code review](https://delvingbitcoin.org/t/using-ai-tooling-for-code-review/2277) - Discussion on integrating AI tools into the Bitcoin Core code review process
+- [Open Source Agents Need to Get Serious About Payments](https://x.com/TheBlueMatt/status/2026667191475777727) - Matt Corallo argues open source AI agents need native payment rails like Lightning
+- [Unhuman Store](https://unhuman.store/) - Suite of AI agent services accepting Lightning payments via L402
+- [Mail Mike](https://mailmike.lol/) - AI email agent that accepts Lightning payments to send emails on your behalf
