@@ -51,7 +51,6 @@ Look for the **orange door** behind the **fence**.
 - [PQC Precommitment Migration via Tapscript](https://github.com/csuwildcat/pqc-precommitment-migration) - Precommitment construction that uses existing tapscript behavior to reserve future PQ signature slots
 - [SHRIMPS: 2.5 KB Post-Quantum Signatures Across Multiple Stateful Devices](https://delvingbitcoin.org/t/shrimps-2-5-kb-post-quantum-signatures-across-multiple-stateful-devices/2355) - Jonas Nick proposes a hash-based signature construction that keeps PQ signatures small even when a seed is restored across multiple devices
 - [Quantum Fatigue](https://x.com/benthecarman/status/2043728515887980711) [List](https://groups.google.com/g/bitcoindev)
-- [Brink Funding Fabian for CISA Research](https://x.com/bitschmidty/status/2041143804883788115?s=20) - Fabian's recent Brink-funded work includesV advancing cross-input signature aggregation research and implementation work in libsecp256k1
 
 ### Lightning and L2s
 
