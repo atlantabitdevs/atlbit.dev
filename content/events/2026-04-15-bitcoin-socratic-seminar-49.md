@@ -37,16 +37,27 @@ Look for the **orange door** behind the **fence**.
 
 ### Bitcoin
 
-#### Cryptography
-
-- [Brink Funding Fabian for CISA Research](https://x.com/bitschmidty/status/2041143804883788115?s=20) - Fabian's recent Brink-funded work includes advancing cross-input signature aggregation research and implementation work in libsecp256k1
-
 #### Bitcoin Core
 
-- [Policy: Report Debug Message Why Inputs Are Non-Standard](https://github.com/bitcoin/bitcoin/pull/29060) - Merged Bitcoin Core PR to surface clearer debug reasons when policy rejects non-standard inputs
-- [Remove Taproot BIP 9 Deployment](https://github.com/bitcoin/bitcoin/pull/26201) - Cleanup PR removing Taproot's old BIP9 deployment scaffolding from Bitcoin Core
 - [Consensus Cleanup: Demo of Slow Blocks on Signet](https://delvingbitcoin.org/t/consensus-cleanup-demo-of-slow-blocks-on-signet/2367) - Antoine Poinsot organizes a Signet demo of hard-to-validate blocks so users can observe the impact of slow block validation firsthand
 - [BIP440/BIP441: Varops Budget and Script Restoration](https://github.com/bitcoin/bips/pull/2118) - Draft BIPs proposing a varops budget plus restoration of disabled script functionality via tapleaf `0xc2`
+- [Policy: Report Debug Message Why Inputs Are Non-Standard](https://github.com/bitcoin/bitcoin/pull/29060) - Merged Bitcoin Core PR to surface clearer debug reasons when policy rejects non-standard inputs
+- [Remove Taproot BIP 9 Deployment](https://github.com/bitcoin/bitcoin/pull/26201) - Cleanup PR removing Taproot's old BIP9 deployment scaffolding from Bitcoin Core
+
+#### Cryptography & Quantum
+
+- [Post-Quantum BIP-86 Recovery via zk-STARK Proof of BIP-32 Seed Knowledge](https://groups.google.com/g/bitcoindev/c/Q06piCEJhkI?pli=1) - Proposal for proving BIP-86 derivation knowledge with a zk-STARK so users can recover to a PQ-safe path without exposing their seed
+- [Quantum-Safe Bitcoin w/o Softforks](https://github.com/avihu28/Quantum-Safe-Bitcoin-Transactions/blob/main/paper/QSB.pdf) - Paper exploring quantum-safe transaction constructions without requiring a soft fork. [Tweet](https://x.com/robin_linus/status/2042352249037623332)
+- [PQC Precommitment Migration via Tapscript](https://github.com/csuwildcat/pqc-precommitment-migration) - Precommitment construction that uses existing tapscript behavior to reserve future PQ signature slots
+- [SHRIMPS: 2.5 KB Post-Quantum Signatures Across Multiple Stateful Devices](https://delvingbitcoin.org/t/shrimps-2-5-kb-post-quantum-signatures-across-multiple-stateful-devices/2355) - Jonas Nick proposes a hash-based signature construction that keeps PQ signatures small even when a seed is restored across multiple devices
+- [Quantum Fatigue](https://x.com/benthecarman/status/2043728515887980711) [List](https://groups.google.com/g/bitcoindev)
+- [Brink Funding Fabian for CISA Research](https://x.com/bitschmidty/status/2041143804883788115?s=20) - Fabian's recent Brink-funded work includesV advancing cross-input signature aggregation research and implementation work in libsecp256k1
+
+### Lightning and L2s
+
+- [Lexe Wallet Public Release on App Store and Google Play](https://blog.lexe.app/public-launch/) - Public launch of Lexe's self-custodial mobile Lightning wallet, plus new SDKs and address support
+- [Onion Message Jamming in the Lightning Network](https://delvingbitcoin.org/t/onion-message-jamming-in-the-lightning-network/2414) - Analysis of how spam onion messages can trigger rate limits between honest peers, plus proposed mitigations like fees and routing changes
+- [A Decade of Workarounds](https://spiralbtc.substack.com/p/a-decade-of-workarounds) - Spiral retrospective on how mempool policy evolved over years to support Lightning and other time-sensitive Layer 2 protocols
 
 #### AI, Privacy, Infosec
 
@@ -56,19 +67,6 @@ Look for the **orange door** behind the **fence**.
 - [Spiral AI Post](https://x.com/spiralbtc/status/2044432413959319606) - Spiral shares its latest thinking on AI and how it intersects with Bitcoin development and open-source tooling
 - [Claude Mythos](https://red.anthropic.com/2026/mythos-preview/)
   - [Project Glasswing](https://www.anthropic.com/glasswing)
-
-#### Post-Quantum
-
-- [Post-Quantum BIP-86 Recovery via zk-STARK Proof of BIP-32 Seed Knowledge](https://groups.google.com/g/bitcoindev/c/Q06piCEJhkI?pli=1) - Proposal for proving BIP-86 derivation knowledge with a zk-STARK so users can recover to a PQ-safe path without exposing their seed
-- [Quantum-Safe Bitcoin w/o Softforks](https://github.com/avihu28/Quantum-Safe-Bitcoin-Transactions/blob/main/paper/QSB.pdf) - Paper exploring quantum-safe transaction constructions without requiring a soft fork. [Tweet](https://x.com/robin_linus/status/2042352249037623332)
-- [PQC Precommitment Migration via Tapscript](https://github.com/csuwildcat/pqc-precommitment-migration) - Precommitment construction that uses existing tapscript behavior to reserve future PQ signature slots
-- [SHRIMPS: 2.5 KB Post-Quantum Signatures Across Multiple Stateful Devices](https://delvingbitcoin.org/t/shrimps-2-5-kb-post-quantum-signatures-across-multiple-stateful-devices/2355) - Jonas Nick proposes a hash-based signature construction that keeps PQ signatures small even when a seed is restored across multiple devices
-
-### Lightning and L2s
-
-- [Lexe Wallet Public Release on App Store and Google Play](https://blog.lexe.app/public-launch/) - Public launch of Lexe's self-custodial mobile Lightning wallet, plus new SDKs and address support
-- [Onion Message Jamming in the Lightning Network](https://delvingbitcoin.org/t/onion-message-jamming-in-the-lightning-network/2414) - Analysis of how spam onion messages can trigger rate limits between honest peers, plus proposed mitigations like fees and routing changes
-- [A Decade of Workarounds](https://spiralbtc.substack.com/p/a-decade-of-workarounds) - Spiral retrospective on how mempool policy evolved over years to support Lightning and other time-sensitive Layer 2 protocols
 
 ### Business
 
