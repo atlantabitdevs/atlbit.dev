@@ -46,10 +46,16 @@ Look for the **orange door** behind the **fence**.
 - [Policy: Report Debug Message Why Inputs Are Non-Standard](https://github.com/bitcoin/bitcoin/pull/29060) - Merged Bitcoin Core PR to surface clearer debug reasons when policy rejects non-standard inputs
 - [Remove Taproot BIP 9 Deployment](https://github.com/bitcoin/bitcoin/pull/26201) - Cleanup PR removing Taproot's old BIP9 deployment scaffolding from Bitcoin Core
 - [Consensus Cleanup: Demo of Slow Blocks on Signet](https://delvingbitcoin.org/t/consensus-cleanup-demo-of-slow-blocks-on-signet/2367) - Antoine Poinsot organizes a Signet demo of hard-to-validate blocks so users can observe the impact of slow block validation firsthand
+- [BIP440/BIP441: Varops Budget and Script Restoration](https://github.com/bitcoin/bips/pull/2118) - Draft BIPs proposing a varops budget plus restoration of disabled script functionality via tapleaf `0xc2`
 
-#### Privacy
+#### AI, Privacy, Infosec
 
 - [Wallet Fingerprinting and Payjoin Privacy](https://payjoin.org/blog/2026/03/25/wallet-fingerprints-payjoin-privacy) - Payjoin Foundation post on how wallet fingerprints can leak metadata and weaken payjoin privacy
+- [Bitcoin Depot 8-K](https://www.sec.gov/Archives/edgar/data/1901799/000119312526147772/btm-20260406.htm) - Bitcoin Depot disclosed a theft of approximately 50.903 BTC from company-controlled wallets, a reminder that custody and operational security remain core business risks
+  - [ZachXBT trace writeup](https://anonhaven.com/en/news/bitcoin-depot-8k-cybersecurity-incident-zachxbt-trace/) - Follow-up report tying the incident to onchain tracing work and public attribution efforts
+- [Spiral AI Post](https://x.com/spiralbtc/status/2044432413959319606) - Spiral shares its latest thinking on AI and how it intersects with Bitcoin development and open-source tooling
+- [Claude Mythos](https://red.anthropic.com/2026/mythos-preview/)
+  - [Project Glasswing](https://www.anthropic.com/glasswing)
 
 #### Post-Quantum
 
@@ -58,19 +64,17 @@ Look for the **orange door** behind the **fence**.
 - [PQC Precommitment Migration via Tapscript](https://github.com/csuwildcat/pqc-precommitment-migration) - Precommitment construction that uses existing tapscript behavior to reserve future PQ signature slots
 - [SHRIMPS: 2.5 KB Post-Quantum Signatures Across Multiple Stateful Devices](https://delvingbitcoin.org/t/shrimps-2-5-kb-post-quantum-signatures-across-multiple-stateful-devices/2355) - Jonas Nick proposes a hash-based signature construction that keeps PQ signatures small even when a seed is restored across multiple devices
 
-#### BIPs & Protocol Proposals
-
-- [BIP440/BIP441: Varops Budget and Script Restoration](https://github.com/bitcoin/bips/pull/2118) - Draft BIPs proposing a varops budget plus restoration of disabled script functionality via tapleaf `0xc2`
-
-### Lightning
+### Lightning and L2s
 
 - [Lexe Wallet Public Release on App Store and Google Play](https://blog.lexe.app/public-launch/) - Public launch of Lexe's self-custodial mobile Lightning wallet, plus new SDKs and address support
 - [Onion Message Jamming in the Lightning Network](https://delvingbitcoin.org/t/onion-message-jamming-in-the-lightning-network/2414) - Analysis of how spam onion messages can trigger rate limits between honest peers, plus proposed mitigations like fees and routing changes
-
-### Other Layer 2s
-
 - [A Decade of Workarounds](https://spiralbtc.substack.com/p/a-decade-of-workarounds) - Spiral retrospective on how mempool policy evolved over years to support Lightning and other time-sensitive Layer 2 protocols
 
 ### Business
 
+- [Bitcoin is Predictably Popular in Crisis-Ridden Iran](https://coinshares.com/insights/research-data/bitcoin-is-predictably-popular-in-crisis-ridden-iran/) - CoinShares examines how sanctions, currency instability, conflict, and blackouts are driving Bitcoin usage in Iran for savings, transfers, and sanctions evasion
+- [Bitcoin Mining Report | Q1 2026](https://coinshares.com/insights/research-data/bitcoin-mining-report-q1-2026/) - CoinShares argues low hashprice and stronger AI economics are pushing many miners to reposition as AI and data center operators rather than pure Bitcoin miners
 - [ProductionReady Launches](https://productionready.org/blog/productionready-launches) - New 501(c)(3) focused on funding Bitcoin open-source software, education, and research. Specifically interested in supporting alternative bitcoin implementations.
+- [Strategy Acquires 4,871 BTC and Now Holds 766,970 BTC](https://www.strategy.com/press/strategy-acquires-4871-btc-and-now-holds-766970-btc_04-06-2026) - Another large treasury purchase from Strategy, keeping the corporate Bitcoin accumulation story front and center
+  - [💩](https://x.com/bitcoin_bugle/status/2044152071511749035)
+- [Morgan Stanley Bitcoin Trust](https://www.sec.gov/Archives/edgar/data/2103612/000110465926034379/tm2534140d11_8a12b.htm) - SEC filing for Morgan Stanley's Bitcoin trust adds another signal that large traditional finance firms continue building mainstream Bitcoin investment products
