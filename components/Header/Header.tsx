@@ -30,8 +30,8 @@ const Header = () => {
   }, [])
 
   return (
-    <header className="header sticky top-0 left-0 z-50 w-full bg-white p-6 font-sans drop-shadow-header dark:bg-neutral-900 dark:drop-shadow-header-dark">
-      <div className="relative mx-auto flex max-w-6xl items-center justify-between gap-4">
+    <header className="header sticky top-0 left-0 z-50 w-full bg-white px-4 py-6 font-sans drop-shadow-header dark:bg-neutral-900 dark:drop-shadow-header-dark">
+      <div className="relative mx-auto flex max-w-5xl items-center justify-between gap-4">
         <h1 className="font-black text-2xl">
           <Link href="/" className="no-underline">
             <MeetupName />
