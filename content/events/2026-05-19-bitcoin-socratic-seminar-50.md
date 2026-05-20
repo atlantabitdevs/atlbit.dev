@@ -17,6 +17,8 @@ Inspired by other BitDevs meetups around the US, our Socratic Seminar events are
 3. Raise your hand to grab the mic and participate in the conversation
 4. We go to a bar afterwards
 
+We follow <a href="https://www.chathamhouse.org/about-us/chatham-house-rule" target="_blank">the Chatham House Rule</a> at this event: you are free to use the information you receive, but neither the identity nor the affiliation of the speaker(s), nor that of any other participant, may be revealed.
+
 ## Logistics for Tonight
 
 Tonight we'll be meeting at ATL BitLab. Join our <a href="https://atlantabitdevs.org/telegram/" target="_blank">telegram channel</a> in case you need to ask for help finding us the night of the event.
