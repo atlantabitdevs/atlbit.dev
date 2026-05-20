@@ -22,6 +22,14 @@ async function getDocFromParams(params: Args) {
   return { post }
 }
 
+function getEditOnGitHubUrl(sourceFilePath?: string) {
+  if (!sourceFilePath) {
+    return null
+  }
+
+  return `https://github.com/atlantabitdevs/atlbit.dev/edit/master/content/${sourceFilePath}`
+}
+
 export async function generateStaticParams() {
   return allDocs.map((doc) => {
     const pathParts = doc._raw.flattenedPath.split('/')
@@ -43,6 +51,11 @@ const page = async ({ params }: PageProps) => {
   if (!post.body || !post.body.html) {
     return <div>Error: Content not available for this post</div>
   }
+
+  const editOnGitHubUrl =
+    resolvedParams.contentType === 'events'
+      ? getEditOnGitHubUrl(post._raw.sourceFilePath)
+      : null
 
   return (
     <main className="w-full dark:text-white">
@@ -105,6 +118,19 @@ const page = async ({ params }: PageProps) => {
               slug={resolvedParams.slug}
               page={false}
             />
+            {editOnGitHubUrl ? (
+              <div className="mt-10 border-t border-neutral-200 pt-4 text-sm text-neutral-500 dark:border-neutral-800 dark:text-neutral-400">
+                <a
+                  href={editOnGitHubUrl}
+                  className="inline-flex items-center gap-1 underline-offset-4 hover:underline"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Edit on GitHub
+                  <ArrowTopRightOnSquareIcon className="h-4 w-4" />
+                </a>
+              </div>
+            ) : null}
           </div>
         </div>
       </article>
