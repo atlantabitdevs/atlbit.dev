@@ -20,12 +20,35 @@ export enum ContentType {
   Events = 'events',
 }
 
-interface MarkdownData {
+export interface MarkdownData {
   id: string
   title: string
   date: string
   author?: string
   preview: string
+  heroImage?: string
+}
+
+function getHeroImage(markdown: string, frontmatterData: Record<string, unknown>) {
+  const imageFromFrontmatter =
+    frontmatterData.heroImage ||
+    frontmatterData.thumbnail ||
+    frontmatterData.image
+
+  if (typeof imageFromFrontmatter === 'string' && imageFromFrontmatter.length > 0) {
+    return imageFromFrontmatter
+  }
+
+  const markdownImageMatch = markdown.match(/!\[[^\]]*\]\(([^)\s]+)(?:\s+"[^"]*")?\)/)
+  return markdownImageMatch?.[1]
+}
+
+function getPreview(markdown: string) {
+  return markdown
+    .replace(/!\[[^\]]*\]\(([^)\s]+)(?:\s+"[^"]*")?\)\s*/g, '')
+    .replace(/<[^>]*>/g, '')
+    .trim()
+    .slice(0, 200)
 }
 
 export function getSortedMarkdownContent(contentType: ContentType) {
@@ -50,7 +73,8 @@ export function getSortedMarkdownContent(contentType: ContentType) {
       id,
       title: 'Example Title',
       date: '2009-01-03 00:00:00',
-      preview: matterResult.content.replace(/<[^>]*>/g, '').slice(0, 200),
+      preview: getPreview(matterResult.content),
+      heroImage: getHeroImage(matterResult.content, matterResult.data),
       ...matterResult.data,
     }
 
