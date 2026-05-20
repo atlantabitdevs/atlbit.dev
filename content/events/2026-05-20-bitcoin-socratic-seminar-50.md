@@ -79,11 +79,18 @@ Please follow the parking instructions on this page: <a href="https://atlbitlab.
 - [2140 - First Annual Report](https://2140blog.substack.com/p/our-first-annual-report)
 - [Buck Perley joins Board of Directors for Bitcoin Scholars Fund](https://x.com/BitcoinScholars/status/2055307793767272949)
 - [ATL BitLab soft-launches BitDevs Wiki: A living field guide to bitcoin’s open questions](https://bitdevs.atlbitlab.com)
+- [HRF AI Hack for Freedom 2 results](https://hrf.org/latest/announcing-the-winners-of-ai-hack-for-freedom-ii/)
+  - [Hack 4 Freedom 3](https://www.aihackforfreedom.org/)
 
 #### Companies & Product Strategy
 
 - [Alekos Filini launches Enclavia](https://x.com/afilini/status/2053817323606118684)
 - [Brian Armstrong Copies Jack Dorsey](https://x.com/brian_armstrong/status/2051616759145185723)
+
+#### Politics
+
+- [Iran Starts Bitcoin-Backed Insurance for Ships](https://www.bloomberg.com/news/articles/2026-05-18/iran-starts-bitcoin-backed-shipping-insurance-for-hormuz-strait)
+- [Clarity Act Passes Senate Banking Committee](https://www.investors.com/news/clarity-act-passes-senate-banking-committee-crypto-stocks-rally-stablecoins-regulation-vote/)
 
 ### Fun
 
