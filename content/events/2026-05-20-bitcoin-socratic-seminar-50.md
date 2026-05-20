@@ -44,6 +44,7 @@ Please follow the parking instructions on this page: <a href="https://atlbitlab.
 - [Update on large OP_RETURN usage](https://x.com/murchandamus/status/2055028624772993530)
 - [[BIP Draft] P2P UTXO Set Sharing](https://groups.google.com/g/bitcoindev/c/rThmyI8ZN3Q)
 - [Mempool Policy is Bitcoin’s Administrative State](https://medium.com/@BuckPerley/mempool-policy-is-bitcoins-administrative-state-38c84d0848a2)
+- [Murch - Two years of BIP Editing, time for some new faces?](https://groups.google.com/g/bitcoindev/c/zCmHEGbCADQ)
 
 #### Security, Tooling & Infrastructure
 
@@ -71,6 +72,7 @@ Please follow the parking instructions on this page: <a href="https://atlbitlab.
 - [Surge Credit launches](https://x.com/surge_credit/status/2048797675257311350)
 - [Surge Credit responds to MPC criticisms after THORchain MPC-TSS exploit](https://x.com/surge_credit/status/2056799390686441966)
 - [Running cashu mints in a secure enclave](https://x.com/callebtc/status/2049941355896746087?s=20)
+- [Citrea launches $CTR token](https://x.com/citrea_xyz/status/2051289852193247374)
 
 ### Business
 
