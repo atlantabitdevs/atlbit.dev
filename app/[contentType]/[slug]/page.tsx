@@ -2,8 +2,13 @@ import { ArrowTopRightOnSquareIcon } from '@heroicons/react/24/outline'
 import Image from 'next/image'
 import { Mdx } from '@/components/MDX-components'
 import { allDocs } from 'contentlayer/generated'
-
-const contentType = 'events'
+import type { Metadata } from 'next'
+import {
+  buildPageMetadata,
+  getContentSnippetFromFile,
+  getMetadataImageFromFile,
+  getSiteName,
+} from '@/lib/site-metadata'
 
 interface PageProps {
   params: Promise<{
@@ -28,6 +33,35 @@ function getEditOnGitHubUrl(sourceFilePath?: string) {
   }
 
   return `https://github.com/atlantabitdevs/atlbit.dev/edit/master/content/${sourceFilePath}`
+}
+
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  const resolvedParams = await params
+  const { post } = await getDocFromParams(resolvedParams)
+
+  if (!post) {
+    return buildPageMetadata({
+      title: `Not Found | ${getSiteName()}`,
+      pathname: `/${resolvedParams.contentType}/${resolvedParams.slug}`,
+    })
+  }
+
+  const pathname = `/${resolvedParams.contentType}/${resolvedParams.slug}`
+  const description = getContentSnippetFromFile(
+    post._raw.sourceFilePath,
+    `${post.title} at ${getSiteName()}.`,
+  )
+  const image = getMetadataImageFromFile(post._raw.sourceFilePath)
+  const sectionTitle =
+    resolvedParams.contentType === 'events' ? 'Events' : 'Posts'
+
+  return buildPageMetadata({
+    title: `${post.title} | ${sectionTitle} | ${getSiteName()}`,
+    description,
+    pathname,
+    image,
+    type: 'article',
+  })
 }
 
 export async function generateStaticParams() {

@@ -4,12 +4,21 @@ import {
 } from '../../lib/parse-markdown-files'
 
 import PostPreview from '@/components/PostPreview'
+import { getListingMetadata } from '@/lib/site-metadata'
+import type { Metadata } from 'next'
 
 type PageProps = {
   params: Promise<{
     contentType: ContentType
   }>
 }
+
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  const { contentType } = await params
+
+  return getListingMetadata(contentType)
+}
+
 export default async function Page({ params }: PageProps) {
   const resolvedParams = await params
   const { contentType } = resolvedParams

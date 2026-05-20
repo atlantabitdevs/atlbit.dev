@@ -12,6 +12,14 @@ import Link from 'next/link'
 import MeetupName from '@/components/MeetupName'
 import PostPreview from '@/components/PostPreview'
 import { meetup } from '@/meetup'
+import { buildPageMetadata, defaultMetadataImage, getSiteName } from '@/lib/site-metadata'
+
+export const metadata = buildPageMetadata({
+  title: `${getSiteName()} | ${meetup.description}`,
+  description: meetup.description,
+  pathname: '/',
+  image: defaultMetadataImage,
+})
 
 export default function Home({}) {
   const eventsContentData = getSortedMarkdownContent(ContentType.Events)

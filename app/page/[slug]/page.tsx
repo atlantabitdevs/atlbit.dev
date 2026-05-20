@@ -1,7 +1,13 @@
 import { Mdx } from '@/components/MDX-components'
 import { allDocs } from 'contentlayer/generated'
-
-const contentType = 'page'
+import type { Metadata } from 'next'
+import {
+  buildPageMetadata,
+  defaultMetadataImage,
+  getContentSnippetFromFile,
+  getSiteName,
+  getStaticPageFallbackDescription,
+} from '@/lib/site-metadata'
 
 interface PageProps {
   params: Promise<{
@@ -18,6 +24,28 @@ type Args = {
 async function getDocFromParams(params: Args) {
   const post = allDocs.find((post) => post.slugAsParams === params.slug)
   return { post }
+}
+
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  const resolvedParams = await params
+  const { post } = await getDocFromParams(resolvedParams)
+
+  if (!post) {
+    return buildPageMetadata({
+      title: `Not Found | ${getSiteName()}`,
+      pathname: `/page/${resolvedParams.slug}`,
+    })
+  }
+
+  return buildPageMetadata({
+    title: `${post.title} | ${getSiteName()}`,
+    description: getContentSnippetFromFile(
+      post._raw.sourceFilePath,
+      getStaticPageFallbackDescription(),
+    ),
+    pathname: `/page/${resolvedParams.slug}`,
+    image: defaultMetadataImage,
+  })
 }
 
 const page = async ({ params }: PageProps) => {

@@ -7,11 +7,13 @@ import type { Metadata } from 'next'
 import { ThemeProvider } from './theme-provider'
 import { meetup } from '@/meetup'
 import { switchThemeDuration } from '@/lib/utils'
+import {
+  defaultMetadataImage,
+  getSiteName,
+  getSiteUrl,
+} from '@/lib/site-metadata'
 
-const {
-  city: { name, position },
-  description,
-} = meetup
+const { description } = meetup
 const inter = Inter({ subsets: ['latin'] })
 const ibmPlexSerif = IBM_Plex_Serif({
   weight: ['400', '600'],
@@ -20,11 +22,26 @@ const ibmPlexSerif = IBM_Plex_Serif({
 })
 
 export const metadata: Metadata = {
-  title:
-    position === 'right'
-      ? `BitDevs ${name} | ${description}`
-      : `${name} BitDevs | ${description}`,
+  metadataBase: new URL(getSiteUrl()),
+  title: getSiteName(),
   description,
+  openGraph: {
+    siteName: getSiteName(),
+    title: getSiteName(),
+    description,
+    images: [
+      {
+        url: defaultMetadataImage,
+        alt: getSiteName(),
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: getSiteName(),
+    description,
+    images: [defaultMetadataImage],
+  },
 }
 
 export default function RootLayout({
@@ -34,13 +51,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <head>
-        <meta property="og:image" content={meetup.image} />
-        <meta property="og:image:type" content="image/jpg" />
-        <meta property="og:image:width" content="1920" />
-        <meta property="og:image:height" content="1080" />
-        <meta property="og:image:alt" content="" />
-      </head>
       <body
         className={`${
           inter.className + ' ' + ibmPlexSerif.className
