@@ -78,6 +78,7 @@ Please follow the parking instructions on this page: <a href="https://atlbitlab.
 
 - [2140 - First Annual Report](https://2140blog.substack.com/p/our-first-annual-report)
 - [Buck Perley joins Board of Directors for Bitcoin Scholars Fund](https://x.com/BitcoinScholars/status/2055307793767272949)
+- [ATL BitLab soft-launches BitDevs Wiki: A living field guide to bitcoin’s open questions](https://bitdevs.atlbitlab.com)
 
 #### Companies & Product Strategy
 
