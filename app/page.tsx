@@ -46,13 +46,14 @@ export default function Home({}) {
       <div className="flex flex-col gap-10 border-b border-b-400 py-10">
         <h2>Upcoming and Recent Events</h2>
 
-        {eventsContentData.map(({ id, date, title, preview }, i) => (
+        {eventsContentData.map(({ id, date, title, preview, heroImage }, i) => (
           <PostPreview
             id={id}
             title={title}
             date={date}
             type="events"
             previewText={preview}
+            heroImage={heroImage}
             key={i}
           />
         ))}
