@@ -43,6 +43,7 @@ export async function generateStaticParams() {
 const page = async ({ params }: PageProps) => {
   const resolvedParams = await params
   const { post } = await getDocFromParams(resolvedParams)
+  const isEventPage = resolvedParams.contentType === 'events'
 
   if (!post) {
     return <div>404 sorry you poor bitdev</div>
@@ -60,46 +61,23 @@ const page = async ({ params }: PageProps) => {
   return (
     <main className="w-full dark:text-white">
       <article className="flex flex-col lg:flex-row w-full">
-        {/* Nav */}
-        <div className="lg:w-1/3 min-w-[300px] max-w-full lg:max-w-[480px] h-full lg:h-screen p-8 drop-shadow-sidebar lg:sticky top-[82px] left-0 z-[49] bg-white dark:bg-neutral-900 overflow-y-auto flex flex-col gap-4 lg:block">
-          <header className="font-sans flex flex-col gap-2">
-            <h1 className="text-4xl font-black">{post.title}</h1>
-            <time className="text-2xl text-gray-500">{post.date}</time>
-            {resolvedParams.contentType === 'posts' ? (
-              <p className="text-xl flex flex-row gap-2 items-center">
-                {post.author}
-              </p>
-            ) : (
-              ``
-            )}
-            {resolvedParams.contentType === 'events' ? (
-              <p className="text-xl flex flex-row gap-2 items-center">
-                {post.meetupLink ? (
-                  <>
-                    <a href={post.meetupLink}>Meetup Link</a>
-                    <ArrowTopRightOnSquareIcon className="w-6 h-6" />
-                  </>
-                ) : (
-                  ``
-                )}
-              </p>
-            ) : (
-              ``
-            )}
-          </header>
-          {resolvedParams.contentType === 'events' ? (
-            <nav>
-              {/* <ul className="list-disc font-sans">
-                <li>Content Outline</li>
-              </ul> */}
-            </nav>
-          ) : (
-            ``
-          )}
-        </div>
+        {!isEventPage ? (
+          <div className="lg:w-1/3 min-w-[300px] max-w-full lg:max-w-[480px] h-full lg:h-screen p-8 drop-shadow-sidebar lg:sticky top-[82px] left-0 z-[49] bg-white dark:bg-neutral-900 overflow-y-auto flex flex-col gap-4 lg:block">
+            <header className="font-sans flex flex-col gap-2">
+              <h1 className="text-4xl font-black">{post.title}</h1>
+              <time className="text-2xl text-gray-500">{post.date}</time>
+              {resolvedParams.contentType === 'posts' ? (
+                <p className="text-xl flex flex-row gap-2 items-center">
+                  {post.author}
+                </p>
+              ) : (
+                ``
+              )}
+            </header>
+          </div>
+        ) : null}
 
-        {/* Content */}
-        <div className="lg:ml-10 relative z-1 w-full">
+        <div className={`${isEventPage ? '' : 'lg:ml-10 '}relative z-1 w-full`}>
           <div className="container mx-auto max-w-5xl px-4 pb-4">
             {post.image ? (
               <Image
@@ -112,6 +90,19 @@ const page = async ({ params }: PageProps) => {
             ) : (
               <div className="w-full h-8"></div>
             )}
+
+            {isEventPage ? (
+              <header className="mb-8 font-sans flex flex-col gap-3">
+                <h1 className="text-4xl font-medium">{post.title}</h1>
+                <time className="text-2xl text-gray-500">{post.date}</time>
+                {post.meetupLink ? (
+                  <p className="text-xl flex flex-row gap-2 items-center">
+                    <a href={post.meetupLink}>Meetup Link</a>
+                    <ArrowTopRightOnSquareIcon className="w-6 h-6" />
+                  </p>
+                ) : null}
+              </header>
+            ) : null}
 
             <Mdx
               html={post.body.html}
