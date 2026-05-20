@@ -80,7 +80,7 @@ const page = async ({ params }: PageProps) => {
 
             {isEventPage ? (
               <header className="mb-8 font-sans flex flex-col gap-3">
-                <h1 className="text-4xl font-black">{post.title}</h1>
+                <h1 className="text-4xl font-medium">{post.title}</h1>
                 <time className="text-2xl text-gray-500">{post.date}</time>
                 {post.meetupLink ? (
                   <p className="text-xl flex flex-row gap-2 items-center">
