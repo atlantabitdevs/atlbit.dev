@@ -6,20 +6,16 @@ const {
 
 export default function MeetupName() {
   return (
-    <div className="flex flex-col gap-1 sm:block">
+    <div className="flex flex-wrap items-baseline gap-x-1 gap-y-0 sm:block">
       {position === 'right' ? (
         <>
-          <span className="block whitespace-nowrap sm:inline">BitDevs</span>{' '}
-          <span className="meetup-name block whitespace-nowrap sm:inline">
-            {name}
-          </span>
+          <span className="whitespace-nowrap sm:inline">BitDevs</span>
+          <span className="meetup-name whitespace-nowrap sm:inline">{name}</span>
         </>
       ) : (
         <>
-          <span className="meetup-name block whitespace-nowrap sm:inline">
-            {name}
-          </span>{' '}
-          <span className="block whitespace-nowrap sm:inline">BitDevs</span>
+          <span className="meetup-name whitespace-nowrap sm:inline">{name}</span>
+          <span className="whitespace-nowrap sm:inline">BitDevs</span>
         </>
       )}
     </div>
