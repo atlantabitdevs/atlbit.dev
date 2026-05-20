@@ -29,9 +29,7 @@ Atlanta, GA 30312
 
 ### Parking
 
-Park anywhere in the gravel lot that has a "tenants only" sign (ATL BitLab is the tenant and you are their guests). You can also park right in front of ATL BitLab's fence. Avoid the areas marked for valet use.
-
-Look for the **orange door** behind the **fence**.
+Please follow the parking instructions on this page: <a href="https://atlbitlab.com/parking-at-atl-bitlab" target="_blank">Parking at ATL BitLab</a>
 
 ## Topics
 
