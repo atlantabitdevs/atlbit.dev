@@ -31,7 +31,7 @@ export default function Home({}) {
           />
         </div>
 
-        <h1 className="font-extrabold text-4xl md:text-[100px]">
+        <h1 className="font-extrabold text-4xl leading-none md:text-[100px]">
           <MeetupName />
         </h1>
 
