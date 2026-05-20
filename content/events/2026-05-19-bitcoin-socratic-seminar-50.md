@@ -51,7 +51,7 @@ Look for the **orange door** behind the **fence**.
 - [OpenSats: Bitcoin privacy at the base layer - Call for Applications](https://opensats.org/blog/call-for-applications-spring-2026)
 - [Dr. Margot Paez begins work on mining site planning tool](https://x.com/jyn_urso/status/2054548146735210899?s=20)
 
-#### Proposals, Forks & Big Ideas
+#### Proposals & Forks
 
 - [Paul Sztorc announces "eCash" Bitcoin hard fork](https://x.com/Truthcoin/status/2047639261453680838)
 
@@ -67,8 +67,6 @@ Look for the **orange door** behind the **fence**.
 - [LDK Server Launch](https://x.com/lightningdevkit/status/2054231998458175553)
 
 ### Other Layer 2s
-
-#### Ecash, Credit & Custody
 
 - [Surge Credit launches](https://x.com/surge_credit/status/2048797675257311350)
 - [Surge Credit responds to MPC criticisms after THORchain MPC-TSS exploit](https://x.com/surge_credit/status/2056799390686441966)
