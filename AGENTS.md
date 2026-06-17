@@ -39,6 +39,17 @@ Use `yarn` here, not `pnpm`: the repo is pinned to Yarn 1 and includes `yarn.loc
 - `meetup.ts`: shared meetup/site metadata used on the homepage.
 - `public/`: static assets.
 
+## Agent & crawler discovery
+The site exposes machine-readable surfaces for AI agents and crawlers. These are generated from content, so they stay current automatically — no manual updates when adding events/posts.
+- `public/robots.txt`: crawl rules, explicit AI crawler (GPTBot, ClaudeBot, Google-Extended, …) groups, a `Content-Signal` line (contentsignals.org), and a `Sitemap:` reference.
+- `app/sitemap.ts`: generates `/sitemap.xml` from `allDocs`.
+- `app/llms.txt/route.ts`: serves `/llms.txt` (llmstxt.org) — a plain-text index linking every event/post/page to its `.md` mirror.
+- `app/md/[...slug]/route.ts`: serves the plain-markdown mirror of any content page. Reached via `middleware.ts`, which rewrites `/<section>/<slug>.md` URLs and `Accept: text/markdown` requests onto it. HTML stays the default for browsers.
+- `lib/agent-content.ts`: shared helpers (read from Contentlayer `allDocs`, not the filesystem) backing all of the above.
+- `next.config.js` `headers()`: adds RFC 8288 `Link` headers (homepage → llms.txt/sitemap; content pages → their `.md` alternate).
+- `buildPageMetadata` adds a `<link rel="alternate" type="text/markdown">` to content pages via the `markdownPath` option.
+- Footer (`components/Footer.tsx`) carries a subtle `/llms.txt` link.
+
 ## Maintenance guidelines
 - Prefer small content and styling changes over broad refactors.
 - Do not rename or move large content folders unless you also update the content loading logic.
