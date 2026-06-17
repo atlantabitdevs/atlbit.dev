@@ -7,26 +7,30 @@ import { useTheme } from 'next-themes'
 
 export const ThemeSwitcher = () => {
   const [mounted, setMounted] = useState(false)
-  const { theme, setTheme } = useTheme()
+  const { resolvedTheme, setTheme } = useTheme()
 
   useEffect(() => {
     setMounted(true)
   }, [])
 
+  // Reserve the slot before mount so the header doesn't shift on hydration.
   if (!mounted) {
-    return null
+    return <div className="h-10 w-10" aria-hidden="true" />
   }
+
+  const isDark = resolvedTheme === 'dark'
 
   return (
     <button
-      className={`w-fit right-5 top-2 p-2 rounded-md hover:scale-110 active:scale-100 duration-200`}
-      onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
-      aria-label="Toggle Dark Mode"
+      type="button"
+      className="flex h-10 w-10 items-center justify-center rounded-md text-muted transition-colors duration-200 hover:bg-surface-2 hover:text-ink"
+      onClick={() => setTheme(isDark ? 'light' : 'dark')}
+      aria-label={isDark ? 'Switch to light mode' : 'Switch to dark mode'}
     >
-      {theme === 'dark' ? (
-        <SunIcon className="w-6 h-6" />
+      {isDark ? (
+        <SunIcon className="h-6 w-6" />
       ) : (
-        <MoonIcon className="w-6 h-6" />
+        <MoonIcon className="h-6 w-6" />
       )}
     </button>
   )

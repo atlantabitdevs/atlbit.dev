@@ -1,4 +1,5 @@
 import { Mdx } from '@/components/MDX-components'
+import StatusMessage from '@/components/StatusMessage'
 import { allDocs } from 'contentlayer/generated'
 import type { Metadata } from 'next'
 import {
@@ -53,20 +54,30 @@ const page = async ({ params }: PageProps) => {
   const { post } = await getDocFromParams(resolvedParams)
 
   if (!post) {
-    return <div>Watermelon 404 sorry you poor bitdev</div>
+    return (
+      <StatusMessage
+        code="404"
+        title="That page slipped off the chain."
+        body="We couldn't find this page. It may have moved, or the link might be off by a character."
+      />
+    )
   }
 
   if (!post.body || !post.body.html) {
-    return <div>Error: Content not available for this post</div>
+    return (
+      <StatusMessage
+        code="No content"
+        title="This one isn't ready yet."
+        body="The content for this page hasn't been published. Check back soon, or head back home for the latest."
+      />
+    )
   }
 
   return (
-    <main className="w-full">
-      <article className="flex flex-row w-full">
-          <div className="container mx-auto max-w-5xl p-4 flex flex-col gap-4">
-            <h1 className="text-4xl font-black">{post.title}</h1>
-            <Mdx html={post.body.html} slug={resolvedParams.slug} page={true} />
-          </div>
+    <main className="container mx-auto w-full max-w-3xl px-4">
+      <article className="flex flex-col gap-6 py-12 md:py-16">
+        <h1>{post.title}</h1>
+        <Mdx html={post.body.html} slug={resolvedParams.slug} page={true} />
       </article>
     </main>
   )

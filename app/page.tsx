@@ -1,7 +1,4 @@
-import {
-  ArrowRightIcon,
-  BitcoinCircleIcon,
-} from '@bitcoin-design/bitcoin-icons-react/outline'
+import { ArrowRightIcon } from '@bitcoin-design/bitcoin-icons-react/outline'
 import {
   ContentType,
   getSortedMarkdownContent,
@@ -27,70 +24,125 @@ export default function Home({}) {
 
   return (
     <main className="container mx-auto max-w-5xl px-4">
-      {/* Intro Section */}
-      <div className="border-b-gray-300 border-b py-10 md:py-20 flex flex-col gap-4 md:gap-10">
-        <div className="w-40 h-40 md:w-[200px] md:h-[200px] rounded-full overflow-hidden">
+      {/* Hero */}
+      <section className="flex flex-col gap-6 border-b border-line py-12 md:gap-9 md:py-24">
+        <div className="h-32 w-32 overflow-hidden rounded-full ring-1 ring-line md:h-44 md:w-44">
           <Image
             src={meetup.image}
-            alt=""
+            alt="Atlanta BitDevs meeting in person"
             width="400"
-            height="200"
-            className="object-cover h-full"
+            height="400"
+            className="h-full w-full object-cover"
           />
         </div>
 
-        <h1 className="font-extrabold text-4xl leading-none md:text-[100px]">
+        <p className="font-mono text-xs uppercase tracking-[0.22em] text-accent md:text-sm">
+          Free &amp; open Bitcoin education in Atlanta
+        </p>
+
+        <h1 className="font-sans font-extrabold leading-[0.94] tracking-[-0.03em] text-[clamp(2.75rem,11vw,7rem)]">
           <MeetupName />
         </h1>
 
-        <p className="text-lg md:text-[2.5rem] md:leading-normal">
-          BitDevs is a community for those interested in discussing and
-          participating in the research and development of Bitcoin and related
-          protocols.
+        <p className="max-w-[36ch] text-balance text-xl text-muted md:text-[2rem] md:leading-[1.3]">
+          A community for people who want to discuss and build the future of
+          Bitcoin and related protocols.
         </p>
-      </div>
+
+        <div className="mt-2 flex flex-wrap items-center gap-x-6 gap-y-3 font-sans text-base">
+          <Link
+            href="/events"
+            className="inline-flex items-center gap-2 font-semibold text-link no-underline transition-colors hover:text-link-hover"
+          >
+            See upcoming events
+            <ArrowRightIcon className="h-5 w-5" />
+          </Link>
+          <a
+            href="https://www.meetup.com/atlantabitdevs/"
+            className="text-muted no-underline transition-colors hover:text-ink"
+          >
+            Join on Meetup
+          </a>
+        </div>
+      </section>
 
       {/* Events */}
-      <div className="flex flex-col gap-10 border-b border-b-400 py-10">
-        <h2>Upcoming and Recent Events</h2>
+      <section className="flex flex-col gap-8 border-b border-line py-12 md:py-16">
+        <header className="flex flex-col gap-1.5">
+          <span className="font-mono text-xs uppercase tracking-[0.18em] text-faint">
+            What&rsquo;s next
+          </span>
+          <h2>Upcoming &amp; recent events</h2>
+        </header>
 
-        {eventsContentData.map(({ id, date, title, preview, heroImage }, i) => (
-          <PostPreview
-            id={id}
-            title={title}
-            date={date}
-            type="events"
-            previewText={preview}
-            heroImage={heroImage}
-            key={i}
-          />
-        ))}
+        {eventsContentData.length > 0 ? (
+          <div className="flex flex-col gap-9">
+            {eventsContentData.map(
+              ({ id, date, title, preview, heroImage }, i) => (
+                <PostPreview
+                  id={id}
+                  title={title}
+                  date={date}
+                  type="events"
+                  previewText={preview}
+                  heroImage={heroImage}
+                  key={i}
+                />
+              ),
+            )}
+          </div>
+        ) : (
+          <p className="text-muted">
+            No events on the calendar right now. Check{' '}
+            <a href="https://www.meetup.com/atlantabitdevs/">Meetup</a> for the
+            next one.
+          </p>
+        )}
 
-        <Link href="/events" className="flex gap-2 font-sans">
-          See All Events <ArrowRightIcon className="w-6 h-6" />
+        <Link
+          href="/events"
+          className="inline-flex items-center gap-2 font-sans font-semibold text-link no-underline transition-colors hover:text-link-hover"
+        >
+          See all events
+          <ArrowRightIcon className="h-5 w-5" />
         </Link>
-      </div>
+      </section>
 
       {/* Posts */}
-      <div className="flex flex-col gap-10 py-10">
-        <h2>Recent Blog Posts</h2>
+      <section className="flex flex-col gap-8 py-12 md:py-16">
+        <header className="flex flex-col gap-1.5">
+          <span className="font-mono text-xs uppercase tracking-[0.18em] text-faint">
+            Writing
+          </span>
+          <h2>Recent blog posts</h2>
+        </header>
 
-        {postsContentData.map(({ id, date, title, preview, author }, i) => (
-          <PostPreview
-            id={id}
-            title={title}
-            date={date}
-            type="posts"
-            previewText={preview}
-            key={i}
-            author={author}
-          />
-        ))}
+        {postsContentData.length > 0 ? (
+          <div className="flex flex-col gap-9">
+            {postsContentData.map(({ id, date, title, preview, author }, i) => (
+              <PostPreview
+                id={id}
+                title={title}
+                date={date}
+                type="posts"
+                previewText={preview}
+                key={i}
+                author={author}
+              />
+            ))}
+          </div>
+        ) : (
+          <p className="text-muted">No posts yet. Watch this space.</p>
+        )}
 
-        <Link href="/posts" className="flex gap-2 font-sans">
-          See All Blog Posts <ArrowRightIcon className="w-6 h-6" />
+        <Link
+          href="/posts"
+          className="inline-flex items-center gap-2 font-sans font-semibold text-link no-underline transition-colors hover:text-link-hover"
+        >
+          See all blog posts
+          <ArrowRightIcon className="h-5 w-5" />
         </Link>
-      </div>
+      </section>
     </main>
   )
 }

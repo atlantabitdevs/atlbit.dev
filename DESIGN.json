@@ -1,0 +1,177 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-06-16",
+  "title": "Design System: Atlanta BitDevs",
+  "extensions": {
+    "colorMeta": {
+      "brand": {
+        "role": "primary",
+        "displayName": "Signal Orange",
+        "canonical": "oklch(0.74 0.165 58)",
+        "darkValue": "oklch(0.78 0.16 60)",
+        "tonalRamp": [
+          "oklch(0.30 0.09 58)",
+          "oklch(0.40 0.115 58)",
+          "oklch(0.50 0.14 56)",
+          "oklch(0.60 0.155 56)",
+          "oklch(0.68 0.165 57)",
+          "oklch(0.74 0.165 58)",
+          "oklch(0.84 0.13 62)",
+          "oklch(0.93 0.07 68)"
+        ]
+      },
+      "accent": {
+        "role": "secondary",
+        "displayName": "Slate Ink",
+        "canonical": "oklch(0.40 0.09 255)",
+        "darkValue": "oklch(0.70 0.08 255)",
+        "tonalRamp": [
+          "oklch(0.20 0.05 255)",
+          "oklch(0.28 0.07 255)",
+          "oklch(0.36 0.085 255)",
+          "oklch(0.45 0.10 250)",
+          "oklch(0.55 0.09 252)",
+          "oklch(0.66 0.08 254)",
+          "oklch(0.78 0.06 256)",
+          "oklch(0.90 0.03 258)"
+        ]
+      },
+      "canvas": {
+        "role": "neutral",
+        "displayName": "Warm Paper",
+        "canonical": "oklch(0.992 0.004 75)",
+        "darkValue": "oklch(0.205 0.018 260)",
+        "tonalRamp": [
+          "oklch(0.205 0.018 260)",
+          "oklch(0.245 0.020 260)",
+          "oklch(0.285 0.022 260)",
+          "oklch(0.33 0.020 260)",
+          "oklch(0.585 0.016 260)",
+          "oklch(0.90 0.006 75)",
+          "oklch(0.974 0.005 75)",
+          "oklch(0.992 0.004 75)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "canonical": "oklch(0.235 0.013 260)",
+        "darkValue": "oklch(0.945 0.006 80)"
+      }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "Home hero wordmark only. One oversize gesture per page." },
+      "headline": { "displayName": "Headline", "purpose": "Page titles (h1): event and post names, listing headers." },
+      "title": { "displayName": "Title", "purpose": "Section and category headings (h2, h3)." },
+      "body": { "displayName": "Body", "purpose": "Long-form reading. Capped at 68 to 72ch; agenda runs full width." },
+      "label": { "displayName": "Label", "purpose": "Mono eyebrows, dates, agenda subcategory labels, technical metadata." }
+    },
+    "shadows": [
+      { "name": "menu-overlay", "value": "0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -4px rgba(0,0,0,0.1)", "purpose": "Mobile navigation popover only. The single legitimate ambient shadow; everything else is hairline + tonal layering." }
+    ],
+    "motion": [
+      { "name": "ease-out", "value": "cubic-bezier(0.22, 1, 0.36, 1)", "purpose": "Default ease-out (quint) for state transitions and image scale. No bounce, no elastic." },
+      { "name": "color-transition", "value": "0.15s ease", "purpose": "Link and hover color/decoration transitions." },
+      { "name": "theme-transition", "value": "0.2s ease", "purpose": "Background and text color crossfade on light/dark toggle." }
+    ],
+    "breakpoints": [
+      { "name": "md", "value": "768px" },
+      { "name": "lg", "value": "1024px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Action Link",
+      "kind": "button",
+      "refersTo": "link-action",
+      "description": "The system's primary action: a confident text link with a trailing arrow. There are no filled buttons.",
+      "html": "<a href=\"#\" class=\"ds-link-action\">See upcoming events<svg viewBox=\"0 0 24 24\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14\"/><path d=\"m13 6 6 6-6 6\"/></svg></a>",
+      "css": ".ds-link-action { display: inline-flex; align-items: center; gap: 0.5rem; font-family: 'Hanken Grotesk', system-ui, sans-serif; font-weight: 600; color: var(--color-link, oklch(0.45 0.10 250)); text-decoration: none; transition: color 0.15s ease; } .ds-link-action:hover { color: var(--color-link-hover, oklch(0.36 0.11 255)); } .ds-link-action:focus-visible { outline: 2px solid var(--color-brand, oklch(0.74 0.165 58)); outline-offset: 2px; border-radius: 2px; }"
+    },
+    {
+      "name": "Prose Link",
+      "kind": "custom",
+      "refersTo": "link-action",
+      "description": "Inline link inside reading text: underlined with a faded rule that solidifies on hover.",
+      "html": "<p style=\"font-family: Literata, Georgia, serif\">We follow <a href=\"#\" class=\"ds-link-prose\">the Chatham House Rule</a> at this event.</p>",
+      "css": ".ds-link-prose { font-family: 'Hanken Grotesk', system-ui, sans-serif; font-weight: 500; color: var(--color-link, oklch(0.45 0.10 250)); text-underline-offset: 3px; text-decoration-color: color-mix(in oklch, currentColor 30%, transparent); transition: color 0.15s ease, text-decoration-color 0.15s ease; } .ds-link-prose:hover { color: var(--color-link-hover, oklch(0.36 0.11 255)); text-decoration-color: currentColor; }"
+    },
+    {
+      "name": "Eyebrow Label",
+      "kind": "chip",
+      "refersTo": "eyebrow-label",
+      "description": "Mono uppercase label above section headings and as agenda subcategory markers. Typographic, not a pill.",
+      "html": "<span class=\"ds-eyebrow\">What&rsquo;s next</span>",
+      "css": ".ds-eyebrow { font-family: 'Spline Sans Mono', ui-monospace, monospace; font-size: 0.75rem; font-weight: 500; text-transform: uppercase; letter-spacing: 0.18em; color: var(--color-accent, oklch(0.40 0.09 255)); }"
+    },
+    {
+      "name": "Nav Item",
+      "kind": "nav",
+      "refersTo": "nav-item",
+      "description": "Top navigation link. Muted by default, ink on hover with a sunk-paper fill; active route is ink.",
+      "html": "<nav class=\"ds-nav\"><a href=\"#\" class=\"ds-nav-item ds-nav-item--active\" aria-current=\"page\">Home</a><a href=\"#\" class=\"ds-nav-item\">About</a><a href=\"#\" class=\"ds-nav-item\">Contact</a></nav>",
+      "css": ".ds-nav { display: flex; gap: 0.25rem; font-family: 'Hanken Grotesk', system-ui, sans-serif; } .ds-nav-item { padding: 0.375rem 0.75rem; border-radius: 0.375rem; font-weight: 500; text-decoration: none; color: var(--color-muted, oklch(0.475 0.018 260)); transition: color 0.15s ease, background-color 0.15s ease; } .ds-nav-item:hover { color: var(--color-ink, oklch(0.235 0.013 260)); background: var(--color-surface-2, oklch(0.954 0.006 75)); } .ds-nav-item--active { color: var(--color-ink, oklch(0.235 0.013 260)); }"
+    },
+    {
+      "name": "Callout",
+      "kind": "card",
+      "refersTo": "callout",
+      "description": "Inline notice. Full hairline border plus sunk-paper background; warning variant swaps the border to Signal Orange. Never a side-stripe.",
+      "html": "<div class=\"ds-callout ds-callout--warning\"><span class=\"ds-callout__icon\">⚠️</span><div>Topics are provided ahead of the event so you can read up first.</div></div>",
+      "css": ".ds-callout { display: flex; align-items: flex-start; gap: 1rem; padding: 1rem; border: 1px solid var(--color-line, oklch(0.90 0.006 75)); border-radius: 0.5rem; background: var(--color-surface-2, oklch(0.954 0.006 75)); color: var(--color-ink, oklch(0.235 0.013 260)); font-family: Literata, Georgia, serif; } .ds-callout--warning { border-color: var(--color-brand, oklch(0.74 0.165 58)); } .ds-callout__icon { font-size: 1.5rem; line-height: 1; }"
+    },
+    {
+      "name": "Post Preview Row",
+      "kind": "card",
+      "refersTo": "media-frame",
+      "description": "Feed item for home and listings. Rhythm-separated row with a rounded media frame, mono date eyebrow, serif preview. Not a card grid.",
+      "html": "<article class=\"ds-post\"><a href=\"#\" class=\"ds-post__media\"><div class=\"ds-post__img\"></div></a><div class=\"ds-post__body\"><time class=\"ds-post__date\">May 20, 2026</time><h3 class=\"ds-post__title\"><a href=\"#\">Bitcoin Socratic Seminar #50</a></h3><p class=\"ds-post__excerpt\">Our Socratic Seminar events are formatted to foster debate, information sharing, and lively discussion…</p></div></article>",
+      "css": ".ds-post { display: flex; gap: 1.75rem; align-items: flex-start; } .ds-post__media { flex: none; width: 15rem; border: 1px solid var(--color-line, oklch(0.90 0.006 75)); border-radius: 0.75rem; overflow: hidden; background: var(--color-surface-2, oklch(0.954 0.006 75)); } .ds-post__img { aspect-ratio: 16 / 9; background: linear-gradient(135deg, oklch(0.74 0.165 58 / 0.25), var(--color-surface-2, oklch(0.954 0.006 75))); transition: transform 0.5s cubic-bezier(0.22,1,0.36,1); } .ds-post:hover .ds-post__img { transform: scale(1.04); } .ds-post__date { font-family: 'Spline Sans Mono', ui-monospace, monospace; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.14em; color: var(--color-faint, oklch(0.585 0.016 260)); } .ds-post__title { margin: 0.375rem 0; font-family: 'Hanken Grotesk', system-ui, sans-serif; font-weight: 600; font-size: 1.5rem; } .ds-post__title a { color: var(--color-ink, oklch(0.235 0.013 260)); text-decoration: none; transition: color 0.15s ease; } .ds-post__title a:hover { color: var(--color-brand-strong, oklch(0.55 0.142 50)); } .ds-post__excerpt { max-width: 68ch; font-family: Literata, Georgia, serif; line-height: 1.7; color: var(--color-muted, oklch(0.475 0.018 260)); }"
+    },
+    {
+      "name": "Agenda Category Heading",
+      "kind": "custom",
+      "refersTo": "title",
+      "description": "Signature surface. Category divider on the projected topic list, with a leading Signal Orange tick and large calm topic links beneath.",
+      "html": "<section class=\"ds-agenda\"><h3 class=\"ds-agenda__cat\">Bitcoin</h3><h4 class=\"ds-agenda__sub\">Core, Relay &amp; Policy</h4><ul class=\"ds-agenda__list\"><li><a href=\"#\">Bitcoin Core v31 Released</a></li><li><a href=\"#\">Update on large OP_RETURN usage</a></li></ul></section>",
+      "css": ".ds-agenda { font-family: Literata, Georgia, serif; } .ds-agenda__cat { display: flex; align-items: center; gap: 0.75rem; font-family: 'Hanken Grotesk', system-ui, sans-serif; font-weight: 600; font-size: clamp(1.3rem, 1.1vw + 0.8rem, 1.75rem); margin: 2.5rem 0 0.75rem; } .ds-agenda__cat::before { content: ''; flex: none; width: 0.3em; height: 0.85em; border-radius: 1px; background: var(--color-brand, oklch(0.74 0.165 58)); } .ds-agenda__sub { font-family: 'Spline Sans Mono', ui-monospace, monospace; font-size: 0.875rem; font-weight: 500; text-transform: uppercase; letter-spacing: 0.12em; color: var(--color-accent, oklch(0.40 0.09 255)); margin: 2rem 0 0.5rem; } .ds-agenda__list { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; padding-left: 0.25rem; } .ds-agenda__list li { position: relative; padding-left: 1.5rem; } .ds-agenda__list li::before { content: ''; position: absolute; left: 0.25rem; top: 0.7em; width: 0.375rem; height: 0.375rem; border-radius: 9999px; background: var(--color-faint, oklch(0.585 0.016 260)); } .ds-agenda__list a { font-family: 'Hanken Grotesk', system-ui, sans-serif; font-weight: 500; color: var(--color-link, oklch(0.45 0.10 250)); text-underline-offset: 3px; } .ds-agenda__list a:hover { color: var(--color-link-hover, oklch(0.36 0.11 255)); }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Field Manual",
+    "overview": "This system reads like a well-set technical reference book that happens to live on the web and, one night a month, on a projector. It earns credibility through precision and legibility rather than polish or spectacle. The voice is open, grounded, and credible: it respects a reader of any skill level without gatekeeping, and it never reaches for crypto-marketing energy to manufacture excitement. The system is committed to two colors: orange anchors identity and marks the live agenda; a deep slate ink carries structure, links, and reading furniture. Type does the heavy lifting, with a humanist grotesque for headings, a screen-reading serif for long-form, and a mono reserved strictly for genuinely technical tokens.",
+    "keyCharacteristics": [
+      "Committed two-color palette: Signal Orange anchor, Slate Ink structure.",
+      "Serif-for-reading, grotesque-for-headings, mono-for-technical-tokens.",
+      "Hairline-and-tint depth; almost no shadow.",
+      "Confident fluid type scale, varied spacing, left-aligned reading column.",
+      "High contrast in both themes, tuned for projection at a distance."
+    ],
+    "rules": [
+      { "name": "The Signal Rule", "body": "Orange is a signal, never a surface. It marks and emphasizes (agenda ticks, hover, selection); it never fills a hero or button background.", "section": "colors" },
+      { "name": "The Two-Theme Parity Rule", "body": "Light and dark are co-equal. Every role token is redefined under .dark, and both themes are tuned high-contrast for projection. Dark is deep slate ink, never pure black.", "section": "colors" },
+      { "name": "The Tinted-Neutral Rule", "body": "No #000, no #fff. Light neutrals tint warm (hue ~75); dark neutrals tint slate (hue ~260). Chroma stays low.", "section": "colors" },
+      { "name": "The Mono-Is-Technical Rule", "body": "Monospace appears only on genuinely technical tokens: dates, BIP/CVE numbers, addresses, inline code, eyebrow labels. Never a decorative shorthand for 'developer'.", "section": "typography" },
+      { "name": "The One-Display-Moment Rule", "body": "Display type is a single oversize gesture (the hero wordmark). Do not stack multiple display-scale elements on one screen.", "section": "typography" },
+      { "name": "The Hairline-First Rule", "body": "Separation is drawn with the line token and tonal surface tints before any shadow. Reserve shadow for genuine overlays.", "section": "elevation" }
+    ],
+    "dos": [
+      "Do keep Signal Orange a signal: agenda ticks, hover emphasis, selection, small identity moments. Never fill a hero or button with it.",
+      "Do draw structure with the line hairline and surface tints before reaching for shadow.",
+      "Do use the serif (Literata) for reading, the grotesque (Hanken Grotesk) for headings and UI, and reserve mono (Spline Sans Mono) for technical tokens only.",
+      "Do cap reading measure at 68 to 72ch, and let the event agenda run full width for projection.",
+      "Do keep both light and dark themes co-equal and high-contrast; redefine every role token under .dark.",
+      "Do tint every neutral and use OKLCH for all color.",
+      "Do give every interactive element a visible 2px Signal Orange :focus-visible outline."
+    ],
+    "donts": [
+      "Don't use crypto/altcoin hype visuals: no neon-on-black, no moon/rocket gimmickry, no speculative-trading energy.",
+      "Don't fall into the corporate SaaS template: no gradient hero, no big-number hero-metric blocks, no identical icon-card grids.",
+      "Don't overdesign: no decorative glassmorphism, no heavy or bouncy motion. Ease out only; respect prefers-reduced-motion.",
+      "Don't go sterile-minimal either: keep warmth and a local, human fingerprint.",
+      "Don't use a colored side-stripe (border-left/right > 1px) on cards, callouts, list items, or alerts. Use full hairline borders or a tonal background.",
+      "Don't use #000 or #fff, gradient text, or mono as decoration.",
+      "Don't card-ify content feeds; use rhythm-separated rows."
+    ]
+  }
+}

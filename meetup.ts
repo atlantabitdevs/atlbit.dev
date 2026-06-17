@@ -7,20 +7,6 @@ export const meetup: Meetup = {
   },
   description:
     'The Atlanta BitDevs is a place for free and open Bitcoin education in Atlanta. Discussions will be technical but are open to people of all skill levels. Join the community and #LearnBitcoinTogether!',
-  colors: {
-    primary: {
-      hex: '#FFFFFF',
-      rgb: 'rgb(255, 153, 0)',
-    },
-    secondary: {
-      hex: '#333333',
-      rgb: 'rgb(51, 51, 51)',
-    },
-    tertiary: {
-      hex: '#FF9900',
-      rgb: 'rgb(255, 255, 255)',
-    },
-  },
   mainNav: [
     {
       text: 'Home',

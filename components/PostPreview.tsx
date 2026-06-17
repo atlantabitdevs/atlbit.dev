@@ -15,9 +15,9 @@ interface PostPreviewProps {
 }
 
 export default function PostPreview(props: PostPreviewProps) {
-  const [stripped, setStripped] = useState(
-    'Bitcoin ipsum dolor sit amet. Block height address wallet block reward mining nonce transaction.'
-  )
+  // Seed with the real preview text so there is no placeholder flash before
+  // hydration; the effect refines it by stripping markdown syntax.
+  const [stripped, setStripped] = useState(props.previewText)
 
   useEffect(() => {
     async function stripMarkdown() {
@@ -31,13 +31,15 @@ export default function PostPreview(props: PostPreviewProps) {
     stripMarkdown()
   }, [props.previewText])
 
+  const href = '/' + props.type + '/' + props.id
+
   return (
     <article className="group">
-      <div className="flex flex-col gap-5 md:flex-row md:items-start md:gap-6">
+      <div className="flex flex-col gap-5 md:flex-row md:items-start md:gap-7">
         {props.heroImage ? (
           <a
-            href={'/' + props.type + '/' + props.id}
-            className="no-underline overflow-hidden rounded-xl border border-neutral-200 bg-neutral-100 dark:border-neutral-800 dark:bg-neutral-900 md:w-60 md:shrink-0"
+            href={href}
+            className="overflow-hidden rounded-xl border border-line bg-surface-2 no-underline md:w-60 md:shrink-0"
           >
             <div className="relative aspect-[16/9] w-full">
               <Image
@@ -45,31 +47,33 @@ export default function PostPreview(props: PostPreviewProps) {
                 alt={props.title}
                 fill
                 sizes="(min-width: 768px) 240px, 100vw"
-                className="object-cover transition-transform duration-300 group-hover:scale-[1.03]"
+                className="object-cover transition-transform duration-500 ease-out group-hover:scale-[1.04]"
               />
             </div>
           </a>
         ) : null}
 
         <div className="flex-1">
-          <header className="flex flex-col gap-1">
-            <time className="order-first font-sans text-lg text-gray-500">
+          <header className="flex flex-col gap-1.5">
+            <time className="order-first font-mono text-xs uppercase tracking-[0.14em] text-faint">
               {props.date}
             </time>
             <h3>
               <a
-                href={'/' + props.type + '/' + props.id}
-                className="no-underline transition-colors hover:text-orange-600 dark:hover:text-orange-400"
+                href={href}
+                className="font-sans no-underline transition-colors hover:text-brand-strong"
               >
                 {props.title}
               </a>
             </h3>
             {props.author ? (
-              <p className="order-last font-sans text-xl">{props.author}</p>
+              <p className="order-last font-sans text-base text-muted">
+                {props.author}
+              </p>
             ) : null}
           </header>
 
-          <p className="mt-3 text-balance text-base leading-7 text-neutral-700 dark:text-neutral-300">
+          <p className="mt-3 max-w-[68ch] text-balance leading-7 text-muted">
             {stripped}&hellip;
           </p>
         </div>
