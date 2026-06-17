@@ -33,7 +33,7 @@ Atlanta, GA 30312
 
 Please follow the parking instructions here: <a href="https://atlbitlab.com/parking-at-atl-bitlab" target="_blank">Parking Information</a>
 
-### Chatham House Rules
+### Chatham House Rule
 
 We follow the <a href="https://www.chathamhouse.org/about-us/chatham-house-rule" target="_blank">Chatham House Rule</a> at this event. You’re welcome to share what you learn, but not who said it.
 
@@ -66,6 +66,8 @@ To help everyone speak freely, please do not take videos, pictures, or audio rec
 
 - [A Post-Quantum Path for BIP 324](https://groups.google.com/g/bitcoindev/c/n_5WuKVYqwI/m/lBooLis3AQAJ)
 - [Quantum Attack Game Theory](https://delvingbitcoin.org/t/quantum-attack-game-theory/2524)
+- [Bird of Prey 2: non-malleable Schnorr + PQ signatures](https://delvingbitcoin.org/t/bird-of-prey-2-non-malleable-schnorr-pq-signatures/2514)
+- [P2WOTS: Post Quantum UTXO Winternitz Signatures](https://delvingbitcoin.org/t/p2wots-post-quantum-utxo-winternitz-signatures/2530)
 - [Quantum threat: let’s not turn Bitcoin into an altcoin](https://antoinep.com/posts/quantum_risk_mitigation/)
 - [Post Quantum Lightning: Layer by Layer](https://delvingbitcoin.org/t/post-quantum-lightning-layer-by-layer/2479)
 
