@@ -41,6 +41,8 @@ To help everyone speak freely, please do not take videos, pictures, or audio rec
 
 ## Topics
 
+Over the past month, Bitcoin has been under active construction everywhere you look. On the Core side, people are arguing about relay policy, OP_RETURN, chainstate maintenance, and reproducible builds — not as abstract theory, but as the boring, critical work of keeping the base layer legible and durable. The quantum discussion has also gotten more concrete. Not in the sense that anyone has “solved” it, but in the sense that the conversation is now about actual constraints: what kind of migration path could work in Bitcoin, what tradeoffs break too much, whether new signature schemes preserve the properties we care about, and how much should be done before there’s a real crisis. Lightning keeps moving too, with work around contacts, splicing, wallet UX, browser-based tooling, and different signing models. Around that, Ark, ecash, and zk systems are all poking at the edges of what Bitcoin payments can become if you want better privacy, better usability, and less trust in operators. And hanging over all of it is the thing that makes this month feel bigger than just another batch of links: more and more, the rest of the tech world is running straight into the same problems Bitcoin has been wrestling with for years — trust, verification, privacy, supply integrity, and what it really takes to build systems that still hold up when the environment gets hostile.
+
 ### Bitcoin
 
 #### BIPs, Relay & Network Policy
