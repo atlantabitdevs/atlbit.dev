@@ -45,7 +45,9 @@ Please follow the parking instructions on this page: <a href="https://atlbitlab.
 - [[BIP Draft] Testnet 5](https://groups.google.com/g/bitcoindev/c/kGUMTxOvdJA/m/Eyx5FxQeAAAJ)
 - [Bitcoin Core Dev Tech 2026 (May)](https://btctranscripts.com/bitcoin-core-dev-tech/2026-05)
 - [Bitcoin Core PR: compact chainstate regularly](https://github.com/bitcoin/bitcoin/pull/35465)
+- [Matching Hashes: Reproducing the Guix-built Bitcoin Core release binary with Nix](https://b10c.me/projects/027-bitcoind-gunix-match/)
 - [Bitcoin Core v30’s OP_RETURN policy change didn’t create large OP_RETURN usage — it reacted to usage that already existed](https://x.com/L0RINC/status/2065914808700936694?s=20)
+- [A tiny language model small enough to fit in a single standard Bitcoin transaction](https://x.com/rot13maxi/status/2061245699178598587?s=20)
 
 #### Covenants, Vaults & Post-Quantum
 
@@ -70,8 +72,12 @@ Please follow the parking instructions on this page: <a href="https://atlbitlab.
 - [SECOND is now on mainnet: Bark, mainnet Ark server, SDK, and wallets](https://x.com/secondhq/status/2064346112203395400?s=20)
 - [Introducing Noah and Arké: two new Bark-based wallets](https://x.com/secondhq/status/2064838880675639648)
 - [Arké wallet praise / “wallet from 2042” UX reactions](https://x.com/secondhq/status/2066463570586689542?s=20)
+- [Bark running in the old Mutiny UI via WASM](https://x.com/benthecarman/status/2061235176919679010?s=20)
 - [Multisig Bitcoin Lightning wallet demo on Spark L2 using FROST + chill-dkg](https://x.com/callebtc/status/2065129726872608788?s=20)
 - [Paying with Bitcoin using Meta glasses built with Breez](https://x.com/PalazzoVincenzo/status/2062889873514676250?s=20)
+- [Jack: “pay by magic”](https://x.com/jack/status/2062565909307289759?s=20)
+- [Lexe CLI: self-custodial mainnet Lightning wallet in three commands](https://x.com/lexeapp/status/2060417702825734483?s=20)
+- [Lexe adds QR rendering for invoices/offers and seed export](https://x.com/lexeapp/status/2062199378652098815?s=20)
 
 ### Ecash, Privacy & Zero-Knowledge
 
@@ -81,6 +87,7 @@ Please follow the parking instructions on this page: <a href="https://atlbitlab.
 - [The Orchard Counterfeiting Vulnerability — and next steps](https://x.com/zooko/status/2062644925590900980?ref=blog.blockstream.com)
 - [Ironwood: Verifying the Soundness of Zcash’s Circulating Supply](https://x.com/zooko/status/2063262293442678830)
 - [Wei Dai on the Zcash Orchard zk circuit bug and the case for formal verification](https://x.com/_weidai/status/2062735401962340653)
+- [Zcash Open Development Lab: Orchard vulnerability successfully remediated](https://x.com/zodl_co/status/2062022829990658305)
 
 ### Agents, Commerce & Metadata
 
@@ -88,6 +95,7 @@ Please follow the parking instructions on this page: <a href="https://atlbitlab.
 - [Ori is paying testers to try AI-assisted shopping](https://x.com/nickslaney/status/2062896557695857110?s=20)
 - [Observer Protocol: DID-based agent authorization over Lightning via l402-op-authorize](https://x.com/boydcohen/status/2066933299390378477?s=20)
 - [Encrypted Spaces research preview](https://x.com/mmaker/status/2065079056291291163)
+- [Bitcoin-denominated payments network using zero-knowledge proofs for improved privacy](https://x.com/januszg_/status/2061776771289170226?s=20)
 - [The Century Metadata Format: self-describing header for maximum durability and readability](https://x.com/centurymetadata/status/2066308809031856264?s=20)
 
 ### AI Policy & Security
