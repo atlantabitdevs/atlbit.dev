@@ -130,4 +130,4 @@ To help everyone speak freely, please do not take videos, pictures, or audio rec
 ### Fun
 
 - [Jack: “pay by magic”](https://x.com/jack/status/2062565909307289759?s=20)
-- [BitMEX Research: Why are there two French nodes with both the BIP-110 and Libre Relay service flags?](https://x.com/BitMEXResearch/status/2066477188778541328)
+- [Hannah Rosenberg quote-tweet on the BitMEX Research French nodes / Libre Relay post](https://x.com/hmichellerose/status/2067010535200047541?s=20)
