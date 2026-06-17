@@ -78,6 +78,7 @@ Please follow the parking instructions on this page: <a href="https://atlbitlab.
 
 - [Core Lightning founder Rusty Russell steps back; Dusty on why CLN code quality mattered](https://x.com/dusty_daemon/status/2064334588516729090?s=20)
 - [Rusty Russell on leaving Lightning and Core Lightning in “excellent hands”](https://x.com/rusty_twit/status/2064197592767221964?s=20)
+- [The Century Metadata Format: self-describing header for maximum durability and readability](https://x.com/centurymetadata/status/2066308809031856264?s=20)
 
 ### Ark
 
@@ -96,6 +97,7 @@ Please follow the parking instructions on this page: <a href="https://atlbitlab.
 #### Zero-Knowledge Payments
 
 - [Bitcoin-denominated payments network using zero-knowledge proofs for improved privacy](https://x.com/januszg_/status/2061776771289170226?s=20)
+- [Encrypted Spaces research preview](https://x.com/mmaker/status/2065079056291291163)
 
 #### Zcash Orchard Vulnerability
 
@@ -111,11 +113,6 @@ Please follow the parking instructions on this page: <a href="https://atlbitlab.
 - [Ori is paying testers to try AI-assisted shopping](https://x.com/nickslaney/status/2062896557695857110?s=20)
 - [Observer Protocol: Lightning-native agent authorization and payments](https://x.com/boydcohen/status/2066933299390378477?s=20)
 - [DID-based agent authorization over Lightning via l402-op-authorize](https://x.com/boydcohen/status/2066933299390378477?s=20)
-
-### Research & Metadata
-
-- [Encrypted Spaces research preview](https://x.com/mmaker/status/2065079056291291163)
-- [The Century Metadata Format: self-describing header for maximum durability and readability](https://x.com/centurymetadata/status/2066308809031856264?s=20)
 
 ### AI Policy & Security
 
