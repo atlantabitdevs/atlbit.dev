@@ -2,6 +2,13 @@
 
 Practical notes for maintaining atlbit.dev.
 
+## Design context
+Before any visual or UI work, read `DESIGN.md` and `PRODUCT.md` at the repo root.
+- `PRODUCT.md`: who the site is for, brand voice, anti-references, and strategic design principles.
+- `DESIGN.md`: the visual system. Color tokens (OKLCH), typography (Hanken Grotesk / Literata / Spline Sans Mono), elevation, components, and named rules. `DESIGN.json` is its machine-readable sidecar.
+
+Keep new UI on-brand by following those files. The color tokens live in `app/globals.css` (`:root` and `.dark`) and map to Tailwind names in `tailwind.config.js`.
+
 ## Stack at a glance
 - Next.js 15 App Router site.
 - Markdown content lives under `content/` and is loaded with Contentlayer.
