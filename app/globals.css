@@ -2,29 +2,80 @@
 @tailwind components;
 @tailwind utilities;
 
+/*
+  Atlanta BitDevs color system.
+  Strategy: committed two-color, orange-anchored.
+  Orange = brand energy. Slate ink = structure, links, agenda markers.
+  Neutrals are tinted (warm in light, slate in dark); never pure #000/#fff.
+*/
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --color-canvas: oklch(0.992 0.004 75);
+  --color-surface: oklch(0.974 0.005 75);
+  --color-surface-2: oklch(0.954 0.006 75);
+  --color-ink: oklch(0.235 0.013 260);
+  --color-muted: oklch(0.475 0.018 260);
+  --color-faint: oklch(0.585 0.016 260);
+  --color-line: oklch(0.9 0.006 75);
+  --color-brand: oklch(0.74 0.165 58);
+  --color-brand-strong: oklch(0.55 0.142 50);
+  --color-link: oklch(0.45 0.1 250);
+  --color-link-hover: oklch(0.36 0.11 255);
+  --color-accent: oklch(0.4 0.09 255);
+
+  /* Fluid modular type scale (~1.25 ratio). */
+  --step-display: clamp(2.75rem, 6vw + 1rem, 6rem);
+  --step-1: clamp(2rem, 3vw + 1rem, 3.25rem);
+  --step-2: clamp(1.6rem, 2vw + 0.7rem, 2.5rem);
+  --step-3: clamp(1.3rem, 1.1vw + 0.8rem, 1.75rem);
+  --step-4: clamp(1.1rem, 0.5vw + 0.85rem, 1.3rem);
 }
 
-/* @media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-} */
+.dark {
+  --color-canvas: oklch(0.205 0.018 260);
+  --color-surface: oklch(0.245 0.02 260);
+  --color-surface-2: oklch(0.285 0.022 260);
+  --color-ink: oklch(0.945 0.006 80);
+  --color-muted: oklch(0.72 0.012 260);
+  --color-faint: oklch(0.62 0.014 260);
+  --color-line: oklch(0.33 0.02 260);
+  --color-brand: oklch(0.78 0.16 60);
+  --color-brand-strong: oklch(0.8 0.15 62);
+  --color-link: oklch(0.74 0.085 250);
+  --color-link-hover: oklch(0.82 0.13 60);
+  --color-accent: oklch(0.7 0.08 255);
+}
 
 body {
-  color: rgb(var(--foreground-rgb));
-  @apply font-serif bg-white dark:bg-neutral-900 text-black dark:text-neutral-50;
+  @apply bg-canvas font-serif text-ink;
+  font-size: 1.0625rem;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  transition: background-color 0.2s ease, color 0.2s ease;
 }
 
 a {
-  @apply underline;
+  @apply text-link underline underline-offset-[3px] decoration-[0.08em];
+  text-decoration-color: color-mix(in oklch, currentColor 35%, transparent);
+  transition: color 0.15s ease, text-decoration-color 0.15s ease;
 }
 
+a:hover {
+  @apply text-link-hover;
+  text-decoration-color: currentColor;
+}
+
+::selection {
+  background-color: color-mix(in oklch, var(--color-brand) 28%, transparent);
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-brand);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+/* Headings use the sans (grotesque) voice with a confident fluid scale. */
 h1,
 .h1,
 h2,
@@ -37,129 +88,207 @@ h5,
 .h5,
 h6,
 .h6 {
-  @apply font-sans;
+  @apply font-sans text-ink;
+  text-wrap: balance;
+}
+
+h1,
+.h1 {
+  font-size: var(--step-1);
+  line-height: 1.04;
+  font-weight: 800;
+  letter-spacing: -0.02em;
 }
 
 h2,
 .h2 {
-  @apply font-medium text-[1.75rem] md:text-[2.5rem];
+  font-size: var(--step-2);
+  line-height: 1.1;
+  font-weight: 700;
+  letter-spacing: -0.015em;
 }
 
 h3,
 .h3 {
-  @apply font-semibold text-2xl md:text-3xl;
+  font-size: var(--step-3);
+  line-height: 1.15;
+  font-weight: 600;
+  letter-spacing: -0.01em;
 }
 
 h4,
 .h4 {
-  @apply font-bold text-xl md:text-2xl;
+  font-size: var(--step-4);
+  line-height: 1.2;
+  font-weight: 600;
 }
 
 h5,
 .h5 {
-  @apply font-bold text-lg md:text-xl uppercase;
+  @apply text-lg font-semibold uppercase tracking-wide;
 }
 
 h6,
 .h6 {
-  @apply font-extrabold text-lg md:text-lg;
+  @apply text-base font-bold;
 }
 
-/* MDX content styles */
+/* ------------------------------------------------------------------ */
+/* MDX content: long-form reading + the live event "agenda" surface.   */
+/* Same system styles blog posts and the projected topic list.         */
+/* ------------------------------------------------------------------ */
 .mdx {
-  @apply text-base leading-7;
+  @apply text-ink;
+  font-size: 1.0625rem;
+  line-height: 1.75;
+  max-width: 72ch;
+}
+
+/* Event topic lists run wide for projection; opt them out of the measure. */
+.mdx--wide {
+  max-width: none;
 }
 
 .mdx h1 {
-  @apply text-4xl font-black mt-2 mb-4;
+  font-size: var(--step-1);
+  @apply mb-5 mt-2 font-extrabold;
 }
 
+/* Major sections: Topics, What is a Socratic Seminar, Logistics. */
 .mdx h2 {
-  @apply text-3xl font-bold mt-10 mb-4 border-b border-neutral-200 dark:border-neutral-700 pb-2;
+  font-size: var(--step-2);
+  @apply mb-5 mt-14 border-b border-line pb-3 font-bold;
 }
 
+/* Categories: Bitcoin, Lightning. Strong markers with an orange tick. */
 .mdx h3 {
-  @apply text-2xl font-semibold mt-10 mb-3;
+  font-size: var(--step-3);
+  @apply mb-3 mt-10 flex items-center gap-3 font-semibold;
 }
 
+.mdx h3::before {
+  content: '';
+  @apply h-[0.85em] w-[0.3em] flex-none rounded-[1px] bg-brand;
+}
+
+/* Subcategories: grouping labels in the mono technical voice. */
 .mdx h4 {
-  @apply text-xl font-semibold mt-8 mb-3;
+  @apply mb-2 mt-8 font-mono text-sm font-medium uppercase tracking-[0.12em] text-accent;
 }
 
 .mdx h5 {
-  @apply text-lg font-semibold mt-8 mb-2;
+  @apply mb-2 mt-8 text-base font-semibold;
 }
 
 .mdx h6 {
-  @apply text-base font-semibold mt-8 mb-2;
+  @apply mb-2 mt-8 text-sm font-semibold uppercase tracking-wide text-muted;
 }
 
 .mdx p {
-  @apply leading-7 my-6;
+  @apply my-6 leading-[1.75];
 }
 
 .mdx ul {
-  @apply my-6 ml-6 list-disc;
+  @apply my-5 flex flex-col gap-2 pl-1;
+  list-style: none;
 }
 
 .mdx ol {
-  @apply my-6 ml-6 list-decimal;
+  @apply my-5 ml-5 list-decimal;
+}
+
+.mdx ul > li {
+  @apply relative pl-6;
+}
+
+.mdx ul > li::before {
+  content: '';
+  @apply absolute left-1 top-[0.7em] h-1.5 w-1.5 rounded-full bg-faint;
+}
+
+.mdx ol > li {
+  @apply pl-1.5;
+}
+
+.mdx li {
+  @apply mt-0 leading-[1.6];
 }
 
 .mdx li > ul,
 .mdx li > ol {
-  @apply mt-1 mb-0;
-}
-
-.mdx li {
-  @apply mt-2;
+  @apply mb-0 mt-2;
 }
 
 .mdx blockquote {
-  @apply mt-6 border-l-4 border-neutral-300 dark:border-neutral-600 pl-6 italic text-neutral-600 dark:text-neutral-400;
+  @apply my-7 rounded-lg bg-surface-2 px-5 py-4 italic text-muted;
+}
+
+.mdx blockquote > :first-child {
+  @apply mt-0;
+}
+
+.mdx blockquote > :last-child {
+  @apply mb-0;
 }
 
 .mdx img {
-  @apply rounded-md border border-neutral-200 dark:border-neutral-700 my-6;
+  @apply my-7 rounded-lg border border-line;
 }
 
 .mdx hr {
-  @apply my-8 border-neutral-200 dark:border-neutral-700;
+  @apply my-10 border-line;
 }
 
 .mdx table {
-  @apply my-6 w-full border-collapse;
+  @apply my-7 w-full border-collapse text-[0.95em];
 }
 
 .mdx tr {
-  @apply border-t border-neutral-200 dark:border-neutral-700;
+  @apply border-t border-line;
 }
 
 .mdx tr:nth-child(even) {
-  @apply bg-neutral-50 dark:bg-neutral-800;
+  @apply bg-surface-2;
 }
 
 .mdx th {
-  @apply border border-neutral-200 dark:border-neutral-700 px-4 py-2 text-left font-bold;
+  @apply border border-line px-4 py-2 text-left font-sans font-semibold;
 }
 
 .mdx td {
-  @apply border border-neutral-200 dark:border-neutral-700 px-4 py-2 text-left;
+  @apply border border-line px-4 py-2 text-left;
 }
 
 .mdx pre {
-  @apply mb-4 mt-6 overflow-x-auto rounded-lg border border-neutral-200 dark:border-neutral-700 bg-neutral-900 py-4 px-4 text-neutral-100;
+  @apply mb-4 mt-6 overflow-x-auto rounded-lg border border-line bg-[oklch(0.2_0.018_260)] px-4 py-4 text-sm text-[oklch(0.92_0.01_260)];
 }
 
+/* Mono is reserved for genuinely technical tokens, never decoration. */
 .mdx code {
-  @apply relative rounded border border-neutral-200 dark:border-neutral-700 bg-neutral-100 dark:bg-neutral-800 px-1.5 py-0.5 text-sm;
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  @apply relative rounded border border-line bg-surface-2 px-1.5 py-0.5 font-mono text-[0.85em];
 }
 
 .mdx pre code {
-  @apply border-0 bg-transparent p-0;
+  @apply border-0 bg-transparent p-0 text-inherit;
 }
 
+/* Topic links: large, calm targets a presenter can hit mid-discussion. */
 .mdx a {
-  @apply font-medium underline underline-offset-4 text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300;
+  @apply font-sans font-medium text-link underline underline-offset-[3px];
+  text-decoration-color: color-mix(in oklch, currentColor 30%, transparent);
+}
+
+.mdx a:hover {
+  @apply text-link-hover;
+  text-decoration-color: currentColor;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }

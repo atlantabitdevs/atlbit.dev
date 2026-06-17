@@ -29,18 +29,22 @@ const Header = () => {
     return () => window.removeEventListener('keydown', handleKeyDown)
   }, [])
 
+  const isActive = (link: string) =>
+    link.startsWith('/') &&
+    (link === '/' ? pathname === '/' : pathname.startsWith(link))
+
   return (
-    <header className="header sticky top-0 left-0 z-50 w-full bg-white px-4 py-6 font-sans drop-shadow-header dark:bg-neutral-900 dark:drop-shadow-header-dark">
+    <header className="header sticky left-0 top-0 z-50 w-full border-b border-line bg-canvas px-4 py-4 font-sans">
       <div className="relative mx-auto flex max-w-5xl items-center justify-between gap-4">
-        <h1 className="font-black text-2xl">
-          <Link href="/" className="no-underline">
+        <h1 className="text-2xl font-black tracking-[-0.01em]">
+          <Link href="/" className="text-ink no-underline">
             <MeetupName />
           </Link>
         </h1>
 
         <button
           type="button"
-          className="flex items-center justify-center rounded-md p-2 text-neutral-900 transition hover:bg-neutral-100 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2 dark:text-white dark:hover:bg-neutral-800 dark:focus:ring-offset-neutral-900 md:hidden"
+          className="flex items-center justify-center rounded-md p-2 text-ink transition hover:bg-surface-2 md:hidden"
           aria-expanded={isMenuOpen}
           aria-controls={menuId}
           aria-label={isMenuOpen ? 'Close navigation menu' : 'Open navigation menu'}
@@ -73,17 +77,23 @@ const Header = () => {
           id={menuId}
           aria-label="Primary"
           className={[
-            'absolute left-0 right-0 top-full mt-3 rounded-xl border border-neutral-200 bg-white p-4 shadow-lg dark:border-neutral-700 dark:bg-neutral-900 md:static md:mt-0 md:block md:border-0 md:bg-transparent md:p-0 md:shadow-none',
+            'absolute left-0 right-0 top-full mt-3 rounded-xl border border-line bg-canvas p-4 shadow-lg md:static md:mt-0 md:block md:border-0 md:bg-transparent md:p-0 md:shadow-none',
             isMenuOpen ? 'block' : 'hidden md:block',
           ].join(' ')}
         >
-          <div className="flex flex-col gap-3 md:flex-row md:items-center md:gap-4">
-            <ul className="flex flex-col gap-3 font-semibold md:flex-row md:items-center md:gap-4">
+          <div className="flex flex-col gap-2 md:flex-row md:items-center md:gap-1">
+            <ul className="flex flex-col gap-1 font-medium md:flex-row md:items-center md:gap-1">
               {meetup.mainNav.map((item) => (
                 <li key={item.text}>
                   <Link
                     href={item.link}
-                    className="block rounded-md px-2 py-1 no-underline transition hover:bg-neutral-100 focus:outline-none focus:ring-2 focus:ring-orange-500 dark:hover:bg-neutral-800"
+                    aria-current={isActive(item.link) ? 'page' : undefined}
+                    className={[
+                      'block rounded-md px-3 py-1.5 no-underline transition-colors hover:bg-surface-2',
+                      isActive(item.link)
+                        ? 'text-ink'
+                        : 'text-muted hover:text-ink',
+                    ].join(' ')}
                     onClick={() => setIsMenuOpen(false)}
                   >
                     {item.text}
@@ -91,7 +101,7 @@ const Header = () => {
                 </li>
               ))}
             </ul>
-            <div className="border-t border-neutral-200 pt-3 dark:border-neutral-700 md:border-0 md:pt-0">
+            <div className="mt-1 border-t border-line pt-2 md:ml-2 md:mt-0 md:border-0 md:pt-0">
               <ThemeSwitcher />
             </div>
           </div>

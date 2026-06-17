@@ -1,6 +1,7 @@
 import { ArrowTopRightOnSquareIcon } from '@heroicons/react/24/outline'
 import Image from 'next/image'
 import { Mdx } from '@/components/MDX-components'
+import StatusMessage from '@/components/StatusMessage'
 import { allDocs } from 'contentlayer/generated'
 import type { Metadata } from 'next'
 import {
@@ -80,11 +81,23 @@ const page = async ({ params }: PageProps) => {
   const isEventPage = resolvedParams.contentType === 'events'
 
   if (!post) {
-    return <div>404 sorry you poor bitdev</div>
+    return (
+      <StatusMessage
+        code="404"
+        title="That page slipped off the chain."
+        body="We couldn't find this event or post. It may have moved, or the link might be off by a character."
+      />
+    )
   }
 
   if (!post.body || !post.body.html) {
-    return <div>Error: Content not available for this post</div>
+    return (
+      <StatusMessage
+        code="No content"
+        title="This one isn't ready yet."
+        body="The content for this page hasn't been published. Check back soon, or head back home for the latest."
+      />
+    )
   }
 
   const editOnGitHubUrl =
@@ -93,48 +106,63 @@ const page = async ({ params }: PageProps) => {
       : null
 
   return (
-    <main className="w-full dark:text-white">
-      <article className="flex flex-col lg:flex-row w-full">
+    <main className="w-full">
+      <article className="flex w-full flex-col lg:flex-row">
         {!isEventPage ? (
-          <div className="lg:w-1/3 min-w-[300px] max-w-full lg:max-w-[480px] h-full lg:h-screen p-8 drop-shadow-sidebar lg:sticky top-[82px] left-0 z-[49] bg-white dark:bg-neutral-900 overflow-y-auto flex flex-col gap-4 lg:block">
-            <header className="font-sans flex flex-col gap-2">
-              <h1 className="text-4xl font-black">{post.title}</h1>
-              <time className="text-2xl text-gray-500">{post.date}</time>
-              {resolvedParams.contentType === 'posts' ? (
-                <p className="text-xl flex flex-row gap-2 items-center">
-                  {post.author}
-                </p>
-              ) : (
-                ``
-              )}
+          <div className="left-0 top-[73px] z-[49] flex h-full min-w-[300px] max-w-full flex-col gap-4 border-b border-line bg-canvas p-8 lg:sticky lg:block lg:h-screen lg:w-1/3 lg:max-w-[420px] lg:border-b-0 lg:border-r">
+            <header className="flex flex-col gap-3 font-sans">
+              <span className="font-mono text-xs uppercase tracking-[0.16em] text-accent">
+                {resolvedParams.contentType === 'posts' ? 'Blog post' : 'Page'}
+              </span>
+              <h1>{post.title}</h1>
+              {post.date ? (
+                <time className="font-mono text-sm text-muted">
+                  {post.date}
+                </time>
+              ) : null}
+              {resolvedParams.contentType === 'posts' && post.author ? (
+                <p className="text-base text-muted">{post.author}</p>
+              ) : null}
             </header>
           </div>
         ) : null}
 
-        <div className={`${isEventPage ? '' : 'lg:ml-10 '}relative z-1 w-full`}>
-          <div className="container mx-auto max-w-5xl px-4 pb-4">
+        <div className={`${isEventPage ? '' : 'lg:ml-10 '}relative z-[1] w-full`}>
+          <div className="container mx-auto max-w-5xl px-4 pb-8">
             {post.image ? (
               <Image
                 src={'/' + post.image}
                 width="960"
                 height="540"
-                className="w-full h-auto mb-8"
-                alt=""
+                className="mb-10 mt-8 h-auto w-full rounded-xl border border-line"
+                alt={post.title}
               />
             ) : (
-              <div className="w-full h-8"></div>
+              <div className="h-10 w-full"></div>
             )}
 
             {isEventPage ? (
-              <header className="mb-8 font-sans flex flex-col gap-3">
-                <h1 className="text-4xl font-medium">{post.title}</h1>
-                <time className="text-2xl text-gray-500">{post.date}</time>
-                {post.meetupLink ? (
-                  <p className="text-xl flex flex-row gap-2 items-center">
-                    <a href={post.meetupLink}>Meetup Link</a>
-                    <ArrowTopRightOnSquareIcon className="w-6 h-6" />
-                  </p>
-                ) : null}
+              <header className="mb-10 flex flex-col gap-4 border-b border-line pb-8 font-sans">
+                <span className="font-mono text-xs uppercase tracking-[0.18em] text-accent">
+                  Atlanta BitDevs event
+                </span>
+                <h1>{post.title}</h1>
+                <div className="flex flex-wrap items-center gap-x-5 gap-y-2">
+                  {post.date ? (
+                    <time className="font-mono text-sm text-muted">
+                      {post.date}
+                    </time>
+                  ) : null}
+                  {post.meetupLink ? (
+                    <a
+                      href={post.meetupLink}
+                      className="inline-flex items-center gap-1.5 font-semibold no-underline"
+                    >
+                      RSVP on Meetup
+                      <ArrowTopRightOnSquareIcon className="h-4 w-4" />
+                    </a>
+                  ) : null}
+                </div>
               </header>
             ) : null}
 
@@ -142,16 +170,17 @@ const page = async ({ params }: PageProps) => {
               html={post.body.html}
               slug={resolvedParams.slug}
               page={false}
+              wide={isEventPage}
             />
             {editOnGitHubUrl ? (
-              <div className="mt-10 border-t border-neutral-200 pt-4 text-sm text-neutral-500 dark:border-neutral-800 dark:text-neutral-400">
+              <div className="mt-12 border-t border-line pt-5 text-sm text-faint">
                 <a
                   href={editOnGitHubUrl}
-                  className="inline-flex items-center gap-1 underline-offset-4 hover:underline"
+                  className="inline-flex items-center gap-1.5 font-sans text-muted no-underline transition-colors hover:text-ink"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  Edit on GitHub
+                  Suggest an edit on GitHub
                   <ArrowTopRightOnSquareIcon className="h-4 w-4" />
                 </a>
               </div>

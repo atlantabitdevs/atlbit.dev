@@ -1,6 +1,6 @@
 import './globals.css'
 
-import { IBM_Plex_Serif, Inter } from 'next/font/google'
+import { Hanken_Grotesk, Literata, Spline_Sans_Mono } from 'next/font/google'
 
 import Header from '@/components/Header/Header'
 import type { Metadata } from 'next'
@@ -14,11 +14,27 @@ import {
 } from '@/lib/site-metadata'
 
 const { description } = meetup
-const inter = Inter({ subsets: ['latin'] })
-const ibmPlexSerif = IBM_Plex_Serif({
-  weight: ['400', '600'],
-  style: ['normal', 'italic'],
+
+// Sans: headings, UI, labels. Humanist grotesque, legible at projection distance.
+const hankenGrotesk = Hanken_Grotesk({
   subsets: ['latin'],
+  variable: '--font-sans',
+  display: 'swap',
+})
+
+// Serif: long-form reading. Screen-reading serif, warm and sturdy.
+const literata = Literata({
+  subsets: ['latin'],
+  style: ['normal', 'italic'],
+  variable: '--font-serif',
+  display: 'swap',
+})
+
+// Mono: technical tokens only (BIP/CVE numbers, addresses, inline code).
+const splineSansMono = Spline_Sans_Mono({
+  subsets: ['latin'],
+  variable: '--font-mono',
+  display: 'swap',
 })
 
 export const metadata: Metadata = {
@@ -50,12 +66,12 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" suppressHydrationWarning>
-      <body
-        className={`${
-          inter.className + ' ' + ibmPlexSerif.className
-        } ${switchThemeDuration}`}
-      >
+    <html
+      lang="en"
+      suppressHydrationWarning
+      className={`${hankenGrotesk.variable} ${literata.variable} ${splineSansMono.variable}`}
+    >
+      <body className={`font-serif antialiased ${switchThemeDuration}`}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <Header />
           {children}
