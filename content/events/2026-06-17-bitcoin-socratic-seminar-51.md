@@ -23,6 +23,8 @@ We follow <a href="https://www.chathamhouse.org/about-us/chatham-house-rule" tar
 
 Tomorrow night we'll be meeting at ATL BitLab. Join our <a href="https://atlantabitdevs.org/telegram/" target="_blank">telegram channel</a> in case you need to ask for help finding us the night of the event.
 
+We follow the <a href="https://www.chathamhouse.org/about-us/chatham-house-rule" target="_blank">Chatham House Rule</a>: you’re welcome to share what you learn, but not who said it.
+
 ### Address
 
 684 John Wesley Dobbs Ave NE,
@@ -31,7 +33,7 @@ Atlanta, GA 30312
 
 ### Parking
 
-Please follow the parking instructions on this page: <a href="https://atlbitlab.com/parking-at-atl-bitlab" target="_blank">Parking at ATL BitLab</a>
+Please follow the parking instructions here: <a href="https://atlbitlab.com/parking-at-atl-bitlab" target="_blank">Parking Information</a>
 
 ## Topics
 
