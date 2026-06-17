@@ -63,12 +63,6 @@ export default function Home({}) {
           >
             Join on Meetup
           </a>
-          <a
-            href="https://atlantabitdevs.org/telegram/"
-            className="text-muted no-underline transition-colors hover:text-ink"
-          >
-            Telegram
-          </a>
         </div>
       </section>
 
