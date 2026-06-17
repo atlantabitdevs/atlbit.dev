@@ -76,7 +76,6 @@ To help everyone speak freely, please do not take videos, pictures, or audio rec
 - [World’s first splice-out into a channel open on regtest / “Omega-Everything-Splice” milestone](https://x.com/dusty_daemon/status/2064435141682876606?s=20)
 - [Multisig Bitcoin Lightning wallet demo on Spark L2 using FROST + chill-dkg](https://x.com/callebtc/status/2065129726872608788?s=20)
 - [Paying with Bitcoin using Meta glasses built with Breez](https://x.com/PalazzoVincenzo/status/2062889873514676250?s=20)
-- [Jack: “pay by magic”](https://x.com/jack/status/2062565909307289759?s=20)
 - [Lexe CLI: self-custodial mainnet Lightning wallet in three commands](https://x.com/lexeapp/status/2060417702825734483?s=20)
 - [Lexe adds QR rendering for invoices/offers and seed export](https://x.com/lexeapp/status/2062199378652098815?s=20)
 
@@ -127,3 +126,8 @@ To help everyone speak freely, please do not take videos, pictures, or audio rec
 - [Greg Sanders: using Fable to find Bark protocol bugs and exploit gaps in regtest](https://x.com/theinstagibbs/status/2065776599727841413?s=20)
 - [Marc Andreessen’s anti-AI-regulation screed](https://x.com/pmarca/status/2065657889558348149?s=20)
 - [Beff on the Pliny jailbreak and the “big ban button” theory](https://x.com/beffjezos/status/2065605694045512034?s=20)
+
+### Fun
+
+- [Jack: “pay by magic”](https://x.com/jack/status/2062565909307289759?s=20)
+- [BitMEX Research: Why are there two French nodes with both the BIP-110 and Libre Relay service flags?](https://x.com/BitMEXResearch/status/2066477188778541328)
