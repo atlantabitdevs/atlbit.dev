@@ -70,17 +70,28 @@ A lot of this month's conversation is about where control sits in Bitcoin system
 
 ### Lightning
 
+#### ARK
+
 - [Experimental mainnet payments coming for Bark's client-side payment pathfinding flow](https://x.com/notgrubles/status/2076689793455390909?s=20) - Second is moving toward real mainnet testing for a model where routes are computed on-device and handed to a gateway as a blinded onion.
+- [Ark payment flow test: "Ark is real and you can get your money back"](https://x.com/nitesh_btc/status/2077191315444445470?s=20) - A small but useful real-world signal that Ark UX is crossing from demo energy into actual user testing.
+- [Using LDK VSS to back up Bark wallet state to a remote machine](https://x.com/notgrubles/status/2071605007439245663?s=20) - Useful crossover between Lightning and Ark-style wallets, where offchain state needs continuous backup.
+
+#### LDK
+
 - [Async payments for mobile Lightning receives](https://x.com/lightningdevkit/status/2070513005465342300?s=20) - LDK is tackling the long-standing problem of mobile apps needing to be online at exactly the right moment to receive a payment.
-- [LND zero-timestamp gossip DoS disclosure](https://delvingbitcoin.org/t/lnd-zero-timestamp-gossip-dos-disclosure/2621) - A fresh Lightning security disclosure focused on gossip handling edge cases in LND.
-- [LND adds codec foundation for BOLT12 Offer messages](https://github.com/lightningnetwork/lnd/pull/10789) - Early plumbing for deeper BOLT12 support in LND.
-- [LND adds `InvoiceRequest` codec and structural validators](https://github.com/lightningnetwork/lnd/issues/10832) - More BOLT12 building blocks landing in LND, this time around invoice request parsing and validation.
 - [LDK re-adds `Nonce` to `payer_metadata`](https://github.com/lightningdevkit/rust-lightning/pull/4685) - A small but important interoperability detail in the payment metadata flow.
 - [LDK rejects RGS snapshots that leave the graph absurdly sized](https://github.com/lightningdevkit/rust-lightning/pull/4713) - Defensive graph-sync handling for route data that could otherwise bloat clients.
 - [Payer proof merged in LDK and acknowledged on the BOLTs PR](https://x.com/PalazzoVincenzo/status/2074435981260845414?s=20) - Another piece of proof-carrying payment infrastructure lands after a long review cycle.
-- [Ark payment flow test: "Ark is real and you can get your money back"](https://x.com/nitesh_btc/status/2077191315444445470?s=20) - A small but useful real-world signal that Ark UX is crossing from demo energy into actual user testing.
+
+#### LND
+
+- [LND zero-timestamp gossip DoS disclosure](https://delvingbitcoin.org/t/lnd-zero-timestamp-gossip-dos-disclosure/2621) - A fresh Lightning security disclosure focused on gossip handling edge cases in LND.
+- [LND adds codec foundation for BOLT12 Offer messages](https://github.com/lightningnetwork/lnd/pull/10789) - Early plumbing for deeper BOLT12 support in LND.
+- [LND adds `InvoiceRequest` codec and structural validators](https://github.com/lightningnetwork/lnd/issues/10832) - More BOLT12 building blocks landing in LND, this time around invoice request parsing and validation.
+
+#### Other
+
 - [Superscalar: an implementation report](https://delvingbitcoin.org/t/superscalar-an-implementation-report/2705) - Concrete implementation notes on a post-quantum direction, which is usually where the abstract design tradeoffs get real.
-- [Using LDK VSS to back up Bark wallet state to a remote machine](https://x.com/notgrubles/status/2071605007439245663?s=20) - Useful crossover between Lightning and Ark-style wallets, where offchain state needs continuous backup.
 - [Tether Wallet 1.4 adds Lightning send/receive, BOLT11, and LNURL support](https://x.com/tetherwallet/status/2067543440112443815?s=20) - Another wallet shipping broader Lightning interoperability.
 
 ### AI
@@ -94,10 +105,10 @@ A lot of this month's conversation is about where control sits in Bitcoin system
 
 - [Polymarket adds instant Bitcoin deposits over Lightning via Spark](https://x.com/spark/status/2074539080197775421?s=20) - A mainstream prediction market now has a faster and more private Bitcoin deposit rail.
 - [Strike weekly feature rollup: Plaid, Washington lending, faster loan payoff](https://x.com/Strike/status/2069143813986058707?s=20) - A snapshot of how consumer Bitcoin finance products are evolving week by week.
-- [BTCPay Server v2.4.0](https://github.com/btcpayserver/btcpayserver/releases/tag/v2.4.0) - Merchant tooling keeps shipping, with another substantial release from one of the biggest Bitcoin payments stacks.
 
 ### Apps
 
+- [BTCPay Server v2.4.0](https://github.com/btcpayserver/btcpayserver/releases/tag/v2.4.0) - Merchant tooling keeps shipping, with another substantial release from one of the biggest Bitcoin payments stacks.
 - [gitpassport: get paid in bitcoin to run CI/CD jobs on your machine](https://gitpassport.xyz/npub1wg2m9ku823y5l5699dlj6294dc3cvwu4g34ldrtelxq20t27clxsd7dzaw) - Turns self-hosted runners into paid Bitcoin infrastructure.
 - [Radar combines private messaging with self-custodial Lightning on Signal's network](https://x.com/RadarChat/status/2074523998596055061?s=20) - Messaging and Bitcoin keep converging, this time in a product that leans on Signal's network effects.
 - [Sonar privacy social discovery](https://sonarprivacy.xyz/) - A lightweight privacy/social tool worth a look, after getting passed around on Bitcoin X.
