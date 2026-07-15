@@ -100,7 +100,6 @@ A lot of this month's conversation is about where control sits in Bitcoin system
 
 ### Business
 
-- [White House executive order to accelerate US quantum technology](https://x.com/mkratsios47/status/2069163462844961196?s=20) - Quantum policy is becoming a live national priority, which affects capital, research priorities, and the broader tech backdrop around Bitcoin.
 - [Polymarket adds instant Bitcoin deposits over Lightning via Spark](https://x.com/spark/status/2074539080197775421?s=20) - A mainstream prediction market now has a faster and more private Bitcoin deposit rail.
 - [Strike weekly feature rollup: Plaid, Washington lending, faster loan payoff](https://x.com/Strike/status/2069143813986058707?s=20) - A snapshot of how consumer Bitcoin finance products are evolving week by week.
 
@@ -114,3 +113,4 @@ A lot of this month's conversation is about where control sits in Bitcoin system
 ### Fun
 
 - [Bitcoiners getting distracted by AI](https://x.com/darosior/status/2074587659792535701?s=20) - Antoine Poinsot posted the meme version of a trend a lot of people in the room will recognize.
+- [White House executive order to accelerate US quantum technology](https://x.com/mkratsios47/status/2069163462844961196?s=20) - The actual link lands more in "well, that's a thing" territory than in the core business bucket.
