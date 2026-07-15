@@ -49,6 +49,7 @@ Over the past month, Bitcoin has felt a little more like a systems war and a lit
 - [BIP 448 tooling and proof-of-concept repos centralized](https://github.com/bip448) - Antoine Poinsot is gathering code artifacts and tooling experiments around BIP 448 into one place for review and contribution.
 - [Fountain codes as a way to reduce blockchain storage costs](https://delvingbitcoin.org/t/fountain-codes-a-way-to-reduce-blockchain-storage-costs/2624/11) - An exploration of whether erasure-coding ideas could change the cost profile of storing and serving blockchain data.
 - [First Stratum V2 block mined with miner-selected transactions](https://x.com/TheBlueMatt/status/2070133045773103376?s=20) - A milestone for open, standardized block template selection at the mining layer.
+- [256 Foundation shows a mixed-hashboard (S19j + S19k) Bitcoin miner](https://x.com/Schnitzel/status/2076674720137642489?s=20) - A mining-hardware tweak with weird-builder energy and potentially interesting implications for operator flexibility.
 - [Sparrow Wallet 2.5.0 adds silent payment receives](https://github.com/sparrowwallet/sparrow/releases/tag/2.5.0) - Silent payments keep spreading from protocol discussion into real wallet UX.
 
 #### Quantum
@@ -62,6 +63,7 @@ Over the past month, Bitcoin has felt a little more like a systems war and a lit
 #### BIP110
 
 - [BIP-110 advances to Complete status](https://github.com/bitcoin/bips/pull/2201) - Standards-process housekeeping, but still useful context if the room wants to talk about how BIPs mature and close out.
+- [Jason Hughes: "BIP-110 - My Notes to Miners"](https://x.com/wk057/status/2077444826232955365?s=20) - A miner-facing take that treats BIP 110 less as a hype cycle and more as a question of whether it can earn real network consensus.
 - [Does a soft fork always succeed?](https://bitcoin.stackexchange.com/questions/130775/does-a-softfork-always-succeed) - Good prompt for a room-level conversation about activation, adoption, and what "success" even means for consensus changes.
 
 ### Lightning
