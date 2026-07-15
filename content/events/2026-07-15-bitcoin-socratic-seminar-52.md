@@ -45,8 +45,6 @@ A lot of this month's conversation is about where control sits in Bitcoin system
 
 ### Bitcoin
 
-#### Core, Infrastructure & Mining
-
 - [secp256k1 repo finds a new maintainer in @theStack](https://x.com/fanquake/status/2076766713404625291?s=20) - More stewardship depth for one of Bitcoin's most critical libraries, with a maintainer who helped push silent payments over the line.
 - [BIP 448 tooling and proof-of-concept repos centralized](https://github.com/bip448) - Antoine Poinsot is gathering code artifacts and tooling experiments around BIP 448 into one place for review and contribution.
 - [Fountain codes as a way to reduce blockchain storage costs](https://delvingbitcoin.org/t/fountain-codes-a-way-to-reduce-blockchain-storage-costs/2624/11) - An exploration of whether erasure-coding ideas could change the cost profile of storing and serving blockchain data.
