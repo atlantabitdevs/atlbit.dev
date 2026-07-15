@@ -50,23 +50,21 @@ A lot of this month's conversation is about where control sits in Bitcoin system
 - [secp256k1 repo finds a new maintainer in @theStack](https://x.com/fanquake/status/2076766713404625291?s=20) - More stewardship depth for one of Bitcoin's most critical libraries, with a maintainer who helped push silent payments over the line.
 - [BIP 448 tooling and proof-of-concept repos centralized](https://github.com/bip448) - Antoine Poinsot is gathering code artifacts and tooling experiments around BIP 448 into one place for review and contribution.
 - [Fountain codes as a way to reduce blockchain storage costs](https://delvingbitcoin.org/t/fountain-codes-a-way-to-reduce-blockchain-storage-costs/2624/11) - An exploration of whether erasure-coding ideas could change the cost profile of storing and serving blockchain data.
-- [Open-source Bitcoin project permanently banned from GitHub with no clear appeal path](https://x.com/TheBlueMatt/status/2068726534941364593?s=20) - Another reminder that key Bitcoin infrastructure still depends on a brittle centralized forge and CI platform.
 - [First Stratum V2 block mined with miner-selected transactions](https://x.com/TheBlueMatt/status/2070133045773103376?s=20) - A milestone for open, standardized block template selection at the mining layer.
 - [Sparrow Wallet 2.5.0 adds silent payment receives](https://github.com/sparrowwallet/sparrow/releases/tag/2.5.0) - Silent payments keep spreading from protocol discussion into real wallet UX.
 
-#### Policy & Security
-
-- [BIP 3 media type registration for Bitcoin PSBT files](https://github.com/bitcoin/bips/pull/2198) - Small standards work that makes PSBT handling cleaner across tools and file workflows.
-- [Does a soft fork always succeed?](https://bitcoin.stackexchange.com/questions/130775/does-a-softfork-always-succeed) - Good prompt for a room-level conversation about activation, adoption, and what "success" even means for consensus changes.
-
 #### Quantum
 
+- [BIP360: depth-zero script trees should be anyone-can-spend](https://github.com/bitcoin/bips/pull/2198) - A BIP 360 change that belongs with the rest of the quantum and migration-design discussion.
 - [Public-key recovery for EC leaves in P2MR / BIP 360](https://delvingbitcoin.org/t/public-key-recovery-for-ec-leaves-in-p2mr-bip-360/2603) - More concrete design work around how P2MR could handle elliptic-curve leaves and recovery paths.
 - [Benchmarking SLH-DSA STARK aggregation](https://groups.google.com/g/bitcoindev/c/0IdqdnlC4Og) - Performance-oriented post-quantum research that pushes the discussion past hand-waving and into concrete costs.
 - [Aligning privacy incentives in P2MR](https://groups.google.com/g/bitcoindev/c/p8AVEmAtWdA) - Focuses on whether the incentive structure around P2MR actually produces the privacy behavior people want.
 - [Giving teeth to expected EC disabling: P2XX(-T)(-ML)](https://groups.google.com/g/bitcoindev/c/aWYtPLVPZ3U) - Another attempt to think through how Bitcoin might enforce a real migration path away from exposed EC assumptions.
-- [White House executive order to accelerate US quantum technology](https://x.com/mkratsios47/status/2069163462844961196?s=20) - Quantum policy is becoming a live national priority, which keeps the post-quantum Bitcoin conversation relevant.
+
+#### BIP110
+
 - [BIP-110 advances to Complete status](https://github.com/bitcoin/bips/pull/2201) - Standards-process housekeeping, but still useful context if the room wants to talk about how BIPs mature and close out.
+- [Does a soft fork always succeed?](https://bitcoin.stackexchange.com/questions/130775/does-a-softfork-always-succeed) - Good prompt for a room-level conversation about activation, adoption, and what "success" even means for consensus changes.
 
 ### Lightning
 
@@ -79,6 +77,7 @@ A lot of this month's conversation is about where control sits in Bitcoin system
 #### LDK
 
 - [Async payments for mobile Lightning receives](https://x.com/lightningdevkit/status/2070513005465342300?s=20) - LDK is tackling the long-standing problem of mobile apps needing to be online at exactly the right moment to receive a payment.
+- [Open-source Bitcoin project permanently banned from GitHub with no clear appeal path](https://x.com/TheBlueMatt/status/2068726534941364593?s=20) - Not obvious from the headline, but this one hit Lightning Dev Kit and shows how exposed key OSS infrastructure still is to GitHub failures.
 - [LDK re-adds `Nonce` to `payer_metadata`](https://github.com/lightningdevkit/rust-lightning/pull/4685) - A small but important interoperability detail in the payment metadata flow.
 - [LDK rejects RGS snapshots that leave the graph absurdly sized](https://github.com/lightningdevkit/rust-lightning/pull/4713) - Defensive graph-sync handling for route data that could otherwise bloat clients.
 - [Payer proof merged in LDK and acknowledged on the BOLTs PR](https://x.com/PalazzoVincenzo/status/2074435981260845414?s=20) - Another piece of proof-carrying payment infrastructure lands after a long review cycle.
@@ -103,6 +102,7 @@ A lot of this month's conversation is about where control sits in Bitcoin system
 
 ### Business
 
+- [White House executive order to accelerate US quantum technology](https://x.com/mkratsios47/status/2069163462844961196?s=20) - Quantum policy is becoming a live national priority, which affects capital, research priorities, and the broader tech backdrop around Bitcoin.
 - [Polymarket adds instant Bitcoin deposits over Lightning via Spark](https://x.com/spark/status/2074539080197775421?s=20) - A mainstream prediction market now has a faster and more private Bitcoin deposit rail.
 - [Strike weekly feature rollup: Plaid, Washington lending, faster loan payoff](https://x.com/Strike/status/2069143813986058707?s=20) - A snapshot of how consumer Bitcoin finance products are evolving week by week.
 
