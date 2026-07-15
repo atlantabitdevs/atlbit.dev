@@ -63,6 +63,7 @@ Over the past month, Bitcoin has felt a little more like a systems war and a lit
 #### BIP110
 
 - [BIP-110 advances to Complete status](https://github.com/bitcoin/bips/pull/2201) - Standards-process housekeeping, but still useful context if the room wants to talk about how BIPs mature and close out.
+- [Jason Hughes: "BIP-110 - My Notes to Miners"](https://x.com/wk057/status/2077444826232955365?s=20) - A miner-facing take that treats BIP 110 less as a hype cycle and more as a question of whether it can earn real network consensus.
 - [Does a soft fork always succeed?](https://bitcoin.stackexchange.com/questions/130775/does-a-softfork-always-succeed) - Good prompt for a room-level conversation about activation, adoption, and what "success" even means for consensus changes.
 
 ### Lightning
