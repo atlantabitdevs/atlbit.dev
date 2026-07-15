@@ -60,6 +60,14 @@ A lot of this month's conversation is about where control sits in Bitcoin system
 - [Does a soft fork always succeed?](https://bitcoin.stackexchange.com/questions/130775/does-a-softfork-always-succeed) - Good prompt for a room-level conversation about activation, adoption, and what "success" even means for consensus changes.
 - [White House executive order to accelerate US quantum technology](https://x.com/mkratsios47/status/2069163462844961196?s=20) - Quantum policy is becoming a live national priority, which keeps the post-quantum Bitcoin conversation relevant.
 
+#### Post-Quantum & Script Design
+
+- [Public-key recovery for EC leaves in P2MR / BIP 360](https://delvingbitcoin.org/t/public-key-recovery-for-ec-leaves-in-p2mr-bip-360/2603) - More concrete design work around how P2MR could handle elliptic-curve leaves and recovery paths.
+- [Benchmarking SLH-DSA STARK aggregation](https://groups.google.com/g/bitcoindev/c/0IdqdnlC4Og) - Performance-oriented post-quantum research that pushes the discussion past hand-waving and into concrete costs.
+- [Aligning privacy incentives in P2MR](https://groups.google.com/g/bitcoindev/c/p8AVEmAtWdA) - Focuses on whether the incentive structure around P2MR actually produces the privacy behavior people want.
+- [Giving teeth to expected EC disabling: P2XX(-T)(-ML)](https://groups.google.com/g/bitcoindev/c/aWYtPLVPZ3U) - Another attempt to think through how Bitcoin might enforce a real migration path away from exposed EC assumptions.
+- [BIP-110 advances to Complete status](https://github.com/bitcoin/bips/pull/2201) - Standards-process housekeeping, but still useful context if the room wants to talk about how BIPs mature and close out.
+
 ### Lightning
 
 - [Experimental mainnet payments coming for Bark's client-side payment pathfinding flow](https://x.com/notgrubles/status/2076689793455390909?s=20) - Second is moving toward real mainnet testing for a model where routes are computed on-device and handed to a gateway as a blinded onion.
