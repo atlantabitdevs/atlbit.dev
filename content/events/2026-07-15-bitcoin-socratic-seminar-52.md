@@ -113,4 +113,4 @@ A lot of this month's conversation is about where control sits in Bitcoin system
 ### Fun
 
 - [Bitcoiners getting distracted by AI](https://x.com/darosior/status/2074587659792535701?s=20) - Antoine Poinsot posted the meme version of a trend a lot of people in the room will recognize.
-- [White House executive order to accelerate US quantum technology](https://x.com/mkratsios47/status/2069163462844961196?s=20) - The actual link lands more in "well, that's a thing" territory than in the core business bucket.
+- [White House executive order to accelerate US quantum technology](https://x.com/mkratsios47/status/2069163462844961196?s=20) - US government joins quantum hype bandwagon.
