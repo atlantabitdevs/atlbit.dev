@@ -49,51 +49,57 @@ A lot of this month's conversation is about where control sits in Bitcoin system
 
 - [secp256k1 repo finds a new maintainer in @theStack](https://x.com/fanquake/status/2076766713404625291?s=20) - More stewardship depth for one of Bitcoin's most critical libraries, with a maintainer who helped push silent payments over the line.
 - [BIP 448 tooling and proof-of-concept repos centralized](https://github.com/bip448) - Antoine Poinsot is gathering code artifacts and tooling experiments around BIP 448 into one place for review and contribution.
-- [Bitcoin-native LLM dataset architecture and open questions](https://delvingbitcoin.org/t/a-bitcoin-native-llm-dataset-architecture-and-open-questions/2550/4) - A practical look at building Bitcoin-specific AI datasets without losing source traceability or domain context.
 - [Fountain codes as a way to reduce blockchain storage costs](https://delvingbitcoin.org/t/fountain-codes-a-way-to-reduce-blockchain-storage-costs/2624/11) - An exploration of whether erasure-coding ideas could change the cost profile of storing and serving blockchain data.
 - [Open-source Bitcoin project permanently banned from GitHub with no clear appeal path](https://x.com/TheBlueMatt/status/2068726534941364593?s=20) - Another reminder that key Bitcoin infrastructure still depends on a brittle centralized forge and CI platform.
 - [First Stratum V2 block mined with miner-selected transactions](https://x.com/TheBlueMatt/status/2070133045773103376?s=20) - A milestone for open, standardized block template selection at the mining layer.
+- [Sparrow Wallet 2.5.0 adds silent payment receives](https://github.com/sparrowwallet/sparrow/releases/tag/2.5.0) - Silent payments keep spreading from protocol discussion into real wallet UX.
 
 #### Policy & Security
 
 - [BIP 3 media type registration for Bitcoin PSBT files](https://github.com/bitcoin/bips/pull/2198) - Small standards work that makes PSBT handling cleaner across tools and file workflows.
-- [LND zero-timestamp gossip DoS disclosure](https://delvingbitcoin.org/t/lnd-zero-timestamp-gossip-dos-disclosure/2621) - A fresh Lightning security disclosure focused on gossip handling edge cases in LND.
 - [Does a soft fork always succeed?](https://bitcoin.stackexchange.com/questions/130775/does-a-softfork-always-succeed) - Good prompt for a room-level conversation about activation, adoption, and what "success" even means for consensus changes.
-- [White House executive order to accelerate US quantum technology](https://x.com/mkratsios47/status/2069163462844961196?s=20) - Quantum policy is becoming a live national priority, which keeps the post-quantum Bitcoin conversation relevant.
 
-#### Post-Quantum & Script Design
+#### Quantum
 
 - [Public-key recovery for EC leaves in P2MR / BIP 360](https://delvingbitcoin.org/t/public-key-recovery-for-ec-leaves-in-p2mr-bip-360/2603) - More concrete design work around how P2MR could handle elliptic-curve leaves and recovery paths.
 - [Benchmarking SLH-DSA STARK aggregation](https://groups.google.com/g/bitcoindev/c/0IdqdnlC4Og) - Performance-oriented post-quantum research that pushes the discussion past hand-waving and into concrete costs.
 - [Aligning privacy incentives in P2MR](https://groups.google.com/g/bitcoindev/c/p8AVEmAtWdA) - Focuses on whether the incentive structure around P2MR actually produces the privacy behavior people want.
 - [Giving teeth to expected EC disabling: P2XX(-T)(-ML)](https://groups.google.com/g/bitcoindev/c/aWYtPLVPZ3U) - Another attempt to think through how Bitcoin might enforce a real migration path away from exposed EC assumptions.
-- [Superscalar: an implementation report](https://delvingbitcoin.org/t/superscalar-an-implementation-report/2705) - Concrete implementation notes on a post-quantum direction, which is usually where the abstract design tradeoffs get real.
+- [White House executive order to accelerate US quantum technology](https://x.com/mkratsios47/status/2069163462844961196?s=20) - Quantum policy is becoming a live national priority, which keeps the post-quantum Bitcoin conversation relevant.
 - [BIP-110 advances to Complete status](https://github.com/bitcoin/bips/pull/2201) - Standards-process housekeeping, but still useful context if the room wants to talk about how BIPs mature and close out.
 
 ### Lightning
 
 - [Experimental mainnet payments coming for Bark's client-side payment pathfinding flow](https://x.com/notgrubles/status/2076689793455390909?s=20) - Second is moving toward real mainnet testing for a model where routes are computed on-device and handed to a gateway as a blinded onion.
 - [Async payments for mobile Lightning receives](https://x.com/lightningdevkit/status/2070513005465342300?s=20) - LDK is tackling the long-standing problem of mobile apps needing to be online at exactly the right moment to receive a payment.
+- [LND zero-timestamp gossip DoS disclosure](https://delvingbitcoin.org/t/lnd-zero-timestamp-gossip-dos-disclosure/2621) - A fresh Lightning security disclosure focused on gossip handling edge cases in LND.
 - [LND adds codec foundation for BOLT12 Offer messages](https://github.com/lightningnetwork/lnd/pull/10789) - Early plumbing for deeper BOLT12 support in LND.
 - [LND adds `InvoiceRequest` codec and structural validators](https://github.com/lightningnetwork/lnd/issues/10832) - More BOLT12 building blocks landing in LND, this time around invoice request parsing and validation.
 - [LDK re-adds `Nonce` to `payer_metadata`](https://github.com/lightningdevkit/rust-lightning/pull/4685) - A small but important interoperability detail in the payment metadata flow.
 - [LDK rejects RGS snapshots that leave the graph absurdly sized](https://github.com/lightningdevkit/rust-lightning/pull/4713) - Defensive graph-sync handling for route data that could otherwise bloat clients.
 - [Payer proof merged in LDK and acknowledged on the BOLTs PR](https://x.com/PalazzoVincenzo/status/2074435981260845414?s=20) - Another piece of proof-carrying payment infrastructure lands after a long review cycle.
-- [Polymarket adds instant Bitcoin deposits over Lightning via Spark](https://x.com/spark/status/2074539080197775421?s=20) - A mainstream prediction market now has a faster and more private Bitcoin deposit rail.
+- [Superscalar: an implementation report](https://delvingbitcoin.org/t/superscalar-an-implementation-report/2705) - Concrete implementation notes on a post-quantum direction, which is usually where the abstract design tradeoffs get real.
 - [Using LDK VSS to back up Bark wallet state to a remote machine](https://x.com/notgrubles/status/2071605007439245663?s=20) - Useful crossover between Lightning and Ark-style wallets, where offchain state needs continuous backup.
-
-### Apps, Wallets & Agentic Payments
-
-- [Spiral rebrands and expands around Goose](https://spiralxyz.substack.com/p/spiral-x-goose-the-best-is-yet-to) - The Spiral ecosystem is broadening its scope and product surface.
-- [Software pays software: an MDK-powered autonomous merch store](https://x.com/moneydevkit/status/2074484566828425466?s=20) - A fun agentic payments demo where an AI-run storefront automatically pays for fulfillment after each sale.
-- [gitpassport: get paid in bitcoin to run CI/CD jobs on your machine](https://gitpassport.xyz/npub1wg2m9ku823y5l5699dlj6294dc3cvwu4g34ldrtelxq20t27clxsd7dzaw) - Turns self-hosted runners into paid Bitcoin infrastructure.
-- [Block App Kit: shipping AI-built apps safely](https://engineering.block.xyz/blog/from-localhost-to-launched-safely-shipping-apps-that-anyone-can-build) - Jed Edwards on the hard part after code generation: safely getting fast-built software into other people's hands.
-- [Strike weekly feature rollup: Plaid, Washington lending, faster loan payoff](https://x.com/Strike/status/2069143813986058707?s=20) - A snapshot of how consumer Bitcoin finance products are evolving week by week.
-- [Sparrow Wallet 2.5.0 adds silent payment receives](https://github.com/sparrowwallet/sparrow/releases/tag/2.5.0) - Silent payments keep spreading from protocol discussion into real wallet UX.
-- [BTCPay Server v2.4.0](https://github.com/btcpayserver/btcpayserver/releases/tag/v2.4.0) - Merchant tooling keeps shipping, with another substantial release from one of the biggest Bitcoin payments stacks.
 - [Tether Wallet 1.4 adds Lightning send/receive, BOLT11, and LNURL support](https://x.com/tetherwallet/status/2067543440112443815?s=20) - Another wallet shipping broader Lightning interoperability.
 
-### AI, Privacy & Other Signals
+### AI
+
+- [Bitcoin-native LLM dataset architecture and open questions](https://delvingbitcoin.org/t/a-bitcoin-native-llm-dataset-architecture-and-open-questions/2550/4) - A practical look at building Bitcoin-specific AI datasets without losing source traceability or domain context.
+- [Spiral rebrands and expands around Goose](https://spiralxyz.substack.com/p/spiral-x-goose-the-best-is-yet-to) - The Spiral ecosystem is broadening its scope and product surface.
+- [Software pays software: an MDK-powered autonomous merch store](https://x.com/moneydevkit/status/2074484566828425466?s=20) - A fun agentic payments demo where an AI-run storefront automatically pays for fulfillment after each sale.
+- [Block App Kit: shipping AI-built apps safely](https://engineering.block.xyz/blog/from-localhost-to-launched-safely-shipping-apps-that-anyone-can-build) - Jed Edwards on the hard part after code generation: safely getting fast-built software into other people's hands.
+
+### Business
+
+- [Polymarket adds instant Bitcoin deposits over Lightning via Spark](https://x.com/spark/status/2074539080197775421?s=20) - A mainstream prediction market now has a faster and more private Bitcoin deposit rail.
+- [Strike weekly feature rollup: Plaid, Washington lending, faster loan payoff](https://x.com/Strike/status/2069143813986058707?s=20) - A snapshot of how consumer Bitcoin finance products are evolving week by week.
+- [BTCPay Server v2.4.0](https://github.com/btcpayserver/btcpayserver/releases/tag/v2.4.0) - Merchant tooling keeps shipping, with another substantial release from one of the biggest Bitcoin payments stacks.
+
+### Apps
+
+- [gitpassport: get paid in bitcoin to run CI/CD jobs on your machine](https://gitpassport.xyz/npub1wg2m9ku823y5l5699dlj6294dc3cvwu4g34ldrtelxq20t27clxsd7dzaw) - Turns self-hosted runners into paid Bitcoin infrastructure.
+- [Sonar privacy social discovery](https://sonarprivacy.xyz/) - A lightweight privacy/social tool worth a look, after getting passed around on Bitcoin X.
+
+### Fun
 
 - [Bitcoiners getting distracted by AI](https://x.com/darosior/status/2074587659792535701?s=20) - Antoine Poinsot posted the meme version of a trend a lot of people in the room will recognize.
-- [Sonar privacy social discovery](https://sonarprivacy.xyz/) - A lightweight privacy/social tool worth a look, after getting passed around on Bitcoin X.
