@@ -78,6 +78,7 @@ A lot of this month's conversation is about where control sits in Bitcoin system
 - [LDK re-adds `Nonce` to `payer_metadata`](https://github.com/lightningdevkit/rust-lightning/pull/4685) - A small but important interoperability detail in the payment metadata flow.
 - [LDK rejects RGS snapshots that leave the graph absurdly sized](https://github.com/lightningdevkit/rust-lightning/pull/4713) - Defensive graph-sync handling for route data that could otherwise bloat clients.
 - [Payer proof merged in LDK and acknowledged on the BOLTs PR](https://x.com/PalazzoVincenzo/status/2074435981260845414?s=20) - Another piece of proof-carrying payment infrastructure lands after a long review cycle.
+- [Ark payment flow test: "Ark is real and you can get your money back"](https://x.com/nitesh_btc/status/2077191315444445470?s=20) - A small but useful real-world signal that Ark UX is crossing from demo energy into actual user testing.
 - [Superscalar: an implementation report](https://delvingbitcoin.org/t/superscalar-an-implementation-report/2705) - Concrete implementation notes on a post-quantum direction, which is usually where the abstract design tradeoffs get real.
 - [Using LDK VSS to back up Bark wallet state to a remote machine](https://x.com/notgrubles/status/2071605007439245663?s=20) - Useful crossover between Lightning and Ark-style wallets, where offchain state needs continuous backup.
 - [Tether Wallet 1.4 adds Lightning send/receive, BOLT11, and LNURL support](https://x.com/tetherwallet/status/2067543440112443815?s=20) - Another wallet shipping broader Lightning interoperability.
@@ -98,6 +99,7 @@ A lot of this month's conversation is about where control sits in Bitcoin system
 ### Apps
 
 - [gitpassport: get paid in bitcoin to run CI/CD jobs on your machine](https://gitpassport.xyz/npub1wg2m9ku823y5l5699dlj6294dc3cvwu4g34ldrtelxq20t27clxsd7dzaw) - Turns self-hosted runners into paid Bitcoin infrastructure.
+- [Radar combines private messaging with self-custodial Lightning on Signal's network](https://x.com/RadarChat/status/2074523998596055061?s=20) - Messaging and Bitcoin keep converging, this time in a product that leans on Signal's network effects.
 - [Sonar privacy social discovery](https://sonarprivacy.xyz/) - A lightweight privacy/social tool worth a look, after getting passed around on Bitcoin X.
 
 ### Fun
