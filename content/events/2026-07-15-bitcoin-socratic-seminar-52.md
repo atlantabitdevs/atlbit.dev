@@ -67,6 +67,7 @@ A lot of this month's conversation is about where control sits in Bitcoin system
 - [Benchmarking SLH-DSA STARK aggregation](https://groups.google.com/g/bitcoindev/c/0IdqdnlC4Og) - Performance-oriented post-quantum research that pushes the discussion past hand-waving and into concrete costs.
 - [Aligning privacy incentives in P2MR](https://groups.google.com/g/bitcoindev/c/p8AVEmAtWdA) - Focuses on whether the incentive structure around P2MR actually produces the privacy behavior people want.
 - [Giving teeth to expected EC disabling: P2XX(-T)(-ML)](https://groups.google.com/g/bitcoindev/c/aWYtPLVPZ3U) - Another attempt to think through how Bitcoin might enforce a real migration path away from exposed EC assumptions.
+- [Superscalar: an implementation report](https://delvingbitcoin.org/t/superscalar-an-implementation-report/2705) - Concrete implementation notes on a post-quantum direction, which is usually where the abstract design tradeoffs get real.
 - [BIP-110 advances to Complete status](https://github.com/bitcoin/bips/pull/2201) - Standards-process housekeeping, but still useful context if the room wants to talk about how BIPs mature and close out.
 
 ### Lightning
