@@ -62,6 +62,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     pathname,
     image,
     type: 'article',
+    markdownPath: `${pathname}.md`,
   })
 }
 

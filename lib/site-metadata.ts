@@ -105,6 +105,8 @@ type BuildPageMetadataArgs = {
   pathname: string
   image?: string | null
   type?: 'website' | 'article'
+  /** When set, advertises a plain-markdown mirror via <link rel="alternate">. */
+  markdownPath?: string
 }
 
 export function buildPageMetadata({
@@ -113,6 +115,7 @@ export function buildPageMetadata({
   pathname,
   image,
   type = 'website',
+  markdownPath,
 }: BuildPageMetadataArgs): Metadata {
   const resolvedImage = normalizeImagePath(image)
 
@@ -121,6 +124,9 @@ export function buildPageMetadata({
     description,
     alternates: {
       canonical: pathname,
+      ...(markdownPath
+        ? { types: { 'text/markdown': markdownPath } }
+        : {}),
     },
     openGraph: {
       type,
