@@ -1,0 +1,48 @@
+---
+date: '2026-08-19'
+title: 'Bitcoin Socratic Seminar #53'
+type: Doc
+---
+
+![Bitcoin Socratic Seminar #53](/bitdevs-socratic-seminar-2026.jpg)
+
+It's almost time for <a href="https://www.meetup.com/atlbitlab/events/315044445/">Bitcoin Socratic Seminar #53</a>!
+
+## What is a Socratic Seminar?
+
+Inspired by other BitDevs meetups around the US, our Socratic Seminar events are formatted to foster debate, information sharing and lively discussion.
+
+1. Discussion topics are provided ahead of the event
+2. The event moderator(s) leads the audience through the topics
+3. Raise your hand to grab the mic and participate in the conversation
+4. We go to a bar afterwards
+
+We follow <a href="https://www.chathamhouse.org/about-us/chatham-house-rule" target="_blank">the Chatham House Rule</a> at this event: you are free to use the information you receive, but neither the identity nor the affiliation of the speaker(s), nor that of any other participant, may be revealed.
+
+## Logistics
+
+On Wednesday, August 19, we'll be meeting at ATL BitLab. Join our <a href="https://atlantabitdevs.org/telegram/" target="_blank">telegram channel</a> in case you need to ask for help finding us the night of the event.
+
+### Address
+
+684 John Wesley Dobbs Ave NE,
+Suite A1
+Atlanta, GA 30312
+
+### Parking
+
+Please follow the parking instructions here: <a href="https://atlbitlab.com/parking-at-atl-bitlab" target="_blank">Parking Information</a>
+
+### Chatham House Rule
+
+We follow the <a href="https://www.chathamhouse.org/about-us/chatham-house-rule" target="_blank">Chatham House Rule</a> at this event. You're welcome to share what you learn, but not who said it.
+
+To help everyone speak freely, please do not take videos, pictures, or audio recordings during the seminar.
+
+## Topics
+
+We'll add more topics as the event gets closer. For now, here's the first one:
+
+### Wallet Security & Entropy
+
+- [Predictable RNG Fallback and 32-Bit Reseed in COLDCARD Firmware](https://engineering.block.xyz/blog/predictable-rng-fallback-and-32-bit-reseed-in-coldcard-firmware) - Block Engineering explains how a disabled hardware-RNG path and a 32-bit reseed can constrain entropy in affected COLDCARD firmware and weaken generated secrets.
