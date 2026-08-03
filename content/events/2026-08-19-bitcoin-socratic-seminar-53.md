@@ -46,3 +46,4 @@ We'll add more topics as the event gets closer. For now, here's the first one:
 ### Wallet Security & Entropy
 
 - [Predictable RNG Fallback and 32-Bit Reseed in COLDCARD Firmware](https://engineering.block.xyz/blog/predictable-rng-fallback-and-32-bit-reseed-in-coldcard-firmware) - Block Engineering explains how a disabled hardware-RNG path and a 32-bit reseed can constrain entropy in affected COLDCARD firmware and weaken generated secrets.
+- [When random.bytes() runs but doesn't work](https://insider.btcpp.dev/cp/209395473) - Dusty Daemon digs into what a commit message reveals about the recent COLDCARD bug and how code can appear to generate entropy while still failing as a secure randomness source.
