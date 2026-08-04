@@ -48,6 +48,11 @@ We'll add more topics as the event gets closer. For now, here's the first one:
 - [Predictable RNG Fallback and 32-Bit Reseed in COLDCARD Firmware](https://engineering.block.xyz/blog/predictable-rng-fallback-and-32-bit-reseed-in-coldcard-firmware) - Block Engineering explains how a disabled hardware-RNG path and a 32-bit reseed can constrain entropy in affected COLDCARD firmware and weaken generated secrets.
 - [When random.bytes() runs but doesn't work](https://insider.btcpp.dev/cp/209395473) - Dusty Daemon digs into what a commit message reveals about the recent COLDCARD bug and how code can appear to generate entropy while still failing as a secure randomness source.
 
+### Lightning Swap Infrastructure
+
+- [Boltz stays disabled while keeping refund paths open](https://x.com/Boltzhq/status/2084311537502630319?s=20) - Boltz says the service will remain disabled until further notice, though cooperative and unilateral refunds should still work and support remains available.
+- [ZEUS follows suit for its Boltz-backed instance](https://x.com/ZeusLN/status/2084316041673347138?s=20) - ZEUS says its instance is following Boltz offline, while noting other ZEUS services like channels, the LSP, Lightning addresses, and normal send/receive flows remain online.
+
 ### Trust, Custody & State Abuse
 
 - [FBI agent accused of stealing nearly $1 million in cryptocurrency](https://www.cnn.com/2026/08/03/politics/fbi-agent-accused-stealing-cryptocurrency) - Court records say an FBI agent diverted more than $900,000 from monitored crypto accounts, a sharp reminder that custody, chain surveillance, and state handling of seized funds create their own trust failures.
