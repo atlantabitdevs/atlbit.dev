@@ -51,15 +51,19 @@ We'll add more topics as the event gets closer. For now, here's the first one:
 ### Cryptography & AI
 
 - [Discovering cryptographic weaknesses with Claude](https://www.anthropic.com/research/discovering-cryptographic-weaknesses) - Anthropic says Claude Mythos Preview found an improved attack on the post-quantum HAWK signature scheme and a faster attack on a reduced-round version of AES, showing frontier models starting to contribute to real cryptanalysis.
+- [Bitcoin Policy Institute urges trusted frontier-model access for open-source defenders](https://x.com/bitcoinpolicy/status/2086872430639771675?s=20) - Bitcoin Policy Institute says it is joining a broader coalition urging leading AI labs to give qualified open-source defenders trusted access to frontier models, raising questions about who gets advanced capabilities for security research and defense.
 
 ### Lightning Swap Infrastructure
 
 - [Boltz stays disabled while keeping refund paths open](https://x.com/Boltzhq/status/2084311537502630319?s=20) - Boltz says the service will remain disabled until further notice, though cooperative and unilateral refunds should still work and support remains available.
 - [ZEUS follows suit for its Boltz-backed instance](https://x.com/ZeusLN/status/2084316041673347138?s=20) - ZEUS says its instance is following Boltz offline, while noting other ZEUS services like channels, the LSP, Lightning addresses, and normal send/receive flows remain online.
+- [MARA makes Slipstream permissionless](https://x.com/MARAFoundation_/status/2084176346402730479?s=20) - MARA says Slipstream is now a permissionless public good with no client code requirement, which is worth discussing as an alternate transaction relay path and its tradeoffs for fee management and mempool policy.
+- [Blockstream announces atomic swaps across Bitcoin, Liquid, and Lightning](https://x.com/Blockstream/status/2086906995450507315?s=20) - Blockstream says its new swaps product lets users hold BTC or LBTC and pay Lightning invoices without managing channels or inbound liquidity, adding a new entrant in the post-Boltz swap landscape.
 
 ### Merchant Infrastructure & Self-Custody
 
 - [BTCPay Server warns of actively exploited critical vulnerability](https://x.com/BtcpayServer/status/2085755643659522240?s=20) - BTCPay Server says an in-the-wild bug can lead to loss of funds and is telling operators to update to version 2.4.2 immediately or shut instances down until they can patch.
+- [BTCPay Server funds researchers and recovery bounty after the exploit](https://x.com/BtcpayServer/status/2086875600103367109?s=20) - BTCPay Server says it is donating to the researchers behind the recent critical vulnerability disclosure and helping fund a bounty to recover stolen funds, offering a concrete example of how open-source projects respond after a major incident.
 
 ### Trust, Custody & State Abuse
 
