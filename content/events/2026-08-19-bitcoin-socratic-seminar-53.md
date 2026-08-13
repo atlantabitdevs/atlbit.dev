@@ -68,6 +68,7 @@ We'll add more topics as the event gets closer. For now, here's the first one:
 
 - [BTCPay Server warns of actively exploited critical vulnerability](https://x.com/BtcpayServer/status/2085755643659522240?s=20) - BTCPay Server says an in-the-wild bug can lead to loss of funds and is telling operators to update to version 2.4.2 immediately or shut instances down until they can patch.
 - [BTCPay Server funds researchers and recovery bounty after the exploit](https://x.com/BtcpayServer/status/2086875600103367109?s=20) - BTCPay Server says it is donating to the researchers behind the recent critical vulnerability disclosure and helping fund a bounty to recover stolen funds, offering a concrete example of how open-source projects respond after a major incident.
+- [BTCPay Server ships v2.4.3-rc4 security update](https://x.com/BtcpayServer/status/2087959120515101035?s=20) - BTCPay Server says v2.4.3-rc4 addresses vulnerabilities reported by the Bitcoin Red Team, Project Loupe, MAGIC Grants, Prem, and independent researchers after several days of review and testing.
 - [Trezor discloses shipping-provider customer data breach](https://x.com/Trezor/status/2087885428313543059?s=20) - Trezor says a breached shipping vendor exposed recent customer order data in several countries, a reminder that self-custody privacy can fail through logistics and supply-chain partners even when the wallet itself is secure.
 
 ### Ecash & Developer Tooling
