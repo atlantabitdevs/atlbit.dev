@@ -53,6 +53,10 @@ We'll add more topics as the event gets closer. For now, here's the first one:
 - [Discovering cryptographic weaknesses with Claude](https://www.anthropic.com/research/discovering-cryptographic-weaknesses) - Anthropic says Claude Mythos Preview found an improved attack on the post-quantum HAWK signature scheme and a faster attack on a reduced-round version of AES, showing frontier models starting to contribute to real cryptanalysis.
 - [Bitcoin Policy Institute urges trusted frontier-model access for open-source defenders](https://x.com/bitcoinpolicy/status/2086872430639771675?s=20) - Bitcoin Policy Institute says it is joining a broader coalition urging leading AI labs to give qualified open-source defenders trusted access to frontier models, raising questions about who gets advanced capabilities for security research and defense.
 
+### Threshold Signatures & Wallet Coordination
+
+- [Spiral spotlights BIP-445 FROST signing work](https://x.com/spiral_xyz/status/2087966401013088365?s=20) - Spiral says Sivaram is driving BIP-445 toward a polished v1.0, advancing configurable threshold signatures for bitcoin so keys can be split across multiple participants and only sign once enough parties coordinate.
+
 ### Lightning Swap Infrastructure
 
 - [Boltz stays disabled while keeping refund paths open](https://x.com/Boltzhq/status/2084311537502630319?s=20) - Boltz says the service will remain disabled until further notice, though cooperative and unilateral refunds should still work and support remains available.
@@ -64,6 +68,11 @@ We'll add more topics as the event gets closer. For now, here's the first one:
 
 - [BTCPay Server warns of actively exploited critical vulnerability](https://x.com/BtcpayServer/status/2085755643659522240?s=20) - BTCPay Server says an in-the-wild bug can lead to loss of funds and is telling operators to update to version 2.4.2 immediately or shut instances down until they can patch.
 - [BTCPay Server funds researchers and recovery bounty after the exploit](https://x.com/BtcpayServer/status/2086875600103367109?s=20) - BTCPay Server says it is donating to the researchers behind the recent critical vulnerability disclosure and helping fund a bounty to recover stolen funds, offering a concrete example of how open-source projects respond after a major incident.
+- [Trezor discloses shipping-provider customer data breach](https://x.com/Trezor/status/2087885428313543059?s=20) - Trezor says a breached shipping vendor exposed recent customer order data in several countries, a reminder that self-custody privacy can fail through logistics and supply-chain partners even when the wallet itself is secure.
+
+### Ecash & Developer Tooling
+
+- [Spiral highlights Cashu Dev Kit roadmap](https://x.com/spiral_xyz/status/2087909385729110428?s=20) - Spiral says a new grantee is helping build CDK, a Rust SDK for Cashu wallets and mints, with onchain support via BDK, payjoin via PDK, and unified balances via LDK on the roadmap.
 
 ### Trust, Custody & State Abuse
 
