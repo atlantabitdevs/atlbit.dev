@@ -63,6 +63,7 @@ Over the past month, Bitcoin has been under active construction everywhere you l
 #### Covenants
 
 - [CTV-only Vault Concept v0.1.0 release](https://delvingbitcoin.org/t/ctv-only-vault-concept-v0-1-0-release/2539)
+- [BIP-110 post-mortem: Lopp reflects on the past year of the movement and its echoes of the 2017 scaling debates](https://blog.lopp.net/bip-110-post-mortem/)
 
 #### Quantum
 
