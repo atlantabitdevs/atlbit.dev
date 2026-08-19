@@ -52,17 +52,9 @@ The strongest way to read this month's stack of links is not as a random list of
 - [Lopp reflects on the BIP-110 year and its scaling-war echoes](https://x.com/lopp/status/2089344628956844410?s=20) - Jameson Lopp draws parallels between the past year of BIP-110 campaigning and the 2017 scaling fights, with receipts and accountability framing for the people involved.
 - [Motion to remove Luke Dashjr from BIP Editors](https://groups.google.com/g/bitcoindev/c/knbv3MFwlvU/m/MCiJxxijCAAJ) - The bitcoindev thread argues Luke should be removed as a BIP editor after the BIP-110 fight, raising conflict-of-interest, process, and coordination questions inside Bitcoin's standards process.
 
-### AI Takeover
+### COLDCARD Hack & AI
 
-#### Cool Stuff
-
-- [Ten advances in mathematics](https://openai.com/index/ten-advances-in-mathematics/) - OpenAI surveys ten mathematical advances made with help from its models, offering concrete cases for discussing where frontier AI is beginning to contribute to research-level mathematics.
-
-#### Security & Offensive Security
-
-- [Discovering cryptographic weaknesses with Claude](https://www.anthropic.com/research/discovering-cryptographic-weaknesses) - Anthropic says Claude Mythos Preview found an improved attack on the post-quantum HAWK signature scheme and a faster attack on a reduced-round version of AES, showing frontier models starting to contribute to real cryptanalysis.
-
-##### ColdCard Incident
+#### ColdCard Incident
 
 - [Predictable RNG Fallback and 32-Bit Reseed in COLDCARD Firmware](https://engineering.block.xyz/blog/predictable-rng-fallback-and-32-bit-reseed-in-coldcard-firmware) - Block Engineering explains how a disabled hardware-RNG path and a 32-bit reseed can constrain entropy in affected COLDCARD firmware and weaken generated secrets.
 - [When random.bytes() runs but doesn't work](https://insider.btcpp.dev/cp/209395473) - Dusty Daemon digs into what a commit message reveals about the recent COLDCARD bug and how code can appear to generate entropy while still failing as a secure randomness source.
@@ -71,7 +63,7 @@ The strongest way to read this month's stack of links is not as a random list of
 - [Solving Bitcoin's Self-Custody Trilemma](https://lu.ke/self-custody-trilemma) - Luke Childs argues that current self-custody setups force tradeoffs between security, ease of use, and trustlessness, and presents Anzen as a vault design meant to improve that balance without a soft fork, company, or cosigner.
 - [HWI PSA](https://x.com/jonatack/status/2089820365677547876?s=20) - Jon Atack posted a hardware-wallet-interface PSA that fits the broader wallet-safety and signer-hygiene thread around recent hardware concerns.
 
-##### Lightning Infrastructure
+#### Lightning Infrastructure
 
 - [BTCPay Server warns of actively exploited critical vulnerability](https://x.com/BtcpayServer/status/2085755643659522240?s=20) - BTCPay Server says an in-the-wild bug can lead to loss of funds and is telling operators to update to version 2.4.2 immediately or shut instances down until they can patch.
 - [Boltz stays disabled while keeping refund paths open](https://x.com/Boltzhq/status/2084311537502630319?s=20) - Boltz says the service will remain disabled until further notice, though cooperative and unilateral refunds should still work and support remains available.
@@ -80,10 +72,15 @@ The strongest way to read this month's stack of links is not as a random list of
 - [Palazzo on wallet strategy after Boltz-backed services went down](https://x.com/PalazzoVincenzo/status/2086551895997583442?s=20) - Vincenzo Palazzo says the recent Boltz outage is forcing some wallets back into a 2019-style "when Lightning?" moment, while users learn about Liquid, Ark, and other second layers under the hood.
 - [Agent wallet users should upgrade to 0.22](https://x.com/nickslaney/status/2086905450574843974?s=20) - Nick Slaney posted a heads-up for `@moneydevkit/agent-wallet` users to upgrade to version 0.22.
 
-##### Censorship
+#### Censorship
 
 - [Bitcoin Policy Institute urges trusted frontier-model access for open-source defenders](https://x.com/bitcoinpolicy/status/2086872430639771675?s=20) - Bitcoin Policy Institute says it is joining a broader coalition urging leading AI labs to give qualified open-source defenders trusted access to frontier models, raising questions about who gets advanced capabilities for security research and defense.
 - [Jensen Huang shares NVIDIA's letter on why open models matter](https://x.com/JensenHuang/status/2080643682408321103?s=20) - Jensen Huang says NVIDIA signed a letter arguing for the importance of open AI models, which makes the frontier-access and open-models debate feel a lot more mainstream.
+
+#### AI Progress
+
+- [Ten advances in mathematics](https://openai.com/index/ten-advances-in-mathematics/) - OpenAI surveys ten mathematical advances made with help from its models, offering concrete cases for discussing where frontier AI is beginning to contribute to research-level mathematics.
+- [Discovering cryptographic weaknesses with Claude](https://www.anthropic.com/research/discovering-cryptographic-weaknesses) - Anthropic says Claude Mythos Preview found an improved attack on the post-quantum HAWK signature scheme and a faster attack on a reduced-round version of AES, showing frontier models starting to contribute to real cryptanalysis.
 
 ### Misc
 
