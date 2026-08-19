@@ -75,6 +75,11 @@ We'll add more topics as the event gets closer. For now, here's the first one:
 
 - [Spiral highlights Cashu Dev Kit roadmap](https://x.com/spiral_xyz/status/2087909385729110428?s=20) - Spiral says a new grantee is helping build CDK, a Rust SDK for Cashu wallets and mints, with onchain support via BDK, payjoin via PDK, and unified balances via LDK on the roadmap.
 
+### Governance, Process & Rough Consensus
+
+- [Motion to remove Luke Dashjr from BIP Editors](https://groups.google.com/g/bitcoindev/c/knbv3MFwlvU/m/MCiJxxijCAAJ) - The bitcoindev thread argues Luke should be removed as a BIP editor after the BIP-110 fight, raising conflict-of-interest, process, and coordination questions inside Bitcoin's standards process.
+- [Checkmate thread on why the proposed fork failed to reach rough consensus](https://x.com/_Checkmatey_/status/2087368296979157368) - Checkmate frames the failed fork push as a social-consensus loss rather than a rules or referee problem, which makes it a useful prompt on how rough consensus is actually enforced in Bitcoin.
+
 ### Trust, Custody & State Abuse
 
 - [FBI agent accused of stealing nearly $1 million in cryptocurrency](https://www.cnn.com/2026/08/03/politics/fbi-agent-accused-stealing-cryptocurrency) - Court records say an FBI agent diverted more than $900,000 from monitored crypto accounts, a sharp reminder that custody, chain surveillance, and state handling of seized funds create their own trust failures.
