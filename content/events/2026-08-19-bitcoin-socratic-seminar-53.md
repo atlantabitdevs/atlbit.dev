@@ -50,15 +50,24 @@ We'll add more topics as the event gets closer. For now, here's the first one:
 - [Predictable RNG Fallback and 32-Bit Reseed in COLDCARD Firmware](https://engineering.block.xyz/blog/predictable-rng-fallback-and-32-bit-reseed-in-coldcard-firmware) - Block Engineering explains how a disabled hardware-RNG path and a 32-bit reseed can constrain entropy in affected COLDCARD firmware and weaken generated secrets.
 - [When random.bytes() runs but doesn't work](https://insider.btcpp.dev/cp/209395473) - Dusty Daemon digs into what a commit message reveals about the recent COLDCARD bug and how code can appear to generate entropy while still failing as a secure randomness source.
 - [MARA makes Slipstream permissionless](https://x.com/MARAFoundation_/status/2084176346402730479?s=20) - MARA says Slipstream is now a permissionless public good with no client code requirement, which is worth discussing as an alternate transaction relay path and its tradeoffs for fee management and mempool policy.
+- [HWI PSA](https://x.com/jonatack/status/2089820365677547876?s=20) - Jon Atack posted a hardware-wallet-interface PSA that fits the broader wallet-safety and signer-hygiene thread around recent hardware concerns.
 
 #### Threshold Signatures & Wallet Coordination
 
 - [Spiral spotlights BIP-445 FROST signing work](https://x.com/spiral_xyz/status/2087966401013088365?s=20) - Spiral says Sivaram is driving BIP-445 toward a polished v1.0, advancing configurable threshold signatures for bitcoin so keys can be split across multiple participants and only sign once enough parties coordinate.
 
+#### Core, Wallets & Infrastructure
+
+- [rust-bitcoin maintainer spotlight: Nick Johnson](https://x.com/spiral_xyz/status/2089764413783912580?s=20) - Spiral says Nick Johnson is now helping maintain rust-bitcoin and stabilize crates that sit underneath a large share of Bitcoin's Rust ecosystem.
+- [Bitcoin Core v32.0 is targeted for October](https://x.com/bitschmidty/status/2087179372247576800?s=20) - Mike Schmidt flags the current target window for Bitcoin Core 32.0, which is a useful checkpoint for upcoming release-cycle discussion.
+- [Payjoin Dev Kit 1.0](https://x.com/payjoindevkit/status/2087589794155278626?s=20) - Payjoin Dev Kit says its 1.0 release is here, giving the room another concrete privacy-focused payments tool to look at.
+- [PIR stack with DPF, HarmonyPIR, OnionPIRv2, and ORAM support](https://x.com/weikengchen/status/2087562427361849675?s=20) - Weikeng Chen says his ongoing work now spans multiple PIR approaches plus ORAM, with Lightning payments and Nostr-based server discovery planned next.
+
 #### Governance, Process & Rough Consensus
 
 - [Motion to remove Luke Dashjr from BIP Editors](https://groups.google.com/g/bitcoindev/c/knbv3MFwlvU/m/MCiJxxijCAAJ) - The bitcoindev thread argues Luke should be removed as a BIP editor after the BIP-110 fight, raising conflict-of-interest, process, and coordination questions inside Bitcoin's standards process.
 - [Checkmate thread on why the proposed fork failed to reach rough consensus](https://x.com/_Checkmatey_/status/2087368296979157368) - Checkmate frames the failed fork push as a social-consensus loss rather than a rules or referee problem, which makes it a useful prompt on how rough consensus is actually enforced in Bitcoin.
+- [Lopp reflects on the BIP-110 year and its scaling-war echoes](https://x.com/lopp/status/2089344628956844410?s=20) - Jameson Lopp draws parallels between the past year of BIP-110 campaigning and the 2017 scaling fights, with receipts and accountability framing for the people involved.
 
 ### Lightning
 
@@ -67,11 +76,21 @@ We'll add more topics as the event gets closer. For now, here's the first one:
 - [Boltz stays disabled while keeping refund paths open](https://x.com/Boltzhq/status/2084311537502630319?s=20) - Boltz says the service will remain disabled until further notice, though cooperative and unilateral refunds should still work and support remains available.
 - [ZEUS follows suit for its Boltz-backed instance](https://x.com/ZeusLN/status/2084316041673347138?s=20) - ZEUS says its instance is following Boltz offline, while noting other ZEUS services like channels, the LSP, Lightning addresses, and normal send/receive flows remain online.
 - [Blockstream announces atomic swaps across Bitcoin, Liquid, and Lightning](https://x.com/Blockstream/status/2086906995450507315?s=20) - Blockstream says its new swaps product lets users hold BTC or LBTC and pay Lightning invoices without managing channels or inbound liquidity, adding a new entrant in the post-Boltz swap landscape.
+- [Boltz posts an update on its future](https://x.com/Boltzhq/status/2087636521746674168?s=20) - Boltz shared a broader update on the project's future, which feels adjacent to but not duplicative of the earlier outage and refund-path discussion.
+
+#### Wallets, Routing & Infrastructure
+
+- [Noah will forward Lightning payments to Ark addresses](https://x.com/nitesh_btc/status/2089556749078397210?s=20) - Nitesh says the next Noah release will forward Lightning payments to Ark addresses, removing the slow push-notification flow that used to fetch invoices from sleeping users.
+- [Voltage deprecates self-serve to focus on enterprise Lightning infrastructure](https://x.com/voltage_cloud/status/2072721707194786042?s=20) - Voltage says it is sunsetting its self-serve product and going all-in on enterprise-grade Lightning infrastructure, which also gives the room a business-angle Lightning topic.
+- [Agent wallet users should upgrade to 0.22](https://x.com/nickslaney/status/2086905450574843974?s=20) - Nick Slaney posted a heads-up for `@moneydevkit/agent-wallet` users to upgrade to version 0.22.
+- [Empirical test of payment channel network theory](https://x.com/renepickhardt/status/2087094211879321934?s=20) - Rene Pickhardt says he empirically tested the mathematical theory of payment channel networks, which could spark a good routing-theory versus production-reality discussion.
 
 ### AI
 
 - [Discovering cryptographic weaknesses with Claude](https://www.anthropic.com/research/discovering-cryptographic-weaknesses) - Anthropic says Claude Mythos Preview found an improved attack on the post-quantum HAWK signature scheme and a faster attack on a reduced-round version of AES, showing frontier models starting to contribute to real cryptanalysis.
 - [Bitcoin Policy Institute urges trusted frontier-model access for open-source defenders](https://x.com/bitcoinpolicy/status/2086872430639771675?s=20) - Bitcoin Policy Institute says it is joining a broader coalition urging leading AI labs to give qualified open-source defenders trusted access to frontier models, raising questions about who gets advanced capabilities for security research and defense.
+- [Brian Roemmele argues the new open-source AI model fears are overblown](https://x.com/BrianRoemmele/status/2089825288003973549?s=20) - Brian Roemmele says he has run thousands of tests on a new open-source model and argues the "dangerous model" framing is overstated relative to what is already easy to find elsewhere.
+- [Meet Berd](https://x.com/camworboys/status/2089806307591365059?s=20) - Cam Worboys introduced Berd, which looks like another lightweight AI-native builder/project thread worth at least a quick room read.
 
 ### Business
 
@@ -79,6 +98,7 @@ We'll add more topics as the event gets closer. For now, here's the first one:
 
 - [FBI agent accused of stealing nearly $1 million in cryptocurrency](https://www.cnn.com/2026/08/03/politics/fbi-agent-accused-stealing-cryptocurrency) - Court records say an FBI agent diverted more than $900,000 from monitored crypto accounts, a sharp reminder that custody, chain surveillance, and state handling of seized funds create their own trust failures.
 - [Trezor discloses shipping-provider customer data breach](https://x.com/Trezor/status/2087885428313543059?s=20) - Trezor says a breached shipping vendor exposed recent customer order data in several countries, a reminder that self-custody privacy can fail through logistics and supply-chain partners even when the wallet itself is secure.
+- [Block introduces its Bitcoin Open Roadmap](https://x.com/BitcoinatBlock/status/2088349265991270569?s=20) - Block says it is publishing an open Bitcoin roadmap, which is a useful business-and-priorities signal from a major Bitcoin company.
 
 ### Apps
 
@@ -87,6 +107,7 @@ We'll add more topics as the event gets closer. For now, here's the first one:
 - [BTCPay Server warns of actively exploited critical vulnerability](https://x.com/BtcpayServer/status/2085755643659522240?s=20) - BTCPay Server says an in-the-wild bug can lead to loss of funds and is telling operators to update to version 2.4.2 immediately or shut instances down until they can patch.
 - [BTCPay Server funds researchers and recovery bounty after the exploit](https://x.com/BtcpayServer/status/2086875600103367109?s=20) - BTCPay Server says it is donating to the researchers behind the recent critical vulnerability disclosure and helping fund a bounty to recover stolen funds, offering a concrete example of how open-source projects respond after a major incident.
 - [BTCPay Server ships v2.4.3-rc4 security update](https://x.com/BtcpayServer/status/2087959120515101035?s=20) - BTCPay Server says v2.4.3-rc4 addresses vulnerabilities reported by the Bitcoin Red Team, Project Loupe, MAGIC Grants, Prem, and independent researchers after several days of review and testing.
+- [BTCPay Server releases v2.4.3-rc6](https://x.com/BtcpayServer/status/2089715941798252960?s=20) - BTCPay Server says rc6 should be the final release candidate before the fully open-source 2.4.3 release later this week, making it another useful follow-up in the security-response sequence.
 
 #### Ecash & Developer Tooling
 
@@ -94,4 +115,4 @@ We'll add more topics as the event gets closer. For now, here's the first one:
 
 ### Fun
 
-Still collecting a proper palate cleanser for this month.
+- [Noah adds printed receipts for no good reason](https://x.com/nitesh_btc/status/2089389265893347758?s=20) - Nitesh says the next Noah version prints a receipt "for no absolutely no reason," which is exactly the kind of unnecessary delight this section exists for.
