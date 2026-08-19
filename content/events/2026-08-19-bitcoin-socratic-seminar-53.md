@@ -59,6 +59,7 @@ We'll add more topics as the event gets closer. For now, here's the first one:
 
 #### Core, Wallets & Infrastructure
 
+- [nix-bitcoin is shutting down](https://x.com/nixbitcoinorg/status/2087880779892158679) - The nix-bitcoin project announced it is shutting down, raising questions about maintainer sustainability and the future of declarative Bitcoin node infrastructure.
 - [rust-bitcoin maintainer spotlight: Nick Johnson](https://x.com/spiral_xyz/status/2089764413783912580?s=20) - Spiral says Nick Johnson is now helping maintain rust-bitcoin and stabilize crates that sit underneath a large share of Bitcoin's Rust ecosystem.
 - [Bitcoin Core v32.0 is targeted for October](https://x.com/bitschmidty/status/2087179372247576800?s=20) - Mike Schmidt flags the current target window for Bitcoin Core 32.0, which is a useful checkpoint for upcoming release-cycle discussion.
 - [Payjoin Dev Kit 1.0](https://x.com/payjoindevkit/status/2087589794155278626?s=20) - Payjoin Dev Kit says its 1.0 release is here, giving the room another concrete privacy-focused payments tool to look at.
@@ -90,9 +91,9 @@ We'll add more topics as the event gets closer. For now, here's the first one:
 
 ### AI
 
+- [Ten advances in mathematics](https://openai.com/index/ten-advances-in-mathematics/) - OpenAI surveys ten mathematical advances made with help from its models, offering concrete cases for discussing where frontier AI is beginning to contribute to research-level mathematics.
 - [Discovering cryptographic weaknesses with Claude](https://www.anthropic.com/research/discovering-cryptographic-weaknesses) - Anthropic says Claude Mythos Preview found an improved attack on the post-quantum HAWK signature scheme and a faster attack on a reduced-round version of AES, showing frontier models starting to contribute to real cryptanalysis.
 - [Bitcoin Policy Institute urges trusted frontier-model access for open-source defenders](https://x.com/bitcoinpolicy/status/2086872430639771675?s=20) - Bitcoin Policy Institute says it is joining a broader coalition urging leading AI labs to give qualified open-source defenders trusted access to frontier models, raising questions about who gets advanced capabilities for security research and defense.
-- [Brian Roemmele argues the new open-source AI model fears are overblown](https://x.com/BrianRoemmele/status/2089825288003973549?s=20) - Brian Roemmele says he has run thousands of tests on a new open-source model and argues the "dangerous model" framing is overstated relative to what is already easy to find elsewhere.
 - [Meet Berd](https://x.com/camworboys/status/2089806307591365059?s=20) - Cam Worboys introduced Berd, which looks like another lightweight AI-native builder/project thread worth at least a quick room read.
 - [Jensen Huang shares NVIDIA's letter on why open models matter](https://x.com/JensenHuang/status/2080643682408321103?s=20) - Jensen Huang says NVIDIA signed a letter arguing for the importance of open AI models, which makes the frontier-access and open-models debate feel a lot more mainstream.
 - [Denny's jumps into Jensen's open-model thread](https://x.com/DennysDiner/status/2081069889931112816?s=20) - Denny's showed up in the replies to Jensen's post, which is less a technical point than a reminder that AI discourse has fully escaped the lab and entered brand-account territory.
