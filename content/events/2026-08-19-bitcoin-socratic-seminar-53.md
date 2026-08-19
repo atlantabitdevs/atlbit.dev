@@ -43,12 +43,20 @@ To help everyone speak freely, please do not take videos, pictures, or audio rec
 
 The strongest way to read this month's stack of links is not as a random list of Bitcoin news, but as two overlapping narratives. One is BIP 110 and the fight over rough consensus, legitimacy, and who gets to steer Bitcoin's standards process. The other is AI, not as a side topic, but as the broader systems story hanging over security, censorship, red teaming, infrastructure fragility, and even which kinds of builders get to keep operating. A lot of the links below stop looking separate once you read them through those two lenses.
 
+### BIP110 Saga
+
+#### Governance, Process & Rough Consensus
+
+- [OCEAN killed BIP-110](https://x.com/L0RINC/status/2086188544738074671) - L0RINC credits OCEAN with killing the BIP-110 fork, adding a concrete mining-pool angle to the broader rough-consensus and failed-fork discussion.
+- [Checkmate thread on why the proposed fork failed to reach rough consensus](https://x.com/_Checkmatey_/status/2087368296979157368) - Checkmate frames the failed fork push as a social-consensus loss rather than a rules or referee problem, which makes it a useful prompt on how rough consensus is actually enforced in Bitcoin.
+- [Lopp reflects on the BIP-110 year and its scaling-war echoes](https://x.com/lopp/status/2089344628956844410?s=20) - Jameson Lopp draws parallels between the past year of BIP-110 campaigning and the 2017 scaling fights, with receipts and accountability framing for the people involved.
+- [Motion to remove Luke Dashjr from BIP Editors](https://groups.google.com/g/bitcoindev/c/knbv3MFwlvU/m/MCiJxxijCAAJ) - The bitcoindev thread argues Luke should be removed as a BIP editor after the BIP-110 fight, raising conflict-of-interest, process, and coordination questions inside Bitcoin's standards process.
+
 ### AI Takeover
 
 #### Cool Stuff
 
 - [Ten advances in mathematics](https://openai.com/index/ten-advances-in-mathematics/) - OpenAI surveys ten mathematical advances made with help from its models, offering concrete cases for discussing where frontier AI is beginning to contribute to research-level mathematics.
-- [Meet Berd](https://x.com/camworboys/status/2089806307591365059?s=20) - Cam Worboys introduced Berd, which looks like another lightweight AI-native builder/project thread worth at least a quick room read.
 
 #### Security & Offensive Security
 
@@ -62,7 +70,6 @@ The strongest way to read this month's stack of links is not as a random list of
 - [MARA makes Slipstream permissionless](https://x.com/MARAFoundation_/status/2084176346402730479?s=20) - MARA says Slipstream is now a permissionless public good with no client code requirement, which is worth discussing as an alternate transaction relay path and its tradeoffs for fee management and mempool policy.
 - [Solving Bitcoin's Self-Custody Trilemma](https://lu.ke/self-custody-trilemma) - Luke Childs argues that current self-custody setups force tradeoffs between security, ease of use, and trustlessness, and presents Anzen as a vault design meant to improve that balance without a soft fork, company, or cosigner.
 - [HWI PSA](https://x.com/jonatack/status/2089820365677547876?s=20) - Jon Atack posted a hardware-wallet-interface PSA that fits the broader wallet-safety and signer-hygiene thread around recent hardware concerns.
-- [Rob Hamilton says he and Calle are entering a very Chinese phase of life](https://x.com/Rob1Ham/status/2086493931471032389?s=20) - A thoroughly unserious Rob Hamilton post that now just lives at the tail end of the ColdCard saga.
 
 ##### Lightning Infrastructure
 
@@ -77,20 +84,12 @@ The strongest way to read this month's stack of links is not as a random list of
 
 - [Bitcoin Policy Institute urges trusted frontier-model access for open-source defenders](https://x.com/bitcoinpolicy/status/2086872430639771675?s=20) - Bitcoin Policy Institute says it is joining a broader coalition urging leading AI labs to give qualified open-source defenders trusted access to frontier models, raising questions about who gets advanced capabilities for security research and defense.
 - [Jensen Huang shares NVIDIA's letter on why open models matter](https://x.com/JensenHuang/status/2080643682408321103?s=20) - Jensen Huang says NVIDIA signed a letter arguing for the importance of open AI models, which makes the frontier-access and open-models debate feel a lot more mainstream.
-- [Denny's jumps into Jensen's open-model thread](https://x.com/DennysDiner/status/2081069889931112816?s=20) - Denny's showed up in the replies to Jensen's post, which is less a technical point than a reminder that AI discourse has fully escaped the lab and entered brand-account territory.
-
-### BIP110 Saga
-
-#### Governance, Process & Rough Consensus
-
-- [Checkmate thread on why the proposed fork failed to reach rough consensus](https://x.com/_Checkmatey_/status/2087368296979157368) - Checkmate frames the failed fork push as a social-consensus loss rather than a rules or referee problem, which makes it a useful prompt on how rough consensus is actually enforced in Bitcoin.
-- [Lopp reflects on the BIP-110 year and its scaling-war echoes](https://x.com/lopp/status/2089344628956844410?s=20) - Jameson Lopp draws parallels between the past year of BIP-110 campaigning and the 2017 scaling fights, with receipts and accountability framing for the people involved.
-- [Motion to remove Luke Dashjr from BIP Editors](https://groups.google.com/g/bitcoindev/c/knbv3MFwlvU/m/MCiJxxijCAAJ) - The bitcoindev thread argues Luke should be removed as a BIP editor after the BIP-110 fight, raising conflict-of-interest, process, and coordination questions inside Bitcoin's standards process.
 
 ### Misc
 
 #### Bitcoin Infra
 
+- [CISA for Taproot key-path spends](https://groups.google.com/g/bitcoindev/c/1XH6sBLWZuA) - Fabian Jahr proposes a new witness version for transaction-wide cross-input signature aggregation, letting Taproot-style key-path inputs use half aggregation, full aggregation, or explicitly opt out while leaving script-path spending unchanged.
 - [Spiral spotlights BIP-445 FROST signing work](https://x.com/spiral_xyz/status/2087966401013088365?s=20) - Spiral says Sivaram is driving BIP-445 toward a polished v1.0, advancing configurable threshold signatures for bitcoin so keys can be split across multiple participants and only sign once enough parties coordinate.
 - [nix-bitcoin is shutting down](https://x.com/nixbitcoinorg/status/2087880779892158679) - The nix-bitcoin project announced it is shutting down, raising questions about maintainer sustainability and the future of declarative Bitcoin node infrastructure.
 - [rust-bitcoin maintainer spotlight: Nick Johnson](https://x.com/spiral_xyz/status/2089764413783912580?s=20) - Spiral says Nick Johnson is now helping maintain rust-bitcoin and stabilize crates that sit underneath a large share of Bitcoin's Rust ecosystem.
@@ -104,7 +103,6 @@ The strongest way to read this month's stack of links is not as a random list of
 - [Noah will forward Lightning payments to Ark addresses](https://x.com/nitesh_btc/status/2089556749078397210?s=20) - Nitesh says the next Noah release will forward Lightning payments to Ark addresses, removing the slow push-notification flow that used to fetch invoices from sleeping users.
 - [Empirical test of payment channel network theory](https://x.com/renepickhardt/status/2087094211879321934?s=20) - Rene Pickhardt says he empirically tested the mathematical theory of payment channel networks, which could spark a good routing-theory versus production-reality discussion.
 - [Spiral highlights Cashu Dev Kit roadmap](https://x.com/spiral_xyz/status/2087909385729110428?s=20) - Spiral says a new grantee is helping build CDK, a Rust SDK for Cashu wallets and mints, with onchain support via BDK, payjoin via PDK, and unified balances via LDK on the roadmap.
-- [Noah adds printed receipts for no good reason](https://x.com/nitesh_btc/status/2089389265893347758?s=20) - Nitesh says the next Noah version prints a receipt "for no absolutely no reason," which is exactly the kind of unnecessary delight this section exists for.
 
 #### Business
 
@@ -115,3 +113,11 @@ The strongest way to read this month's stack of links is not as a random list of
 
 - [FBI agent accused of stealing nearly $1 million in cryptocurrency](https://www.cnn.com/2026/08/03/politics/fbi-agent-accused-stealing-cryptocurrency) - Court records say an FBI agent diverted more than $900,000 from monitored crypto accounts, a sharp reminder that custody, chain surveillance, and state handling of seized funds create their own trust failures.
 - [Trezor discloses shipping-provider customer data breach](https://x.com/Trezor/status/2087885428313543059?s=20) - Trezor says a breached shipping vendor exposed recent customer order data in several countries, a reminder that self-custody privacy can fail through logistics and supply-chain partners even when the wallet itself is secure.
+
+#### Fun & Miscellaneous
+
+- [Meet Berd](https://x.com/camworboys/status/2089806307591365059?s=20) - Cam Worboys introduced Berd, which looks like another lightweight AI-native builder/project thread worth at least a quick room read.
+- [Denny's jumps into Jensen's open-model thread](https://x.com/DennysDiner/status/2081069889931112816?s=20) - Denny's showed up in the replies to Jensen's post, which is less a technical point than a reminder that AI discourse has fully escaped the lab and entered brand-account territory.
+- [Noah adds printed receipts for no good reason](https://x.com/nitesh_btc/status/2089389265893347758?s=20) - Nitesh says the next Noah version prints a receipt "for no absolutely no reason," which is exactly the kind of unnecessary delight this section exists for.
+- [Rob Hamilton says he and Calle are entering a very Chinese phase of life](https://x.com/Rob1Ham/status/2086493931471032389?s=20) - A thoroughly unserious Rob Hamilton post that belongs here on vibe alone.
+- [Switzerland open-sourced its entire government](https://x.com/ChShersh/status/2077765079043379213) - Dmitrii Kovanikov jokes that Switzerland was ahead of X's open-source push because its government is already open source, a fitting transparency-themed palate cleanser.
