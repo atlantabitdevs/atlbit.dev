@@ -48,10 +48,12 @@ To help everyone speak freely, please do not take videos, pictures, or audio rec
 ### Lightning
 
 - [LND adds BOLT12 Merkle trees and BIP-340 message signatures](https://github.com/lightningnetwork/lnd/pull/11061) - LND merged Merkle tree construction and Schnorr signing and verification for BOLT12 invoice requests and invoices, rejecting invalid signatures when reading messages and checking the implementation against upstream test vectors.
+- [Disclosure: crashing CLN with a flood of pings](https://delvingbitcoin.org/t/disclosure-crashing-cln-with-a-flood-of-pings/2846) - Erick Cestari discloses a denial-of-service bug where a peer could exhaust Core Lightning's memory by triggering replies without reading them, even without a funded channel. Fixed in v25.09 in September 2025 and publicly disclosed in August 2026, it highlights a gap in outgoing-message backpressure.
 
 ### Privacy
 
 - [Silent payments light clients: measurements and index commitments](https://groups.google.com/g/bitcoindev/c/qqDYHnnoM7k?pli=1) - Rob Segers shares mainnet measurements comparing filter-based scanning with BlindBit Oracle v2, quantifying bandwidth and storage tradeoffs. He also proposes per-block index commitments to help detect omitted tweaks, while noting that these do not eliminate the need to trust or cross-check servers.
+- [Silent Payments coinbase](https://delvingbitcoin.org/t/silent-payments-coinbase/2833) - A proposal adapts silent payments for mining-pool payouts directly in coinbase transactions over Stratum v2. It would require wallet scanning changes and could reduce address reuse, while pool accounting records and payout amounts remain privacy concerns.
 - [Babilonia: probabilistic coinjoin and covert betting](https://delvingbitcoin.org/t/babilonia-probabilistic-coinjoin-and-covert-betting/2704/2) - AdamISZ explores using private, fair bets inside payment-like transactions to improve privacy. This follow-up compares Babilonia with a more general betting construction and sketches how randomized transfers could weaken amount correlation in coinswaps.
 
 ### AI
