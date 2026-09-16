@@ -41,4 +41,14 @@ To help everyone speak freely, please do not take videos, pictures, or audio rec
 
 ## Topics
 
-Topics to be announced.
+### Bitcoin
+
+- [Bitcoin Core mining templates enforce the Murch-Zawy rule (BIP54)](https://github.com/bitcoin/bitcoin/pull/35949) - A merged change makes mining templates respect BIP54's timestamp floor at the end of a difficulty period, addressing a clock-skew edge case that could otherwise prevent a node from building a valid template, especially on test networks with volatile hashrates.
+
+### Lightning
+
+- [LND adds BOLT12 Merkle trees and BIP-340 message signatures](https://github.com/lightningnetwork/lnd/pull/11061) - LND merged Merkle tree construction and Schnorr signing and verification for BOLT12 invoice requests and invoices, rejecting invalid signatures when reading messages and checking the implementation against upstream test vectors.
+
+### AI
+
+- [Between Us: everyday stories about Bitcoin and AI](https://www.betweenusstories.com/) - Between Us collects firsthand accounts of how Bitcoin and AI affect people's lives. Maintainer Mo is looking for nontechnical people to share how they use these tools.
