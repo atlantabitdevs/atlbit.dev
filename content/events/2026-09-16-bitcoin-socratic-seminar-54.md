@@ -49,6 +49,11 @@ To help everyone speak freely, please do not take videos, pictures, or audio rec
 
 - [LND adds BOLT12 Merkle trees and BIP-340 message signatures](https://github.com/lightningnetwork/lnd/pull/11061) - LND merged Merkle tree construction and Schnorr signing and verification for BOLT12 invoice requests and invoices, rejecting invalid signatures when reading messages and checking the implementation against upstream test vectors.
 
+### Privacy
+
+- [Silent payments light clients: measurements and index commitments](https://groups.google.com/g/bitcoindev/c/qqDYHnnoM7k?pli=1) - Rob Segers shares mainnet measurements comparing filter-based scanning with BlindBit Oracle v2, quantifying bandwidth and storage tradeoffs. He also proposes per-block index commitments to help detect omitted tweaks, while noting that these do not eliminate the need to trust or cross-check servers.
+- [Babilonia: probabilistic coinjoin and covert betting](https://delvingbitcoin.org/t/babilonia-probabilistic-coinjoin-and-covert-betting/2704/2) - AdamISZ explores using private, fair bets inside payment-like transactions to improve privacy. This follow-up compares Babilonia with a more general betting construction and sketches how randomized transfers could weaken amount correlation in coinswaps.
+
 ### AI
 
 - [Between Us: everyday stories about Bitcoin and AI](https://www.betweenusstories.com/) - Between Us collects firsthand accounts of how Bitcoin and AI affect people's lives. Maintainer Mo is looking for nontechnical people to share how they use these tools.
