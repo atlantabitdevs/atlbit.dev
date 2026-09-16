@@ -62,6 +62,12 @@ To help everyone speak freely, please do not take videos, pictures, or audio rec
 
 - [Liquid's reserve exploit and recovery](https://x.com/Liquid_BTC/status/2097404704028545175) - Liquid's September 8 incident report describes how a range-proof verification-cache vulnerability allowed roughly 4,000 unbacked L-BTC to be created and redeemed through SideSwap on September 6 without compromising private keys. About 3,400 BTC was returned; a [September 11 recovery update](https://www.theblock.co/news/ecosystems/2026-09-11-return-the-bitcoin-blockstream-refuses-ransom-demand-for-remaining-600-btc-from-liquid-exploit-414247) reported 598.5 BTC still outstanding and peg-outs disabled. [Blockstream's statement](https://x.com/Blockstream/status/2098281867908690394) rejects ransom payments and pledges to pursue recovery, raising questions about shared validation failures, developer responsibility, and the boundaries of responsible disclosure.
 
+  - [Hackers' initial OP_RETURN message](https://mempool.space/tx/c103de95817b43f2df635ec6f35ff126ca26a7c6d20570c4b01866b2b3e69a19): "we are whitehats. contact us on chain"
+  - [Blockstream's response](https://mempool.space/tx/91271efcbb5ab29abfc38ae635f0644e3ba042aad56f92d40136e1dde4742fe8): "Please contact security@blockstream.com"
+  - [Hackers request a fix before returning funds](https://mempool.space/tx/83825b2135dd0abac12c9dfe17f29ab81b3427e1ae864947b0bebce5e47c3c4b), followed by encrypted vulnerability details.
+  - [Blockstream confirms the patch](https://mempool.space/tx/3c101c8e053a6cbc7c4455e4fec017c8f2962ed86dee70e72fb8bafbb1d7bde9): "Bridge nodes are patched, safe to return the funds."
+  - [Full on-chain message chronology hosted by Sjors](https://gist.github.com/Sjors/9d24363e67529079cc2ae4305ff90fcd), with additional transaction links.
+
 ### Lightning
 
 #### BOLT12
