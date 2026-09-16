@@ -44,6 +44,7 @@ To help everyone speak freely, please do not take videos, pictures, or audio rec
 ### Bitcoin
 
 - [Bitcoin Core mining templates enforce the Murch-Zawy rule (BIP54)](https://github.com/bitcoin/bitcoin/pull/35949) - A merged change makes mining templates respect BIP54's timestamp floor at the end of a difficulty period, addressing a clock-skew edge case that could otherwise prevent a node from building a valid template, especially on test networks with volatile hashrates.
+- [Post-quantum output types: migration incentives and tradeoffs](https://delvingbitcoin.org/t/pqc-output-type-discussion/2749/6) - Starting with Pieter Wuille's August 17 post, the discussion weighs a simpler P2TRv2 migration path against bundling cross-input signature aggregation (CISA) for fee savings. Replies debate P2MR, wallet adoption and key management, when to disable elliptic-curve spending, and how larger post-quantum witnesses affect resource limits and decentralization.
 
 ### Lightning
 
