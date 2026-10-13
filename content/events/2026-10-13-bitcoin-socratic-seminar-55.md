@@ -56,6 +56,7 @@ To help everyone speak freely, please do not take videos, pictures, or audio rec
 
 #### Privacy and Scaling
 
+- [Zark: ZK proofs for blinded statechains](https://hackmd.io/@januszgrze/HJlHensozl) - A Mercury Layer-inspired prototype lets recipients validate a coin's history and exit priority without receiving prior owners' backup transactions or payout addresses. Users still trust the co-signer to delete old keyshares and must monitor the chain for competing exits. Unaudited research prototype on Mutinynet, not mainnet. [Announcement](https://x.com/lxdev_/status/2110041930050494909), [code](https://github.com/zerosats/zark-public).
 - [Shielded Bitcoin: private transfers on Bitcoin L1](https://x.com/allocinitxyz/status/2103124026214568209) - A paper from [alloc] init (Clara Shikhelman, Mikhail Komarov, Aleksei Moskvin) for Zcash-style shielded notes on Bitcoin with no consensus change: encrypted notes, public nullifiers, validity enforced through PIPEs v2, and shielded state rebuilt by replaying accepted transfers in Bitcoin order.
 - [Glass coins vs shielded bitcoin](https://x.com/robin_linus/status/2104266654226198827) - Robin Linus's 48-minute whiteboard session: key architecture and metaprotocol tradeoffs, BitVM vs PIPEs bridges, and the case for Bitcoin upgrades.
 - [Garbled Groth16 verification under 2 MB](https://eprint.iacr.org/2026/2100) - Alpen Labs cut the off-chain data needed for garbled Groth16 verification on Bitcoin by more than 99.99%, from 48 GB to under 2 MB.
