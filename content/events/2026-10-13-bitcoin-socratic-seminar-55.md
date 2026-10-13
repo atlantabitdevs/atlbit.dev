@@ -43,13 +43,16 @@ To help everyone speak freely, please do not take videos, pictures, or audio rec
 
 ### Bitcoin
 
-#### Core and Policy
+#### Bitcoin Core
 
 - [Make Taproot annexes standard](https://github.com/bitcoin/bitcoin/pull/36466) - Robin Linus opened a Bitcoin Core PR that relays Taproot annexes, so shielded protocols like Shielded CSV can post a little data with each payment. Policy only, consensus untouched: an input opts in with an annex starting `0x50 0x00`, and either every non-P2A input carries an annex or none does. Builds on #27926 and Libre Relay. Should Core relay the annex, and what does that do to the data-embedding debate?
-- [OpenSats: supporting the foundations of Bitcoin development](https://opensats.org/blog/supporting-the-foundations-of-bitcoin-development) - Four first-time grants and one renewal: Guix release infrastructure (futurile), libbitcoinkernel and its JVM wrapper (Yuvicc), the Core wallet including sat/vB fee units and BIP-39 import (Pol Espinasa, who runs BitDevs Barcelona), wallet, GUI and IPC review (Pablo Martin), and a renewal for janb84.
-- [Peter Todd joins MARA Foundation to lead Slipstream](https://x.com/MARAFoundation_/status/2105659425054748922) - Peter Todd becomes lead maintainer of Slipstream, MARA's private mempool service for submitting transactions directly to a miner.
 - [Bitcoin Core 32.0rc3](https://bitcoincore.org/bin/bitcoin-core-32.0/test.rc3/) - Third release candidate is up for testing. From the [draft release notes](https://github.com/bitcoin-core/bitcoin-devwiki/wiki/32.0-Release-Notes-Draft): `estimatesmartfee` now combines the block policy estimator with a new mempool-based one, the default `-maxconnections` goes from 125 to 200 to make room for more block-relay-only peers, outgoing transaction relay is rate-limited through one global backlog instead of per peer, and private broadcast gets a queue cap, a send-attempt limit, and a fix for an IP leak on the v2-to-v1 retry.
 - [Bounds on chain length with BIP-54 timewarp fixes](https://delvingbitcoin.org/t/bounds-on-chain-length-with-bip-54-timewarp-fixes/2899) - Pieter Wuille shows that BIP-54's two timewarp rules are enough to bound how many blocks any chain can have for a given time and amount of work, with the formula proven in Lean. For the real chain in September (height 966,270), the bound is 1,012,794 blocks; the longest chain he has actually constructed, found by Claude Fable 5.1, is 1,007,326.
+
+#### Grants and Maintainers
+
+- [OpenSats: supporting the foundations of Bitcoin development](https://opensats.org/blog/supporting-the-foundations-of-bitcoin-development) - Four first-time grants and one renewal: Guix release infrastructure (futurile), libbitcoinkernel and its JVM wrapper (Yuvicc), the Core wallet including sat/vB fee units and BIP-39 import (Pol Espinasa, who runs BitDevs Barcelona), wallet, GUI and IPC review (Pablo Martin), and a renewal for janb84.
+- [Peter Todd to lead MARA's Slipstream](https://x.com/MARAFoundation_/status/2105659425054748922) - The MARA Foundation announced that Peter Todd will lead maintenance of Slipstream, MARA's private mempool service for submitting transactions directly to a miner.
 
 #### Privacy and Scaling
 
