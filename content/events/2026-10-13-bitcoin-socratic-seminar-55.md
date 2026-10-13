@@ -93,6 +93,11 @@ To help everyone speak freely, please do not take videos, pictures, or audio rec
 - [Second's Ark server exploited](https://x.com/secondhq/status/2108065406665805992) - On October 5 an attacker exploited a bug in the boarding flow of Second's Ark server and took 0.75 BTC of Second's own liquidity. No user funds were affected. Blink ties the same attacker to its own breach (above).
 - [Bark MCP server for the Arké wallet](https://x.com/matthewvuk2/status/2106416882219655229) - Second place overall at the btc++ Berlin hackathon: an MCP server that connects to the Arké iPhone wallet, so agents can pay from your mobile wallet.
 
+### Policy
+
+- [FinCEN withdraws unhosted-wallet and mixing proposals](https://www.fincen.gov/news/news-releases/fincen-announces-withdrawals-proposed-digital-asset-related-rules) - Announced October 5 and effective October 6: FinCEN withdrew its 2020 unhosted-wallet proposal and 2023 international virtual-currency mixing proposal, which would have added verification, recordkeeping, or reporting duties for financial institutions. Existing anti-money-laundering obligations remain, and FinCEN says it will continue monitoring mixers for illicit activity.
+- [SEC proposes new crypto custody options for advisers and funds](https://www.sec.gov/newsroom/press-releases/2026-100-sec-proposal-would-address-how-investment-advisers-funds-can-custody-crypto-assets-under-federal) - The October 1 proposal would let registered investment advisers and regulated funds use state trust companies as crypto custodians and hold crypto assets in self-custody under specified safeguards. Here, self-custody means institutions holding client or fund keys. This is still a proposal; [comments are due December 7](https://www.govinfo.gov/content/pkg/FR-2026-10-06/html/2026-20466.htm).
+
 ### AI
 
 - [Anthropic launches OSS Scanner](https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source) - A free, opt-in service modeled on OSS-Fuzz that periodically scans enrolled open-source projects with Anthropic's frontier models. Reports include a proof of concept, an explanation, and a suggested fix where one exists. They are sent without human review. In a check of 97 critical and high-severity findings, only one was a false positive. Should Bitcoin projects enroll, and who triages the reports?
