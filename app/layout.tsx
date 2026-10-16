@@ -3,6 +3,7 @@ import './globals.css'
 import { Hanken_Grotesk, Literata, Spline_Sans_Mono } from 'next/font/google'
 
 import Header from '@/components/Header/Header'
+import Footer from '@/components/Footer'
 import type { Metadata } from 'next'
 import { ThemeProvider } from './theme-provider'
 import { meetup } from '@/meetup'
@@ -75,6 +76,7 @@ export default function RootLayout({
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <Header />
           {children}
+          <Footer />
         </ThemeProvider>
       </body>
     </html>

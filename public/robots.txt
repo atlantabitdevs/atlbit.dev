@@ -1,0 +1,44 @@
+# Atlanta BitDevs — https://atlbit.dev
+# Free and open Bitcoin education. Our content is meant to be shared, so we
+# welcome search engines and AI agents. A machine-readable index of the site
+# is available at https://atlbit.dev/llms.txt and every content page has a
+# plain-markdown mirror at the same URL with a ".md" suffix.
+
+User-agent: *
+Allow: /
+Disallow: /experiment
+# Content usage preferences — https://contentsignals.org/
+Content-Signal: search=yes, ai-input=yes, ai-train=yes
+
+# AI / LLM crawlers — explicitly welcomed
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+Sitemap: https://atlbit.dev/sitemap.xml
