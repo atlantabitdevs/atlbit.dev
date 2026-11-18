@@ -71,7 +71,7 @@ To help everyone speak freely, please do not take videos, pictures, or audio rec
 
 ### Ark
 
-- [Noah: an Ark wallet rewritten native](https://github.com/smolcars/noah) - Noah, a trust-minimized Ark wallet built on Bark, was rewritten from React Native into native Swift (SwiftUI) and Kotlin (Jetpack Compose) with a full redesign. Claude Opus 5.5 did the rewrite in five days: [one pull request](https://github.com/smolcars/noah/pull/374) of about 333,000 added lines across 1,562 files. On a Pixel 6, cold start went from 4.3s to 1.4s, memory from 262 MB to 128 MB, and the APK from 105 MB to 61 MB, though scroll jank rose from 0.13% to 1.2% and is being fixed. On an iPhone 17, cold start went from 1.42s to 0.85s and memory from 105 MB to 30 MB. Still in beta. If an agent can rewrite an app natively in a week, is there still a case for cross-platform frameworks in Bitcoin wallets?
+- [Noah: an Ark wallet rewritten native](https://github.com/smolcars/noah) - Noah, a trust-minimized Ark wallet built on Bark, was rewritten from React Native into native Swift (SwiftUI) and Kotlin (Jetpack Compose) with a full redesign. Claude Opus 5.5 did the rewrite in five days: [one pull request](https://github.com/smolcars/noah/pull/374) of about 333,000 added lines across 1,562 files ([announcement](https://x.com/nitesh_btc/status/2114547704424743292)). On a Pixel 6, cold start went from 4.3s to 1.4s, memory from 262 MB to 128 MB, and the APK from 105 MB to 61 MB, though scroll jank rose from 0.13% to 1.2% and is being fixed. On an iPhone 17, cold start went from 1.42s to 0.85s and memory from 105 MB to 30 MB. Still in beta. If an agent can rewrite an app natively in a week, is there still a case for cross-platform frameworks in Bitcoin wallets?
 
 ### AI
 
