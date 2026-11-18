@@ -43,21 +43,16 @@ To help everyone speak freely, please do not take videos, pictures, or audio rec
 
 ### Bitcoin
 
-#### Bitcoin Core
+#### Protocol
 
-- [Bitcoin Core 32.1](https://bitcoincore.org/en/releases/32.1/) - 32.0 was never released, so 32.1 ships the mempool-based fee estimator, 200 default connections, and v2 PSBTs by default, and with 29.x now end of life, Poinsot [disclosed three older bugs](https://groups.google.com/g/bitcoindev/c/tOLTRSOz87k) fixed in 29.2 and 30.0.
 - [Testnet 5 is live](https://groups.google.com/g/bitcoindev/c/DmFiHeo-xRw) - The [BIP 95](https://github.com/bitcoin/bips/blob/master/bip-0095.md) replacement for testnet4 launched November 14, dropping the minimum-difficulty exception behind testnet4's block storms, requiring an ASIC to mine, and enforcing BIP 54 Consensus Cleanup from block 1.
 - [A STARK proof of Bitcoin's UTXO set](https://delvingbitcoin.org/t/a-stark-proof-of-bitcoins-utxo-set-at-block-972-500-with-circuits-proven-in-lean/3070) - l-henri's 1.6 MB proof covers the header chain and the UTXO set at block 972,500 and verifies in half a second in a browser, though it doesn't yet check scripts or signatures. [Demo](https://starknet-innovation.github.io/starked-bitcoin), [code](https://github.com/starknet-innovation/starked-bitcoin).
+- [Softfork before GTA VI?](https://delvingbitcoin.org/t/softfork-before-gta-vi/2913) - With GTA VI out tomorrow, cmp_ancp asks whether Bitcoin can ship a soft fork first, while Adam Gibson's [Responses to Stagnation](https://insider.btcpp.dev/p/responses-to-stagnation-the-reactionary) argues the energy has moved to cryptography that needs no new opcodes.
 
 #### rbitcoin
 
 - [rbitcoin](https://github.com/rbitcoin-org/rbitcoin) - A Bitcoin full node in Rust, AI-written (Grok) under Brandon Black's prompting, that keeps no UTXO set and runs the tx index, address index, Electrum, and Esplora APIs in the same process.
 - [rbitcoin.space](https://rbitcoin.space/) - A block explorer that runs beside a stock rbitcoin node with no second indexer or database server, covering the mempool, mining pools, the Lightning graph, Ark VTXOs, and silent payments on mainnet, signet, testnet4, and Testnet 5. [Code](https://github.com/smolcars/rbitcoin-space).
-
-#### Soft Forks
-
-- [Softfork before GTA VI?](https://delvingbitcoin.org/t/softfork-before-gta-vi/2913) - With GTA VI out tomorrow, cmp_ancp asks whether Bitcoin can ship a soft fork first, while Adam Gibson's [Responses to Stagnation](https://insider.btcpp.dev/p/responses-to-stagnation-the-reactionary) argues the energy has moved to cryptography that needs no new opcodes.
-- [BIP300 bundle censorship](https://groups.google.com/g/bitcoindev/c/7P0_BHRAYQI) - Ori Newman shows a miner with 26% of hashrate could block drivechain withdrawals indefinitely by sending ALARM in every block, and suggests forbidding downvotes.
 
 #### Quantum
 
@@ -76,7 +71,6 @@ To help everyone speak freely, please do not take videos, pictures, or audio rec
 
 ### Lightning
 
-- [lnd v0.21.8-beta](https://github.com/lightningnetwork/lnd/releases/tag/v0.21.8-beta) - Names no vulnerability, but fixes a long list of bugs where funds are at stake, including HTLC recovery across reconnects and a restart that could drop acknowledged channel updates.
 - [LDK 0.3-rc4](https://github.com/lightningdevkit/rust-lightning/tree/v0.3-rc4) - LDK's next major version adds RBF for splices and anchor channels by default, but upgrading invalidates already-issued BOLT11 invoices that carry payment metadata.
 
 ### Ark
@@ -89,7 +83,9 @@ To help everyone speak freely, please do not take videos, pictures, or audio rec
 ### Security
 
 - [Bitcoin Core fast-tracks easy-to-find bugs](https://groups.google.com/g/bitcoindev/c/70VSp_ARD5Q) - Because LLMs make some bugs cheap to find, Core now skips the long embargo for those, backporting fixes to every maintained release and publishing advisories right away; the first three went out October 28.
-- [The bug hunters are models now](https://bitcoinops.org/en/newsletters/2026/11/06/#btcpay-server-2-4-7) - AI scanners are behind Bitcoin Core's new disclosure policy, the 85 fixes in [BTCPay Server 2.4.7](https://github.com/btcpayserver/btcpayserver/releases/tag/v2.4.7), and the security credits in [LDK 0.2.8](https://github.com/lightningdevkit/rust-lightning/releases/tag/v0.2.8).
+- [Bitcoin Core 32.1](https://bitcoincore.org/en/releases/32.1/) - 32.0 was never released, so 32.1 ships the mempool-based fee estimator, 200 default connections, and v2 PSBTs by default, and with 29.x now end of life, Poinsot [disclosed three older bugs](https://groups.google.com/g/bitcoindev/c/tOLTRSOz87k) fixed in 29.2 and 30.0.
+- [BIP300 bundle censorship](https://groups.google.com/g/bitcoindev/c/7P0_BHRAYQI) - Ori Newman shows a miner with 26% of hashrate could block drivechain withdrawals indefinitely by sending ALARM in every block, and suggests forbidding downvotes.
+- [lnd v0.21.8-beta](https://github.com/lightningnetwork/lnd/releases/tag/v0.21.8-beta) - Names no vulnerability, but fixes a long list of bugs where funds are at stake, including HTLC recovery across reconnects and a restart that could drop acknowledged channel updates.
 - [Core Lightning #9610](https://github.com/ElementsProject/lightning/issues/9610) - An HTLC of about 92 million BTC read as negative in a balance check and crashed `channeld`, so CLN now rejects amounts above 21 million BTC.
 - [BTCPay hot wallets swept](https://decrypt.co/382324/btcpay-tells-merchants-to-switch-off-servers-amid-hot-wallet-attack-reports) - An attacker logging in as admin swept about $1.63 million from BTCPay hot wallets, apparently on servers running releases older than August's [2.4.2 fix](https://blog.btcpayserver.org/security-advisory-btcpay-server-2-4-2/).
 - [LNbits: "shut down immediately"](https://news.lnbits.com/news/lnbits-1-7-0-security-update) - After attacks drained funds, [v1.7.0](https://github.com/lnbits/lnbits/releases/tag/v1.7.0) fixes every earlier version, but operators must also reset wallet keys and rotate every credential stored in LNbits.
@@ -104,7 +100,7 @@ To help everyone speak freely, please do not take videos, pictures, or audio rec
 ### AI
 
 - [Claude Fable 5.2 and Claude Mythos 5.2](https://www.anthropic.com/claude/fable) - Anthropic released Fable 5.2, scoring 49.1% on FrontierCode 2.0, alongside Mythos 5.2 for vetted organizations in its Life Sciences and Cyber Verification Programs.
-- [GPT-6.2 Astra and GPT-6.2 Sol](https://community.openai.com/t/gpt-6-2-astra-and-sol-are-now-available/1417531) - OpenAI's new frontier Astra and cheaper everyday Sol models, with Astra the first it has released at its "High" threshold for AI self-improvement.
+- [GPT-6.2 Astra and GPT-6.2 Sol](https://community.openai.com/t/gpt-6-2-astra-and-sol-are-now-available/1417531) - OpenAI's new frontier Astra and cheaper everyday Sol models, with Astra the first it has released at its "High" threshold for AI self-improvement. [Theo's essay on Astra](https://x.com/theo/status/2122760447103484410).
 - [Claude Code: Code Mode](https://code.claude.com/docs/en/code-mode) - An experimental mode where Claude writes a short JavaScript program to run tool calls in parallel instead of calling them one at a time.
 - [Bend 2: a language that blocks AI mistakes with proofs](https://bend-lang.com) - Victor Taelin's language for agent-written code, where a proof checker rejects any change that breaks the rules declared in `LAWS.bend`.
 - [Numes: end-to-end encrypted inference, payable in sats](https://x.com/callebtc/status/2121244678351687944) - The [Numes](https://numes.ai) inference marketplace added [encrypted models](https://numes.ai/docs/inference/encrypted), with guarantees that vary by provider, and accepts payment in sats.
