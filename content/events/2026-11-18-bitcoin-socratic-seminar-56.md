@@ -54,12 +54,6 @@ To help everyone speak freely, please do not take videos, pictures, or audio rec
 - [rbitcoin](https://github.com/rbitcoin-org/rbitcoin) - A Bitcoin full node in Rust, AI-written (Grok) under Brandon Black's prompting, that keeps no UTXO set and runs the tx index, address index, Electrum, and Esplora APIs in the same process.
 - [rbitcoin.space](https://rbitcoin.space/) - A block explorer that runs beside a stock rbitcoin node with no second indexer or database server, covering the mempool, mining pools, the Lightning graph, Ark VTXOs, and silent payments on mainnet, signet, testnet4, and Testnet 5. [Code](https://github.com/smolcars/rbitcoin-space).
 
-#### Quantum
-
-- [Quantum landmines and vulnerable coin auctions](https://groups.google.com/g/bitcoindev/c/ARMwWdWcz9A) - Cory Fields's thought experiments try to make quantum theft a losing bet instead of freezing old coins, alongside James Tagg's [QSAVE](https://groups.google.com/g/bitcoindev/c/5G38b3JL9fA) and a [proof-of-decay](https://delvingbitcoin.org/t/a-novel-post-quantum-approach-proof-of-decay-cryptographic-half-life-for-unmigrated-dormant-utxos/2970) proposal.
-- [How much BTC already sits behind public keys](https://delvingbitcoin.org/t/how-much-btc-sits-behind-keys-or-scripts-already-on-chain-block-975-019/3088) - duncan0k's census finds 7.16 million BTC, 35.6% of the UTXO set at block 975,019, behind a public key or script already visible on chain, much of it through address reuse. [Code](https://github.com/duncan0k/btc-exposure-index).
-- [A post-quantum address format: bc1z with ML-DSA-65](https://delvingbitcoin.org/t/bip-draft-post-quantum-address-format-bc1z-using-ml-dsa-65/3067) - Zaenus's draft BIP proposes a witness v3 output committing to an ML-DSA-65 key, at about 1,358 vbytes per input.
-
 #### Mining
 
 - [Stratum V2 reaches the big pools](https://x.com/TheBlueMatt/status/2122321920192548963) - Foundry is [testing Sv2](https://www.tokenpost.com/news/technology/56991), MARA Pool [mined its first Sv2 block](https://x.com/MARAFoundation_/status/2120520367500308580), and Luxor announced support, though all three pools still pick the transactions.
