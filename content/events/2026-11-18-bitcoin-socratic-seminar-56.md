@@ -43,37 +43,20 @@ To help everyone speak freely, please do not take videos, pictures, or audio rec
 
 ### Bitcoin
 
+#### Bitcoin Core
+
+- [Bitcoin Core 32.1](https://bitcoincore.org/en/releases/32.1/) - 32.0 was never released, so 32.1 ships the mempool-based fee estimator, 200 default connections, and v2 PSBTs by default, and with 29.x now end of life, Poinsot [disclosed three older bugs](https://groups.google.com/g/bitcoindev/c/tOLTRSOz87k) fixed in 29.2 and 30.0.
+- [Testnet 5 is live](https://groups.google.com/g/bitcoindev/c/DmFiHeo-xRw) - The [BIP 95](https://github.com/bitcoin/bips/blob/master/bip-0095.md) replacement for testnet4 launched November 14, dropping the minimum-difficulty exception behind testnet4's block storms, requiring an ASIC to mine, and enforcing BIP 54 Consensus Cleanup from block 1.
+- [A STARK proof of Bitcoin's UTXO set](https://delvingbitcoin.org/t/a-stark-proof-of-bitcoins-utxo-set-at-block-972-500-with-circuits-proven-in-lean/3070) - l-henri's 1.6 MB proof covers the header chain and the UTXO set at block 972,500 and verifies in half a second in a browser, though it doesn't yet check scripts or signatures. [Demo](https://starknet-innovation.github.io/starked-bitcoin), [code](https://github.com/starknet-innovation/starked-bitcoin).
+
 #### rbitcoin
 
 - [rbitcoin](https://github.com/rbitcoin-org/rbitcoin) - A Bitcoin full node in Rust, AI-written (Grok) under Brandon Black's prompting, that keeps no UTXO set and runs the tx index, address index, Electrum, and Esplora APIs in the same process.
-
-#### rbitcoin.space
-
 - [rbitcoin.space](https://rbitcoin.space/) - A block explorer that runs beside a stock rbitcoin node with no second indexer or database server, covering the mempool, mining pools, the Lightning graph, Ark VTXOs, and silent payments on mainnet, signet, testnet4, and Testnet 5. [Code](https://github.com/smolcars/rbitcoin-space).
-
-#### Testnet 5
-
-- [Testnet 5 is live](https://groups.google.com/g/bitcoindev/c/DmFiHeo-xRw) - The [BIP 95](https://github.com/bitcoin/bips/blob/master/bip-0095.md) replacement for testnet4 launched November 14, dropping the minimum-difficulty exception behind testnet4's block storms, requiring an ASIC to mine, and enforcing BIP 54 Consensus Cleanup from block 1.
-
-#### Bitcoin Core
-
-- [Bitcoin Core fast-tracks easy-to-find bugs](https://groups.google.com/g/bitcoindev/c/70VSp_ARD5Q) - Because LLMs make some bugs cheap to find, Core now skips the long embargo for those, backporting fixes to every maintained release and publishing advisories right away; the first three went out October 28.
-- [Bitcoin Core 32.1](https://bitcoincore.org/en/releases/32.1/) - 32.0 was never released, so 32.1 ships the mempool-based fee estimator, 200 default connections, and v2 PSBTs by default, and with 29.x now end of life, Poinsot [disclosed three older bugs](https://groups.google.com/g/bitcoindev/c/tOLTRSOz87k) fixed in 29.2 and 30.0.
-
-#### Signing
-
-- [Draft BIPs for anti-exfil signing](https://groups.google.com/g/bitcoindev/c/cB37_jChkEI/m/3paRGQ_IBgAJ) - Connor Avila's two drafts standardize exfiltration-resistant signing, where the host contributes randomness to the nonce and checks that the device used it, so a compromised signer can't leak its seed.
-
-#### UTXO Set Proofs
-
-- [A STARK proof of Bitcoin's UTXO set](https://delvingbitcoin.org/t/a-stark-proof-of-bitcoins-utxo-set-at-block-972-500-with-circuits-proven-in-lean/3070) - l-henri's 1.6 MB proof covers the header chain and the UTXO set at block 972,500 and verifies in half a second in a browser, though it doesn't yet check scripts or signatures. [Demo](https://starknet-innovation.github.io/starked-bitcoin), [code](https://github.com/starknet-innovation/starked-bitcoin).
 
 #### Soft Forks
 
-- [BIPs 458, 459 and 460: cross-input signature aggregation](https://x.com/murchandamus/status/2118354588034347117) - Three drafts specify half-aggregation ([BIP 458](https://github.com/bitcoin/bips/blob/master/bip-0458.mediawiki)), DahLIAS full aggregation ([BIP 459](https://github.com/bitcoin/bips/blob/master/bip-0459.mediawiki)), and a witness v2 soft fork that uses both ([BIP 460](https://github.com/bitcoin/bips/blob/master/bip-0460.mediawiki)).
 - [Softfork before GTA VI?](https://delvingbitcoin.org/t/softfork-before-gta-vi/2913) - With GTA VI out tomorrow, cmp_ancp asks whether Bitcoin can ship a soft fork first, while Adam Gibson's [Responses to Stagnation](https://insider.btcpp.dev/p/responses-to-stagnation-the-reactionary) argues the energy has moved to cryptography that needs no new opcodes.
-- [Opt-in replay protection prototype](https://delvingbitcoin.org/t/universal-opt-in-replay-protection/2792/11) - Sjors Provoost's prototype uses a new witness version and an annex so a transaction's signatures commit to a block on the desired chain, at an extra cost of about 1.75 vbytes.
-- [BIP draft for standardized co-signer spending policies](https://delvingbitcoin.org/t/bip-draft-co-signer-spending-policies/2955) - Luke Carriere proposes a shared policy format for co-signers that emulate covenants, so wallets, co-signers, and oracles built for different schemes can work together.
 - [BIP300 bundle censorship](https://groups.google.com/g/bitcoindev/c/7P0_BHRAYQI) - Ori Newman shows a miner with 26% of hashrate could block drivechain withdrawals indefinitely by sending ALARM in every block, and suggests forbidding downvotes.
 
 #### Quantum
@@ -85,14 +68,7 @@ To help everyone speak freely, please do not take videos, pictures, or audio rec
 #### Mining
 
 - [Stratum V2 reaches the big pools](https://x.com/TheBlueMatt/status/2122321920192548963) - Foundry is [testing Sv2](https://www.tokenpost.com/news/technology/56991), MARA Pool [mined its first Sv2 block](https://x.com/MARAFoundation_/status/2120520367500308580), and Luxor announced support, though all three pools still pick the transactions.
-- [P2Poolv2 beta on Testnet 5](https://rbitcoin.space/testnet5/mining/pool/p2poolv2) - The [P2Poolv2](https://github.com/p2poolv2/p2poolv2) beta, which pays miners straight from the coinbase, has mined about 29% of the Testnet 5 blocks rbitcoin.space has seen so far.
-- [Rune mints broke compact block relay](https://delvingbitcoin.org/t/stats-on-compact-block-reconstructions/1052/63) - From mid-July to mid-October, chains of rune mints on P2A outputs left 0xB10C's nodes able to rebuild only 1% to 5% of new blocks from their own mempools.
 - [Decentralized Coinbase Payout Protocols](https://delvingbitcoin.org/t/decentralized-coinbase-payout-protocols-dcpp-a-framework-for-discussion/3060) - 7d5x9's framework lays out why coinbase-native payouts don't scale, and windpath, who ran p2pool.org from 2012 to 2015, replies with real payout data.
-- [Propagation delay and stale rates, re-run with 2026 numbers](https://delvingbitcoin.org/t/propagation-delay-and-mining-centralization-modeling-stale-rates/2110/10) - Antoine Poinsot's updated simulation finds that at 10 seconds of propagation a 30% miner stales 1.0% of blocks and a 1% miner 2.0%.
-
-#### Silent Payments
-
-- [Silent Payments for Electrum](https://delvingbitcoin.org/t/silent-payments-for-electrum/3078) - Zenul_Abidin's `spscand` finds payments to your sp1 address using your own node, a blindbit server, or BIP352 filters, pairing with his Electrum sending plugin.
 
 #### Grants
 
@@ -100,19 +76,8 @@ To help everyone speak freely, please do not take videos, pictures, or audio rec
 
 ### Lightning
 
-#### Node Software
-
 - [lnd v0.21.8-beta](https://github.com/lightningnetwork/lnd/releases/tag/v0.21.8-beta) - Names no vulnerability, but fixes a long list of bugs where funds are at stake, including HTLC recovery across reconnects and a restart that could drop acknowledged channel updates.
-- [lnd v0.21.6-beta: CVE-2026-98432](https://github.com/lightningnetwork/lnd/blob/master/docs/release-notes/release-notes-0.21.6.md) - lnd stops opening Multipath TCP listeners, which exposed nodes to a remotely exploitable Linux kernel bug, [CVE-2026-98432](https://nvd.nist.gov/vuln/detail/CVE-2026-98432); operators should also patch their kernels.
-- [Eclair, Core Lightning and LDK security releases](https://github.com/ACINQ/eclair/releases/tag/v0.14.6) - Eclair shipped three security releases in October, alongside [Core Lightning 26.06.10](https://github.com/ElementsProject/lightning/releases/tag/v26.06.10) and [LDK 0.2.8 and 0.1.14](https://github.com/lightningdevkit/rust-lightning/releases/tag/v0.2.8), with splicing fixes in almost every list.
 - [LDK 0.3-rc4](https://github.com/lightningdevkit/rust-lightning/tree/v0.3-rc4) - LDK's next major version adds RBF for splices and anchor channels by default, but upgrading invalidates already-issued BOLT11 invoices that carry payment metadata.
-- [LND #11481](https://github.com/lightningnetwork/lnd/issues/11481) - A peer could poison LND's confirmation-scan cache with a fake funding output sharing a revoked commitment's txid, delaying detection of that commitment and the penalty transaction.
-- [Core Lightning #9610](https://github.com/ElementsProject/lightning/issues/9610) - An HTLC of about 92 million BTC read as negative in a balance check and crashed `channeld`, so CLN now rejects amounts above 21 million BTC.
-
-#### Self-Hosted Services
-
-- [BTCPay hot wallets swept](https://decrypt.co/382324/btcpay-tells-merchants-to-switch-off-servers-amid-hot-wallet-attack-reports) - An attacker logging in as admin swept about $1.63 million from BTCPay hot wallets, apparently on servers running releases older than August's [2.4.2 fix](https://blog.btcpayserver.org/security-advisory-btcpay-server-2-4-2/).
-- [LNbits: "shut down immediately"](https://news.lnbits.com/news/lnbits-1-7-0-security-update) - After attacks drained funds, [v1.7.0](https://github.com/lnbits/lnbits/releases/tag/v1.7.0) fixes every earlier version, but operators must also reset wallet keys and rotate every credential stored in LNbits.
 
 ### Ark
 
@@ -121,9 +86,17 @@ To help everyone speak freely, please do not take videos, pictures, or audio rec
 - [A watchtower for Ark](https://x.com/notgrubles/status/2121743384461164676) - Grubles's keyless tower broadcasts an offline wallet's presigned exit before its VTXOs expire, and in a signet test got the coins on chain 142 blocks early.
 - [Wavelength is live on mainnet](https://lightning.engineering/posts/2026-10-23-wavelength-mainnet-launch/) - Lightning Labs' self-custodial payments toolkit for apps and agents, built on an "Ark-like settlement layer," launched as an alpha capped at 300,000 sats per account.
 
+### Security
+
+- [Bitcoin Core fast-tracks easy-to-find bugs](https://groups.google.com/g/bitcoindev/c/70VSp_ARD5Q) - Because LLMs make some bugs cheap to find, Core now skips the long embargo for those, backporting fixes to every maintained release and publishing advisories right away; the first three went out October 28.
+- [The bug hunters are models now](https://bitcoinops.org/en/newsletters/2026/11/06/#btcpay-server-2-4-7) - AI scanners are behind Bitcoin Core's new disclosure policy, the 85 fixes in [BTCPay Server 2.4.7](https://github.com/btcpayserver/btcpayserver/releases/tag/v2.4.7), and the security credits in [LDK 0.2.8](https://github.com/lightningdevkit/rust-lightning/releases/tag/v0.2.8).
+- [Core Lightning #9610](https://github.com/ElementsProject/lightning/issues/9610) - An HTLC of about 92 million BTC read as negative in a balance check and crashed `channeld`, so CLN now rejects amounts above 21 million BTC.
+- [BTCPay hot wallets swept](https://decrypt.co/382324/btcpay-tells-merchants-to-switch-off-servers-amid-hot-wallet-attack-reports) - An attacker logging in as admin swept about $1.63 million from BTCPay hot wallets, apparently on servers running releases older than August's [2.4.2 fix](https://blog.btcpayserver.org/security-advisory-btcpay-server-2-4-2/).
+- [LNbits: "shut down immediately"](https://news.lnbits.com/news/lnbits-1-7-0-security-update) - After attacks drained funds, [v1.7.0](https://github.com/lnbits/lnbits/releases/tag/v1.7.0) fixes every earlier version, but operators must also reset wallet keys and rotate every credential stored in LNbits.
+- [Binance's $6.3 billion hack](https://cointelegraph.com/news/recap-binances-record-63b-hack-unfolded) - Attackers that TRM Labs ties to North Korea's TraderTraitor group drained about $6.3 billion from Binance hot wallets on October 29, the largest crypto theft on record.
+
 ### Markets and Policy
 
-- [Binance's $6.3 billion hack](https://cointelegraph.com/news/recap-binances-record-63b-hack-unfolded) - Attackers that TRM Labs ties to North Korea's TraderTraitor group drained about $6.3 billion from Binance hot wallets on October 29, the largest crypto theft on record.
 - [Bitcoin's six-week slide](https://cryptobriefing.com/bitcoin-falls-23-november-2026-bear-market/) - Bitcoin fell from $81,004 the day after the midterms to about $62,000 by mid-November, six straight weekly losses and roughly half its all-time high.
 - [Democrats sweep the midterms](https://cointelegraph.com/magazine/clarity-act-faces-new-test-under-democratic-congress) - Democrats take both chambers in January, so the stalled CLARITY Act dies on January 3 unless the lame-duck Senate passes it.
 - [The SEC proposes a crypto custody framework that allows self-custody](https://www.sec.gov/newsroom/press-releases/2026-100-sec-proposal-would-address-how-investment-advisers-funds-can-custody-crypto-assets-under-federal) - The October 1 proposal would let registered advisers and funds self-custody crypto under certain circumstances and use state trust companies as qualified custodians.
@@ -135,7 +108,6 @@ To help everyone speak freely, please do not take videos, pictures, or audio rec
 - [Claude Code: Code Mode](https://code.claude.com/docs/en/code-mode) - An experimental mode where Claude writes a short JavaScript program to run tool calls in parallel instead of calling them one at a time.
 - [Bend 2: a language that blocks AI mistakes with proofs](https://bend-lang.com) - Victor Taelin's language for agent-written code, where a proof checker rejects any change that breaks the rules declared in `LAWS.bend`.
 - [Numes: end-to-end encrypted inference, payable in sats](https://x.com/callebtc/status/2121244678351687944) - The [Numes](https://numes.ai) inference marketplace added [encrypted models](https://numes.ai/docs/inference/encrypted), with guarantees that vary by provider, and accepts payment in sats.
-- [The bug hunters are models now](https://bitcoinops.org/en/newsletters/2026/11/06/#btcpay-server-2-4-7) - AI scanners are behind Bitcoin Core's new disclosure policy, the 85 fixes in [BTCPay Server 2.4.7](https://github.com/btcpayserver/btcpayserver/releases/tag/v2.4.7), and the security credits in [LDK 0.2.8](https://github.com/lightningdevkit/rust-lightning/releases/tag/v0.2.8).
 
 ### Just for Fun
 
