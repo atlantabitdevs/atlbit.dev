@@ -46,6 +46,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     ),
     pathname: `/page/${resolvedParams.slug}`,
     image: defaultMetadataImage,
+    markdownPath: `/page/${resolvedParams.slug}.md`,
   })
 }
 
